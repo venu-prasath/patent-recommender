@@ -1,0 +1,29 @@
+{
+    "patent_id": "US-11525786-B2",
+    "title": "Method and apparatus for angular-resolved spectroscopic lithography characterization ",
+    "assignee": "Asml Netherlands B.V.",
+    "publication_date": "2022-12-13",
+    "patent_link": "https://patents.google.com/patent/US11525786B2/en",
+    "inventors": [
+        "Arie Jeffrey Den Boef",
+        "Arno Jan Bleeker",
+        "Youri Johannes Laurentius Maria Van Dommelen",
+        "Mircea Dusa",
+        "Antoine Gaston Marie Kiers",
+        "Paul Frank Luehrmann",
+        "Henricus Petrus Maria Pellemans",
+        "Maurits van der Schaar",
+        "C\u00e9dric D\u00e9sir\u00e9 GROUWSTRA",
+        "Markus Gerardus Martinus Maria Van Kraaij"
+    ],
+    "classifications": [
+        "H01L21/0273",
+        "G03F7/70341",
+        "G01N21/8806",
+        "G03F7/70633",
+        "G03F7/7065",
+        "G03F9/7034"
+    ],
+    "abstract": "An apparatus and method to determine a property of a substrate by measuring, in the pupil plane of a high numerical aperture lens, an angle-resolved spectrum as a result of radiation being reflected off the substrate. The property may be angle and wavelength dependent and may include the intensity of TM- and TE-polarized radiation and their relative phase difference.",
+    "claims": "1. A method, comprising:\nusing a liquid in a space between a substrate and a lens;\ndirecting, using the lens, a radiation beam from a radiation source toward a pattern formed on the substrate; and\nmeasuring asymmetries between intensities of corresponding diffraction orders in an angle-resolved spectrum of a radiation beam diffracted from the pattern at a plurality of angles and a plurality of wavelengths substantially simultaneously to measure a property of the substrate.using a liquid in a space between a substrate and a lens;directing, using the lens, a radiation beam from a radiation source toward a pattern formed on the substrate; andmeasuring asymmetries between intensities of corresponding diffraction orders in an angle-resolved spectrum of a radiation beam diffracted from the pattern at a plurality of angles and a plurality of wavelengths substantially simultaneously to measure a property of the substrate.2. The method of claim 1, wherein the measuring asymmetries comprises measuring at least one of:\nan intensity of a transverse magnetic and a transverse electric polarized light, and a phase difference between the transverse magnetic and the transverse electric polarized light.an intensity of a transverse magnetic and a transverse electric polarized light, and a phase difference between the transverse magnetic and the transverse electric polarized light.3. The method of claim 1, further comprising:\ncoupling off a portion of the radiation beam emitted from a radiation source for a separate measurement.coupling off a portion of the radiation beam emitted from a radiation source for a separate measurement.4. A method, comprising:\nplacing a wavelength multiplexer between a radiation source and a substrate;\nplacing a wavelength demultiplexer between the substrate and a detector located in a pupil plane of a high numerical aperture lens;\nusing a liquid in a space between the substrate and the high numerical aperture lens;\ndirecting, using the high numerical aperture, a radiation beam from the radiation source toward the substrate; and\nmeasuring, using the detector, an asymmetry in an angle-resolved spectrum of a radiation beam reflected from a surface of the substrate at a plurality of angles and a plurality of wavelengths substantially simultaneously to measure a property of the substrate.placing a wavelength multiplexer between a radiation source and a substrate;placing a wavelength demultiplexer between the substrate and a detector located in a pupil plane of a high numerical aperture lens;using a liquid in a space between the substrate and the high numerical aperture lens;directing, using the high numerical aperture, a radiation beam from the radiation source toward the substrate; andmeasuring, using the detector, an asymmetry in an angle-resolved spectrum of a radiation beam reflected from a surface of the substrate at a plurality of angles and a plurality of wavelengths substantially simultaneously to measure a property of the substrate."
+}

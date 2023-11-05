@@ -1,0 +1,26 @@
+{
+    "patent_id": "US-11390881-B2",
+    "title": "Soybean event MON89788 and methods for detection thereof ",
+    "assignee": "Monsanto Technology, Llc",
+    "publication_date": "2022-07-19",
+    "patent_link": "https://patents.google.com/patent/US11390881B2/en",
+    "inventors": [
+        "Marianne Malven",
+        "Jennifer Rinehart",
+        "Nancy Taylor",
+        "Ellen Dickinson"
+    ],
+    "classifications": [
+        "C12N15/11",
+        "A01H6/542",
+        "A01N57/20",
+        "C12N15/821",
+        "C12N15/8275",
+        "C12N15/8286",
+        "C12Q1/6876",
+        "A01N2300/00",
+        "Y02A40/146"
+    ],
+    "abstract": "The present invention provides for soybean plant and seed comprising transformation event MON89788 and DNA molecules unique to these events. The invention also provides methods for detecting the presence of these DNA molecules in a sample.",
+    "claims": "1. A recombinant DNA molecule comprising a transgene/genomic junction DNA sequence of soybean event MON89788 or complement thereof.2. The recombinant DNA molecule of claim 1, defined as comprising a nucleotide sequence selected from the group consisting of nucleotides 1093-1113, 1073-1113, 1043-1113, 1093-1133, 1093-1163, 1043-1163, 5376-5416, 5346-5416, 5396-5436, 5396-5416, 5396-5466 and 5346-5466 of SEQ ID NO:9.3. A polynucleotide probe diagnostic for the presence of the DNA molecule of claim 1, wherein the probe comprises a nucleotide sequence selected from the group consisting of SEQ ID NO:1, SEQ ID NO:2, SEQ ID NO:3, SEQ ID NO:4, and SEQ ID NO:15.4. The recombinant DNA molecule of claim 1, wherein the recombinant DNA molecule is defined as comprising the nucleotide sequence of SEQ ID NO:1 and SEQ ID NO:2 and a sequence encoding a glyphosate resistant CP4 EPSPS protein.5. The recombinant DNA molecule of claim 4, further defined as comprising the nucleotide sequence of SEQ ID NO:3 and SEQ ID NO:4."
+}

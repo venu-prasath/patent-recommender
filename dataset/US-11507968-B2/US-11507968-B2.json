@@ -1,0 +1,39 @@
+{
+    "patent_id": "US-11507968-B2",
+    "title": "Method and system for presence detection ",
+    "assignee": "Shopkick, Inc.",
+    "publication_date": "2022-11-22",
+    "patent_link": "https://patents.google.com/patent/US11507968B2/en",
+    "inventors": [
+        "Cyriac Roeding",
+        "Aaron T. Emigh"
+    ],
+    "classifications": [
+        "G06Q30/0211",
+        "H04B11/00",
+        "G01S5/02",
+        "G01S5/0257",
+        "G01S5/0295",
+        "G01S5/18",
+        "G06Q20/3224",
+        "G06Q30/00",
+        "G06Q30/02",
+        "G06Q30/0205",
+        "G06Q30/0207",
+        "G06Q30/0214",
+        "G06Q30/0217",
+        "G06Q30/0224",
+        "G06Q30/0226",
+        "G06Q30/0238",
+        "G06Q30/0261",
+        "H04L67/52",
+        "H04W4/02",
+        "H04W4/021",
+        "H04W4/20",
+        "H04W4/33",
+        "G06V2201/08",
+        "H04W4/30"
+    ],
+    "abstract": "Techniques for detecting and presenting rewards for presence are disclosed. Presence of a mobile device within a building is detected based on a plurality of triggers including a degradation of a first signal and a concurrent improvement of a second signal. The triggers are identified by a client-side application of the mobile device or a corresponding server-side processor with which the client-side application is in communication and from which the client-side application is configured to automatically receive available rewards. In response to detecting presence within the building, the server-side processor determines that a user of the mobile device is eligible for a reward, and the reward is provided to the user via the client-side application at the mobile device.",
+    "claims": "1. A device, comprising:\na display; and\nat least one processor configured to:\ndetect a first trigger based on a degradation of a first signal and a second trigger based on a concurrent improvement of a second signal;\ndetermine that the device is within a building based on the detected first trigger and second trigger;\nreceive a reward notification in response to the determination that the device is within the building; and\ncause the display to display the received reward notification.a display; andat least one processor configured to:\ndetect a first trigger based on a degradation of a first signal and a second trigger based on a concurrent improvement of a second signal;\ndetermine that the device is within a building based on the detected first trigger and second trigger;\nreceive a reward notification in response to the determination that the device is within the building; and\ncause the display to display the received reward notification.detect a first trigger based on a degradation of a first signal and a second trigger based on a concurrent improvement of a second signal;determine that the device is within a building based on the detected first trigger and second trigger;receive a reward notification in response to the determination that the device is within the building; andcause the display to display the received reward notification.2. The device of claim 1, wherein the reward notification comprises a reward redeemable in a store within the building.3. The device of claim 1, wherein the reward notification comprises a reward specific to a user associated with the device.4. The device of claim 1, wherein the reward notification comprises a reward relating to a specific type of products offered in a store within the building.5. The device of claim 1, wherein the reward notification comprises an offer to get a reward if a user associated with the device stays in a store within the building for a period of time equal to or exceeding a threshold.6. The device of claim 1, wherein the reward notification comprises a reward relating to a membership status of a user associated with the device.7. The device of claim 1, wherein the reward notification comprises a reward relating to a frequency of visiting a store within the building by a user associated with the device.8. The device of claim 1, wherein the at least one processor is further configured to cause the display to display a map of a store within the building.9. The device of claim 1, wherein the first signal indicates a position of the device.10. The device of claim 9, wherein the first signal comprises a global positioning system (GPS) signal.11. The device of claim 1, wherein the second signal is transmitted by a transmitter located within the building.12. The device of claim 1, wherein the second signal comprises a sound signal.13. The device of claim 12, wherein the sound signal is inaudible to a user associated with the device.14. The device of claim 1, wherein the second signal comprises a WiFi signal.15. The device of claim 1, wherein the second signal comprises a Bluetooth signal.16. The device of claim 1, wherein the second signal comprises a radio frequency (RF) signal.17. The device of claim 1, wherein the second signal comprises a magnetic field signal.18. The device of claim 1, wherein the second signal comprises at least one of a LAN (local area network) or PAN (personal area network) signal.19. A method, comprising:\ndetecting a first trigger based on a degradation of a first signal received by a user device and a second trigger based on a concurrent improvement of a second signal received by the user device;\ndetermining that the user device is within a building based on the detected first trigger and second trigger;\nreceiving a reward notification in response to the determination that the user device is within the building; and\ndisplaying in a user interface of the user device the received reward notification.detecting a first trigger based on a degradation of a first signal received by a user device and a second trigger based on a concurrent improvement of a second signal received by the user device;determining that the user device is within a building based on the detected first trigger and second trigger;receiving a reward notification in response to the determination that the user device is within the building; anddisplaying in a user interface of the user device the received reward notification.20. A non-transitory computer-usable storage medium comprising computer instructions for:\ndetecting a first trigger based on a degradation of a first signal received by a user device and a second trigger based on a concurrent improvement of a second signal received by the user device;\ndetermining that the user device is within a building based on the detected first trigger and second trigger;\nreceiving a reward notification in response to the determination that the user device is within the building; and\ndisplaying in a user interface of the user device the received reward notification.detecting a first trigger based on a degradation of a first signal received by a user device and a second trigger based on a concurrent improvement of a second signal received by the user device;determining that the user device is within a building based on the detected first trigger and second trigger;receiving a reward notification in response to the determination that the user device is within the building; anddisplaying in a user interface of the user device the received reward notification."
+}
