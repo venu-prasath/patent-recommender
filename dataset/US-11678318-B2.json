@@ -1,0 +1,32 @@
+{
+    "patent_id": "US-11678318-B2",
+    "title": "Method and apparatus for supporting sectorization coordination ",
+    "assignee": "Interdigital Patent Holdings, Inc.",
+    "publication_date": "2023-06-13",
+    "patent_link": "https://patents.google.com/patent/US11678318B2/en",
+    "inventors": [
+        "Pengfei Xia",
+        "Oghenekome Oteri",
+        "Hanqing Lou",
+        "Nirav B. Shah",
+        "Monisha Ghosh",
+        "Robert Olesen"
+    ],
+    "classifications": [
+        "H04W72/046",
+        "A63F13/792",
+        "G06N20/00",
+        "G06N5/04",
+        "G06Q30/0209",
+        "G06Q30/0211",
+        "H04B7/0417",
+        "H04B7/0491",
+        "H04B7/0617",
+        "H04B7/063",
+        "H04L1/00",
+        "H04W16/28",
+        "H04W84/12"
+    ],
+    "abstract": "A method and apparatus may be used to support coordinated and cooperative sectorized transmissions. Power control and clear channel assessment for sectorized transmissions may be used, along with sectorized beacon and associated procedures. Transmissions in a network may be protected by a first access point (AP) sending an omni-directional transmission and a beamformed or sectorized transmission to a station (STA), an overlapping basic service set (OBSS) confirming a spatially orthogonal (SO) condition based on the omni-directional transmission, and a second AP monitoring the omni-directional transmission and confirming the SO condition. The STA may be configured to receive a request-to-send (RTS) frame indicating data is available for transmission, and transmit a cooperative sectorized (CS) clear-to-send (CTS) frame indicating an ability for multiple AP reception.",
+    "claims": "\n1. A method for use in a station (STA), the method comprising:\nreceiving a first null data packet announcement (NDPA) frame from a first access point (AP) and a second NDPA frame from a second AP, wherein the first AP is a primary AP that the STA is not associated with and the second AP is a secondary AP that the STA is associated with;\nreceiving, subsequent to the first NDPA frame, from the first AP, a first NDP frame used to select a first sector from among a plurality of sectorized transmissions from the first AP;\nreceiving, subsequent to the second NDPA frame, from the second AP, a second NDP frame used to select a second sector from among a plurality of sectorized transmissions from the second AP;\nreceiving, from the first AP, a sectorization confirmation signal indicating the first sector to be used by the first AP; and\ntransmitting, subsequent to the sectorization confirmation signal, a feedback frame that includes a sector identity corresponding to the second sector that is determined based on the first sector.\n2. The method of claim 1, further comparing:\nreceiving, from another STA, another feedback frame that includes another sector identity determined based on the first sector.\n3. The method of claim 2, wherein the sectorization confirmation signal is received at the STA on a condition that the another feedback frame from the another STA is not received at the STA.\n4. The method of claim 1, further comprising:\nreceiving, from the second AP, based on the second sector, a sectorized transmission while another sectorized transmission from the first AP is directed to another STA.\n5. The method of claim 4, further comprising:\ndetermining, based on the sectorization confirmation signal indicating the first sector to be used by the first AP, that the STA and the first AP are spatially orthogonal.\n6. The method of claim 1, wherein the first NDP frame is received Short Interframe Space (SIFS) duration after the first NDPA frame is received.\n7. The method of claim 1, wherein the second NDP frame is received Short Interframe Space (SIFS) duration after the first NDP frame is received.\n8. A station (STA) comprising:\na receiver configured to:\nreceive a first null data packet announcement (NDPA) frame from a first access point (AP) and a second NDPA frame from a second AP, wherein the first AP is a primary AP that the STA is not associated with and the second AP is a secondary AP that the STA is associated with;\nreceive, subsequent to the first NDPA frame, from the first AP, a first NDP frame used to select a first sector from among a plurality of sectorized transmissions from the first AP;\nreceive, subsequent to the second NDPA frame, from the second AP, a second NDP frame used to select a second sector from among a plurality of sectorized transmissions from the second AP; and\nreceive, from the first AP, a sectorization confirmation signal indicating the first sector to be used by the first AP; and\na transmitter configured to transmit, subsequent to the sectorization confirmation signal, a feedback frame that includes a sector identity corresponding to the second sector that is determined based on the first sector.\n9. The STA of claim 8, wherein the receiver is configured to receive, from another STA, another feedback frame that includes another sector identity determined based on the first sector.\n10. The STA of claim 9, wherein the sectorization confirmation signal is received at the STA on a condition that the another feedback frame from the another STA is not received at the STA.\n11. The STA of claim 8, wherein the receiver is configured to receive, from the second AP, based on the second sector, a sectorized transmission while another sectorized transmission from the first AP is directed to another STA.\n12. The STA of claim 11, further comprising:\na processor configured to determine, based on the sectorization confirmation signal indicating the first sector to be used by the first AP, that the STA and the first AP are spatially orthogonal.\n13. The STA of claim 8, wherein the first NDP frame is received Short Interframe Space (SIFS) duration after the first NDPA frame is received.\n14. The STA of claim 8, wherein the second NDP frame is received Short Interframe Space (SIFS) duration after the first NDP frame is received."
+}

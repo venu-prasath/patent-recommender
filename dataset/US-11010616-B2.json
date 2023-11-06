@@ -1,0 +1,32 @@
+{
+    "patent_id": "US-11010616-B2",
+    "title": "System and method for semantic segmentation using hybrid dilated convolution (HDC) ",
+    "assignee": "Tusimple, Inc.",
+    "publication_date": "2021-05-18",
+    "patent_link": "https://patents.google.com/patent/US11010616B2/en",
+    "inventors": [
+        "Zehua Huang",
+        "Pengfei Chen",
+        "Panqu Wang"
+    ],
+    "classifications": [
+        "G06V10/82",
+        "G06K9/00791",
+        "B60W30/10",
+        "G06F18/24",
+        "G06K9/6267",
+        "G06N3/02",
+        "G06N3/045",
+        "G06N3/08",
+        "G06N7/01",
+        "G06T7/10",
+        "G06V10/454",
+        "G06V10/764",
+        "G06V20/56",
+        "B60W2420/42",
+        "G06T2207/20084",
+        "G06T2207/30248"
+    ],
+    "abstract": "A system and method for semantic segmentation using hybrid dilated convolution (HDC) are disclosed. A particular embodiment includes: receiving an input image; producing a feature map from the input image; performing a convolution operation on the feature map and producing multiple convolution layers; grouping the multiple convolution layers into a plurality of groups; applying different dilation rates for different convolution layers in a single group of the plurality of groups; and applying a same dilation rate setting across all groups of the plurality of groups.",
+    "claims": "\n1. A method for vehicular control, comprising:\nproducing a feature map from an input image;\nproducing convolution layers from the feature map;\ngrouping the convolution layers into a plurality of groups;\napplying different dilation rates for different convolution layers in a single group of the plurality of groups; and\napplying a same dilation rate setting across each of the plurality of groups.\n2. The method of claim 1, wherein the different dilation rates comprise increasing dilation rates for the different convolution layers in the single group.\n3. The method of claim 2, wherein each group of the plurality of groups comprises the convolution layers, wherein the method further comprises applying dilation rates for the convolution layers within each group, wherein the dilation rates for the convolution layers within each group are identical to the different dilation rates.\n4. The method of claim 1, wherein the method is used by a control subsystem to control a vehicle.\n5. The method of claim 4, wherein the vehicle is an autonomous vehicle.\n6. The method of claim 5, wherein the autonomous vehicle has no driver.\n7. The method of claim 1, wherein the method is used in conjunction with a dense upsampling convolution (DUC) method.\n8. The method of claim 7, wherein the DUC method is integrated into a fully convolutional network framework.\n9. The method of claim 7, wherein the DUC method is performed at an original resolution, thereby enabling pixel-level decoding.\n10. A device for vehicular control, comprising:\na processor; and\na memory that comprises instructions stored thereupon, wherein the instructions when executed by the processor configures the processor to:\nproduce a feature map from an input image;\nproduce convolution layers from the feature map;\ngroup the convolution layers into a plurality of groups;\napply different dilation rates for different convolution layers in a single group of the plurality of groups; and\napply a same dilation rate setting across each of the plurality of groups.\n11. The device of claim 10, wherein the convolution layers are performed by a convolution operation on the feature map.\n12. The device of claim 10, wherein the different dilation rates do not have a common factor relationship.\n13. The device of claim 10, wherein the instructions are used for controlling a vehicle, wherein the vehicle is configured to operate fully or partially in an autonomous mode.\n14. The device of claim 10, wherein the input image is received from one or more cameras.\n15. The device of claim 10, wherein the instructions are used in conjunction with other instructions that configure a process to implement a dense upsampling convolution method.\n16. A non-transitory computer readable program storage medium having code stored thereon, the code, when executed by a processor, causing the processor to implement a method for vehicular control, the method comprising:\nproducing a feature map from an input image;\nproducing convolution layers from the feature map;\ngrouping the convolution layers into a plurality of groups;\napplying different dilation rates for different convolution layers in a single group of the plurality of groups; and\napplying a same dilation rate setting across each of the plurality of groups.\n17. The non-transitory computer readable program storage medium of claim 16, wherein a control subsystem uses the feature map to navigate a vehicle.\n18. The non-transitory computer readable program storage medium of claim 16, wherein the method is used in conjunction with a dense upsampling convolution (DUC) method and a Hybrid Dilated Convolution (HDC) for a semantic segmentation.\n19. The non-transitory computer readable program storage medium of claim 16, wherein an assignment of the dilation rates in the single group follows a sawtooth or wave-like fashion.\n20. The non-transitory computer readable program storage medium of claim 16, wherein numerical values of the different dilation rates are coprime."
+}
