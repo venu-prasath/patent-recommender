@@ -1,0 +1,41 @@
+{
+    "patent_id": "US-11595268-B2",
+    "title": "Deep fusion reasoning engine (DFRE) for prioritizing network monitoring alerts ",
+    "assignee": "Cisco Technology, Inc.",
+    "publication_date": "2023-02-28",
+    "patent_link": "https://patents.google.com/patent/US11595268B2/en",
+    "inventors": [
+        "Enzo FENOGLIO",
+        "Hugo Latapie",
+        "David Delano Ward",
+        "Sawsen Rezig",
+        "Rapha\u00ebl Wouters",
+        "Didier Colens",
+        "Donald Mark Allen",
+        "Dmitri Goloubev"
+    ],
+    "classifications": [
+        "H04L41/16",
+        "G06N20/00",
+        "G06N20/10",
+        "G06N20/20",
+        "G06N3/042",
+        "G06N5/04",
+        "G06N5/046",
+        "H04L41/0609",
+        "H04L41/069",
+        "H04L41/142",
+        "H04L41/22",
+        "H04L43/04",
+        "G06N3/044",
+        "G06N3/045",
+        "G06N3/048",
+        "G06N3/049",
+        "G06N3/088",
+        "G06N5/01",
+        "G06N5/025",
+        "G06N7/01"
+    ],
+    "abstract": "In one embodiment, a service that monitors a network detects a plurality of anomalies in the network. The service uses data regarding the detected anomalies as input to one or more machine learning models. The service maps, using a conceptual space, outputs of the one or more machine learning models to symbols. The service applies a symbolic reasoning engine to the symbols, to rank the anomalies. The service sends an alert for a particular one of the detected anomalies to a user interface, based on its corresponding rank.",
+    "claims": "\n1. A method comprising:\ndetecting, by a service that monitors a network, a plurality of anomalies in the network;\nusing, by the service, data regarding the detected anomalies as input to one or more machine learning models;\nmapping, by the service, outputs of the one or more machine learning models to symbols using a conceptual space that is a geometrical structure defined by a set of quality dimensions;\nranking, by the service, the detected anomalies by applying a symbolic reasoning engine to the symbols; and\nsending, by the service, an alert for a particular one of the detected anomalies to a user interface based on a ranking corresponding to the particular detected anomaly.\n2. The method as in claim 1, wherein detecting the plurality of anomalies in the network comprises:\nusing telemetry data from the network as input to one or more machine learning-based anomaly detectors.\n3. The method as in claim 1, wherein the one or more machine learning models comprise a deep learning model or hierarchical temporal memory (HTM) model.\n4. The method as in claim 1, further comprising:\nreceiving, at the service, feedback from the user interface regarding relevance of the alert; and\nupdating one of the one or more machine learning models using the feedback, wherein the updated machine learning model predicts which of the data regarding the detected anomalies is of interest to a user of the user interface.\n5. The method as in claim 1, wherein the conceptual space further comprises a plurality of concepts and a plurality of quality values assigned to quality dimensions in the set of quality dimensions, each of the plurality of quality values corresponding to a property of a particular one of the plurality of concepts.\n6. The method as in claim 1, wherein, upon the mapping of the outputs of the one or more machine learning models to the symbols using the conceptual space, each of the symbols is linked to a quality dimension in the set of quality dimensions.\n7. The method as in claim 6, wherein the ranking of the detected anomalies by applying the symbolic reasoning engine to the symbols comprises:\nassessing, by the service, the symbols based on the quality dimension to which each of the symbols is respectively linked.\n8. The method as in claim 1, wherein the symbolic reasoning engine is non-axiomatic.\n9. The method as in claim 1, wherein the one or more machine learning models comprise one or more of: a device, feature, or network model, an impact model, or a solution model.\n10. An apparatus, comprising:\none or more network interfaces to communicate with a network;\na processor coupled to the one or more network interfaces and configured to execute one or more processes; and\na memory configured to store a process executable by the processor, the process when executed configured to:\ndetect a plurality of anomalies in the network;\nuse data regarding the detected anomalies as input to one or more machine learning models;\nmap outputs of the one or more machine learning models to symbols using a conceptual space that is a geometrical structure defined by a set of quality dimensions;\nrank the detected anomalies by applying a symbolic reasoning engine to the symbols; and\nsend an alert for a particular one of the detected anomalies to a user interface based on a ranking corresponding to the particular detected anomaly.\n11. The apparatus as in claim 10, wherein the apparatus detects the plurality of anomalies in the network by:\nusing telemetry data from the network as input to one or more machine learning-based anomaly detectors.\n12. The apparatus as in claim 10, wherein the one or more machine learning models comprise a deep learning model or hierarchical temporal memory (HTM) model.\n13. The apparatus as in claim 10, wherein the process when executed is further configured to:\nreceive feedback from the user interface regarding relevance of the alert; and\nupdate one of the one or more machine learning models or a reasoning system knowledge representation using the feedback, wherein the updated machine learning model predicts which of the data regarding the detected anomalies is of interest to a user of the user interface.\n14. The apparatus as in claim 10, wherein the conceptual space further comprises a plurality of concepts and a plurality of quality values assigned to quality dimensions in the set of quality dimensions, each of the plurality of quality values corresponding to a property of a particular one of the plurality of concepts.\n15. The apparatus as in claim 10, wherein, upon the mapping of the outputs of the one or more machine learning models to the symbols using the conceptual space, each of the symbols is linked to a quality dimension in the set of quality dimensions.\n16. The apparatus as in claim 15, wherein the apparatus applies the symbolic reasoning engine to the symbols by:\nassessing the symbols based on the quality dimension to which each of the symbols is respectively linked.\n17. The apparatus as in claim 10, wherein the symbolic reasoning engine is non-axiomatic.\n18. The apparatus as in claim 10, wherein the process when executed is further configured to:\nrank an alert regarding a diagnostic output or matched pattern in the network.\n19. A tangible, non-transitory, computer-readable medium storing program instructions that cause a service that monitors a network to execute a process comprising:\ndetecting, by the service that monitors the network, a plurality of anomalies in the network;\nusing, by the service, data regarding the detected anomalies as input to one or more machine learning models;\nmapping, by the service, outputs of the one or more machine learning models to symbols using a conceptual space that is a geometrical structure defined by a set of quality dimensions;\nranking, by the service, the detected anomalies by applying a symbolic reasoning engine to the symbols; and\nsending, by the service, an alert for a particular one of the detected anomalies to a user interface based on a ranking corresponding to the particular detected anomaly.\n20. The computer-readable medium as in claim 19, wherein the conceptual space further comprises a plurality of concepts and a plurality of quality values assigned to quality dimensions in the set of quality dimensions, each of the plurality of quality values corresponding to a property of a particular one of the plurality of concepts."
+}

@@ -1,0 +1,33 @@
+{
+    "patent_id": "US-11531818-B2",
+    "title": "Device and method for machine reading comprehension question and answer ",
+    "assignee": "42 Maru Inc.",
+    "publication_date": "2022-12-20",
+    "patent_link": "https://patents.google.com/patent/US11531818B2/en",
+    "inventors": [
+        "Dong Hwan Kim",
+        "Hyun Ok Kim",
+        "Woo Tae Jeong"
+    ],
+    "classifications": [
+        "G06F40/295",
+        "G06F16/3329",
+        "G06F40/216",
+        "G06F40/268",
+        "G06F40/284",
+        "G06F40/30",
+        "G06F40/56",
+        "G06N20/00",
+        "G06N3/042",
+        "G06N3/044",
+        "G06N3/045",
+        "G06N5/022",
+        "G06N5/04",
+        "G06N5/041",
+        "G10L15/1815",
+        "G10L15/22",
+        "G10L2015/223"
+    ],
+    "abstract": "A machine reading comprehension (MRC) question and answer providing method includes receiving a user question; analyzing the user question; selecting at least one document from at least one domain corresponding to an analyzed user question and searching for a passage, which is a candidate answer determined as being suitable for the user question, in the selected at least one document; obtaining at least one correct answer candidate value by inputting the user question and a corresponding passage into each of at least one MRC question and answer unit; and determining whether the at least one correct answer candidate value is a best answer.",
+    "claims": "\n1. A machine reading comprehension (MRC) question and answer providing method comprising:\nreceiving a user question data in a speech format or a text format;\nanalyzing an intention of the user question data by analyzing a lexical meaning based on an entity name recognized through a morphological analysis of the user question data, extracting a query by restoring an abbreviation word or a substitute word and mapping a plurality of domains corresponding to the query based on a rule-based domain classifier;\nselecting a similar question word candidate group similar to the user question data, selecting a similar question word having a high similarity from the similar question word candidate group by applying word embedding and in case that there is a first answer value corresponding to the similar question word, providing the first answer value to a user;\nwherein in case that there is no first answer value corresponding to the similar question word:\nselecting a plurality of documents corresponding to the query based on the plurality of domains;\nsearching for a plurality of passages, sentence by sentence in the plurality of documents and obtaining candidates by applying a plurality of MRC question and answer algorithms to the plurality of passages;\ndetermining whether there is a second answer value based on reliability values of the candidates or consistency values of the candidates; and\nin case that there is the second answer value, providing the second answer value to the user; and\nwherein in case that there is no second answer value, providing information indicating no result as an answer to the user.\n2. A machine reading comprehension (MRC) question and answer providing method comprising:\nreceiving a user question data;\nanalyzing the user question data;\nselecting a plurality of documents from a plurality of domains corresponding to the user question data;\nsearching for a plurality of passages including candidates for an answer value determined as being suitable for the user question data, in the plurality of documents;\nobtaining N*M candidates by inputting the user question data and the plurality of passages into a plurality of MRC question and answer units, wherein N is the number of the plurality of passages, and M is the number of the plurality of MRC question and answer units;\ndetermining the answer value based on whether a \u2018reliability value of each of the N*M candidates\u2019 exceeds a \u2018threshold value\u2019; and\nproviding the answer value to a user.\n3. The MRC question and answer providing method of claim 2, wherein, in the determining, a plurality of candidates having the same reliability value from among the N*M candidates are determined as the answer value.\n4. The MRC question and answer providing method of claim 2, wherein, in the determining, the answer value or information indicating no result is provided.\n5. The MRC question and answer providing method of claim 2, wherein the plurality of passages is extracted, based on whether a data size of each of the plurality of passages is equal to or greater than a predetermined byte value, and the predetermined byte value is automatically adjusted to an optimal byte value determined based on machine learning regarding a correct answer candidate value determined as the answer value.\n6. A machine reading comprehension (MRC) question and answer providing method comprising:\nreceiving a user question data in a speech format or a text format;\nanalyzing the user question data based on a natural language processing analysis and a natural language comprehension analysis;\nselecting a similar question word candidate group similar to the user question data, selecting a similar question word having a high similarity from the similar question word candidate group based on a term frequency-inverse document frequency (TF-IDF) value and in case that there is a first answer value corresponding to the similar question word, providing the first answer value to a user;\nwherein in case that there is no first answer value corresponding to the similar question word:\nselecting a plurality of documents based on a plurality of domain information corresponding to the user question data and extracting a plurality of passages in the plurality of documents;\nobtaining N*M candidates by inputting the user question data and the plurality of passages into a plurality of MRC question and answer units, wherein\nN is the number of the plurality of passages, M is the number of the plurality of MRC question and answer units\ndetermining whether there is a second answer value based on reliability values of the N*M candidates or consistency values of the N*M candidates, and\nin case that there is the second answer value, providing the second answer value to the user; and\nwherein in case that there is no second answer value, providing information indicating no result as an answer to the user."
+}

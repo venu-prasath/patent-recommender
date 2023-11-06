@@ -1,0 +1,30 @@
+{
+    "patent_id": "US-11266406-B2",
+    "title": "Control systems for surgical instruments ",
+    "assignee": "Cilag Gmbh International",
+    "publication_date": "2022-03-08",
+    "patent_link": "https://patents.google.com/patent/US11266406B2/en",
+    "inventors": [
+        "Richard L. Leimbach",
+        "Mark D. Overmyer",
+        "Shane R. Adams"
+    ],
+    "classifications": [
+        "A61B17/07207",
+        "G16H20/40",
+        "G16H40/63",
+        "A61B2017/00017",
+        "A61B2017/00119",
+        "A61B2017/00367",
+        "A61B2017/00398",
+        "A61B2017/0046",
+        "A61B2017/00716",
+        "A61B2017/00734",
+        "A61B2017/2927",
+        "A61B2090/064",
+        "A61B2090/0808",
+        "A61B2090/0811"
+    ],
+    "abstract": "Surgical instruments and control systems therefor are disclosed. A surgical instrument can comprise: a power circuit comprising a power source and a switch, a microcontroller coupled to the power circuit, a handle comprising an attachment portion, and a control circuit in signal communication with the microcontroller. The attachment portion can comprise a first electrical contact in signal communication with the microcontroller. The control circuit can comprise a sensor configured to detect an attachment state of the attachment portion. The control circuit can communicate the detected attachment state to the microcontroller, and the microcontroller can ignore signals from the first electrical contact when the control circuit communicates a detached state. The attachment portion can comprise a second electrical contact coupled to a second power circuit, and the second power circuit can decouple the second electrical contact and the second power source when the sensor detects the detached state.",
+    "claims": "\n1. A surgical instrument, comprising:\na handle;\na shaft releasably attachable to said handle, wherein said shaft comprises:\na first jaw;\na second jaw, wherein said second jaw is rotatable relative to said first jaw between an open position and a closed position;\nan articulation joint; and\nan end effector rotatable between an unarticulated position and an articulated position about said articulation joint;\na sensor configured to detect whether said second jaw is in said closed position;\na latch movable from an unlocked position to a locked position to lock said shaft to said handle;\na latch sensor configured to detect when said latch is being moved from said locked position to said unlocked position to unlock said shaft from said handle;\na latch lock configured to releasably hold said latch in said locked position;\na controller in communication with said latch sensor and said latch lock, wherein said controller is configured to release said latch lock when a user of said surgical instrument moves said latch from said locked position to said unlocked position and said end effector is in said open position, and wherein said controller is configured to not release said latch lock when a user of said surgical instrument attempts to move said latch from said locked position to said unlocked position and said end effector is in said closed position; and\nan articulation drive system including an electric motor, wherein said articulation drive system is operable to articulate said end effector about said articulation joint, wherein said controller is in communication with said electric motor, and wherein said controller is configured to operate said electric motor to place said end effector in said unarticulated position when a user of said surgical instrument moves said latch from said locked position to said unlocked position and said end effector is in said open position.\n2. The surgical instrument of claim 1, further comprising a staple cartridge including staples removably stored therein.\n3. A surgical instrument, comprising:\na housing;\nan attachment releasably attachable to said housing, wherein said attachment comprises:\na first jaw;\na second jaw, wherein said second jaw is rotatable relative to said first jaw between an unclamped position and a clamped position;\nan articulation joint; and\nan end effector rotatable between an unarticulated position and a centered position about said articulation joint;\na sensor configured to detect whether said second jaw is in said clamped position;\na latch movable from an unlocked position to a locked position to lock said attachment to said housing;\na latch sensor configured to detect when the movement of said latch from said locked position to said unlocked position to unlock said attachment from said housing is initiated;\na latch lock configured to releasably hold said latch in said locked position;\na controller in communication with said latch sensor and said latch lock, wherein said controller is configured to release said latch lock when the movement of said latch from said locked position to said unlocked position is initiated and said end effector is in said unclamped position, and wherein said controller is configured to not release said latch lock when a user of said surgical instrument attempts to move said latch from said locked position to said unlocked position and said end effector is in said clamped position; and\nan articulation drive system including an electric motor, wherein said articulation drive system is operable to articulate said end effector about said articulation joint, wherein said controller is in communication with said electric motor, and wherein said controller is configured to operate said electric motor to place said end effector in said centered position when the movement of said latch from said locked position to said unlocked position is initiated and said end effector is in said unclamped position.\n4. The surgical instrument of claim 3, further comprising a staple cartridge including staples removably stored therein."
+}

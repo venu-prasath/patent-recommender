@@ -1,0 +1,41 @@
+{
+    "patent_id": "US-11771504-B2",
+    "title": "Surgical system with base and arm tracking ",
+    "assignee": "Mako Surgical Corp.",
+    "publication_date": "2023-10-03",
+    "patent_link": "https://patents.google.com/patent/US11771504B2/en",
+    "inventors": [
+        "Hyosig Kang",
+        "Dennis Moses",
+        "Arthur Quaid"
+    ],
+    "classifications": [
+        "A61B34/20",
+        "A61B17/1764",
+        "A61B34/10",
+        "A61B34/30",
+        "A61B34/71",
+        "A61B34/76",
+        "A61B90/03",
+        "A61B2017/00119",
+        "A61B2017/00694",
+        "A61B2017/00712",
+        "A61B2017/00725",
+        "A61B2034/102",
+        "A61B2034/107",
+        "A61B2034/108",
+        "A61B2034/2055",
+        "A61B2034/2059",
+        "A61B2034/2065",
+        "A61B2034/2068",
+        "A61B2034/207",
+        "A61B2034/2072",
+        "A61B2034/305",
+        "A61B2090/363",
+        "A61B2090/364",
+        "A61B2090/3983",
+        "A61B34/25"
+    ],
+    "abstract": "A surgical system includes a base, a robotic arm extending from the base and comprising a plurality of segments, a first tracker secured to the base, a second tracker secured to a segment of the plurality of segments of the robotic arm, and a detection device configured to determine an arrangement of the first tracker and the second tracker.",
+    "claims": "\n1. A surgical system, comprising:\na base;\na robotic arm extending from the base and comprising a plurality of segments, wherein the robotic arm comprises one or more sensors configured to provide first data indicative of an arrangement of the plurality of segments;\na first tracker secured to the base;\na second tracker secured to a segment of the plurality of segments of the robotic arm;\na detection device configured to determine second data by detecting an arrangement of the first tracker and the second tracker; and\ncircuitry programmed to determine, by performing a comparison based on the first data and the second data, a coordinate transformation between the first data and a position of the first tracker as detected by the detection device.\n2. The surgical system of claim 1, wherein the first tracker comprises a plurality of first markers and the second tracker comprises a plurality of second markers.\n3. The surgical system of claim 1, wherein the first tracker is selectively removable from the base.\n4. The surgical system of claim 1, wherein the one or more sensors comprise one or more joint encoders.\n5. The surgical system of claim 1, wherein the circuitry is further configured to generate a fault signal in response to movement of the first tracker violating a condition.\n6. A method, comprising:\ndetermining, by a detection device, an arrangement of a first tracker mounted on a base for a robotic arm and a second tracker mounted on an arm segment of a plurality of arm segments of the robotic arm such that the second tracker is at an intermediate position along the robotic arm;\ncollecting, by one or more sensors of the robotic arm, data indicative of an arrangement of the plurality of segments:\nperforming, by circuitry, a comparison based on the arrangement of the first tracker and the second tracker and the data from the one or more sensors of the robotic arm; and\ndetermining, by the circuitry and based on the comparison, a coordinate transformation between the data collected by the one or more sensors of the robotic arm and a position of the first tracker as detected by the detection device.\n7. The method of claim 6, further comprising generating a fault signal in response to a determination that a movement of the first tracker or the second tracker violates a condition and disabling a tool coupled to the robotic arm in response to the fault signal.\n8. The method of claim 6, wherein the one or more sensors comprise a joint encoder positioned at a joint between adjacent arm segments of the plurality of arm segments, the method comprises measuring, by the joint encoder, an angle of the joint.\n9. The method of claim 6, further comprising controlling the robotic arm by:\nconstraining movement of the robotic arm based on a virtual boundary;\ndetecting existence of a condition wherein the detection device is occluded from detecting the first tracker or the second tracker;\nmaintaining the virtual boundary if the condition ceases to exist before expiration of a predetermined period of time; and\nremoving the virtual boundary if the condition continues to exist beyond expiration of the predetermined period of time.\n10. A method of operating a surgical system comprising circuitry, a base, a robotic arm extending from the base and comprising a plurality of segments, a first tracker secured to the base, and a second tracker secured to a segment of the plurality of segments of the robotic arm, the robotic arm comprising one or more sensors, the method comprising:\nproviding, by the one or more sensors, first data indicative of an arrangement of the plurality of segments;\ndetermining, with a detection device of an optical tracking system, second data indicative of an arrangement of the first tracker and the second tracker; and\ndetermining, by circuitry and by performing a comparison based on the first data and the second data, a coordinate transformation between the first data and a position of the first tracker as detected by the detection device.\n11. The method of claim 10, wherein the first tracker is selectively removable from the base.\n12. The method of claim 11, comprising measuring, by the one or more sensors, an angle of a joint of the robotic arm.\n13. The method of claim 10, further comprising generating a fault signal in response to a movement of a first tracker."
+}
