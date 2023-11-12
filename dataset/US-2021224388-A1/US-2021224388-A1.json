@@ -1,0 +1,30 @@
+{
+    "patent_id": "US-2021224388-A1",
+    "title": "Novel Apparatus and Application Device for Protection of Data and Information ",
+    "assignee": "Management Sciences, Inc.",
+    "publication_date": "2021-07-22",
+    "patent_link": "https://patents.google.com/patent/US20210224388A1/en",
+    "inventors": [
+        "Peter Andrew Blemel",
+        "Carl R. Stern"
+    ],
+    "classifications": [
+        "G06F21/71",
+        "G06F21/566",
+        "G06F21/604",
+        "G06F21/6245",
+        "G06F9/45541",
+        "G06F9/45558",
+        "G06N3/006",
+        "G06N3/12",
+        "G06N5/022",
+        "G06N5/025",
+        "G06N5/04",
+        "G06N7/01",
+        "G06F2009/45587",
+        "G06F2221/034",
+        "G06N3/004"
+    ],
+    "abstract": "A self-programming synthesizer with neuroplastic behavior using variable binding and substitution that, on input of a data n, produces a new algorithm f(n) as well as affects an existing algorithm f(n). The synthesizer comprises at least one bare metal and a plethoral of coprocessors, an inference calculus implemented n reprogrammable logic. The synthesizer may also include a microvisor, analog-to-digital conversion and digital-to-analog outputs for some applications. Additionally, the synthesizer may include an internal or separate external clock frequency generator. The portion of plasticity provided by the inference calculus adds a reconfigurable artificial intelligence. The invention combines dynamic threat detection with direct control of system resources to detect and mitigate threats and anneal the system from cyber attack.",
+    "claims": "\n1. An apparatus 1 having self-organizing neuroplastic behaviors comprising:\nA multiplicity of security domains 11\nAt least one Turing complete calculus 10 for synthesis of said self-organizing neuroplastic behaviors:\nAt least one bare metal processor 2 configured for executing at leat one said Turing complete calculus 10;\nAt least one programmable logic 6 operably coupled to the at least one bare metal processor 2 configurable for hosting virtual machine 9 for running software applications 5 and further configured to perform time and again said self-organizing neuroplastic behaviors;\nA virtual machine managing means 3 configured for configuring a multiplicity of security domains 11 in said programmable logic 6 operably coupled to both the at least one bare metal processor 2 and the programmable logic 6;\nAt least one hardware asset 4 configured to provide a first digital data; and\nwherein said self-organizing neuroplastic behaviors organize in response to changes in the digital data.\n2. The apparatus 1 of claim 1 further comprising software assets 8 for providing a second digital data;\n3. The apparatus 1 of claim 1 wherein the at least one bare metal processor 2 is further configured with embedded read-only memory 13 for storing a security algorithm 12 for providing cybersecurity.\n4. The apparatus 1 of claim 1 father configured with a memory 7 for storing programs and data."
+}

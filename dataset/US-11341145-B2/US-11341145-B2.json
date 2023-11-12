@@ -1,0 +1,29 @@
+{
+    "patent_id": "US-11341145-B2",
+    "title": "Extrapolating trends in trust scores ",
+    "assignee": "Www.Trustscience.Com Inc.",
+    "publication_date": "2022-05-24",
+    "patent_link": "https://patents.google.com/patent/US11341145B2/en",
+    "inventors": [
+        "Chris Trudel",
+        "Ashif Mawji"
+    ],
+    "classifications": [
+        "G06F21/316",
+        "G06F16/24578",
+        "G06N7/005",
+        "G06N7/01",
+        "G06Q10/0635",
+        "G06Q10/0639",
+        "G06Q10/10",
+        "G06Q30/018",
+        "G06Q30/0282",
+        "G06Q50/01",
+        "H04L63/105",
+        "H04L63/126",
+        "H04L67/22",
+        "H04L67/535"
+    ],
+    "abstract": "Systems and methods are described herein for extrapolating trends in trust scores. A trust score may reflect the trustworthiness, reputation, membership, status, and/or influence of the entity in a particular community or in relation to another entity. An entity's trust score may be calculated based on data from a variety of data sources, and this data may be updated periodically as data is updated and new data becomes available. However, it may be difficult to update a trust score for an entity due to a scarcity of information. The trust score for such entities may be updated based on trends observed for the updated trust scores of other entities over a similar period of time. In this manner, trust scores may be updated for entities for which updated data is not available.",
+    "claims": "\n1. A method, comprising:\nretrieving, by a system comprising a processor, first data associated with a first entity from a first database;\ndetermining, by the system, a first component score based on the first data;\nretrieving, by the system, second data associated with the first entity from a second database;\ndetermining, by the system a second component score based on the second data;\ndetermining, by the system at a first time, a first trust score for the first entity based on a weighted combination of the first component core and the second component score;\ndetermining, by the system at a first time, a second trust score for a second entity based on third data and fourth data associated with the second entity;\ndetermining, by the system at a second time, an updated second trust score for the second entity based on updated data, wherein at least one of the third data and the fourth data associated with the second entity was updated between the first time and the second time;\ndetermining a degree of change between the second trust score and the updated second trust score; and\ndetermining an updated trust score for the first entity based on the first trust score and the degree of change between the second trust score and the updated second trust score."
+}

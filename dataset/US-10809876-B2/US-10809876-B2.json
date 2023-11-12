@@ -1,0 +1,25 @@
+{
+    "patent_id": "US-10809876-B2",
+    "title": "Virtual assistant conversations ",
+    "assignee": "Verint Americas Inc.",
+    "publication_date": "2020-10-20",
+    "patent_link": "https://patents.google.com/patent/US10809876B2/en",
+    "inventors": [
+        "Fred A. Brown",
+        "Tanya M. Miller"
+    ],
+    "classifications": [
+        "G06F3/04817",
+        "H04L51/02",
+        "G06F3/04842",
+        "G06F3/167",
+        "G06F9/453",
+        "G06Q10/10",
+        "G06Q30/016",
+        "G06Q50/20",
+        "G06F16/90332",
+        "G06N3/006"
+    ],
+    "abstract": "Techniques and architectures for implementing a team of virtual assistants are described herein. The team may include multiple virtual assistants that are configured with different characteristics, such as different functionality, base language models, levels of training, visual appearances, personalities, and so on. The characteristics of the virtual assistants may be configured by trainers, end-users, and/or a virtual assistant service. The virtual assistants may be presented to end-users in conversation user interfaces to perform different tasks for the users in a conversational manner. The different virtual assistants may adapt to different contexts. The virtual assistants may additionally, or alternatively, interact with each other to carry out tasks for the users, which may be illustrated in conversation user interfaces.",
+    "claims": "\n1. A method comprising:\n2. The method of claim 1, wherein the first virtual assistant and the third virtual assistant communicate to perform the task for a user.\n3. The method of claim 1, wherein the one or more dialog representations are presented over a period of time in a back-and-forth manner to emulate a human conversation.\n4. The method of claim 1, wherein the one or more dialog representations indicate information that is communicated between the first virtual assistant and the third virtual assistant.\n5. The method of claim 1, wherein the first virtual assistant and the third virtual assistant are associated with different entities.\n6. The method of claim 1, wherein the one or more dialog representations include a summary conversation item that represents an entirety of the conversation among the first virtual assistant and the second virtual assistant and the third virtual assistant."
+}

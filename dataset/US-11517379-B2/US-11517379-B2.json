@@ -1,0 +1,34 @@
+{
+    "patent_id": "US-11517379-B2",
+    "title": "Surgical instrument with robotic and manual actuation features ",
+    "assignee": "Intuitive Surgical Operations, Inc.",
+    "publication_date": "2022-12-06",
+    "patent_link": "https://patents.google.com/patent/US11517379B2/en",
+    "inventors": [
+        "Paul A. Millman",
+        "David W. Bailey",
+        "Dean F. Hoornaert",
+        "David Q. Larkin",
+        "David S. Mintz"
+    ],
+    "classifications": [
+        "A61B34/30",
+        "A61B34/37",
+        "A61B34/71",
+        "A61B34/74",
+        "A61M1/0058",
+        "A61M1/743",
+        "A61M1/76",
+        "A61M1/77",
+        "A61M13/003",
+        "A61B2017/00203",
+        "A61B2017/00477",
+        "A61B2034/305",
+        "A61B2090/506",
+        "A61B2217/005",
+        "A61B2217/007",
+        "A61M2039/2473"
+    ],
+    "abstract": "A surgical instrument comprises a housing and a valve mounted in the housing. The valve is configured to control a flow of a fluid into or out of a surgical site in response to either a robotic actuation of the valve or a manual actuation of the valve. The valve comprises a valve shaft, a receiving member structurally coupled to the valve shaft, and a manual actuation component structurally coupled to the valve shaft and extending from the housing. The receiving member is configured to releasably couple to a driver of a robotic manipulator to receive the robotic actuation from the driver remotely controlled by a surgeon to adjust a state of the valve. The manual actuation component is configured to receive the manual actuation to adjust the state of the valve.",
+    "claims": "\n1. A surgical instrument, comprising:\na housing;\na fluid channel; and\na valve mounted in the housing;\nwherein the valve is configured to control a flow of a fluid into or out of a surgical site in response to either a robotic actuation of the valve or a manual actuation of the valve and wherein the valve is positioned to control fluid flow within the fluid channel;\nwherein the valve comprises:\na valve shaft,\na receiving member structurally coupled to the valve shaft, and\na manual actuation component structurally coupled to the valve shaft and extending from the housing;\nwherein the receiving member is configured to releasably couple to a driver of a robotic manipulator to receive the robotic actuation from the driver remotely controlled by a surgeon to adjust a state of the valve; and\nwherein the manual actuation component is configured to receive the manual actuation to adjust the state of the valve.\n2. The surgical instrument of claim 1, wherein the robotic actuation of the valve and the manual actuation of the valve both adjust the state of the valve in a same manner.\n3. The surgical instrument of claim 1, wherein rotation of the receiving member causes the valve shaft to control fluid flow by rotating to a first position to open the valve and to a second position to close the valve.\n4. The surgical instrument of claim 1, wherein the valve comprises a pinion gear coupled to the valve shaft.\n5. The surgical instrument of claim 1, wherein the robotic actuation comprises a rotary motion.\n6. The surgical instrument of claim 1, wherein the manual actuation comprises a rotary motion.\n7. The surgical instrument of claim 1, wherein the valve comprises at least one of an electrically operated valve and a magnetically operated valve.\n8. The surgical instrument of claim 1:\nwherein the receiving member is a rotatable receiving member; and\nwherein the driver is a rotatable driver.\n9. The surgical instrument of claim 8, wherein the rotatable receiving member comprises:\na plurality of inner pins that align with a first opening of the rotatable driver; and\na plurality of outer pins that align with a second opening of the rotatable driver.\n10. The surgical instrument of claim 1:\nwherein the valve shaft is a cylindrical shaft comprising a flow channel; and\nwherein the surgical instrument further comprises a seal wrapped around the cylindrical shaft to seal the flow channel.\n11. The surgical instrument of claim 10:\nwherein the seal is a slanted seal; and\nwherein the cylindrical shaft comprises a slanted channel to receive the seal and keep the seal in position as the valve is operated.\n12. The surgical instrument of claim 1, wherein the housing comprises a release lever at a side of the housing to release the surgical instrument from a robotic arm."
+}

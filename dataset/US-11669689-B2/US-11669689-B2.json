@@ -1,0 +1,22 @@
+{
+    "patent_id": "US-11669689-B2",
+    "title": "Natural language generation using pinned text and multiple discriminators ",
+    "assignee": "Jungle Disk, L.L.C.",
+    "publication_date": "2023-06-06",
+    "patent_link": "https://patents.google.com/patent/US11669689B2/en",
+    "inventors": [
+        "Michael DeFelice"
+    ],
+    "classifications": [
+        "G06F40/30",
+        "G06F40/211",
+        "G06F40/56",
+        "G06N3/044",
+        "G06N3/045",
+        "G06N3/047",
+        "G06N3/084",
+        "G06N7/01"
+    ],
+    "abstract": "A personality model is created for a population and used as an input to a text generation system. Alternative texts are created based upon the emotional effect of the generated text. Certain words or phrases are \u201cpinned\u201d in the output, reducing the variability of the generated text so as to preserve required information content, and a number of tests provide input to a discriminator network so that proposed outputs both match an outside objective regarding the information content, emotional affect, and grammatical acceptability. A feedback loop provides new \u201cground truth\u201d data points for refining the personality model and associated generated text.",
+    "claims": "\n1. A method for maintaining semantic content in a generated natural language text, the method comprising:\nidentifying at least one of words and phrases associated with the semantic content of a source text;\nperforming an evaluation of the source text, wherein the evaluation includes a summarization procedure, followed by a first measurement of a relative order and precedence of the at least one of the words and phrases in a source summarization result;\nencoding the source text in a neural sequence-to-sequence encoder to generate a code;\nsampling from a distribution implied by the code to create a candidate generated text;\nperforming an evaluation of the generated text, wherein the evaluation of the generated text includes a summarization procedure, followed by a second measurement of the relative order and precedence of the at least one of the words and phrases in a generated summarization result;\nupdating the internal weights associated with the encoder and decoder, based on a difference between the first measurement and second measurement.\n2. The method of claim 1, wherein in response to the first difference being greater that a threshold, the encode, decode, and evaluation steps are repeated until the first difference is less than the threshold.\n3. The method of claim 1, wherein the performing of the evaluation further comprises computing a source statistical measurement associated with a length and textual form of the source text, and wherein the evaluation of the generated text includes computing a generated statistical measurement comparable to the source statistical measurement and computing at least one statistical similarity measurement based on a comparison of the source statistical measurement and the generated statistical measurement.\n4. The method of claim 1, wherein the performing of the evaluation further comprises computing a source readability measurement associated with a length and textual form of the source text, and wherein the evaluation of the generated text includes computing a generated readability measurement comparable to the source readability measurement and computing at least one readability similarity measurement based on a comparison of the source readability measurement and the generated readability measurement.\n5. The method of claim 4, wherein the readability similarity measurement is compared relative to an expected reading capacity of a prospect."
+}

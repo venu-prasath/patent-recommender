@@ -1,0 +1,31 @@
+{
+    "patent_id": "US-11481456-B2",
+    "title": "Model and pattern structure online unital learning: mapsoul ",
+    "assignee": "Kyndi, Inc.",
+    "publication_date": "2022-10-25",
+    "patent_link": "https://patents.google.com/patent/US11481456B2/en",
+    "inventors": [
+        "Arun Majumdar",
+        "James R. Welsh"
+    ],
+    "classifications": [
+        "G06F16/951",
+        "G06F16/24578",
+        "G06F16/28",
+        "G06F16/9024",
+        "G06F16/9535",
+        "G06F16/9536",
+        "G06F17/16",
+        "G06N10/00",
+        "G06N20/00",
+        "G06N20/20",
+        "G06N3/006",
+        "G06N5/043",
+        "H04L41/046",
+        "H04L41/147",
+        "H04L41/16",
+        "H04L67/02"
+    ],
+    "abstract": "An apparatus and method are provided for machine learning method using a network of agents. The agents are arranged in a network with respective links between pairs of agents, and the links enabling the exchange information. Different agents can apply different reasoning paradigms corresponding to different approaches to machine learning and artificial intelligence. These disparate approaches are seamlessly integrated to aggregate decisions and learning performed using different approaches using an economics model in which a Nash equilibrium is reached through the exchange of information. Each agent selects which other agents to exchange information with by seeking to optimize preference, utility, and objective functions, and these function include how well the agents obtain an assigned goal subject to other desirable features and characteristics (e.g., enforcing diversity).",
+    "claims": "\n1. A machine learning method performed using processing circuitry by a plurality of agents, the method comprising:\nconfiguring, in a memory, which includes a non-transitory computer-readable storage, the plurality of agents, which are arranged in a network of agents with respective links between pairs of the plurality of agents, each of the links being configured to exchange information between a respective pair of the plurality of agents;\nconfiguring, in the memory, the plurality of agents to form the network of agents, each respective agent of the plurality of agents respectively applying at least one of a plurality of approaches to machine learning as a reasoning paradigm of the respective agent, wherein the plurality of agents form the network of agents by exchanging information in accordance with a preference function, a utility function, and an objective function assigned to each of the plurality of agents, wherein each respective agent of the network of agents chooses to exchange information with another agent to optimize, with respect to a vantage point of the agent, one or more of the preference function, the utility function, and the objective function of the respective agent;\naggregating decisions of respective agents in the plurality of agents to formulate a hypothesis, wherein each respective agent of the plurality of agents uses the processing circuitry to apply the reasoning paradigm of the respective agent;\nchanging an exchange of information between a pair of agents of the plurality of agents, when a previous exchange of information between the pair of agents does not optimize the one or more of the preference function, the utility function, and the objective function of at least one agent of the pair of agents, wherein the changing step includes, in response to determining that the previous exchange of information between the pair of agents does not optimize the one or more of the preference function. the utility function, and the objective function of a first agent of the pair of agents, the first agent choosing to no longer exchange information with a second agent of the pair of agents, and choosing a new agent, of the plurality of agents, with which to exchange information; and\nrevising the hypothesis based on the changed exchange of information,\nwherein the method further comprises\neach respective agent of the plurality of agents generating a respective preference vector by applying the reasoning paradigm of the respective agent to the information received by the respective agent;\nprocessing the generated preference vectors generated for the plurality of agents to determine a similarity profile ratio, based on a corresponding goal vector, for each of the plurality of agents; and\ncalculate, for each of the plurality of agents, the utility function, based on the determined similarity profile ratio.\n2. The machine learning method of claim 1, wherein each agent in the pair of agents uses a different one of the plurality of approaches to machine learning."
+}

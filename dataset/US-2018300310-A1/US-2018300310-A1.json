@@ -1,0 +1,37 @@
+{
+    "patent_id": "US-2018300310-A1",
+    "title": "Adaptive, interactive, and cognitive reasoner of an autonomous robotic system ",
+    "assignee": "AIBrain Corporation",
+    "publication_date": "2018-10-18",
+    "patent_link": "https://patents.google.com/patent/US20180300310A1/en",
+    "inventors": [
+        "Hong Shik Shinn",
+        "Eunmi Hong",
+        "Byoung-Kwon Lim",
+        "Cheongan Lee"
+    ],
+    "classifications": [
+        "G06F40/284",
+        "G06F17/277",
+        "B25J9/1658",
+        "B25J9/1694",
+        "G06F16/9024",
+        "G06F17/2785",
+        "G06F17/2795",
+        "G06F17/30958",
+        "G06F40/211",
+        "G06F40/247",
+        "G06F40/289",
+        "G06F40/30",
+        "G06F40/56",
+        "G06N3/008",
+        "G06N3/042",
+        "G06N3/045",
+        "G06N3/08",
+        "G06N5/022",
+        "G06N5/04",
+        "G06N5/041"
+    ],
+    "abstract": "An artificial intelligence problem is solved using an artificial intelligence memory graph data structure and a lexical database to identify supporting knowledge. A natural language input is received and classified into components. A starting node of an artificial intelligence memory graph data structure, which comprises one or more data nodes, is selected to begin a search for one or more supporting knowledge data nodes associated with the classified components. Starting at the starting node, the artificial intelligence memory graph data structure is searched using a lexical database to identify the one or more supporting knowledge data nodes. An artificial intelligence problem is identified and solved using the one or more identified supporting knowledge data nodes of the artificial intelligence memory graph data structure.",
+    "claims": "\n1. A method for solving an artificial intelligence problem, comprising:\nreceiving a natural language input;\nprocessing the natural language input to classify components of the natural language input;\nselecting a starting node of an artificial intelligence memory graph data structure to begin a search for one or more supporting knowledge data nodes associated with the classified components, wherein the artificial intelligence memory graph comprises one or more data nodes;\nstarting at the starting node, searching the artificial intelligence memory graph data structure using a lexical database to identify the one or more supporting knowledge data nodes;\nidentifying the artificial intelligence problem; and\nsolving the artificial intelligence problem using the one or more identified supporting knowledge data nodes of the artificial intelligence memory graph data structure.\n2. The method of claim 1, further comprising recording the identified artificial intelligence is problem and a determined solution in the artificial intelligence memory graph data structure.\n3. The method of claim 1, wherein the classified components of the natural language input include a subject-predicate-object triple.\n4. The method of claim 1, wherein the lexical database is used to identify a relationship between one of the classified components and at least one of the one or more supporting knowledge data nodes.\n5. The method of claim 4, wherein the relationship is a synonym relationship.\n6. The method of claim 4, wherein the relationship is a hypernym relationship.\n7. The method of claim 4, wherein the relationship is a derived hypernym relationship.\n8. The method of claim 1, wherein the artificial intelligence problem is solved using a case based reasoning module or an artificial intelligence planner.\n9. The method of claim 8, wherein the case based reasoning module matches the artificial intelligence problem to a case stored in the artificial intelligence memory graph data structure.\n10. The method of claim 1, wherein the artificial intelligence memory graph data structure includes a robotic system part and a user part.\n11. The method of claim 10, wherein the user part stores a conversation history and one or more cases for case based reasoning.\n12. The method of claim 10, wherein the user part is searchable by a user identifier.\n13. The method of claim 1, wherein the lexical database is used to retrieve information related to a \u201cwhat,\u201d \u201cwhere,\u201d \u201cwho,\u201d or \u201cis\u201d query.\n14. The method of claim 1, further comprising identifying a speaker responsible for the natural language input, wherein a user identifier of the identified speaker is used to select the starting node of the artificial intelligence memory graph data structure.\n15. The method of claim 1, wherein the one or more identified supporting knowledge data nodes are ranked.\n16. The method of claim 15, wherein a ranking is assigned to the one or more identified supporting knowledge data nodes based on a conversation time.\n17. The method of claim 1, wherein the one or more identified supporting knowledge data nodes are identified by filtering out data nodes with negative facts and negated facts.\n18. The method of claim 1, wherein the one or more identified supporting knowledge data nodes are identified by comparing subject-predicate-object lemma, parts of speech, and coreference results between the classified components and the one or more data nodes.\n19. A system for solving an artificial intelligence problem, comprising:\na processor; and\na memory coupled with the processor, wherein the memory is configured to provide the processor with instructions which when executed cause the processor to:\nreceive a natural language input;\nprocess the natural language input to classify components of the natural language input;\nselect a starting node of an artificial intelligence memory graph data structure to begin a search for one or more supporting knowledge data nodes associated with the classified components, wherein the artificial intelligence memory graph comprises one or more data nodes;\nstarting at the starting node, search the artificial intelligence memory graph data structure using a lexical database to identify the one or more supporting knowledge data nodes;\nidentify the artificial intelligence problem; and\nsolve the artificial intelligence problem using the one or more identified supporting knowledge data nodes of the artificial intelligence memory graph data structure\n20. A computer program product for solving an artificial intelligence problem, the computer program product being embodied in a non-transitory computer readable storage medium and comprising computer instructions for:\nreceiving a natural language input;\nprocessing the natural language input to classify components of the natural language input;\nselecting a starting node of an artificial intelligence memory graph data structure to begin a search for one or more supporting knowledge data nodes associated with the classified components, wherein the artificial intelligence memory graph comprises one or more data nodes;\nstarting at the starting node, searching the artificial intelligence memory graph data structure using a lexical database to identify the one or more supporting knowledge data nodes;\nidentifying the artificial intelligence problem; and\nsolving the artificial intelligence problem using the one or more identified supporting knowledge data nodes of the artificial intelligence memory graph data structure."
+}
