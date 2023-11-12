@@ -4,6 +4,7 @@ from itertools import combinations
 from tqdm import tqdm
 from sklearn.metrics.pairwise import cosine_similarity
 import matplotlib.pyplot as plt
+import numpy as np
 
 def make_network(df, use_cpc=False, use_authors=False, use_year=False, use_abstract=False, make_plot=False):
     G = nx.Graph()
@@ -56,17 +57,16 @@ def make_network(df, use_cpc=False, use_authors=False, use_year=False, use_abstr
             G.add_edges_from(edges_subset)
 
     # Use abstract
-    if use_authors:
+    if use_abstract:
         edges_subset=list(combinations(df.index, 2))
         edge_sim_labelled=[]
-
         for idx1, idx2 in tqdm(edges_subset):
+            embeddings_1=np.load(f"dataset/{df['patent_id'][idx1]}/{df['patent_id'][idx1]}_abstract_emb.npy")
+            embeddings_2=np.load(f"dataset/{df['patent_id'][idx2]}/{df['patent_id'][idx2]}_abstract_emb.npy")
 
-            embeddings_1=df['abstract_emb'][idx1]
-            embeddings_2=df['abstract_emb'][idx2]
             cosine_sim_val=cosine_similarity( [ embeddings_1 ], [ embeddings_2 ])
 
-            if cosine_sim_val>0.5:
+            if cosine_sim_val>0.95:
                 edge_sim_labelled.append([df['patent_id'][idx1], df['patent_id'][idx2]])
         G.add_edges_from(edge_sim_labelled)
 

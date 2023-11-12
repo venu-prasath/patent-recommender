@@ -1,5 +1,5 @@
 import networkx as nx
-from preprocess import get_claims
+from scripts.preprocess import get_claims
 import json
 import re
 import matplotlib.pyplot as plt
