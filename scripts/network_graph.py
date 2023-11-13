@@ -6,7 +6,7 @@ from sklearn.metrics.pairwise import cosine_similarity
 import matplotlib.pyplot as plt
 import numpy as np
 
-def make_network(df, use_cpc=False, use_authors=False, use_year=False, use_abstract=False, make_plot=False):
+def make_network(df, use_cpc=False, use_authors=False, use_year=False, use_abstract=False, make_plot=False, file_loc=None):
     G = nx.Graph()
     G.add_nodes_from(df['patent_id'])
 
@@ -70,6 +70,9 @@ def make_network(df, use_cpc=False, use_authors=False, use_year=False, use_abstr
                 edge_sim_labelled.append([df['patent_id'][idx1], df['patent_id'][idx2]])
         G.add_edges_from(edge_sim_labelled)
 
+    if file_loc!=None:
+        nx.write_adjlist(G, file_loc)
+        
     if make_plot:
         plt.figure(figsize=(200,200))
         nx.draw_networkx(G, node_size=500)
