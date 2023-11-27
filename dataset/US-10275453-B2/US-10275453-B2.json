@@ -26,5 +26,44 @@
         "G06N99/005"
     ],
     "abstract": "A method is disclosed for identifying paraphrases in a natural language processing (NLP) system comprising: receiving a first phrase and a second phrase by a system; analyzing the first phrase and the second phrase to provide a semantic and structural hierarchical comparison assessment, the semantic and structural hierarchical comparison assessment having an associated semantic and structural hierarchical comparison assessment value; and determining whether the semantic and structural hierarchical comparison assessment value exceeds a predetermined paraphrase equivalency criteria; and, responsive to determining the semantic and structural hierarchical comparison assessment value exceeds the predetermined paraphrase equivalency criteria, classifying the second phrase as being a rewording of the first phrase.",
-    "claims": "\n1. A computer-implementable method for identifying paraphrases in a natural language processing (NLP) system comprising:\nreceiving a first phrase and a second phrase by a system;\nanalyzing the first phrase and the second phrase to provide a semantic and structural hierarchical comparison assessment, the semantic and structural hierarchical comparison assessment having an associated semantic and structural hierarchical comparison assessment value; and\ndetermining whether the semantic and structural hierarchical comparison assessment value exceeds a predetermined paraphrase equivalency criteria;\nresponsive to determining the semantic and structural hierarchical comparison assessment value exceeds the predetermined paraphrase equivalency criteria, classifying the second phrase as being a rewording of the first phrase.\n2. The method of claim 1, wherein:\nthe structural hierarchical comparison assessment includes a vector based and a semantic based framework.\n3. The method of claim 2, wherein:\nthe first phrase and the second phrase are in a single language.\n4. The method of claim 3, further comprising:\nutilizing the first phrase and the second phrase in a ground truth classifier for a system capable of answering questions.\n5. The method of claim 1, wherein:\nthe semantic and structural hierarchical comparison assessment comprises performing an ensemble operation on the first phrase and the second phrase, the ensemble operation providing a structural similarity score.\n6. The method of claim 1, wherein:\nthe semantic and structural hierarchical comparison assessment comprises performing a semantic similarity operation, the semantic similarity operation providing a semantic similarity score."
+    "claims": "\n1. A computer-implementable method for identifying paraphrases in a natural language processing (NLP) system comprising:\nreceiving a first phrase and a second phrase by a system;\nanalyzing the first phrase and the second phrase to provide a semantic and structural hierarchical comparison assessment, the semantic and structural hierarchical comparison assessment having an associated semantic and structural hierarchical comparison assessment value; and\ndetermining whether the semantic and structural hierarchical comparison assessment value exceeds a predetermined paraphrase equivalency criteria;\nresponsive to determining the semantic and structural hierarchical comparison assessment value exceeds the predetermined paraphrase equivalency criteria, classifying the second phrase as being a rewording of the first phrase.\n2. The method of claim 1, wherein:\nthe structural hierarchical comparison assessment includes a vector based and a semantic based framework.\n3. The method of claim 2, wherein:\nthe first phrase and the second phrase are in a single language.\n4. The method of claim 3, further comprising:\nutilizing the first phrase and the second phrase in a ground truth classifier for a system capable of answering questions.\n5. The method of claim 1, wherein:\nthe semantic and structural hierarchical comparison assessment comprises performing an ensemble operation on the first phrase and the second phrase, the ensemble operation providing a structural similarity score.\n6. The method of claim 1, wherein:\nthe semantic and structural hierarchical comparison assessment comprises performing a semantic similarity operation, the semantic similarity operation providing a semantic similarity score.",
+    "status": "Active",
+    "citations_own": [
+        "US6161084A",
+        "US7392185B2",
+        "US8271453B1",
+        "CA2484410C",
+        "US20140095162A1",
+        "US8886572B2",
+        "US8930191B2",
+        "US8972396B1",
+        "US9460091B2",
+        "US20170091320A1",
+        "US9659084B1",
+        "US20170161275A1",
+        "US20170200081A1",
+        "US20180075015A1",
+        "US20180329881A1"
+    ],
+    "citations_ftf": [],
+    "citedby_own": [
+        "US10740401B2"
+    ],
+    "citedby_ftf": [
+        "CN111555954B",
+        "US10083451B2",
+        "US10275452B2",
+        "US10482118B2",
+        "US10210244B1",
+        "US10497366B2",
+        "JP7017478B2",
+        "US10861022B2",
+        "US11487945B2",
+        "US11379670B1",
+        "US11481417B2",
+        "US11455357B2",
+        "US11468238B2",
+        "TWI778442B",
+        "US20220245179A1"
+    ]
 }
