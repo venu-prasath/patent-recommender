@@ -6,9 +6,24 @@ from sklearn.metrics.pairwise import cosine_similarity
 import matplotlib.pyplot as plt
 import numpy as np
 
-def make_network(df, use_cpc=False, use_authors=False, use_year=False, use_abstract=False, make_plot=False, file_loc=None):
+def make_network(df, use_citations=False, use_cpc=False, use_authors=False, use_year=False, use_abstract=False, make_plot=False, file_loc=None):
     G = nx.Graph()
     G.add_nodes_from(df['patent_id'])
+
+    # Use Citations
+    if use_citations:
+        citations = {}
+        for row in df.values:
+            for citation in row[10]:
+                citation = citation.strip()
+                if citation not in citations:
+                    citations[citation] = [citation[0]]
+                else:
+                    citations[citation].append(citation[0])
+
+        for citation in citations:
+            edges_subset=list(combinations(citations[citation], 2))
+            G.add_edges_from(edges_subset)
 
     # Use classification codes
     if use_cpc:
