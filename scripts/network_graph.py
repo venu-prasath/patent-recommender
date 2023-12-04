@@ -12,18 +12,12 @@ def make_network(df, use_citations=False, use_cpc=False, use_authors=False, use_
 
     # Use Citations
     if use_citations:
-        citations = {}
+        citations = []
         for row in df.values:
             for citation in row[10]:
                 citation = citation.strip()
-                if citation not in citations:
-                    citations[citation] = [citation[0]]
-                else:
-                    citations[citation].append(citation[0])
-
-        for citation in citations:
-            edges_subset=list(combinations(citations[citation], 2))
-            G.add_edges_from(edges_subset)
+                citations.append([row[0], citation])
+        G.add_edges_from(citations)
 
     # Use classification codes
     if use_cpc:
