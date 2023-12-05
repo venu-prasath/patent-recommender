@@ -1,0 +1,48 @@
+{
+    "patent_link": "https://patents.google.com/patent/US20030068610A1/en",
+    "patent_id": "US20030068610A1",
+    "title": "Method for the prediction of molecular interaction networks",
+    "abstract": "The present invention relates to a method for identifying unknown molecular interactions within biological networks based on representations of molecules as sets of conserved features. Such molecules include but are not limited to proteins and nucleic acid molecules which can be represented as collections of conserved features, such as domains and motifs in proteins. The method of the invention comprises computing the attraction probabilities between molecules followed by calculation of the probability of a biological network. The method of the invention can be applied across species, where interaction data from one, or several species, can be used to infer molecular interactions between molecules acting within or between organisms. The method of the present invention may be used to identify molecular interactions which can serve as drug screening targets.",
+    "inventors": [
+        "Andrey Rzhetsky",
+        "Shaw-Hwa Lo",
+        "Shawn Gomez"
+    ],
+    "assignee": "Columbia University of New York",
+    "classifications": [
+        "G16B35/00",
+        "G16B35/20",
+        "G16B5/00",
+        "G16B5/20",
+        "G16C20/60",
+        "G01N2500/02"
+    ],
+    "claims": "\n1. A method for identifying the probability of a molecular interaction within a biological network comprising;\n(i) representing molecules as sets of conserved features;\n(ii) computing the attraction probabilities between said features; and\n(iv) using the computation of step (ii) to identify the probability of a molecular interaction within a biological network.\n2. A method for identifying the probability of protein interactions within a biological network comprising;\n(i) representing proteins as sets of conserved features;\n(ii) computing the attraction probabilities between said features; and\n(iv) using the computation of step (ii) to identify the probability of a molecular interaction within a biological network.\n3. A method for identifying the probability of protein interactions within a biological network comprising;\n(i) representing proteins as sets of conserved features;\n(ii) computing the attraction probabilities between said features;\n(iii) computing the attraction probabilities between proteins; and\n(iv) using the computation of step (ii) and step (iii) to identify the probability of a molecular interaction within a biological network.\n4. The method of claim 1, 2 or 3 further comprising computing the topology of a biological network wherein those networks displaying a more biologically realistic topology are assigned a greater probability.\n5. The method of claim 1, 2 or 3 wherein the conserved features are protein domains or motifs.\n6. The method of claim 1, 2 or 3 wherein the conserved features are nucleic acid molecule motifs.\n7. The method of claim 2 or 3 wherein the attraction probabilities between features is computed using equation 6, 14, or 16.\n8. The method of claim 2 wherein the attraction probabilities between proteins is accomplished using equation 5 or 17.\n9. The method of claim 1 wherein the identification of a probability of a molecular interaction within a biological network is accomplished using equation 1.\n10. The method of claim 2 or 3 wherein the identification of a probability of a protein interaction within a biological network is accomplished using equation 1.\n11. The method of claim 4 wherein the topology of a biological network is determined using equation 2, 3, 4 or 7.\n12. The method of claim 1 further comprising computing the posterior probabilities of interaction between a set of molecules.\n13. The method of claim 2 further comprising computing the posterior probabilities of interaction between a set of proteins.\n14. The method of claim 12 or 13 wherein a Markov Chain Monte Carlo technique is used to compute the posterior probabilities of interaction between a set of proteins.\n15. The method of claim 12 or 13 wherein equation 1 is used to compute the posterior probabilities of interaction between a set of proteins.\n16. A screening method for identification of a compound capable of modifying the interaction between at least two proteins comprising:\n(i) identifying an interaction between at least two proteins using the method of claim 2 or 3;\n(ii) contacting said proteins identified in step (i) with a test compound;\n(iii) comparing the interaction of the proteins in the presence of the test compound with the interaction in the absence of the test compound;\nwherein a difference in the interaction of the proteins in the presence of the test compound as compared to the interaction in the absence of a test compound indicates identification of a compound capable of modifying the interaction between proteins.\n17. A screening method for identification of a compound capable of modifying the interaction between at least two molecules comprising:\n(i) identifying an interaction between at least molecules-using the method of claim 1;\n(ii) contacting said molecules identified in step (i) with a test compound;\n(iii) comparing the interaction of the molecules in the presence of the test compound with the interaction in the absence of the test compound;\nwherein a difference in the interaction of the molecules in the presence of the test compound as compared to the interaction in the absence of a test compound indicates identification of a compound capable of modifying the interaction between molecules.",
+    "status": "Abandoned",
+    "citations_own": [
+        "US5604100A",
+        "US5616504A",
+        "US6132969A",
+        "US6203987B1",
+        "US20020087275A1",
+        "US6594587B2",
+        "US6772069B1"
+    ],
+    "citations_ftf": [],
+    "citedby_own": [
+        "US20030176931A1",
+        "US20040236515A1",
+        "US20050125225A1",
+        "WO2007016703A2",
+        "US20070122795A1",
+        "US20070174019A1"
+    ],
+    "citedby_ftf": [
+        "EP1454282A4",
+        "US7415359B2",
+        "US9740817B1",
+        "US8346482B2",
+        "US20050154535A1",
+        "JP5667822B2"
+    ]
+}

@@ -1,0 +1,60 @@
+{
+    "patent_link": "https://patents.google.com/patent/US20090300506A1/en",
+    "patent_id": "US20090300506A1",
+    "title": "Mark-up extensions for semantically more relevant thumbnails of content",
+    "abstract": "The claimed subject matter provides a system and/or a method that facilitates rendering of a portion of published content. A browsing session can enable navigation and display of a portion of published content. A render definition enforcer can implement a tag related to the portion of published content with at least one view-level display property, the view-level display property is at least one of a definition to at least one of display or not display the portion of published content based upon a view-level within the browsing session or a definition related to a size scale factor for the portion of published content based upon a view-level within the browsing session. The browsing session can utilize the portion of published content at a view-level in accordance to the view-level display property.",
+    "inventors": [
+        "Steven Drucker",
+        "Blaise Aguera y Areas",
+        "Brett D. Brewer",
+        "Karim Farouki",
+        "Stephen L. Lawler",
+        "Donald James Lindsay"
+    ],
+    "assignee": "Microsoft Technology Licensing LLC",
+    "classifications": [
+        "G06F3/00",
+        "G06F16/9577"
+    ],
+    "claims": "\n1. A system that facilitates rendering of a portion of published content within a browsing session, comprising:\na browsing session that enables navigation and display of at least a portion of published content;\na render definition enforcer that employs a tag related to the portion of published content with at least one view-level display property, the view-level display property is at least one of the following:\na definition to at least one of display or not display the portion of published content based upon a view-level or a location on a view-level within the browsing session; or\na definition related to a size/scale factor for the portion of published content based upon a view-level or a location on a view-level within the browsing session; and\nthe browsing session utilizes the portion of published content at a view-level or a location on a view-level in accordance to the view-level display property.\n2. The system of claim 1, the view-level display property is a resolution definition that indicates a display resolution for a portion of published content based upon a view-level or a location on a view-level in connection with the browsing session.\n3. The system of claim 1, the view-level display property is a priority definition that dictates a hierarchical organization for the portion of published content based upon a view-level or a location on a view-level navigated within the browsing session.\n4. The system of claim 1, the view-level display property is a pre-defined view for the portion of published content based upon a navigated view-level or location on a view-level within the browsing session, the pre-defined view is at least one of an optimal display perspective set by an author of the portion of published content, a default view-level, a default location, an optimal zoom in on a view-level, an optimal zoom out on a view-level, or a pre-programmed viewing experience for the portion of published content.\n5. The system of claim 1, the view-level display property is a reflow definition that automatically defines a setting related to adjusting the portion of published content to display within a viewing pane for the browsing session based upon a view-level or a location on a view-level navigated within the browsing session.\n6. The system of claim 5, further comprising a reflow component that reflows the portion of published content utilizing the reflow definition, the reflow is a re-structured display layout for the portion of published content based upon at least one of a resizing or changing of display area utilized for the browsing session.\n7. The system of claim 1, the view-level display property is linked to a view-level or location within the portion of published content by a first percentage number related to absolute width and a second percentage number related to absolute height, the first percentage number is a positive real number and the second percentage number is a positive real number.\n8. The system of claim 1, the location on a view-level for the portion of published content is data displayed within a display real estate in connection with the browsing session.\n9. The system of claim 1, further comprising a display engine that browses the portion of published content within the browsing session, the display engine enables at least one of a seamless pan or a zoom interaction with the portion of the published content, wherein such content includes one or more planes of view.\n10. The system of claim 1, the browsing session includes a portion of image data that represents a computer displayable multiscale image with at least two substantially parallel planes of view in which a first plane and a second plane are alternatively displayable based upon a level of zoom and which are related by a pyramidal volume, the multiscale image includes the tag with at least one view-level display property.\n11. The system of claim 10, the second plane of view displays a portion of the first plane of view at one of a different scale or a different resolution based upon the tag with at least one view-level display property.\n12. The system of claim 10, the second plane of view displays a portion of the image data that is graphically or visually unrelated to the first plane of view based upon the tag with at least one view-level display property.\n13. The system of claim 10, the second plane of view displays a portion of the image data that is disparate than the portion of the image data associated with the first plan of view based upon the tag with at least one view-level display property.\n14. The system of claim 1, the browsing session includes a 3-dimensional (3D) virtual environment created from a plurality of 2-dimensional (2D) content of an image that is navigated by the user, each portion of 2D content includes a perspective of the image, a portion of the image which is aggregated to create the 3D virtual environment of such image, and the tag with at least one view-level display property.\n15. The system of claim 1, further comprising a browse component that leverages at least one of a display engine or the render definition enforcer to interact with the portion of the published content across at least one of a network, a server, a web, the Internet, or a cloud.\n16. The system of claim 1, the portion of published content associated with the browsing session is graphically constructed in accordance with the tag and at least one view-level display property.\n17. A computer-implemented method that facilitates enhancing display of published content within a browsing session, comprising:\nevaluating a portion of published content;\nidentifying at least one view-level display property associated with the portion of published content, the at least one view-level display property dictates visibility of the portion of published content within a browsing session; and\nrendering the portion of published content based upon the view-level display property and a navigated location related to the portion of published content.\n18. The method of claim 17, the view-level display property is at least one of the following:\na definition related to a size/scale factor for the portion of published content based upon a view-level or a location on a view-level within the browsing session;\na resolution definition that indicates a display resolution for a portion of published content based upon a view-level or a location on a view-level in connection with the browsing session;\na priority definition that dictates a hierarchical organization for the portion of published content based upon a view-level or a location on a view-level navigated within the browsing session; and\nthe view-level display property is a pre-defined view for the portion of published content based upon a navigated view-level or location on a view-level within the browsing session, the pre-defined view is an optimal display perspective set by an author of the portion of published content.\n19. The method of claim 17, further comprising reflowing the portion of published content utilizing a reflow definition byre-structuring a display layout for the portion of published content based upon at least one of a resizing or changing of display area utilized for the browsing session.\n20. A computer-implemented system that facilitates rendering of a portion of published content within a browsing session, comprising:\nmeans for enabling navigation and display of at least a portion of published content;\nmeans for employing a tag related to the portion of published content with at least one view-level display property, the view-level display property is at least one of the following:\na definition to at least one of display or not display the portion of published content based upon a view-level or a location on a view-level within the browsing session; or\na definition related to a size/scale factor for the portion of published content based upon a view-level or a location on a view-level within the browsing session; and\nmeans for graphically constructing the portion of published content at a view-level or a location on a view-level in accordance to the view-level display property.",
+    "status": "Expired - Fee Related",
+    "citations_own": [
+        "US20030020671A1",
+        "US20050022133A1",
+        "US20050131887A1",
+        "US20060235941A1",
+        "US20060282444A1",
+        "US20070110338A1",
+        "US20080151315A1",
+        "US7546602B2",
+        "US20090177538A1",
+        "US20090235187A1",
+        "US20090276445A1",
+        "US8250454B2"
+    ],
+    "citations_ftf": [],
+    "citedby_own": [
+        "US20090055934A1",
+        "US20100325529A1",
+        "EP2336906A1",
+        "US20110154225A1",
+        "US20110238758A1",
+        "US20140063536A1",
+        "US20140063556A1",
+        "US8767249B2",
+        "US8782519B1",
+        "US20140282029A1",
+        "US20140372421A1",
+        "US20150033117A1",
+        "US9098477B2",
+        "US9183319B2",
+        "US20180181264A1",
+        "US10225511B1",
+        "US10732809B2",
+        "US10936872B2",
+        "US11409497B2",
+        "US11507216B2",
+        "US11593060B2"
+    ],
+    "citedby_ftf": []
+}

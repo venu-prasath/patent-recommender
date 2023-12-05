@@ -1,0 +1,73 @@
+{
+    "patent_link": "https://patents.google.com/patent/US20060064017A1/en",
+    "patent_id": "US20060064017A1",
+    "title": "Hierarchical medical image view determination",
+    "abstract": "A cardiac view of a medical ultrasound image is automatically identified. By grouping different views into sub-categories, a hierarchal classifier identifies the views. For example, apical views are distinguished from parasternal views. Specific types of apical or parasternal views are identified based on distinguishing between images of the geneses. Different features are used for classifying, such as gradients, functions of the gradients, statistics of an average frame of data from a clip or sequence of frames, or a number of edges along a given direction. The number of features used may be compressed, such as by classifying a plurality of features into a new feature. For example, alpha weights in a model of features and classes are determined and used as features for classification.",
+    "inventors": [
+        "Sriram Krishnan",
+        "Jinbo Bi",
+        "R. Rao",
+        "Jonathan Stoeckel",
+        "Matthew Otey"
+    ],
+    "assignee": "Siemens Medical Solutions USA Inc",
+    "classifications": [
+        "G06T7/0012",
+        "G06F18/21",
+        "G06F18/24323",
+        "G06T2207/30048"
+    ],
+    "claims": "\n1. A method for identifying a cardiac view of a medical ultrasound image, the method comprising:\nclassifying, with a processor, the medical ultrasound image between any two or more of subcostal, suprasternal, parasternal, apical or unknown; and\nclassifying, with the processor, the cardiac view of the medical image as a particular subcostal, suprasternal, parasternal or apical view based on the classification as subcostal, suprasternal, parasternal or apical, respectively.\n2. The method of claim 1 wherein classifying the cardiac view of the medical image comprises classifying as apical two chamber or apical four chamber for apical or as parasternal long axis or parasternal short axis for parasternal.\n3. The method of claim 1 wherein classifying the cardiac view comprises applying different algorithms based on the classification of parasternal or apical.\n4. The method of claim 1 wherein classifying the medical ultrasound image as subcostal, suprasternal, parasternal or apical comprises applying a classifier tree with logistic regression functions, and wherein classifying the cardiac view of the medical image as a particular parasternal or apical view comprises applying a Na\u00efve Bayes Classifier.\n5. The method of claim 1 further comprising:\nextracting feature data from the medical ultrasound image;\nwherein either or both of the classifying acts are performed as a function of the feature data.\n6. The method of claim 5 wherein extracting the feature data comprises:\ndetermining one or more gradients from the medical image;\ncalculating a gradient sum, gradient ratio, gradient standard deviation or combinations thereof; or\nboth determining and calculating.\n7. The method of claim 5 wherein extracting the feature data comprises determining a number of edges along at least a first dimension.\n8. The method of claim 5 wherein extracting the feature data comprises determining a mean, standard deviation, statistical moment or combinations thereof of the intensities associated with the medical image.\n9. The method of claim 5 wherein extracting the feature data comprises classifying at least one additional feature from a plurality of input features, the feature data including the at least one additional feature with or without the input features.\n10. A system for identifying a cardiac view of a medical ultrasound image, the method comprising:\na memory operable to store medical ultrasound data associated with the medical ultrasound image;\na processor operable to classify the medical ultrasound image between any two or more of subcostal, suprasternal, parasternal, apical or unknown from the medical ultrasound data, and operable to classify the cardiac view of the medical image as a particular subcostal, suprasternal, parasternal or apical view based on the classification as subcostal, suprasternal, parasternal or apical, respectively.\n11. The system of claim 10 wherein the processor is operable to classify the cardiac view of the medical image as apical two chamber or apical four chamber for apical or as parasternal long axis or parasternal short axis for parasternal.\n12. The system of claim 10 wherein the processor is a single device or a plurality of distributed devices, the processor further operable to extract feature data from the medical ultrasound data, wherein either or both of the classifying acts are performed as a function of the feature data.\n13. The system of claim 12 wherein the processor is operable to extract the feature data by:\ndetermining one or more gradients from the medical ultrasound data;\ncalculating a gradient sum, gradient ratio, gradient standard deviation or combinations thereof;\ndetermining a number of edges along at least a first dimension;\ndetermining a mean, standard deviation, statistical moment or combinations thereof of the intensities associated with the medical image; or\ncombinations thereof.\n14. The system of claim 12 wherein the processor is operable to extract the feature data by classifying at least one additional feature from a plurality of input features, the feature data including the at least one additional feature with or without the input features.\n15. In a computer readable storage media having stored therein data representing instructions executable by a programmed processor for identifying a cardiac view of a medical image, the storage media comprising instructions for:\nfirst identifying the medical image as belonging to a specific generic class from two or more possible generic classes of subcostal view medical data, suprasternal view medical data, apical view medical data or parasternal view medical data;\nsecond identifying the cardiac view based on the first identification.\n16. The instructions of claim 15 wherein first identifying comprises classifying the medical image as the apical view medical data or as the parasternal view medical data, and wherein second identifying the cardiac view comprises classifying, after first identifying, the apical view medical data as apical two chamber or apical four chamber or classifying the parasternal view medical data as parasternal long axis or parasternal short axis.\n17. The instructions of claim 15 wherein second identifying comprises identifying with a first algorithm based on the identification of the medical image as apical view medical data and identifying with a second algorithm different than the first algorithm based on the identification of the medical ultrasound image as parasternal view medical data.\n18. The instructions of claim 15 wherein first identifying comprises applying a classifier tree with logistic regression functions, and wherein second identifying comprises applying a Na\u00efve Bayes Classifier.\n19. The instructions of claim 15 further comprising:\nextracting feature data from data for the medical image;\nwherein either or both of the first and second identifying acts are performed as a function of at least some of the feature data.\n20. The instructions of claim 19 wherein extracting comprises determining a first gradient along a first dimension, a second gradient along a different dimension, a third gradient along another different dimension, a gradient parameter that is a function of the first parameter, second parameter, third parameter, or combinations thereof, or combinations thereof.\n21. The instructions of claim 19 wherein extracting the feature data comprises determining a number of edges along at least a first dimension.\n22. The instructions of claim 19 wherein extracting the feature data comprises determining a mean, standard deviation, statistical moment or combinations thereof of the intensities associated with the medical image.\n23. The instructions of claim 19 wherein extracting the feature data comprises classifying at least one additional feature from a plurality of input features, the feature data including the at least one additional feature with or without the input features.\n24. In a computer readable storage media having stored therein data representing instructions executable by a programmed processor for identifying a cardiac view of a medical image, the storage media comprising instructions for:\nextracting feature data from the medical image by:\ndetermining one or more gradients from the medical ultrasound data;\ncalculating a gradient sum, gradient ratio, gradient standard deviation or combinations thereof;\ndetermining a number of edges along at least a first dimension;\ndetermining a mean, standard deviation, statistical moment or combinations thereof of the intensities associated with the medical image; or\ncombinations thereof; and\nclassifying the cardiac view as a function of the feature data.\n25. In a computer readable storage media having stored therein data representing instructions executable by a programmed processor for classifying a medical image, the storage media comprising instructions for:\nextracting first feature data from the medical image;\nclassifying at least second feature data from the first feature data;\nclassifying the medical image as a function of the second feature data with or without the first feature data.\n26. The instructions of claim 25 wherein classifying the at least second feature data comprises:\nfinding a weight value minimizing an error of a matrix including the first feature data as a function of classes;\nselecting the weight value as the second feature data.",
+    "status": "Abandoned",
+    "citations_own": [
+        "US6106466A",
+        "US20020007117A1",
+        "US20030120458A1",
+        "US20030204507A1",
+        "US20050018890A1",
+        "US20050059876A1",
+        "US7092749B2",
+        "US20060239527A1",
+        "US7648460B2"
+    ],
+    "citations_ftf": [],
+    "citedby_own": [
+        "US20060058674A1",
+        "US20060110021A1",
+        "US20070055153A1",
+        "US20070127834A1",
+        "US20070189602A1",
+        "US20080154123A1",
+        "US20080208048A1",
+        "US20090074280A1",
+        "WO2009042074A1",
+        "US20090153548A1",
+        "US20100123715A1",
+        "US20100266179A1",
+        "US20110082371A1",
+        "US20110172514A1",
+        "US20110188715A1",
+        "US20110301466A1",
+        "US20110310964A1",
+        "US20120243779A1",
+        "US20130308855A1",
+        "US8942917B2",
+        "US20150190112A1",
+        "US20150206059A1",
+        "US9129054B2",
+        "US20150272546A1",
+        "US20150347868A1",
+        "US9418112B1",
+        "DE102015212953A1",
+        "WO2019177799A1",
+        "WO2020187952A1",
+        "US10990851B2",
+        "US11215711B2",
+        "US11417417B2",
+        "US11497478B2",
+        "US11710309B2"
+    ],
+    "citedby_ftf": [
+        "CA3016903A1"
+    ]
+}

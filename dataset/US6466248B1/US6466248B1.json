@@ -1,0 +1,82 @@
+{
+    "patent_link": "https://patents.google.com/patent/US6466248B1/en",
+    "patent_id": "US6466248B1",
+    "title": "Videoconference recording",
+    "abstract": "A videoconference system in which a first encoder is provided for encoding the original video signal into a first format suitable for streaming transmission, and a second encoder is provided for encoding the original video signal into a second format having a higher quality or less storage as compared to the first format. The first and second encoder works independently to each other and therefore the parameters may be optimized independently.",
+    "inventors": [
+        "Michael Spann",
+        "Chuck House"
+    ],
+    "assignee": "Intel Corp",
+    "classifications": [
+        "H04N21/23439",
+        "H04N7/147",
+        "H04N7/148",
+        "H04N7/155"
+    ],
+    "claims": "\n1. A videoconference system, comprising:\n2. The videoconference system of claim 1 wherein said conference signal in said second format has a higher image quality than that in said first format.\n3. The videoconference system of claim 2 wherein said second encoder requires longer latency than said first encoder.\n4. A videoconference station for generating an original videoconference signal to be transmitted to other videoconference stations over a packet data network, comprising:\n5. The conference station of claim 4 wherein said second encoder requires a longer latency to encode but produces a videoconference signal of higher quality than said first encoder.\n6. The conference station of claim 4 wherein said second format requires less storage than in said first format.\n7. The conference station of claim 6 wherein said second encoder is not in any way designed based upon latency characteristics.\n8. A method of processing an original videoconference signal generated from a videoconference station in a videoconference system during a videoconference, comprising the steps of:\n9. The method of claim 8 further comprising a step of transmitting said saved videoconference signal in said second format to one or more of said other videoconference stations.\n10. The method of claim 9 wherein said transmission of said saved videoconference signal in said second format is carried out at a time after said videoconference.\n11. The method of claim 10 wherein said transmission of said saved videoconference signal in said second format is carried out at a time when a bandwidth between said videoconference station transmitting the signal and said one or more other videoconference stations receiving the signal is available.\n12. Apparatus for transmitting and recording a signal generated at a videoconference, said apparatus comprising:\n13. The system of claim 12 wherein said retransmission system includes a record of network addresses associated with each member of a conference being stored, and wherein the retransmission system is arranged to perform retransmission to selected ones of said members at a selected time after said conference.\n14. The system of claim 11 wherein the selected ones of said members includes all of said members.\n15. The system of claim 11 wherein each conference terminal includes an icon which, if selected, designates that terminal to receives said retransmission.\n16. The system of claim 12 wherein said retransmission occurs at a time that the transmission system is substantially idle.\n17. A method of encoding a video image for use in a videoconferencing system comprising the steps of outputting an original digital video image and encoding the same original digital video image using at least two different encoders, transmitting the image encoded using a first encoder to conferees in real-time and later transmitting the image encoded using a second encoder to at least one party wherein the second encoded image is delayed by a relatively long latency.\n18. The method of claim 17 wherein said image encoded using said second encoder is only transmitted to parties who request same.\n19. The method of claim 18 wherein said party is a conference member.\n20. The method of claim 17 wherein said image encoded using said second encoder is transmitted to all member of a videoconference.\n21. The method of claim 17 wherein said image encoded using said second encoder is transmitted during a predetermined time when a network to which conference terminals are connected is less busy than when said conference takes place.\n22. The method of claim 17 wherein the image encoded using the second encoder is transmitted at, but not exceeding, a specified bandwidth.",
+    "status": "Expired - Lifetime",
+    "citations_own": [
+        "JPH0258443A",
+        "JPH04192657A",
+        "JPH07111644A",
+        "JPH07162821A",
+        "JPH0823526A",
+        "JPH10285531A",
+        "US5963547A",
+        "JP2000023130A"
+    ],
+    "citations_ftf": [
+        "US5689641A",
+        "DE19610010A1"
+    ],
+    "citedby_own": [
+        "US20040184531A1",
+        "US20050122393A1",
+        "US20050180341A1",
+        "US6963353B1",
+        "US20050281543A1",
+        "US20070276917A1",
+        "US20070273751A1",
+        "US20080043643A1",
+        "US20080159508A1",
+        "US20080267069A1",
+        "US20090196516A1",
+        "US20100166058A1",
+        "US20100166056A1",
+        "WO2010111100A1",
+        "US20120274730A1",
+        "US8526490B2",
+        "US20130326156A1",
+        "US8606942B2",
+        "US8711923B2",
+        "US8769594B2",
+        "US20150036739A1",
+        "US8964830B2",
+        "US8979655B2",
+        "US9077991B2",
+        "US9138644B2",
+        "US9168457B2",
+        "US9192859B2",
+        "US20150381936A1",
+        "US9227139B2",
+        "US9314691B2",
+        "US9446305B2",
+        "US10026452B2",
+        "US10201760B2",
+        "US10326978B2",
+        "US10453492B2",
+        "US10531125B2"
+    ],
+    "citedby_ftf": [
+        "US7170936B2",
+        "US7003286B2",
+        "JP2004274531A",
+        "JP2005033336A",
+        "CN101087399B",
+        "CN103442202B",
+        "JP2015092697A",
+        "DE102015208740A1",
+        "CN108390816B"
+    ]
+}

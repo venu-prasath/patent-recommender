@@ -1,0 +1,66 @@
+{
+    "patent_link": "https://patents.google.com/patent/US20020181481A1/en",
+    "patent_id": "US20020181481A1",
+    "title": "Memory management for packet switching device",
+    "abstract": "A method and system for managing memory in a packet switching device is disclosed. The method and system comprises managing the memory as a single FIFO when inserting packets and managing the memory as a plurality of FIFO queues when removing packets. A memory management scheme in accordance with the present invention takes advantage of the nature of packet switching to give an efficient implementation of multiple independent queues in a memory. The key observation that is made is that in a packet switch it is expected that packets may be stored in the memory for a time no greater than the time it takes to fill up the memory. If a packet due to extreme congestion is delayed longer than that, then deleting that packet is an acceptable result.",
+    "inventors": [
+        "Ofer Iny"
+    ],
+    "assignee": "Avago Technologies International Sales Pte Ltd",
+    "classifications": [
+        "H04L49/901",
+        "H04L47/10",
+        "H04L47/32",
+        "H04L49/30",
+        "H04L49/90",
+        "H04L49/9078",
+        "H04L49/3018",
+        "H04L49/351",
+        "H04L49/50"
+    ],
+    "claims": "\n1. A method for managing memory in a packet switching device comprising the steps of:\n(a) managing the memory as a single FIFO when inserting packets; and\n(b) managing the memory as a plurality of FIFO queues when removing packets.\n2. The method of claim 1 wherein the memory includes a global write pointer (GFWP), a global delete pointer (GFDP), and an empty zone between the GFWP and GFDP.\n3. The method of claim 1 wherein the plurality of FIFO are described by tail pointers, head pointers and link pointers.\n4. A system for managing memory in a packet switching device wherein the data memory is managed as both a single FIFO, for the purpose of inserting packets, and a plurality of FIFO queues for the purpose of removing packets comprising:\na global FIFO, the global FIFO includes a global FIFO Write Pointer (GFWP) and a Global FIFO Delete Pointer (GFDP), where a plurality of FIFO queues are described by tail pointers, head pointers, and link pointers, each FIFO queue having a tail pointer, head pointer, and link pointer, when a packet is added, it's data is written into the memory sequentially starting at the GFWP, as the packet's data is written the GFWP advances, where the packets in the memory are stored in a chronological sequential order, starting from above the GFDP (oldest) to just below the GFWP (newest), when a new packet is written into the global FIFO, the plurality of queues database is updated, where the GFDP precedes the GFWP by a preset value, the GFDP advances when a packet's data is written into the memory to maintain the separation, where if the GFDP points to an active start of packet (one that is in a queue) then a packet is removed from the queue for which the packet belongs, where when a packet is read out of a queue, the head pointer for that queue is updated with a link pointer, wherein the data memory is managed as both a single FIFO, for the purpose of inserting packets, and a plurality of FIFO queues for the purpose of removing packets.\n5. The system of claim 4 which includes a queue ID memory with an entry per memory section, where a memory section is defined as a block of memory that can have at most one start of packet word (SOPW), where when a SOPW is written the corresponding section queue ID memory is written with the queue ID to which the packet belongs, where when the GFDP advances to a new section, the queue ID is read, and then if the queue is not empty and the head pointer of that queue is equal to the GFDP, then the packet is removed from that queue.\n6. The system of claim 4 with a queue ID memory with an entry per memory section, where a memory section is defined as a block of memory that can have at most one start of packet word (SOPW), where when a SOPW is written the corresponding section queue ID memory is written with the queue ID to which the packet belongs and an SOP flag is set, where when a section is written without an SOPW the SOP flag is cleared, where when the GFDP advances to a new section, the queue ID and SOP flag are read, and then if the SOP flag is set and the queue is not empty and the queue's head pointer is equal to GFDP or is between the GFWP and GFDP, a packet removed operation is scheduled for the queue.\n7. A system of claim 4 comprising separately addressable Global FIFO write pointer, Global FIFO delete pointer, packet data memory, section queue ID memory, section queue link memory, head pointers memory, tail section pointers memory, and queue size memory, where a memory section is defined as a block of memory that can have at most one start of packet word (SOPW).",
+    "status": "Expired - Lifetime",
+    "citations_own": [
+        "US4602341A",
+        "US5379297A",
+        "US5408469A",
+        "US5537562A",
+        "US5650993A",
+        "US5689501A",
+        "US5724358A",
+        "US5781547A",
+        "US5809021A",
+        "US5954794A",
+        "US6009108A",
+        "US6031843A",
+        "US6035348A",
+        "US6046979A",
+        "US6052368A",
+        "US6072772A",
+        "US6134217A",
+        "US6205145B1",
+        "US6216167B1",
+        "US6813249B1"
+    ],
+    "citations_ftf": [],
+    "citedby_own": [
+        "US20030091055A1",
+        "US20070121630A1",
+        "CN100403727C",
+        "US20090225770A1",
+        "US20090228621A1",
+        "US20090225769A1",
+        "US20090228630A1",
+        "US20090228733A1",
+        "US20090225775A1",
+        "US20090252167A1",
+        "US9100313B1",
+        "US20150301963A1",
+        "US9965211B2"
+    ],
+    "citedby_ftf": [
+        "EP1351500B1",
+        "US8848533B1",
+        "US8619800B1"
+    ]
+}

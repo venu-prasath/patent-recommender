@@ -1,0 +1,58 @@
+{
+    "patent_link": "https://patents.google.com/patent/US4731747A/en",
+    "patent_id": "US4731747A",
+    "title": "Highly parallel computation network with normalized speed of response",
+    "abstract": "Superior performance is achieved by equalizing the time constants of amplifiers used in highly parallel computational networks. In accordance with one aspect of the invention a feedback arrangement is employed with the resistance between the input of each amplifier i and ground, and the capacitor between the input of each amplifier and ground are instead connected in parallel between the input of each amplifier and its corresponding output. In accordance with another aspect of the invention a balanced impedance arrangement is employed where, for example, a zero current with a non-zero thevenin conductance is achieved by employing equal valued Tij + and Tij - conductances.",
+    "inventors": [
+        "John S. Denker"
+    ],
+    "assignee": "AT&T Corp",
+    "classifications": [
+        "G11C7/06",
+        "G06N3/065"
+    ],
+    "claims": "\n1. A network comprising:\na plurality of amplifiers Ai each having an input node at which there is developed an input voltage Ui, and each developing a non-inverting output Vi and an inverting output -Vi, with both of said outputs being related to said input by a sigmoid function gi ;\nmeans for applying input current Ii to said input of each of said amplifiers Ai ;\na conductance network for connecting said positive and negative outputs to said inputs, said conductance network comprising conductance values selected for the nature of the decisional operation for which it is intended to minimize the energy function ##EQU4## where Vi and Vj are output voltages of said amplifiers Ai and Aj, respectively, Tij is a conductance that relates the amplified input voltage of amplifier Ai, g(Ui) to the input node of amplifier Aj, Ri is the equivalent resistance at said input of said amplifier Ai and gi -1 is the inverse of gi ; and\nmeans for equalizing the speed of response of said amplifiers.\n2. The network of claim 1 wherein said means for equalizing comprises a subnetwork associated with each of said amplifiers and connected between the input and the negative output of each of said amplifiers.\n3. The network of claim 2 wherein said subnetwork comprises a parallel interconnection of a resistor and a capacitor.\n4. The network of claim 1 wherein said means for equalizing includes the use of a conductance Tij - with each conductance Tij + such that (Tij + +Tij -) is a constant and (Tij + -Tij -) is equal to said conductance Tij, where Tij + is a conductance connected between output Vi of amplifier Ai and the input node of amplifier Aj and Tij - is a conductance connected between output -Vi of amplifier Ai and the input node of amplifier Aj.\n5. The network of claim 1 wherein said means for equalizing includes the use of conductance pairs Tij + and Tij - in said conductance network where the sum of said Tij + and Tij - values is essentially of a preselected value.\n6. The network of claim 5 wherein said Tij + and said Tij - are not disjoint.",
+    "status": "Expired - Lifetime",
+    "citations_own": [
+        "US4218768A",
+        "US4660166A"
+    ],
+    "citations_ftf": [
+        "US3548172A",
+        "DE2647394C2",
+        "DE2926514A1",
+        "US4547685A",
+        "KR900005667B1"
+    ],
+    "citedby_own": [
+        "WO1989001228A1",
+        "US4849925A",
+        "US4858147A",
+        "US4866645A",
+        "US4875183A",
+        "US4903226A",
+        "US4926064A",
+        "US4943556A",
+        "WO1990015390A1",
+        "US4988891A",
+        "US5004932A",
+        "US5028810A",
+        "US5039870A",
+        "US5039871A",
+        "US5053638A",
+        "US5072130A",
+        "US5093781A",
+        "US5113367A",
+        "US5130563A",
+        "US5261035A",
+        "US5276773A",
+        "US5276771A",
+        "US5355438A",
+        "US5463717A",
+        "US5479577A",
+        "US5615305A"
+    ],
+    "citedby_ftf": [
+        "JP2760543B2"
+    ]
+}

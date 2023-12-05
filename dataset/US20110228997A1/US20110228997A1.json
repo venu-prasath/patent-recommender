@@ -1,0 +1,79 @@
+{
+    "patent_link": "https://patents.google.com/patent/US20110228997A1/en",
+    "patent_id": "US20110228997A1",
+    "title": "Medical Image Rendering",
+    "abstract": "Medical image rendering is described. In an embodiment a medical image visualization engine receives results from an organ recognition system which provide estimated organ centers, bounding boxes and organ classification labels for a given medical image. In examples the visualization engine uses the organ recognition system results to select appropriate transfer functions, bounding regions, clipping planes and camera locations in order to optimally view an organ. For example, a rendering engine uses the selections to render a two-dimensional image of medical diagnostic quality with minimal user input. In an embodiment a graphical user interface populates a list of organs detected in a medical image and a clinician is able to select one organ and immediately be presented with the optimal view of that organ. In an example opacity of background regions of the medical image may be adjusted to provide context for organs presented in a foreground region.",
+    "inventors": [
+        "Toby Sharp",
+        "Antonio Criminisi",
+        "Khan Mohammad Siddiqui"
+    ],
+    "assignee": "Microsoft Technology Licensing LLC",
+    "classifications": [
+        "G06T19/00",
+        "G06T15/30",
+        "G06T2200/24",
+        "G06T2207/10081",
+        "G06T2210/12",
+        "G06T2219/004",
+        "G06T2219/2012"
+    ],
+    "claims": "\n1. A computer-implemented method comprising:\nat an input receiving at least one estimated organ center obtained from a medical image, each estimated organ center having an associated organ classification label;\nusing a user interface to display an organ name for each estimated organ center;\nat the user interface, receiving user input specifying at least one of the organ names;\narranging a visualization engine to select a transfer function according to the specified organ name;\narranging the visualization engine to select a camera location according to the estimated organ center of the specified organ name;\nusing a rendering engine to render a two-dimensional image from the medical image using the selected camera location and transfer function; and\nusing the user interface to display the two-dimensional image such that a foreground region associated with the specified organ name is visualized.\n2. A method as claimed in claim 1 comprising at the input, receiving an organ classification for each image element of the medical image; arranging the visualization engine to select at least one other transfer function using the image element organ classifications; and using the rendering engine to render the two-dimensional image using the transfer functions according to the image element organ classifications.\n3. A method as claimed in claim 1 comprising at the input, receiving an organ classification and associated probability for each image element of the medical image; arranging the rendering engine to render the two-dimensional image such that the opacity of each image element of the two-dimensional image is related to the organ classification probabilities of the associated medical image elements.\n4. A method as claimed in claim 1 comprising at the input, receiving an organ classification and associated probability for each image element of the medical image and arranging the rendering engine to render the two-dimensional image such that the color of each image element of the two-dimensional image is related to the organ classifications of the associated medical image elements.\n5. A method as claimed in claim 1 comprising arranging the visualization engine to select a bounding region and to center that bounding region on the estimated organ center of the specified organ name; and to provide that centered bounding region to the rendering engine for use when rendering the two-dimensional image.\n6. A method as claimed in claim 5 comprising arranging the visualization engine to select the bounding region using the specified organ name and training data.\n7. A method as claimed in claim 1 comprising arranging the visualization engine to select a clipping plane and to provide that clipping plane to the rendering engine for use when rendering the two-dimensional image.\n8. A method as claimed in claim 1 wherein using the rendering engine comprises using a ray-casting engine to render the two-dimensional image by computing rays extending from the camera location through the two-dimensional image and into the medical image and carrying out integration along those rays.\n9. A method as claimed in claim 1 wherein receiving user input comprises receiving a single-click specifying at least one of the organ names.\n10. A method as claimed in claim 1 wherein the medical image is selected from any of: a magnetic resonance image scan, a computed tomography scan, a single photon emission computed tomography image, positron emission tomography image, DTI tractography image and ultra-sound scan.\n11. A medical image visualization engine comprising:\nan input arranged to receive a plurality of estimated organ centers obtained from a medical image of at least three dimensions, each estimated organ center having an associated organ classification label;\na user interface arranged to display an organ name for each estimated organ center;\nthe user interface also arranged to receive user input specifying at least one of the organ names;\narranging a visualization engine to select a transfer function according to the specified organ name;\na processor arranged to select a camera location according to the estimated organ center of the specified organ name;\na rendering engine arranged to render a two-dimensional image from the medical image using the selected camera location and transfer function; and\nthe user interface being arranged to display the two-dimensional image such that a foreground region associated with the specified organ name is visualized.\n12. An apparatus as claimed in claim 11 wherein the user interface is arranged to display the two-dimensional image in a display window that is substantially centered on the estimated organ center of the specified organ name.\n13. An apparatus as claimed in claim 11 wherein the input is arranged to receive an organ classification for each image element of the medical image; the visualization engine is arranged to select at least one other transfer function using the image element organ classifications; and the rendering engine is arranged to render the two-dimensional image using the transfer functions according to the image element organ classifications.\n14. An apparatus as claimed in claim 11 wherein the input is arranged to receive an organ classification and associated probability for each image element of the medical image; and the rendering engine is arranged to render the two-dimensional image such that the opacity of each image element of the two-dimensional image is related to the organ classification probabilities of the associated medical image elements.\n15. An apparatus as claimed in claim 11 wherein the input is arranged to receive an organ classification and associated probability for each image element of the medical image; and the rendering engine is arranged to render the two-dimensional image such that the color of each image element of the two-dimensional image is related to the organ classifications of the associated medical image elements.\n16. An apparatus as claimed in claim 11 wherein the visualization engine is arranged to select a bounding region and to center that bounding region on the estimated organ center of the specified organ name; and to provide that centered bounding region to the rendering engine for use when rendering the two-dimensional image.\n17. An apparatus as claimed in claim 11 wherein the visualization engine is arranged to select a clipping plane and to provide that clipping plane to the rendering engine for use when rendering the two-dimensional image.\n18. An apparatus as claimed in claim 11 wherein the rendering engine comprises a ray-casting engine arranged to render the two-dimensional image by computing rays extending from the camera location through the two-dimensional image and into the medical image and carrying out integration along those rays.\n19. A computer-implemented method comprising:\nat an input receiving at least one estimated organ center obtained from a medical image of at least three dimensions, each estimated organ center having an associated organ classification label; and also receiving an organ classification probability for each image element of the medical image;\nusing a user interface to display an organ name for each estimated organ center;\nat the user interface, receiving user input specifying at least one of the organ names;\narranging a visualization engine to select a transfer function according to the specified organ name;\narranging the visualization engine to select a camera location according to the estimated organ center of the specified organ name; and\nusing a rendering engine to render a two-dimensional image from the medical image using the selected camera location and transfer function and such that the opacity of the image elements of the two-dimensional image are related to the organ classification probabilities.\n20. A method as claimed in claim 19 which comprises arranging the user interface to display the two-dimensional image such that it is substantially centered on the estimated organ center of the specified organ name.",
+    "status": "Active",
+    "citations_own": [
+        "US20020118869A1",
+        "US6823204B2",
+        "US20060110021A1",
+        "US20060239553A1",
+        "US20070081712A1",
+        "US20070276214A1",
+        "US20080037850A1",
+        "US20080154565A1",
+        "US20090010507A1",
+        "US20090048482A1",
+        "US20090096807A1",
+        "US20090279756A1",
+        "US20100080434A1"
+    ],
+    "citations_ftf": [
+        "US8570320B2"
+    ],
+    "citedby_own": [
+        "US20110242096A1",
+        "US20110255763A1",
+        "US20120177269A1",
+        "US20120308107A1",
+        "US20130343622A1",
+        "US20140055452A1",
+        "US20140122381A1",
+        "US20140368526A1",
+        "CN104619258A",
+        "US20150287188A1",
+        "US20160018641A1",
+        "WO2016130116A1",
+        "WO2016202973A1",
+        "CN107977956A",
+        "WO2018157868A1",
+        "US10198853B2",
+        "CN109801254A",
+        "CN110458455A",
+        "CN110956076A",
+        "US10698223B2",
+        "US10726548B2",
+        "US10850116B2",
+        "US11103122B2",
+        "US11215711B2",
+        "US20220101518A1",
+        "US11497451B2",
+        "US11710309B2"
+    ],
+    "citedby_ftf": [
+        "US8942917B2",
+        "WO2019060298A1",
+        "US11717686B2",
+        "US11318277B2",
+        "US11364361B2",
+        "CN113382683A",
+        "WO2021067843A1"
+    ]
+}

@@ -1,0 +1,62 @@
+{
+    "patent_link": "https://patents.google.com/patent/US4458321A/en",
+    "patent_id": "US4458321A",
+    "title": "Self-teaching robot feedback system",
+    "abstract": "A self-teaching RCC device robot feedback system including: a robot mechanism; an RCC device carried by the robot mechanism; a robot driver unit for directing motion of the RCC device in an environment; means for determining the displacement of an RCC device with respect to the robot; and an adaptive learning system, responsive to the means for determining displacement, for detecting a pattern of displacements of the RCC device relative to its environment and generating commands to the robot driver unit to direct motion of the RCC device.",
+    "inventors": [
+        "Daniel E. Whitney",
+        "Donald S. Seltzer"
+    ],
+    "assignee": "Charles Stark Draper Laboratory Inc",
+    "classifications": [
+        "G05B19/4163",
+        "G05B19/42",
+        "G05B2219/34295",
+        "G05B2219/40087",
+        "G05B2219/42162",
+        "G05B2219/45083"
+    ],
+    "claims": "\n1. A self-teaching RCC device robot feedback system comprising:\na robot mechanism;\nan RCC device carried by said robot mechanism;\na robot drive unit connected to said robot mechanism for directing motion of said RCC device in an environment;\nmeans mounted to at least one of said robot mechanisms and said RCC device for determining the displacement of said RCC device with respect to said robot and generating a displacement signal indicative thereof; and\nan adaptive learning system including a data base containing data for controlling said robot drive unit and updating means responsive to said means for determining displacement, for determining a pattern of displacements of said RCC device relative to the environment arising from repeated executions of the same robot task and generating updated signals to said data base to update the data therein, said data base being responsive to said updated signals for generating updated command signals to said robot driver unit to direct motion of said RCC device.\n2. The system of claim 1 in which said adaptive learning system includes a Kalman filter circuit for receiving said displacement signal and providing said updated signals to said robot driver unit.",
+    "status": "Expired - Fee Related",
+    "citations_own": [
+        "US30016A",
+        "US3109970A",
+        "US3665168A",
+        "US3917930A",
+        "US4078195A",
+        "US4140953A",
+        "USRE30016E",
+        "US4287459A"
+    ],
+    "citations_ftf": [],
+    "citedby_own": [
+        "US4595989A",
+        "US4608651A",
+        "US4617637A",
+        "US4652803A",
+        "US4725942A",
+        "US4754410A",
+        "US4791588A",
+        "US4805126A",
+        "US4980625A",
+        "US4990840A",
+        "EP0445729A1",
+        "US5049796A",
+        "US5144549A",
+        "US5305193A",
+        "US5325026A",
+        "US5519814A",
+        "US5854880A",
+        "US5889925A",
+        "US6212443B1",
+        "US20030033105A1",
+        "US20030036868A1",
+        "US20030056147A1",
+        "US6646404B2",
+        "US20040217096A1",
+        "US8515712B1",
+        "CN111203854A",
+        "CN112368656A"
+    ],
+    "citedby_ftf": []
+}

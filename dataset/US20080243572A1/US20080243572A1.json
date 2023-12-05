@@ -1,0 +1,39 @@
+{
+    "patent_link": "https://patents.google.com/patent/US20080243572A1/en",
+    "patent_id": "US20080243572A1",
+    "title": "Market Data-Driven Simulation of Order Book Mechanics",
+    "abstract": "A system and a method are disclosed for simulating data driven market order exchange mechanics. An event processing engine receives a feed of market data and forwards it to an exchange simulator. The feed of market data may be recorded market data, live relayed market data, or simulated market data. A series of order requests is also received. The order requests are market order or limit orders, and can include new orders, amend orders, or cancel orders. The feed of market data is analyzed and an inference algorithm is applied by making probabilistic inferences to determine what actions may have occurred to produce the received feed of market data. A second series of order requests are produced. The received order requests and the second series of order requests are combined with normal exchange rules to produce a stream of simulated market data and a series of updated order requests.",
+    "inventors": [
+        "Matthew Thomas Stephen Amos"
+    ],
+    "assignee": "Software AG",
+    "classifications": [
+        "G06Q10/10",
+        "G06Q30/0201"
+    ],
+    "claims": "\n1. A system for data driven simulation of order book mechanics, the system comprising:\nan event processing engine having an exchange simulator for receiving a feed of market data and order requests and for making probabilistic inferences to determine possible actions taken to produce the received feed of market data, the event processing engine producing simulated market data and updated order request and processing the simulated market data and updated order requests to obtain a result; and\nan output module, adapted to communicate with the event processing engine, for outputting the result.\n2. The system of claim 1, wherein the exchange simulator comprises an inference engine for making probabilistic inferences to determine possible actions taken to produce the received feed of market data.\n3. The system of claim 2, wherein the exchange simulator comprises an exchange rules engine, adapted to communicate with the inference engine, for analyzing the received feed of market data and for producing updated order requests and simulated market data.\n4. The system of claim 3, wherein the exchange simulator comprises an attenuation module, adapted to communication with the exchange rules engine, for executing counter strategies.\n5. The system of claim 2, wherein the exchange simulator comprises an order manager, adapted to communicate with the inference engine, for receiving order requests.\n6. The system of claim 2, wherein the exchange simulator comprises a priority structure, adapted to communicate with the inference engine, for simulating prioritization of an order requests.\n7. The system of claim 2, wherein the exchange simulator comprises a delta table, adapted to communicate with the inference engine, for maintaining a table of differences between the received feed of market data and the simulated market data.\n8. The system of claim 1, wherein the received feed of market data includes recorded market data, live relayed marked data, or simulated market data.\n9. The system of claim 1, wherein the order requests are new orders, amend orders, or cancel orders.\n10. The system of claim 1, comprising:\ninput module for receiving input order requests and sending the input order requests to the event processing engine.\n11. An apparatus for data driven simulation of order book mechanics, the apparatus comprising:\nan inference engine, adapted to receive a feed of market data and order requests, for making probabilistic inferences to determine possible actions taken to produce the received feed of market data; and\nan exchange rules engine, adapted to communicate with the inference engine, for producing simulated market data and updated order requests.\n12. The apparatus of claim 11, comprising:\nan event processor, adapted to communicate with the exchange rules engine, for processing the simulated market data and updated order requests; and\na display, adapted to communicate with the event processor, for producing the simulated market data and updated order requests.\n13. The apparatus of claim 11, comprising:\nan attenuation module, adapted to communicate with the exchange rules engine, for executing counter strategies.\n14. The apparatus of claim 11, wherein the inference engine includes an order manager for receiving orders.\n15. The apparatus of claim 11, wherein the inference engine includes a priority structure for simulating prioritization of an order.\n16. The apparatus of claim 11, wherein the inference engine includes a delta table for maintaining a table of differences between the received feed of market data and the simulated market data.\n17. The apparatus of claim 11, wherein the feed of market data includes recorded market data, live related market data, or simulated market data.\n18. The apparatus of claim 11, wherein the order requests are new orders, amend orders, or cancel orders.\n19. A method for data driven simulation of order book mechanics comprising:\nreceiving a feed of market data and order requests;\nmaking probabilistic inferences to determine possible actions taken to produce the received feed of market data;\nproducing simulated market data and updated order requests; and\noutputting the simulated market data and updated order requests.\n20. The method of claim 19, comprising:\nprocessing, by an event processor, the received feed of market data to produce simulated market data and updated order requests.\n21. The method of claim 19, comprising:\nexecuting counter strategies.\n22. The method of claim 19, comprising:\ncoordinating activities performed on the received feed of market data and order requests.\n23. The method of claim 19, comprising:\nsimulating prioritization of an order.\n24. The method of claim 19, comprising:\nmaintaining a table of differences between the received feed of market data and the simulated market data.\n25. The method of claim 19, wherein the received feed of market data includes recorded market data, live relayed marked data, or simulated market data.\n26. The method of claim 19, wherein the order requests are new orders, amend orders, or cancel orders.",
+    "status": "Active",
+    "citations_own": [
+        "US20030065608A1",
+        "US20040064395A1",
+        "US20070271172A1",
+        "US20110040670A1"
+    ],
+    "citations_ftf": [],
+    "citedby_own": [
+        "US20100138360A1",
+        "US20110010286A1",
+        "US20110320877A1",
+        "US20120078777A1",
+        "US20150025873A1",
+        "WO2016042398A1",
+        "US9747191B1",
+        "US20190080409A1",
+        "US11094015B2"
+    ],
+    "citedby_ftf": [
+        "CA2865603A1",
+        "US20160224995A1",
+        "US11797480B2"
+    ]
+}

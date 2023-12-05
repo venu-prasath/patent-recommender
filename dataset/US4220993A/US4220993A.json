@@ -1,0 +1,36 @@
+{
+    "patent_link": "https://patents.google.com/patent/US4220993A/en",
+    "patent_id": "US4220993A",
+    "title": "Engine throttle control system",
+    "abstract": "An engine auto throttle control system is disclosed wherein the stability of the high gain control loop is provided by means of complemented EPR feedback. Furthermore, the multi-engine auto throttle control system of this invention generates a stable engine thrust trim command by means of a voter mechanism coupled to the respective engines EPR signals for providing a unique commanded EPR signal and by means of EPR error feedback means coupled to the commanded EPR signal for providing respective actuator signals for each of the respective engine throttle controls for trimming the engines to the same EPR value. In addition, engine overboost protection is provided to each engine individually such that all engines are controlled to a reference maximum limit.",
+    "inventors": [
+        "Robert W. Schloeman"
+    ],
+    "assignee": "SP Commercial Flight Inc",
+    "classifications": [],
+    "claims": "\n1. Apparatus for controlling the throttle of a turbine engine including series coupled manual and automatic throttle position controllers comprising:\nmeans responsive to an operation characteristic of the engine for producing an engine status indicator signal,\nmeans responsive to the rate of change of the absolute value of the position of the throttle in excess of a predetermined deadzone position for deriving a lag compensation signal,\nmeans for combining said engine status indicator signal and said lag compensation signal for providing a lag compensated engine throttle control signal, and\nmeans for supplying said lag compensated engine throttle control signal to said automatic throttle position controller.\n2. Apparatus for controlling the throttle of a turbine engine according to claim 1 wherein said means for deriving a lag compensation signal includes\nan absolute value detector responsive to the position of the throttle,\na deadzone circuit coupled to the absolute value detector, and\na washout circuit coupled to the deadzone circuit for providing rate compensation.\n3. Apparatus for controlling the throttle of a turbine engine according to claim 2 wherein said means for deriving a lag compensation signal further includes gain programming means coupled to said washout circuit relating the engine status indicator signal to the operation characteristic and responsive to environmental temperature.\n4. Apparatus for trimming the throttles of a multiple turbine engine aircraft, each engine including the throttle control apparatus as set forth in claim 1, said trim apparatus comprising:\nvoter means associated with said throttle control apparatus of each engine and responsive to said lag compensated signal of each engine control apparatus for providing a common lag compensated signal corresponding to the mid value of all of said lag compensated signals,\ncomparison means associated with said throttle control apparatus of each engine and each responsive to the said common mid value signal and the actual lag compensated signal of its associated throttle control apparatus for providing a control signal corresponding to the difference therebetween, and\nmeans associated with the throttle control apparatus of each engine and responsive to its respective difference signal for controlling its respective automatic throttle position controller,\nwhereby each throttle of each engine is positioned to a common trim value.\n5. The apparatus as set forth in claim 4 further including:\nfurther means associated with the throttle control apparatus of each engine and responsive to the difference between said mid value signal and said lag compensated signal for deriving a signal proportional to the rate of change of said difference signal, and\nmeans for further controlling each respective automatic throttle position controller in accordance with said rate signal.\n6. The apparatus as set forth in claim 5 wherein the means responsive to the respective difference signal of each engine and the means responsive to the rate signal includes:\ngain programming means responsive to environmental temperature to accommodate for changes in engine status indicator signal with the operation characteristic over the operating envelope of the engine.\n7. The apparatus as set forth in claim 4 further including:\nintegrator means responsive to said difference signal for supplying an integral signal to said automatic throttle position controller.\n8. The apparatus as set forth in claim 7 further including:\nmeans responsive to the position of said throttle controller for providing a signal in accordance therewith,\nmeans responsive to said throttle position signal for supplying a predictive signal proportional to the rate of change thereof for increasing values only, and\nmeans for supplying said predictive signal to said integrator means.\n9. The apparatus as set forth in claim 7 further including\nmeans responsive to the operation of said manual throttle controller to a take-off thrust position for preconditioning said integrator means in accordance with a signal proportional to a predetermined throttle position limit as a function of said engine operation characteristic and environmental temperature.",
+    "status": "Expired - Lifetime",
+    "citations_own": [
+        "US3555391A",
+        "US3691356A",
+        "US3813063A",
+        "US3852956A",
+        "US3981442A"
+    ],
+    "citations_ftf": [],
+    "citedby_own": [
+        "US4618931A",
+        "US4912642A",
+        "US4928484A",
+        "US5001644A",
+        "US5502364A",
+        "US20070006593A1",
+        "US20100305826A1",
+        "US20110202251A1",
+        "US20110288661A1",
+        "US9139290B2",
+        "CN109733592A",
+        "US20190277209A1"
+    ],
+    "citedby_ftf": []
+}

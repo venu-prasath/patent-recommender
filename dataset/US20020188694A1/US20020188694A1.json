@@ -1,0 +1,50 @@
+{
+    "patent_link": "https://patents.google.com/patent/US20020188694A1/en",
+    "patent_id": "US20020188694A1",
+    "title": "Cached enabled implicit personalization system and method",
+    "abstract": "A method for personalizing digital objects and content associated with a web page that is sent to users across a network. The personalization takes place based on relationships between categories, keywords and resources in the system. The first step includes accessing content categories that are arranged hierarchically and are linked to a plurality of keywords. The next step is associating a resource with a plurality of keywords. Then each user's activities are tracked by storing an activity level for keywords associated with each resource. The users' activities are tracked as the user accesses the resources. Another step is determining a user's content preferences based on the activity level for keywords across multiple categories. The final step is delivering the digital objects associated with a web page to users based on the user's content preferences across multiple categories.",
+    "inventors": [
+        "Allen Yu"
+    ],
+    "assignee": "Hewlett Packard Development Co LP",
+    "classifications": [
+        "G06F16/9535",
+        "G06F16/9538"
+    ],
+    "claims": "\n1. A method for personalizing digital objects and content associated with a web page sent to users across a network, comprising the steps of:\n(a) accessing content categories that are arranged hierarchically and are linked to a plurality of keywords;\n(b) associating at least one resource with a plurality of keywords;\n(c) tracking each user's activities by storing an activity level for keywords associated with each resource, wherein the users' activities are tracked as the user accesses the resources;\n(d) determining a user's content preferences based on the activity level for keywords across multiple categories; and\n(e) delivering the digital objects associated with a web page to users based on the user's content preferences across multiple categories.\n2. A method as in claim 1, wherein step (b) further comprises the step of associating a resource with a plurality of keywords to allow the system to personalize the digital objects delivered to a user based on the user's activity level for keywords in separate categories.\n3. A method as in claim 1, further comprising the step of defining a weighting factor for each association between keywords and resources.\n4. A method as in claim 3, further comprising the step of applying the weighting factor to the user's recorded activity level for the resource associated with the keyword.\n5. A method as in claim 1, further comprising the step of reorganizing links between content categories and keywords.\n6. A method as in claim 1, wherein step (b) further comprises the step of storing the resources, which refer to digital objects selected from the group of digital objects consisting of web pages, executable scripts, graphic objects, documents, and executable objects.\n7. A method as in claim 1, further comprising the step of using resources that contain universal resource locators (URLs).\n8. A method as in claim 1, further comprising the step of using resources that are digital documents.\n9. A method for personalizing digital objects and content associated with a web page sent to users across a network, comprising the steps of:\n(a) accessing content categories that divide digital objects into content groups;\n(b) linking a plurality of keywords to a content category;\n(c) storing a plurality of resources which refer to digital objects; and\n(d) associating a resource with at least two keywords in separate categories to deliver the same digital objects to users based on users' activities in the separate categories.\n10. A method as in claim 9, wherein step (c) further comprises the step of storing a plurality of resources, which refer to digital objects selected from the group of digital objects consisting of web pages, executable scripts, graphic objects, documents, and executable objects.\n11. A method as in claim 9, further comprising the step of using the resource that is associated with at least two keywords, in order to provide flexible labeling for the resources.\n12. A method as in claim 9, further comprising the step of using resources that contain universal resource locators (URLs).\n13. A cache-enabled personalization system for delivering digital objects and content associated with a web page to a user, comprising:\n(a) a hierarchy of categories;\n(b) a plurality of keywords associated with the categories;\n(c) a user activity logging component, associated with the plurality of keywords, configured to track user activity and store the user's activity as it relates to keywords;\n(d) a plurality of resources, which refer to the digital objects, and are associated with at least two keywords to personalize delivery of the digital objects; and\n(e) a caching data component, coupleable with the user activity logging component, which delivers cached digital objects to the user as the digital objects relate to multiple keywords across multiple categories.\n14. A cache-enabled personalization system as in claim 13, wherein the digital objects are selected from the group of digital objects consisting of web pages, executable scripts, graphic objects, documents, and executable objects.\n15. A system as in claim 13, further comprising a weighting factor for each association between keywords and resources.\n16. A system as in claim 15, wherein the weighting factor is applied to the user's recorded activity level for the resource associated with the keyword.\n17. A method as in claim 13, wherein the resources are digital documents.\n18. A cache-enabled personalization system for delivering digital objects and content associated with a web page to a user, comprising:\n(a) a hierarchy of categories that divide digital objects into content groups;\n(b) a plurality of keywords linked to the categories;\n(c) a user activity logging component, associated with the plurality of keywords, configured to track user's activity and store the activity as it relates to keywords;\n(d) a plurality of resources, which refer to the digital objects, and are associated with at least two keywords in separate categories; and\n(e) a caching data component, coupleable with the user activity logging component, which deliver the same digital objects to the user based on the user's activities in the separate categories.\n19. A system as in claim 18, further wherein the digital objects are selected from the group of digital objects consisting of web pages, executable scripts, graphic objects, documents, and executable objects.\n20. A system as in claim 18, wherein the resources contain universal resource locators (URLs).\n21. A system as in claim 18, wherein links between content categories and keywords are dynamically reconfigurable.\n22. An article of manufacture, comprising:\na computer usable medium having computer readable program code means embodied therein for personalizing digital objects and content associated with a web page sent to users across a network, the computer readable program code means in said article of manufacture comprising:\ncomputer readable program code means for accessing content categories that are arranged hierarchically and are linked to a plurality of keywords;\ncomputer readable program code means for associating a resource with a plurality of keywords;\ncomputer readable program code means for tracking each user's activities by storing an activity level for keywords associated with each resource, wherein the users' activities are tracked as the user accesses the resources; and\ncomputer readable program code means for determining a user's content preferences based on the activity level for keywords across multiple categories; and\ncomputer readable program code means delivering the digital objects associated with a web page to users based on the user's content preferences across multiple categories.\n23. A method for integrating a personalization system with a cache-enabled system for delivering digital objects and content associated with a web page to a user, comprising the steps of:\n(a) creating a personalization categorization scheme which conforms to a defined business model;\n(b) creating a cache component naming scheme associated with the digital objects and content; and\n(c) conforming the personalization categorization scheme to the cache component naming scheme.\n24. A method as in claim 23, further comprising the step of modifying the cache component scheme if non-conformance with the personalization categorization scheme is established.\n25. A method as in claim 23, further comprising the step of modifying the personalization categorization scheme if non-conformance with the cache component scheme is established.\n26. The method as in claim 23, further comprising the step of creating special purpose personalization categories that conform personalization categories to the cache component naming scheme.",
+    "status": "Abandoned",
+    "citations_own": [
+        "US6330592B1",
+        "US20020016828A1",
+        "US20020154162A1",
+        "US6560678B1",
+        "US20040054569A1"
+    ],
+    "citations_ftf": [],
+    "citedby_own": [
+        "US20020035573A1",
+        "US20040002971A1",
+        "US20050038894A1",
+        "US20050187945A1",
+        "US20050222987A1",
+        "US20060112076A1",
+        "US20070143266A1",
+        "US20070162379A1",
+        "WO2007135436A1",
+        "US7412442B1",
+        "US20090190473A1",
+        "US8036937B2",
+        "US20120174205A1",
+        "US8543584B2",
+        "US20170078419A1",
+        "US20180367611A1",
+        "CN109324858A",
+        "US10475082B2",
+        "US11074315B2",
+        "US11210360B2",
+        "US20220020056A1",
+        "US11586715B1",
+        "US11704383B2"
+    ],
+    "citedby_ftf": []
+}

@@ -1,0 +1,51 @@
+{
+    "patent_link": "https://patents.google.com/patent/US4450530A/en",
+    "patent_id": "US4450530A",
+    "title": "Sensorimotor coordinator",
+    "abstract": "An information system that enables a higher dimensional physical execution of an object than it is physically measured by a sensory apparatus, using oblique systems of coordinates for processing information in covariant vectorial form and providing output information in contravariant vectorial form.",
+    "inventors": [
+        "Rodolfo R. Llinas",
+        "Andras J. Pellionisz"
+    ],
+    "assignee": "New York University NYU",
+    "classifications": [],
+    "claims": "\n1. An information processing system to coordinate sensory input signals with motor-effector means, using oblique systems of coordinates for processing sensory input information in covariant vectorial form and providing output motor-effector information in contravariant vectorial form, comprising:\n(a) covariant embedding means for expressing sensory input signals in an n-dimensional vector by N components in a covariant vectorial expression, where N is greater than n;\n(b) covariant-contravariant transformation means for obtaining contravariant expressions from said covariant vectorial expression, said transformation means expressible as a tensorial transformation; and\n(c) contravariant vectorial expression means for providing output information to a motor effector means relative to an external invariant.\n2. An information processing system according to claim 1, wherein the operation of the covariant-contravariant transformer is expressible as a metric tensor.\n3. The information processing system of claim 1, comprising a sufficient plurality of functional elements to provide an over-complete number of said elements relative to the minimum number required to process all input and output information.\n4. A device for coordinating sensory input signals with a higher dimensional motor-effector means, and compensating for any time delays in the sensory input system comprising:\n(a) a covariant sensory input embedding system operating upon said sensory input signals;\n(b) a temporal extrapolation system to compensate for any time delays in said sensory input system;\n(c) a covariant-contravariant transformation matrix to provide physical execution signals expressed in sensory frames of reference;\n(d) a covariant embedding system operating upon said physical execution signals to provide motor-intention signals expressed in a motor coordinate system;\n(e) a temporal extrapolating system to compensate for any time delays in the embedding system; and\n(f) a covariant-contravariant transformation matrix to provide information to a motor-effector means.\n5. A sensory motor device according to claim 4, comprising an additional temporal extrapolation system to compensate for any time delays in the motor effector means.\n6. A sensory motor device according to either of claims 4 or 5, wherein the operation of the coordinate-covariant and coordinate transformation matrix is expressible as a tensorial transformation.\n7. A sensory motor device according to either of claims 4 or 5, wherein a temporal extrapolation system operates according to a Taylor series expansion.\n8. A sensory motor device according to either of claims 4 or 5, wherein the number of its components is over-complete with respect to the minimum number required to coordinate the sensory input signals and motor effector means.\n9. A method of processing information to coordinate sensory input signals with motor-effector means using oblique systems of coordinates, comprising the steps of:\n(a) embedding sensory input information in the form of a covariant vector whereby an n-dimensional vector is expressed by N components, where N is greater than n; and\n(b) transforming the covariant vector to a contravariant vector and expressing output information in the form of said contravariant vector to a motor-effector means.\n10. The method of claim 9, wherein the step of transforming a covariant vector to a contravariant vector is carried out by a process symbolically expressed by vn =gnn' \u00b7vn', wherein vn is a covariant vector in n dimensions, vn' is a contravariant vector in n' dimensions, and gnn' is a metric tensor in contravariant form comprising a matrix of n\u00d7n' elements.\n11. The method of claim 9, wherein the transforming step is expressible as a tensorial transformation.\n12. A method of coordinating a sensory input signal with motor effector means, comprising:\n(a) embedding a sensory input signal in the form of a covariant vector in an oblique coordinate system, whereby an n-dimensional vector is expressed by N components, where N is greater than n;\n(b) temporarily extrapolating the covariant vectors to compensate for any time delays in the sensory input system;\n(c) transforming the covariant vector to a contravariant vector, thereby producing a contravariant output vector; and\n(d) activating the motor-effector means with the contravariant output vector.\n13. The method according to claim 12, wherein the transforming step is expressible as a tensorial transformation.\n14. The method according to either of claims 12 or 13, wherein the transforming step is carried out as symbolically expressed by vn =gnn' \u00b7vn', wherein vn is a covariant vector in n dimensions, vn' is a contravariant vector in n' dimensions, and gnn' is a metric tensor in contravariant form comprising a matrix of n\u00d7n' elements.\n15. The method according to either of claims 12 or 13, wherein the temporal extrapolating step operates according to a Taylor series expansion.",
+    "status": "Expired - Fee Related",
+    "citations_own": [
+        "US3287649A",
+        "US3950733A",
+        "US4254474A",
+        "US4308584A"
+    ],
+    "citations_ftf": [],
+    "citedby_own": [
+        "WO1985005711A1",
+        "US4593367A",
+        "US4599693A",
+        "US4599692A",
+        "US4618937A",
+        "US4620286A",
+        "US4638456A",
+        "US4670848A",
+        "US4805225A",
+        "US4852018A",
+        "US4914604A",
+        "US4918618A",
+        "US4920506A",
+        "US4930099A",
+        "US5001631A",
+        "US5003490A",
+        "US5093781A",
+        "US5276771A",
+        "US5285522A",
+        "US5355438A",
+        "US5361328A",
+        "US5367612A",
+        "US5810747A",
+        "US6172941B1",
+        "WO2001084279A2",
+        "US6654729B1",
+        "US20050223176A1"
+    ],
+    "citedby_ftf": []
+}

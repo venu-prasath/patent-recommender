@@ -1,0 +1,54 @@
+{
+    "patent_link": "https://patents.google.com/patent/US20080154565A1/en",
+    "patent_id": "US20080154565A1",
+    "title": "Automatic organ detection using machine learning and classification algorithms",
+    "abstract": "A method and apparatus of visually depicting an organ, having the steps of choosing a predefined set features for analysis, the predefined set of features having distinguishing weak learners for an algorithm, wherein the predefined set of features and the weak learners chosen distinguish features of the organ desired to be represented, developing a strong classifier for the algorithm for the organ desired to be represented based upon the weak learners for the organ, one of conducing a body scan to produce a body scan data set and obtaining a body scan data set of information for a patient, applying the strong classifier and the algorithm to the body scan data set to develop a result of a representation of the organ and outputting the result of the step of applying of the strong classifier and the algorithm to the body scan data set to represent the organ.",
+    "inventors": [
+        "Charles Florin",
+        "James Williams"
+    ],
+    "assignee": "Siemens Medical Solutions USA Inc",
+    "classifications": [
+        "G06T7/70",
+        "G06F18/214",
+        "G06V10/774",
+        "G06T2207/10072",
+        "G06T2207/30092",
+        "G06V2201/03"
+    ],
+    "claims": "\n1. A method of visually depicting an organ, comprising:\n(a) choosing a predefined set features for analysis, the predefined set of features having distinguishing weak learners for an algorithm, wherein the predefined set of features and the weak learners chosen distinguish features of the organ desired to be represented;\n(b) developing a strong classifier for the algorithm for the organ desired to be represented based upon the weak learners for the organ;\n(c) one of conducing a body scan to produce a body scan data set and obtaining a body scan data set of information for a patient;\n(d) applying the strong classifier and the algorithm to the body scan data set to develop a result of a representation of the organ; and\n(e) outputting the result of the step of applying of the strong classifier and the algorithm to the body scan data set to represent the organ.\n2. The method according to claim 1, wherein the predefined set of features is a set of linear filters.\n3. The method according to claim 2, wherein the linear filters are one of Local Binary Patterns, linear rectangular filters and intensity histograms.\n4. The method according to claim 1, wherein the step of choosing a predefined set features for analysis comprises:\nselecting a filter based on the organ of interest; and\nselecting a weak learner associated with the filter.\n5. The method according to claim 1, wherein the step of applying the strong classifier and the algorithm to the body scan data set to develop a representation of the organ is conducted on one of a two dimensional data set developed from the body scan data set and a three dimensional data set developed from the body scan data set.\n6. The method according to claim 1, wherein the algorithm is one of a machine learning and classification algorithm and an Adaboost algorithm.\n7. The method according to claim 1, wherein the strong classifier is defined as a weighted sum of the weak learners.\n8. The method according to claim 1, wherein the strong classifier is applied on three two dimensional planes.\n9. The method according to claim 1, further comprising:\ninputting the organ to be represented using the predefined set of features designated as weak learners to develop the strong classifier after the step of developing the strong classifier for the algorithm for the organ desired to be represented based upon the weak classifiers for the organ.\n10. The method according to claim 1, wherein the organ includes one of carotids, heart vessels, liver vasculature and femoral artery.\n11. The method according to claim 1, wherein the step of outputting the result of the step of applying of the strong classifier and the algorithm to the body scan data set to represent the organ produces a visual image.\n12. The method according to claim 11, wherein the visual image is a three dimensional visual image.\n13. The method according to claim 11, wherein the visual image is a two dimensional image changing over time.\n14. The method according to claim 1, wherein the representation is cropped for visualization.\n15. The method according to claim 1, further comprising:\ninitializing a segmentation algorithm for analysis of the organ.\n16. The method according to claim 1, wherein the weak classifiers are determined through analysis of one of visual scans of known organs and data scans of known organs as positive indicators.\n17. A program storage device readable by machine, tangibly embodying a program of instructions executable by the machine to perform method steps for visually depicting an organ, comprising:\n(a) choosing a predefined set features for analysis, the predefined set of features having distinguishing weak learners for an algorithm, wherein the predefined set of features and the weak learners chosen distinguish features of the organ desired to be represented;\n(b) developing a strong classifier for the algorithm for the organ desired to be represented based upon the weak learners for the organ;\n(c) one of conducing a body scan to produce a body scan data set and obtaining a body scan data set of information for a patient;\n(d) applying the strong classifier and the algorithm to the body scan data set to develop a result of a representation of the organ; and\n(e) outputting the result of the step of applying of the strong classifier and the algorithm to the body scan data set to represent the organ.",
+    "status": "Active",
+    "citations_own": [
+        "US4579121A",
+        "US6393090B1",
+        "US6628984B2",
+        "US20050144149A1",
+        "US6970585B1",
+        "US7133546B2",
+        "US7139601B2",
+        "US7177453B2",
+        "US20070055153A1",
+        "US7190364B2",
+        "US7206440B2"
+    ],
+    "citations_ftf": [],
+    "citedby_own": [
+        "US20110228997A1",
+        "WO2012109670A1",
+        "US8942917B2",
+        "US9152926B2",
+        "US9330336B2",
+        "US9449381B2",
+        "US9603554B2",
+        "CN108433700A",
+        "CN108714034A",
+        "US10157467B2",
+        "TWI680407B",
+        "US10610203B2",
+        "WO2022141201A1",
+        "US11562493B2"
+    ],
+    "citedby_ftf": [
+        "US10740866B2"
+    ]
+}

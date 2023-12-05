@@ -1,0 +1,53 @@
+{
+    "patent_link": "https://patents.google.com/patent/US20010016107A1/en",
+    "patent_id": "US20010016107A1",
+    "title": "Video signal reproducing apparatus",
+    "abstract": "In a video signal reproducing apparatus, the changing time of a sub-video signal is adjusted, by a time-adjusting circuit, so as to be synchronized with the changing of a frame of a main video signal from the output of an interlace-scan-video-signal converter. And the sub-signal is added to the output of an interlace-scan converter by an adder. The output of the adder is converted into a progressive-scan video signal in synchronism with the boundary of frames of main video signal by the progressive-scan video signal converter. In the reproducing apparatus, even in the case that the sub-video signal is recorded without synchronism with the frames of the main video signal, an irregular frame is not generated even when the sub-video changes. And a single field of the sub-video does not leave or is not visible.",
+    "inventors": [
+        "Tetsuya Itani",
+        "Satoshi Kondo"
+    ],
+    "assignee": "Panasonic Holdings Corp",
+    "classifications": [
+        "H04N9/8227",
+        "H04N5/85",
+        "H04N9/7921"
+    ],
+    "claims": "\n1. A video signal reproducing apparatus for reproducing a video signal including a main video signal of progressive-scan video, and a sub-video signal changing asynchronously with the main video signal, comprising:\nan interlace-scan-video converter converting the main video signal into an interlace-scan video signal;\na sub-video adder for adding the sub-video signal to an output of said interlace-scan converter in synchronism with a boundary of frames of the main video signal in the output of said interlace-scan-video converter; and\na progressive-scan video converter converting the output of said sub-video adder into a progressive-scan video signal in synchronism with the boundary of frames of the main video signal.\n2. The video signal reproducing apparatus of\nclaim 1\n,\nwherein the main video signal is a signal composed of 24 frames per second, and\nwherein said interlace-scan converter issues the main video signal as an interlace-scan video signal of 2 fields and 3 fields per the frame.\n3. The video signal reproducing apparatus of\nclaim 1\n,\nwherein the main video signal is a progressive-scan video signal composed of 30 frames per second, and\nwherein said interlace-scan converter issues each frame of the main video signal as an interlace-scan video signal of 2 fields.\n4. The video signal reproducing apparatus of\nclaim 1\n,\n2\n, or 3, wherein the sub-video signal is subtitle information of the main video signal.\n5. The video signal reproducing apparatus of\nclaim 1\n,\n2\n, or 3, wherein the sub-video signal is information showing a state of an operation of the video signal reproducing apparatus.",
+    "status": "Expired - Fee Related",
+    "citations_own": [
+        "US6144412A",
+        "US6512881B1",
+        "US20030108341A1"
+    ],
+    "citations_ftf": [
+        "JPH0216881A",
+        "US5294983A",
+        "US5287189A",
+        "EP0710016A3",
+        "EP0935385A3"
+    ],
+    "citedby_own": [
+        "US20020159754A1",
+        "US20030035645A1",
+        "US20040033062A1",
+        "US20050008304A1",
+        "US20090110377A1"
+    ],
+    "citedby_ftf": [
+        "JP3800505B2",
+        "JP2003348446A",
+        "JP2004236066A",
+        "KR20070014948A",
+        "KR20070014945A",
+        "KR20070014941A",
+        "KR20070014944A",
+        "US20070041712A1",
+        "US20070041711A1",
+        "KR20070022580A",
+        "BRPI0615068A2",
+        "JP2009505327A",
+        "US20080056679A1",
+        "US20080056678A1"
+    ]
+}

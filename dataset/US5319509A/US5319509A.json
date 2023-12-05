@@ -1,0 +1,72 @@
+{
+    "patent_link": "https://patents.google.com/patent/US5319509A/en",
+    "patent_id": "US5319509A",
+    "title": "Method and apparatus for controlling and analyzing a data storage system",
+    "abstract": "A system and method for controlling and analyzing data storage systems, and more particularly, to systems and methods for controlling and analyzing performance and physical attributes of a sealed disk drive unit using an externally accessible but internally integral positioning system. A disk drive having a sealed housing utilizes a reflective planar mirror on the rotary actuator controlling the head drive assembly. A narrow beam directed through a window on the side wall of the housing onto the mirror is reflected off at angle dependent on the actuator position to a beam sensitive detector. A translator system driven by a positioner disposed at a distance from the rotary actuator axis which is substantially greater than the distance between the actuator axis and the head assembly, is used to vary the relationship between the directed and reflected beams. This system incorporates the rotary actuator in a closed loop servo that positions the actuator precisely at different locations relative to the recording medium, so that the data may be written and analyzed at off-track track position increments. The invention further provides, at an early or later manufacturing stage, means for calculating bias torque and friction without the need for prerecorded embedded servo information.",
+    "inventors": [
+        "Gajus Michelson",
+        "William W. Valliant",
+        "Martyn A. Lewis"
+    ],
+    "assignee": "Western Digital Technologies Inc",
+    "classifications": [
+        "G11B27/34",
+        "G11B21/083",
+        "G11B27/36",
+        "G11B33/10"
+    ],
+    "claims": "\n1. A system for measuring attributes of a rotatable data storage unit using the head assembly on a controllable actuator, comprising:\n(a) means, disposed spaced apart from the actuator and internal to the storage unit, for reflecting a light beam of small cross section, generated externally to the storage unit, off a surface responsive to actuator position through a transparent window in the storage unit onto an image region along a path disposed at a distance from the actuator;\n(b) means for generating a control signal in response to the position of the light beam along the path;\n(c) means for adjusting the actuator position in response to the control signal to maintain the actuator at a predetermined relation to the selected image region while data transfer is effected by the head assembly; and\n(d) means for measuring characteristics of the data transfer effected by the head assembly so that diagnostic indications of the data storage unit can be provided.\n2. The system as set forth in claim 1 above, wherein the means for measuring comprises means for performing a qualitative analysis of at least one of an attribute of amplitude, modulation, and pulse width of the data transfer effected by the head assembly.\n3. A system as set forth in claim 2 above, wherein:\n(i) the means for adjusting further comprises means for positioning the actuator at a plurality of locations on the rotatable data storage unit from an innermost to an outermost radii thereof; and\n(ii) the means for measuring further comprises means for comparing at least one of an attribute of amplitude, modulation, and pulse width from the plurality of locations on the rotatable data storage unit.\n4. A system as set forth in claim 1 above, wherein the means for adjusting comprises means for off-track positioning of the actuator in increments smaller than a standard radial gap between concentric tracks on the rotatable data storage unit, so that the means for measuring can determine amplitude information of the data transfer thereat.\n5. A system as set forth in claim 4 above, further comprising means for generating comparisons of data transfer amplitude as a function of the increments.\n6. A system as set forth in claim 1 above, wherein the means for adjusting comprises for means for cross-track positioning of the actuator in increments smaller than a standard radial gap between concentric tracks on the rotatable data storage unit, so that the means for measuring can determine amplitude information of the data transfer thereat.\n7. A system as set forth in claim 6 above, further comprising means for generating comparisons of data transfer amplitude as a function of the increments.\n8. A system as set forth in claim 1 above, wherein the means for adjusting comprises means for adjusting the actuator position to effect data transfer at one or more locations between first and second data tracks recorded on the rotatable data storage unit, wherein the locations are spaced apart in increments smaller than a predetermined radial distance between the first and second data tracks, so that the means for measuring can provide information regarding interference between the first and second tracks.\n9. A system as set forth in claim 1 above, wherein the means for adjusting comprises means for adjusting the actuator position to effect data transfer at one or more locations increasingly away from a data track recorded on the rotatable data storage unit, so that the means for measuring can provide information regarding data transfer amplitude as a function of distance from an on-track position.\n10. A system as set forth in claim 1 above, wherein the means for adjusting comprises means for adjusting the actuator position to effect data transfer at one or more locations from an innermost radius to an outermost radius of the rotatable data storage unit while the head assembly effects data transfer of previously written data as embedded servo information, so that the means for measuring can provide information regarding control signal values corresponding to the light beam angle as a function of actuator position.\n11. A system for measuring attributes of a rotatable data storage unit using the head assembly on a controllable actuator, comprising:\n(a) means, disposed spaced apart from the actuator and internal to the storage unit, for reflecting a light beam of small cross section, generated externally to the storage unit, off a surface responsive to actuator position through a transparent window in the storage unit onto an external image region along a path disposed at a distance from the actuator;\n(b) means for generating a control signal in response to the position of the light beam along the path;\n(c) means for adjusting the actuator position in response to the control signal to maintain the actuator at a predetermined relation to the selected image region; and\n(d) means for measuring characteristics of the actuator during adjustment of its position so that diagnostic indications of the data storage unit can be provided.\n12. A system as set forth in claim 11 above, wherein a cable attaches the actuator to a stationary support, and the means for measuring comprises means for monitoring current to the actuator when it is positioned at various locations on the rotatable data storage unit, so that a torque bias for the cable can be calculated by subtracting a nominal current required to keep the actuator in position from the measured current at the various locations and multiplying a result therefrom by a known torque constant of the actuator.\n13. A system as set forth in claim 11 above, wherein ball bearings support the actuator, and the means for measuring comprises means for monitoring current to the actuator as the actuator moves a small distance at a constant rate, wherein a measured change in the current to the actuator is proportional to the ball bearing friction.\n14. A system as set forth in claim 11 above, further comprising means for injecting a signal into a summing junction of the closed loop servo when the actuator is at a specific location, so that the actuator oscillates about the specific location, and wherein the means for measuring comprises means for determining the oscillation amplitude using the optical detector and the current to the actuator, so that the ratio of torque constant to inertia can be calculated for the actuator.",
+    "status": "Expired - Lifetime",
+    "citations_own": [
+        "US3812533A",
+        "US3875589A",
+        "US4068268A",
+        "US4371902A",
+        "US4414589A",
+        "GB2133449A",
+        "US4531167A",
+        "US4556964A",
+        "EP0202480A2",
+        "US4644416A",
+        "US4701818A",
+        "EP0259039A2",
+        "US4831470A",
+        "US4920442A",
+        "US4980783A"
+    ],
+    "citations_ftf": [
+        "GB2113449A"
+    ],
+    "citedby_own": [
+        "US5539592A",
+        "US5610777A",
+        "WO1997039450A1",
+        "WO1998029774A1",
+        "US5812266A",
+        "US5886787A",
+        "US5926340A",
+        "US5930066A",
+        "US5991112A",
+        "EP0966651A1",
+        "US6026397A",
+        "US6151183A",
+        "US6178059B1",
+        "US20020053251A1",
+        "US6419403B1",
+        "US6442730B1",
+        "US6445540B1",
+        "US6459492B1",
+        "US20030009700A1",
+        "US20030007277A1",
+        "US6563661B2",
+        "US6614954B2",
+        "US20030206685A1",
+        "US6714378B1",
+        "US6778348B1",
+        "US6882769B1",
+        "US20050125194A1",
+        "US6995943B1",
+        "US8830617B1"
+    ],
+    "citedby_ftf": []
+}

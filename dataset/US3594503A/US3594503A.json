@@ -1,0 +1,36 @@
+{
+    "patent_link": "https://patents.google.com/patent/US3594503A/en",
+    "patent_id": "US3594503A",
+    "title": "Decoding circuit for telephone transaction system",
+    "abstract": "A system is described for buying materials or services by transferring funds in a bank from the buyer''s deposit account to the seller''s account. The transfer of funds is accomplished by means of a ''''touch-tone'''' telephone receiving set equipped with a printing means. A computer at the bank receives digital orders from the receiving set, decodes the orders and records the transfer at that location. Each purchaser is provided with a secret purchaser number on a telephone operating card and the entire operation is performed in the presence of the purchaser and a representative of the seller or store.",
+    "inventors": [
+        "Arnold M Wolf",
+        "John G Richter"
+    ],
+    "assignee": "Electrospace Corp",
+    "classifications": [
+        "G07F7/08",
+        "G06Q20/00",
+        "G06Q20/10",
+        "G06Q20/14",
+        "G06Q20/4037"
+    ],
+    "claims": "\n1. A decoding circuit for receiving selected pairs of alternating currents having distinctive frequencies and for delivering a current pulse to a load circuit timed in accordance with its decoded valves comprising: a. a plurality of electrical band-pass filtering circuits, each for sensing a designated current frequency and for passing an output pulse whenever the designated frequency current is applied; b. a plurality of AND-circuits each having two inputs and a single output circuit, each of the input circuits connected respectively to a filtering output circuit, and each ANDcircuit having an output terminal connected to a load, each of said AND-circuits delivering an output pulse to its load circuit only when both input circuits receive current pulses; c. a plurality of bistable multivibrator storage circuits, each having their input circuit connected to an AND-output terminal, each of said storage circuits adapted to a activated by the AND-circuit to apply a voltage to an output terminal to indicate a decoded symbol; d. a diode matrix including a plurality of input conductors each connected to an output terminal of a storage multivibrator, a plurality of bias conductors for sequentially applying bias voltages to the matrix, a single output conductor connected to all the input conductors in series with a plurality of barrier diodes, and a plurality of cross-connected diodes connected between the input conductors and the bias conductors for selectively energizing a predetermined input conductor during a cycle of operations; e. and a plurality of energizing circuits connected to the bias conductors for sequentially applying bias voltages thereto, said energizing circuits controlled by a means for producing synchronizing pulses in timed relation to a utilization circuit.\n2. A decoding circuit as claimed in claim 1 wherein said electrical filtering circuits each includes a double T filter including a first amplifier stage, a series voltage divider circuit having a capacitor connected between the midpoint of the divider and an output terminal, two capacitors connected in series across the voltage divider with a resistor connected between the junction of the capacitors and the output terminal, and a second amplifier stage in series with the first for delivering a current pulse to an output terminal when a voltage having a desired frequency is applied to the input terminals of the first amplifier.\n3. A decOding circuit as claimed in claim 1 wherein each of said AND-circuits includes a first and second input terminal each connected to a common junction point in series with a capacitor and a diode, a source of positive potential in series with a resistor connected to each capacitor, said common junction point connected to an output terminal in series with a diode.\n4. A decoding circuit as claimed in claim 3 wherein an enable circuit is connected to said common junction point, said enable circuit connected to a source of negative potential for removing an inhibit voltage supplied to the junction point for disabling the AND-circuit so that no output signal is permitted.\n5. A decoding circuit as claimed in claim 4 wherein said inhibit circuit is connected to all the AND-circuits for disabling all of them after a desired multivibrator storage circuit has been activated.\n6. A decoding circuit as claimed in claim 1 wherein said bistable storage circuits each include two transistors, each having a base electrode connected to a collector electrode in the other transistor, said multivibrator storage circuits each having an input terminal connected to a base electrode in one of the transistors for transferring conductance from one transistor to the other, and a reset terminal connected to a common conductor which applies a reset pulse from a control circuit to reset all the storage circuits which may have been activated.\n7. A decoding circuit as claimed in claim 1 wherein said diode matrix includes a means for supplying a voltage to each of said input conductors, said means including a plurality of resistors each connected respectively between one of the input conductors and a source of potential.\n8. A decoding circuit as claimed in claim 1 wherein the energizing circuits connected to the bias conductors include a plurality of bistable multivibrators connected in series for sequential actuation, each of said multivibrators having a single input terminal coupled to two transistors whereby successive applications of a voltage pulse transfers conduction from one transistor to the other.\n9. A decoding circuit as claimed in claim 8 wherein a photosensitive transducer is coupled to the energizing circuits for supplying the synchronizing pulses, a lamp is mounted adjacent to the transducer for supplying light thereto, and an apertured rotatable wheel is positioned between the lamp and the transducer for sequentially delivering light pulses to the transducer.\n10. A decoding circuit as claimed in claim 9 wherein a second photosensitive transducer is coupled to a reset terminal on each of the energizing circuits for normalizing the energizing circuits after a cycle of operations, said second transducer mounted adjacent to the rotatable wheel for receiving a light pulse once during each revolution.",
+    "status": "Expired - Lifetime",
+    "citations_own": [
+        "US2811708A",
+        "US3288940A",
+        "US3344400A",
+        "US3398237A",
+        "US3472965A"
+    ],
+    "citations_ftf": [],
+    "citedby_own": [
+        "US4065755A",
+        "US4903201A",
+        "US5537102A",
+        "US20040088242A1",
+        "US20040103003A1"
+    ],
+    "citedby_ftf": []
+}

@@ -1,0 +1,66 @@
+{
+    "patent_link": "https://patents.google.com/patent/US4928484A/en",
+    "patent_id": "US4928484A",
+    "title": "Nonlinear multivariable control system",
+    "abstract": "There is disclosed an apparatus for and method of controlling a plant such as a turbojet engine wherein a model of the plant is created and plant performance request signals are applied to both the plant and the model of the plant. The performance of the model of the plant is used to modify the performance request signals supplied to the plant. Plant and plant model responses may also be compared to monitor degradation in performance of the plant. To adapt the scheme to nonlinear plants, the creation of a plurality of linear plant models each mimicking plant operation over a different limited portion of the toal range of plant performance is employed and there is a plant model for each of several different plant operation points about each of which, the actual plant operation is approximately linear. The technique may further include the creating of a model of the inverse of the plant, in which case, the step of applying plant performance request signals to both the plant and the model of the plant includes passing the performance request signals through the model of the inverse of the plant and subsequently to both the plant and the model of the plant. A preliminary step of screening the plant performance requests and modifying any signals requesting an excessively abrupt change in plant performance is also disclosed.",
+    "inventors": [
+        "Joseph L. Peczkowski"
+    ],
+    "assignee": "Honeywell International Inc",
+    "classifications": [
+        "F02C9/28",
+        "G05B13/04",
+        "G05B13/048",
+        "F05D2270/71"
+    ],
+    "claims": "\n1. A multivariable control system for an engine or like plant which is responsive to input request signals for effecting plant operation in accordance with those input request signals comprising:\ninput means for receiving the request signals and providing output signals in response thereto;\na model of the plant for simulating plant performance and providing outputs indicative of such performance in response to signals from the input means;\nfirst feedback means for returning the plant model output signals to the input means;\nthe input means including means for comparing the input request signals and the returned output signals, and for providing error output signals to the model of the plant to enable the plant model to more nearly exhibit the request operation;\nmeans for supplying the input means output signals to the plant;\nsecond feedback means for comparing a plant performance with the corresponding performance of the model of the plant and for applying corrective signals to the plant to modify plant performance in response to discrepancies between the plant performance and the performance of the model of the plant.\n2. The multivariable control system of claim 1 wherein the model of the plant comprises a plurality of linear plant models each mimicking plant operation over a different limited portion of the total range of plant performance.\n3. The multivariable control system of claim 2 wherein there is a plant model for each of several different plant operating points about each of which, the actual plant operation is approximately linear.\n4. A control arrangement for a turbojet engine having control signal responsive engine actuators and engine performance monitoring sensors, the control arrangement being responsive to at least one operator input and to the engine performance monitoring sensors to provide control signals to the engine actuators, the control arrangement comprising a model of the engine and a model of the inverse of the engine coupled together in an error correcting feedback loop.\n5. The control arrangement of claim 4 further comprising a second model of the inverse of the engine coupled to supply control signals to the engine, and means for feeding back engine performance signals to the second model of the inverse of the engine.\n6. A control arrangement for a turbojet engine having control signal responsive engine actuators and engine performance monitoring sensors, the control arrangement being responsive to at least one operator input and to the engine performance monitoring sensors to provide control signals to the engine actuators, the control arrangement comprising a model of the inverse of the engine coupled to supply control signals to the engine and means for feeding back engine performance signals to the model of the inverse of the engine.\n7. The control arrangement of claim 6 further comprising means responsive to an operator input for generating desired engine performance signals, means for supplying the desired engine performance signals to the model of the inverse of the engine, and means for supplying the desired engine performance signals as control signals to the engine.\n8. The control arrangement of claim 7 wherein the means for supplying the desired engine performance signals as control signals to the engine includes a model of the engine and a second model of the inverse of the engine coupled together in an error correcting feedback loop.\n9. The control arrangement of claim 8 wherein the model of the engine includes a plurality of linear engine models each mimicking engine operation over a different limited portion of the total range of engine performance, there being an engine model for each of several different engine operating points about each of which, the actual engine operation is approximately linear.\n10. The control arrangement of claim 8 wherein each model of the inverse of the engine includes a plurality of linear inverse engine models each mimicking the inverse of engine operation over a different limited portion of the total range of engine performance, there being an inverse engine model for each of several different engine operating points about each of which, the actual engine operation is approximately linear.\n11. The control arrangement of claim 8 wherein the model of the engine is nonlinear and includes a plurality of linear engine models each mimicking engine operation over a different limited portion of the total range of engine performance, there being an engine model for each of several different engine operating points about each of which, the actual engine operation is approximately linear.",
+    "status": "Expired - Fee Related",
+    "citations_own": [
+        "US3852956A",
+        "US3882672A",
+        "US3987620A",
+        "US4188781A",
+        "US4220993A",
+        "US4275557A",
+        "US4276744A",
+        "US4411595A",
+        "US4594849A",
+        "US4625510A",
+        "US4849895A"
+    ],
+    "citations_ftf": [
+        "FR2423806B1"
+    ],
+    "citedby_own": [
+        "US5091843A",
+        "US5175678A",
+        "WO1993025943A2",
+        "US5519605A",
+        "GB2316191A",
+        "US5781432A",
+        "US5825646A",
+        "FR2783017A1",
+        "US6122557A",
+        "US6363289B1",
+        "US20020087221A1",
+        "US20030200189A1",
+        "US20030200191A1",
+        "US20030200075A1",
+        "US20040019574A1",
+        "US20040073409A1",
+        "FR2855885A1",
+        "US20050008227A1",
+        "US20050033709A1",
+        "US20070225836A1",
+        "US20090070047A1",
+        "US20110224959A1",
+        "US20110264353A1",
+        "US20120045013A1",
+        "US8171717B2",
+        "US20130317629A1",
+        "US20140228979A1",
+        "US20150082802A1",
+        "US20150345403A1"
+    ],
+    "citedby_ftf": []
+}

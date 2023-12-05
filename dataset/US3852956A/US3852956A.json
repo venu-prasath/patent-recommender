@@ -1,0 +1,44 @@
+{
+    "patent_link": "https://patents.google.com/patent/US3852956A/en",
+    "patent_id": "US3852956A",
+    "title": "Aircraft engine pressure ratio autotrim system",
+    "abstract": "An automatic thrust management system for gas turbine engines in single or multi-engine aircraft is disclosed. An engine pressure ratio limit is automatically calculated using known techniques and compared with the actual engine pressure ratio of the engine having the maximum pressure ratio for the purpose of an automatic control system. In one mode of operation, the throttles for each engine are trimmed to maintain the engine pressure ratio at the limit value. In another mode of operation, each engine is trimmed as necessary to insure that the engine pressure ratio does not exceed the limit value. The automatic thrust management system of this invention may be incorporated together with existing autothrottle systems in aircraft which control the engine throttles as a function of airspeed error.",
+    "inventors": [
+        "A Martin"
+    ],
+    "assignee": "Raytheon Technologies Corp",
+    "classifications": [
+        "F02C9/42",
+        "Y02T50/60"
+    ],
+    "claims": "\n1. In an aircarft having a plurality of turbine engines, an engine autotrim system for maintaining each of said plurality of engines at the same pressure ratio comprising means for determining the pressure ratio across each of said plurality of engines and producing an engine pressure ratio signal indicative thereof, means for selecting from said plurality of engine pressure ratio signals the maximum of said signals, means for comparing each of said plurality of engine pressure ratio signals with said maximum signal to produce for each engine a pressure ratio error signal proportional to the difference therebetween, a fuel control for each of said plurality of engines for varying the flow of fuel thereto, fuel trimming means connected with each of said fuel controls and adapted to vary the fuel flow to each said respective engine, said fuel trimming means having a limited fuel adjustment range, and means for connecting each said pressure ratio error signal with the fuel trimming means for its respective engine to actuate said fuel trimming means and vary the flow of fuel to the engine in an amount and direction to null said pressure ratio error signal.\n2. An engine autotrim system as in claim 1 in which said fuel trimming means is a trim screw located in a fuel flow passage to said engine downstream from said fuel control.\n3. An engine autotrim system as in claim 1 further comprising a limit switch connected with each of said fuel trimming means, said limit switch being closed and producing a limit signal only when the respective fuel trimming means is at the limit of its fuel adjustment range whereby the minimum fuel flow passes therethrough, and means responsive to the absence of a limit signal from any of said limit switches to actuate the fuel trimming means for all of said engines in a direction to reduce the flow of fuel therethrough.\n4. An engine autotrim system as in claim 3 further comprising means for disconnecting the pressure ratio error signal from all of said fuel trimming means when all of said limit switches are open.",
+    "status": "Expired - Lifetime",
+    "citations_own": [
+        "US3174284A",
+        "US3238768A",
+        "US3299701A",
+        "US3697731A",
+        "US3736796A"
+    ],
+    "citations_ftf": [],
+    "citedby_own": [
+        "US4121194A",
+        "US4159625A",
+        "US4220993A",
+        "US4259838A",
+        "US4277041A",
+        "US4312041A",
+        "US4314445A",
+        "US4325123A",
+        "US4551972A",
+        "US4912642A",
+        "US4928484A",
+        "US5006993A",
+        "US5168447A",
+        "US5305599A",
+        "US20080154475A1",
+        "US20100287905A1",
+        "US20110202251A1"
+    ],
+    "citedby_ftf": []
+}

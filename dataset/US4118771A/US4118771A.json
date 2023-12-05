@@ -1,0 +1,81 @@
+{
+    "patent_link": "https://patents.google.com/patent/US4118771A/en",
+    "patent_id": "US4118771A",
+    "title": "Numerical control system for machine tools",
+    "abstract": "A numerical control system for machining centers, having a RAM and two groups of peripheral units, comprises two proessors interconnected by means of a common signal bus and adapted to operate simultaneously sharing access automatically to the RAM and to the peripheral units.",
+    "inventors": [
+        "Piero Pomella",
+        "Luciano Lauro"
+    ],
+    "assignee": "Telecom Italia SpA",
+    "classifications": [
+        "G05B19/4148",
+        "G05B2219/33162",
+        "G05B2219/34034",
+        "G05B2219/34215",
+        "G05B2219/34236",
+        "G05B2219/42256"
+    ],
+    "claims": "\n1. In a machining centre or similar working machines, a numerical control system for controlling the relative movement of a tool and a workpiece to be machined in accordance with a predetermined machining program, comprising a program reading unit, an operating memory, at least one peripheral unit for measuring or controlling the movement of said tool and said workpiece, at least a pair of processors, a common signal bus means interconnecting said processors, said program reading unit, said operating memory and said peripheral unit for causing said processors to operate simultaneously, and sharing control means controlled by a program recorded in a program memory common to said two processors for causing a first one of said processors to control said peripheral unit and the second of said processors to execute the computations relating to the interpolation of the path of said tool with respect to said workpiece, said two processors automatically sharing access to said memories and said peripheral unit.\n2. In a machining centre or similar working machines, a numerical control system for controlling the relative movement of a tool and a workpiece to be machined in accordance with a predetermined machining program, comprising a first group of peripheral units including input and output means for data and programs, a second group of peripheral units including a series of units for measuring and controlling the movement of said tool and said workpiece, a program reading unit, a random access memory, at least first and second of processors, a first common signal bus interconnecting said processors, said program reading unit, said memory and said input and output means for causing said processors to operate simultaneously, a second common signal bus interconnecting said measuring and control units, a bidirectional interface connecting said first signal bus and said second signal bus, and sharing control means for causing said processors to automatically share access to said memory and to said peripheral units.\n3. A system according to claim 2, wherein said measuring and control units are connected to corresponding electromechanical actuators, said first signal bus having a triggering threshold such as to allow it a high data transmission speed, said second bus having a triggering threshold which is higher and such as to eliminate electrical disturbances reduced by said electromechanical actuators.\n4. A system according to claim 2, wherein said sharing control means are controlled by a program recorded in a program memory common to said two processors, and wherein said first processor comprises command means for generating a series of command signals interacting with the said random access memory and said program memory and with said peripheral units by a conversation procedure, and driving means for exchanging data and addresses with the said memories and the said peripheral units.\n5. A system according to claim 4, comprising additional command means for causing said driving means to exchange data and instructions between the said processors.\n6. A system according to claim 4, comprising means included in each peripheral unit for generating program interrupt commands arranged according to different priority levels, said interrupt commands controlling said conversation procedure.\n7. A system according to claim 6, wherein said second group of peripherals includes a data sampling unit for generating an interrupt command having the maximum priority level with respect to the other peripheral units.\n8. A system according to claim 7, comprising decoding means for generating a set of program interrupt, each one corresponding to one of said interrupt commands, said decoding means defining, in correspondence with an additional program interrupt code, access to a number of peripheral units higher than the number of interrupt codes.\n9. A system according to claim 2, wherein said second processor comprises a pair of computing units, one for the mantissa and the other for the exponent of the data supplied by the said first processor, represented in scientific notation, said computing units being controlled by a microprogram recorded in a read-only memory (ROM) of the said second processor.\n10. A system as in claim 9, wherein said second processor comprises a multiplexer controlled by the data coming from the said first bus and by another microprogram unit of the said second processor for conditioning a unit for generating commands adapted to control memory addressing means and to define operation codes according to the data coming from the said first bus.\n11. A system according to claim 10, comprising a decoder for the input data and a circuit controlled by said decoder for defining a series of states or conditions in which the said second processor is.\n12. A system as in claim 2, wherein said second processor is controlled by two different microprograms, one of which is provided for controlling a series of elementary operations, while the other is provided for computations of the path of the tool with respect to the workpiece.\n13. A system as in claim 2, wherein each of the said processors comprises means to signal its free or busy condition to the other processor via said common bus, the said condition being tested whenever the said processors must communicate with each other or access the said random access memory (RAM).",
+    "status": "Expired - Lifetime",
+    "citations_own": [
+        "US3348210A",
+        "US3631405A",
+        "US3783253A",
+        "US3882304A",
+        "US4058711A"
+    ],
+    "citations_ftf": [
+        "US3746845A",
+        "DE2150397B1",
+        "US3810104A"
+    ],
+    "citedby_own": [
+        "US4204253A",
+        "US4215396A",
+        "US4215399A",
+        "US4215395A",
+        "US4215398A",
+        "US4215397A",
+        "US4228495A",
+        "US4262336A",
+        "US4263647A",
+        "US4281379A",
+        "US4320452A",
+        "US4325116A",
+        "US4385350A",
+        "US4408280A",
+        "US4413318A",
+        "US4443846A",
+        "US4467412A",
+        "US4488103A",
+        "US4511975A",
+        "US4513379A",
+        "US4514814A",
+        "US4566336A",
+        "US4573139A",
+        "US4587607A",
+        "US4594651A",
+        "US4663730A",
+        "US4675803A",
+        "US4720783A",
+        "US4953074A",
+        "US5140685A",
+        "US5266878A",
+        "US5276806A",
+        "EP0603560A1",
+        "US5909371A",
+        "US5930141A",
+        "US20090206787A1",
+        "US10416652B2"
+    ],
+    "citedby_ftf": [
+        "JPS5760409A",
+        "DE3119259A1",
+        "JPS584405A",
+        "JPS60156109A",
+        "EP0207175A1",
+        "HU198345B",
+        "DE58908739D1"
+    ]
+}

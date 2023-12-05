@@ -1,0 +1,56 @@
+{
+    "patent_link": "https://patents.google.com/patent/US4594849A/en",
+    "patent_id": "US4594849A",
+    "title": "Apparatus for synthesizing control parameters",
+    "abstract": "A control system for a twin spool gas turbine engine for synthesizing a control parameter for the engine (such as the ratio of high compressor inlet temperature to low compressor inlet temperature) includes a function generator responsive to an engine operating parameter (such as corrected rotor speed) to generate a simulated value of the control parameter for a base engine configuration. A second function generator, responsive to an engine operating parameter, generates a simulated value of the difference between the value of the control parameter for the base engine configuration and the value of the parameter for another configuration. This difference is operated upon to correct it to the actual engine configuration. The corrected difference is added to the simulated value of the control parameter for the base configuration to give a simulated value of the control parameter for the actual engine configuration.",
+    "inventors": [
+        "David F. Kenison",
+        "Donald E. Sheppard"
+    ],
+    "assignee": "Raytheon Technologies Corp",
+    "classifications": [
+        "G05B17/02",
+        "F02C9/28"
+    ],
+    "claims": "\n1. Apparatus for synthesizing a control parameter for use in a gas turbine engine, comprising:\nfirst function generator means responsive to an engine operating parameter for generating a first signal simulating the value of a control parameter for the engine operating in a preselected base configuration;\nsecond function generator means responsive to an engine operating parameter for generating a second signal simulating the difference between the value of said control parameter for the base engine configuration and the value of said control parameter for a second preselected engine operating configuration different from said base configuration;\nmeans for operating on said second signal to produce a third signal simulating said difference in values for the actual engine operating configuration; and\nmeans for summing said first and third signals to produce a fourth signal simulating said control parameter for said actual engine operating configuration.\n2. The apparatus according to claim 1 wherein said first, second, third and fourth signals are indicative of steady state engine operation, and said apparatus includes means for operating on said fourth signal to produce a control parameter which is corrected for transient engine operation.\n3. The apparatus according to claim 1 wherein said first and second function generator means are responsive to the same engine operating parameter.\n4. In a twin spool gas turbine engine having a low compressor and a high compressor, a control system for synthesizing the inlet temperature of the high compressor, comprising:\nmeans for determining the rotational speed of the low compressor and producing a signal indicative thereof;\nmeans for determining the inlet temperature to the low compressor and producing a signal indicative thereof;\nmeans responsive to said speed signal and said inlet temperature to produce a signal indicative of low compressor speed corrected for low compressor inlet temperature;\nfirst function generator responsive to said corrected low compressor speed signal for generating a first signal simulating the ratio of high compressor inlet temperature to low compressor inlet temperature for the engine operating at steady state in a preselected, base configuration;\nsecond function generator means responsive to said corrected low rotor speed signal for generating a second signal simulating the difference between said temperature ratio for said base configuration and said temperature ratio for the engine operating at steady state in a preselected second configuration different from said base configuration;\nmeans for operating on said second signal to produce a third signal simulating the difference between said base configuration temperature ratio and said second configuration temperature ratio for the engine operating at steady state in its actual engine configuration;\nmeans for summing said first and third signals to produce a fourth signal simulating said temperature ratio for the engine operating at steady state in said actual engine configuration; and\nmeans for multiplying said temperature ratio represented by said fourth signal by said low compressor inlet temperature to generate a fifth signal simulating the actual inlet temperature to the high compressor under steady state conditions.\n5. The control system according to claim 4 including third function generator means responsive to said fifth signal for generating a sixth signal indicative of simulated high compressor inlet temperature corrected for transient engine operation.\n6. The control system according to claim 5, wherein the engine includes a stage of variable geometry stator vanes in said high compressor, the apparatus further comprising:\nmeans for determining the speed of said high compressor and producing a signal indicative thereof;\nmeans responsive to said high compressor speed signal and said simulated high compressor inlet temperature corrected for transient engine operation for producing a signal simulating the high compressor speed corrected for high compressor inlet temperature; and\nfourth function generator means responsive to said simulated, corrected high compressor speed signal for generating a position signal indicative of the desired position of said stator vanes; and\nactuation means connected to said stator vanes and responsive to said position signal for moving said stator vanes to the desired position.\n7. The control system according to claim 6 wherein the engine includes variable position bleed valve means for bleeeding air from one of said compressors, and said base engine configuration is a configuration with said valve means in a first position permitting a first amount of bleed, and said second engine configuration is a configuration with said valve means in a second position different from said first position permitting a second amount of bleed.",
+    "status": "Expired - Lifetime",
+    "citations_own": [
+        "US4212161A",
+        "US4228650A",
+        "US4249238A",
+        "US4307451A"
+    ],
+    "citations_ftf": [
+        "US3238768A",
+        "US4414807A"
+    ],
+    "citedby_own": [
+        "US4748804A",
+        "EP0273848A2",
+        "EP0274340A2",
+        "US4785403A",
+        "US4894782A",
+        "US4928484A",
+        "US5042245A",
+        "US5379584A",
+        "US5628185A",
+        "US5775089A",
+        "US5775090A",
+        "EP1288644A3",
+        "US20100021285A1",
+        "US20130104516A1",
+        "US20150003956A1",
+        "JP2016098819A",
+        "US10473038B2",
+        "US20220069688A1",
+        "EP3988775A1",
+        "US11434830B2",
+        "US11486316B2"
+    ],
+    "citedby_ftf": [
+        "DE3940248A1",
+        "JPH0747073Y2",
+        "JPH07204664A",
+        "FR2939509B1"
+    ]
+}

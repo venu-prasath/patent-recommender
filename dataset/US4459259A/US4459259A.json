@@ -1,0 +1,50 @@
+{
+    "patent_link": "https://patents.google.com/patent/US4459259A/en",
+    "patent_id": "US4459259A",
+    "title": "Digital computer operation of a nuclear reactor",
+    "abstract": "A method is described for the safe operation of a complex system such as a nuclear reactor using a digital computer. The computer is supplied with a data base containing a list of the safe state of the reactor and a list of operating instructions for achieving a safe state when the actual state of the reactor does not correspond to a listed safe state, the computer selects operating instructions to return the reactor to a safe state.",
+    "inventors": [
+        "Robert W. Colley"
+    ],
+    "assignee": "US Department of Energy",
+    "classifications": [
+        "G21C7/36",
+        "Y02E30/30",
+        "Y10S706/907"
+    ],
+    "claims": "\n1. A method of operating a nuclear reactor with the aid of a digital computer, comprising:\n(a) providing said computer with a data base including at least a list of safe reactor states, said safe reactor states being those combinations of individual reactor component states which are safe wherein said individual reactor components states are expressed as the binary notation (ab) where `a` defines the status of the components control switch and `b` defines the status of the component and wherein said list of safe reactor states is determined by combinatory logic operations upon said binary notation expression of said individual reactor component states, and a list of control instructions for achieving a safe reactor state;\n(b) repetitively determining the actual states of said individual reactor components;\n(c) repetitively providing the computer with said actual component states;\n(d) repetitively comparing in the computer said actual component states with said list of safe reactor states;\n(e) selecting in the computer operating instructions for achieving a safe reactor state from said list of control instructions when a said comparison indicates that said actual component states do not match a said safe reactor state; and\n(f) executing said operating instructions.\n2. A method of operating with the aid of a digital computer a complex system having a large number of components, each component having several possible states wherein said component states are expressed as the binary notation (ab) where `a` defines the status of the component's control switch and `b` defines the status of the components and an actual state; the system having a very large number of possible states based on all the possible combinations of the possible states of each component, a smaller number of safe system states wherein said safe system states are determined by combinatorial logic operations upon said binary notation expression of said component states and an actual system state based on the actual state of the components, comprising:\n(a) providing said computer with a data base including at least a list of said safe system states and a list of control instructions for achieving a safe system state;\n(b) repetitively determining the actual states of said components;\n(c) repetitively providing the computer with said actual component states;\n(d) repetitively comparing in the computer said actual component states with said list of safe system states;\n(e) selecting in the computer operating instructions for achieving a safe system state from said list of control instructions when a said comparison indicates that said actual component states do not match a said safe system state; and\n(f) executing said operating instruction.\n3. The method of claim 1 wherein the step of selecting in the computer operating instructions for achieving a safe system state comprises selecting those instructions which result in a minimum number of component changes in achieving a safe system state.",
+    "status": "Expired - Lifetime",
+    "citations_own": [
+        "US2553603A",
+        "US3423285A",
+        "US3518654A",
+        "US3752735A",
+        "US4016034A",
+        "US4075059A",
+        "US4080251A",
+        "US4129475A"
+    ],
+    "citations_ftf": [],
+    "citedby_own": [
+        "US4552718A",
+        "US4563746A",
+        "US4584165A",
+        "US4586144A",
+        "US4585609A",
+        "US4637911A",
+        "US4642636A",
+        "US4740886A",
+        "US4754410A",
+        "US4764882A",
+        "US4803040A",
+        "US4825352A",
+        "EP0553571A1",
+        "US20040059696A1",
+        "US20040101083A1",
+        "US6748348B1",
+        "US20080308477A1",
+        "US8041548B2",
+        "DE102008010747B4"
+    ],
+    "citedby_ftf": []
+}

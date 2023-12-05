@@ -1,0 +1,74 @@
+{
+    "patent_link": "https://patents.google.com/patent/US20140359036A1/en",
+    "patent_id": "US20140359036A1",
+    "title": "Apparatus, system, and method of elastically processing message information from multiple sources",
+    "abstract": "Elastic message tracking apparatus and methods are provided that opportunistically improve on the latency of a message processing system and increase the accuracy of a consolidated message stream generated from message streams received from multiple message sources. The elastic message tracking apparatus and methods reduce that latency in situations where the actual latency of all the message streams is lower than a predetermined latency value.",
+    "inventors": [
+        "Tristan BLAKERS",
+        "Chuin Nee OOI",
+        "Max Roy PRAKOSO"
+    ],
+    "assignee": "Nasdaq Technology AB",
+    "classifications": [
+        "H04L51/26",
+        "G06Q40/04",
+        "H04L51/226",
+        "H04L51/234",
+        "G06F3/0481",
+        "G06Q10/10",
+        "G06Q40/06",
+        "H04L12/2854"
+    ],
+    "claims": "\n1. An electronic data message processing apparatus comprising:\nprocessing circuitry operatively coupled to data message feed ports and configured to receive data messages from multiple data message sources, each data message source having generated a respective chronological sequence of data messages, where one or more data messages received at the multiple message feed ports is received out of its respective chronological sequence; and\nthe processing circuitry configured to:\nprocess received data messages on the incoming data message feed ports based on a data message processing latency time;\nselectively adapt the data message processing latency time to provide a consolidated and chronological sequence for the data messages received from the multiple data message feed ports; and\ngenerate a combined data message stream so that the data messages in the combined data message stream are transmitted in the consolidated and chronological sequence to one or more destination ports.\n2. The electronic data message processing apparatus of claim 1, wherein the processing circuitry is further configured to:\ndetect a state parameter;\nprocess data messages received up and until the state parameter changes as being in chronological sequence;\nprocess data messages received after the state parameter changes as being out of chronological sequence; and\nadapt the processing latency time in order to sort and order the data messages received after the state parameter changes and to provide the consolidated and chronological sequence for the combined data message stream including the data messages received after the state parameter changes.\n3. The electronic data message processing apparatus of claim 2, wherein the processing circuitry is further configured to process the data messages in the combined data message stream using a reference time that is separate from a current real time in the electronic data message processing apparatus,\nwherein a difference between the reference time and the current real time is associated with the data message processing latency time, and\nwherein the processing circuitry is configured to modify the reference time.\n4. The electronic data message processing apparatus of claim 3, wherein the processing circuitry is further configured to process the data messages in the combined data message stream and to detect data messages that are out of chronological sequence using the reference time.\n5. The electronic data message processing apparatus of claim 3, wherein the processing circuitry is further configured to maintain the reference time when a message that is out of chronological message sequence is processed.\n6. The electronic data message processing apparatus of claim 3, wherein the processing circuitry is configured to compare a message time of a next data message currently received at each of the data message feed ports having a current lowest data message time to the reference time, and\n(a) if the data message time is less than the reference time, then the processing circuitry is configured to process that data message and read a next data message at that data message feed port, or\n(b) if the data message time is greater than the reference time, then the processing circuitry is configured to adjust the reference time to the data message time.\n7. The electronic data message processing apparatus of claim 3, wherein when one of the data message feed ports is determined to be in an inactive state, the processing circuitry is configured to (a) process the data messages in the combined data message stream in chronological order if the one of the data message feed ports is determined to become in active state within a predetermined recovery time period, and (b) process the data messages in the combined data message stream out of chronological order if the one of the data message feed ports is determined to become in active state outside of the predetermined recovery time period.\n8. The electronic data message processing apparatus of claim 7, wherein based on the determination of the inactive data message feed port, the processing circuitry is configured to halt advance of the reference time while that data message feed port remains in the inactive state.\n9. The electronic data message processing apparatus of claim 1, wherein the processing circuitry is configured to process the data messages in the combined data message stream to detect one or more predetermined patterns, and in response thereto, to generate one or more corresponding alert data messages.\n10. The electronic data message processing apparatus of claim 1, wherein the processing circuitry is configured to process a received, unprocessed data message in the combined data message stream based on the content of previously-processed data messages.\n11. The electronic data message processing apparatus of claim 1, wherein at least some of the data messages relate to transaction parameters from an electronic trading exchange and the processing circuitry is configured to update one or more orderbooks for the electronic trading exchange based on those transaction parameters.\n12. The electronic data message processing apparatus of claim 11, wherein the processing circuitry is further configured to update the one or more orderbooks using detected data messages that are out of the consolidated and chronological sequence.\n13. The electronic data message processing apparatus of claim 1, wherein the processing circuitry is configured to capture data messages as received at the data message feed ports and convert the data in the captured data message into a normalized data format.\n14. The electronic data message processing apparatus of claim 1, wherein each received data message includes a time stamp and the processing circuitry is configured to re-sequence, based on the data message time stamp, one or more data messages received out of sequence.\n15. A method implemented in an electronic data message processing apparatus having processing circuitry operatively coupled to data message feed ports, comprising:\nreceiving at the data message feed ports data messages from multiple data message sources, each data message source having generated a respective chronological sequence of data messages, where one or more data messages received at the multiple message feed ports is received out of its respective chronological sequence;\nprocessing, by the processing circuitry, received data messages on the incoming data message feed ports based on a data message processing latency time;\nselectively adapting the data message processing latency time to provide a consolidated and chronological sequence for the data messages received from the multiple data message feed ports; and\ngenerating a combined data message stream so that the data messages in the combined data message stream are transmitted in the consolidated and chronological sequence to one or more destination ports.\n16. The method claim 15, further comprising:\ndetecting a state parameter;\nprocessing data messages received up and until the state parameter changes as being in chronological sequence;\nprocessing data messages received after the state parameter changes as being out of chronological sequence;\nadapting the processing latency time to sort and order the data messages received after the state parameter changes to provide the consolidated and chronological sequence for the combined data message stream including the data messages received after the state parameter changes.\n17. The method claim 15, further comprising:\nprocessing the data messages in the combined data message stream using a reference time that is separate from a current real time in the electronic data message processing apparatus,\nwherein a difference between the reference time and the current real time is associated with the data message processing latency time, and\nwherein the processing circuitry is configured to modify the reference time.\n18. The method claim 17, further comprising:\nprocessing the data messages in the combined data message stream, and\ndetecting data messages that are out of chronological sequence using the reference time.\n19. The method claim 17, further comprising:\nmaintaining the reference time when a message that is out of chronological message sequence is processed.\n20. The method claim 17, wherein when one of the data message feed ports is determined to be in an inactive state, the method further comprising:\n(a) processing the data messages in the combined data message stream in chronological order if the one of the data message feed ports is determined to become in active state within a predetermined recovery time period, and\n(b) processing the data messages in the combined data message stream out of chronological order if the one of the data message feed ports is determined to become in active state outside of the predetermined recovery time period.\n21. The method claim 20, further comprising:\nhalting advance of the reference time while that data message feed port remains in the inactive state based on the determination of the inactive data message feed port.\n22. The method claim 21, further comprising:\ncomparing a message time of a next data message currently received at each of the data message feed ports having a current lowest data message time to the reference time, and\n(a) if the data message time is less than the reference time, then processing that data message and read a next data message at that data message feed port, or\n(b) if the data message time is greater than the reference time, then adjusting the reference time to the data message time.\n23. The electronic data message processing apparatus of claim 15, further comprising:\nprocessing the data messages in the combined data message stream to detect one or more predetermined patterns, and in response thereto, to generate one or more corresponding alert data messages.\n24. The electronic data message processing apparatus of claim 15, further comprising:\nprocessing a received, unprocessed data message in the combined data message stream based on the content of previously-processed data messages.\n25. The electronic data message processing apparatus of claim 15, wherein at least some of the data messages relate to transaction parameters from an electronic trading exchange and the method further comprises:\nupdating one or more orderbooks for the electronic trading exchange based on those transaction parameters.\n26. The electronic data message processing apparatus of claim 25, further comprising:\nupdating the one or more orderbooks using detected data messages that are out of the consolidated and chronological sequence.\n27. The electronic data message processing apparatus of claim 1, further comprising:\ncapturing data messages as received at the data message feed ports and convert the data in the captured data message into a normalized data format.\n28. The electronic data message processing apparatus of claim 15, wherein each received data message includes a time stamp and the method further comprises:\nre-sequencing, based on the data message time stamp, one or more data messages received out of sequence at each of the data message feed ports.",
+    "status": "Active",
+    "citations_own": [
+        "US20050271071A1",
+        "US20080114896A1",
+        "US20080212517A1",
+        "US20080243675A1",
+        "US20090252167A1",
+        "US20100138360A1",
+        "US20110238758A1",
+        "US20120124606A1",
+        "US20120271748A1"
+    ],
+    "citations_ftf": [
+        "US7500152B2",
+        "US8549575B2",
+        "US20100208729A1",
+        "US8621011B2",
+        "US8868497B2",
+        "US20110010460A1",
+        "DE102010015588A1",
+        "JP5608528B2",
+        "US9256859B2",
+        "EP2832045A4",
+        "US10121196B2",
+        "US9280791B2",
+        "US20140249979A1",
+        "WO2014191820A1"
+    ],
+    "citedby_own": [
+        "US20160188907A1",
+        "US9569291B1",
+        "US20170053291A1",
+        "US20180189674A1",
+        "US20180191624A1",
+        "US20180210808A1",
+        "US20190004906A1",
+        "US10505871B1",
+        "US10798145B1",
+        "US10885583B2",
+        "US20210097612A1",
+        "US10990402B1",
+        "CN113965285A",
+        "US11334641B2",
+        "US20220230242A1",
+        "US11411907B2",
+        "US11824789B2"
+    ],
+    "citedby_ftf": [
+        "WO2014191820A1",
+        "WO2019060943A1"
+    ]
+}

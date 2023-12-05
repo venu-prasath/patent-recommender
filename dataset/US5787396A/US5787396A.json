@@ -1,0 +1,69 @@
+{
+    "patent_link": "https://patents.google.com/patent/US5787396A/en",
+    "patent_id": "US5787396A",
+    "title": "Speech recognition method",
+    "abstract": "A speech recognition method uses continuous mixture Hidden Markov Models (HMM) for probability processing including a first type of HMM having a small number of mixtures and a second type of HMM having a larger number of mixtures. First output probabilities are formed for inputted speech using the small number of mixtures type HMM and second output probabilities are formed for the input speech using the large number of mixtures type HMM for selected states corresponding to the highest output probabilities of the first type HMM. The input speech is recognized from both the first and second output probabilities.",
+    "inventors": [
+        "Yasuhiro Komori",
+        "Yasunori Ohora",
+        "Masayuki Yamada"
+    ],
+    "assignee": "Canon Inc",
+    "classifications": [
+        "G10L15/144",
+        "G10L15/187"
+    ],
+    "claims": "\n1. A speech recognition method for performing speech recognition by use of continuous mixture HMMs for output probability determination, said HMMs being in a same class including a first type of HMM having a small number of mixtures and a second type of HMM having a large number of mixtures, said first type of HMM having the same number of states as said second type of HMM, said method comprising the steps of:\ndetermining a first type of output probabilities with respect to input speech by use of said first type of HMM having the small number of mixtures;\nselecting states in which said determined output probabilities are high;\ndetermining a second type of output probabilities of said selected states with respect to said input voice by use of said second type of HMM having the large number of mixtures;\nsubstituting the second type of output probabilities for the first type of output probabilities; and\nrecognizing said input speech in accordance with the first type of output probabilities which are not substituted and the second type of output probabilities which are substituted.\n2. A speech recognition method according to claim 1, wherein results of the speech recognition are output on a display section.\n3. A speech recognition method according to claim 1, wherein speech input through a microphone is to be recognized.\n4. A speech recognition method using continuous mixtures HMMs for output probability processing, said HMMs being in a same class including at least two types of HMMs, a rough HMM requiring only a small number of probability determinations and a detailed HMM, said rough type of HMM having the same number of states as said detailed HMM, said method comprising the steps of:\ndetermining output probabilities of each state by use of said rough HMM; and\nredetermining the output probabilities of selected states which are likely to contribute to the recognition results by use of said detailed HMM.\n5. A speech recognition method according to claim 4, wherein said rough HMM is formed of a small number of mixtures and said detailed HMM is formed of a large number of mixtures.\n6. A speech recognition method according to claim 4, wherein said rough and detailed HMMs are constructed in a similar manner, and states of said rough HMM correspond to states of said detailed HMM, and the output probabilities of the respective states in said rough HMM are exchangeable with the output probabilities of the respective states of said detailed HMM.\n7. A speech recognition method according to claim 4, wherein said states which are likely to contribute to the recognition results are top N states having highest output probabilities determined by said rough HMM or states whose output probabilities are in a range from a threshold to the highest output probability.\n8. A speech recognition method according to claim 4, wherein top M states having the highest probabilities determined by said rough HMM are determined to contribute to the recognition results, the output probabilities of said states being determined by said detailed HMM, and top N states having the highest probabilities determined by said detailed HMM (N<M) are similarly determined by use of a more detailed HMM so as to obtain more precise output probabilities in another step.\n9. A speech recognition method according to claim 4, wherein the output probabilities of from top N states to top M states (N<M) having the highest output probabilities determined by said rough HMM are redetermined by use of a comparatively-detailed HMM, and the top N states are similarly redetermined by use of a more detailed HMM, thereby obtaining more precise output probabilities in two steps.\n10. A speech recognition method according to claim 4, wherein the output probabilities obtained by said rough HMM are used for the output probabilities which are not redetermined.\n11. A speech recognition method according to claim 4, wherein results of the speech recognition are output on a display section.\n12. A speech recognition method according to claim 4, wherein speech input through a microphone is to be recognized.\n13. A speech recognition method for performing speech recognition by use of continuous mixture HMMs for output probability processing, said HMMs being in a same class including a phonemic context-independent HMM and a phonemic context-dependent HMM, said phonemic context-independent HMM having the same number of states as said phonemic context-dependent HMM, said method comprising the steps of:\ndetermining a first type of output probabilities with respect to input speech by use of said phonemic context-independent HMM;\nselecting states in which said determined output probability is high;\ndetermining a second type of output probabilities of said selected states with respect to said input speech by use of said phonemic context-dependent HMM;\nsubstituting the second type of output probabilities for the first type of output probabilities; and\nrecognizing said input speech in accordance with the first type of output probabilities which are not substituted and the second type of output probabilities which are substituted.\n14. A speech recognition method according to claim 13, wherein results of the speech recognition are output on a display section.\n15. A speech recognition method according to claim 13, wherein speech input through a microphone is to be recognized.\n16. A speech recognition method using continuous mixtures HMMs for output probability computation, said HMMs being in a same class including at least two types of HMMs, a phonemic context-independent HMM and a plurality of phonemic context-dependent HMMs whose phonemes depend on the phonemic context, said phonemic context-independent HMM and said phonemic context-dependent HMMs having the same number of states, said method comprising the steps of:\ndetermining a first type of output probabilities of each state by use of said phonemic context-independent HMM; and\nredetermining a second type of output probabilities of selected states which are likely to contribute to recognition results by use of said phonemic context-dependent HMMs.\n17. A speech recognition method according to claim 16, wherein said two types of HMMs are constructed in a similar manner, and states of one type of HMM corresponds to states of the other type of HMMs, and the output probabilities of the respective states in one type of HMM are exchangeable with the output probabilities of the respective states in the other type of HMM.\n18. A speech recognition method according to claim 16, wherein said states which are likely to contribute to the recognition results are top N states having highest output probabilities determined by one of said phonemic context-independent HMM and states whose output probabilities are in a range from a threshold to the highest output probability.\n19. A speech recognition method according to claim 16, wherein the top N states having the highest output probabilities determined by said phonemic context-independent HMM are determined to contribute to the recognition results.\n20. A speech recognition method according to claim 16, wherein the phonemic context-dependent HMMs provided for output probability redeterminations are based on information of a grammar and dictionary section and the output probabilities of said HMMs are determined when they undergo language search.\n21. A speech recognition method according to claim 16, wherein the output probabilities obtained by said phonemic context-independent HMM are used for the output probabilities which are not redetermined.\n22. A speech recognition method according to claim 16, wherein results of the speech recognition are output on a display.\n23. A speech recognition method according to claim 16, wherein speech input through a microphone is to be recognized.\n24. A speech recognition apparatus comprising:\nmeans for inputting a speech pattern;\nmeans for storing signals corresponding to a first type of continuous mixture Hidden Markov Model having a first number of mixtures and signals corresponding to a second type of continuous mixture Hidden Markov Model having a second larger number of mixtures, said first type of continuous mixture Hidden Markov Model having the same number of states as the second type of continuous mixture Hidden Markov Model;\nprocessing means for forming first output probability signals for the input speech using the first type Hidden Markov Model signals and for selecting states in which said determined output probabilities are high;\nprocessing means for forming second output probability signals of the selected states for the input speech using the second type Hidden Markov Model signals;\nmeans for substituting the second output probability signals for the first output probability signals; and\nmeans responsive to the first output probability signals which are not substituted and second output probability signals which are substituted for recognizing the input speech.\n25. Apparatus for recognizing speech using continuous mixtures HMMs for output probability processing, the HMMs being of a same class including at least two types of HMMs, a rough HMM requiring only a small number of probability determinations and a detailed HMM, said rough type of HMM having the same number of states as said detailed HMM, the apparatus comprising:\ndetermining means for determining output probability signals of each state using of the rough HMM; and\nredetermining means for redetermining the output probability signals of selected states which are likely to contribute to the recognition results using the detailed HMM.\n26. Apparatus for recognizing speech using continuous mixture HMMs for output probability processing, the HMMs being in a same class including a phonemic context-independent HMM and a phonemic context-dependent HMM, said phonemic context-independent HMM having the same number of states as said phonemic context-dependent HMM, the apparatus comprising:\ndetermining means responsive to input speech for determining a first type of output probabilities using the phonemic context-independent HMM;\nselecting means for selecting states in which said determined output probability of the first type of output probabilities is high;\ndetermining means for determining a second type of output probabilities of the selected states with respect to the input speech using the phonemic context-dependent HMM;\nsubstituting means for substituting the second type of output probabilities for the first type of output probabilities; and\nrecognizing means for recognizing the input speech in accordance with the first type of output probabilities which are not substituted and the second type of output probabilities which are substituted.\n27. Apparatus for recognizing speech using continuous mixture HMMs for output probability computation, the HMMs being in a same class including at least two types of HMMs, a phonemic context-independent HMM and a plurality of phonemic context-dependent HMMs having phonemes depending on phonemic context, said phonemic context-independent HMM and said phonemic context-dependent HMMs having the same number of states, the apparatus comprising:\ndetermining means for determining a first type of output probabilities of each state using the phonemic context-independent HMM; and\nredetermining means for redetermining a second type of output probabilities of selected states which are likely to contribute to recognition results using the phonemic context-dependent HMMs.",
+    "status": "Expired - Lifetime",
+    "citations_own": [
+        "EP0533491A2",
+        "EP0560378A1",
+        "US5289562A"
+    ],
+    "citations_ftf": [],
+    "citedby_own": [
+        "US5956679A",
+        "US6021388A",
+        "US6061653A",
+        "US6073098A",
+        "US6236962B1",
+        "US6246982B1",
+        "US6266636B1",
+        "US20010032075A1",
+        "US20010032079A1",
+        "US20020051955A1",
+        "US6393396B1",
+        "US6629073B1",
+        "US6662158B1",
+        "US6725195B2",
+        "US20040143441A1",
+        "US6813606B2",
+        "US20050027532A1",
+        "US20050216261A1",
+        "US6980955B2",
+        "US20050288929A1",
+        "US7050974B1",
+        "US7054806B1",
+        "US20060229871A1",
+        "US7139712B1",
+        "US20070190303A1",
+        "US20070198266A1",
+        "US20070198261A1",
+        "US20070198263A1",
+        "US20070271096A1",
+        "US20090292538A1",
+        "US20100211391A1",
+        "US20100211387A1",
+        "US20100211376A1",
+        "US7970613B2",
+        "US9153235B2"
+    ],
+    "citedby_ftf": [
+        "US5937384A",
+        "US5963903A",
+        "US5857173A",
+        "EP0953971A1",
+        "KR100464428B1",
+        "JP4853298B2"
+    ]
+}

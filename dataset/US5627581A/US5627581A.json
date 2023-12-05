@@ -1,0 +1,67 @@
+{
+    "patent_link": "https://patents.google.com/patent/US5627581A/en",
+    "patent_id": "US5627581A",
+    "title": "Encoding apparatus and encoding method",
+    "abstract": "The characteristic of a digital video signal is detected by first characteristic detecting circuit, and the characteristic of a digital speech signal is detected by second characteristic circuit. Outputs of the first and second characteristic detecting circuit are synthesized by synthesizing circuit to control allocated information quantities of compression encoding of the digital video signal and the digital speech signal on the basis of an output of the synthesizing circuit, thereby making it possible to more efficiently compression-encode video signal and speech signal related thereto in the state of less degradation from a viewpoint of visual and auditory senses at the time of reproduction.",
+    "inventors": [
+        "Tetsujiro Kondo"
+    ],
+    "assignee": "Sony Corp",
+    "classifications": [
+        "H04N7/14",
+        "H04N7/54",
+        "H04N19/122",
+        "H04N19/124",
+        "H04N19/14",
+        "H04N19/142",
+        "H04N19/149",
+        "H04N19/172",
+        "H04N19/61",
+        "H04N19/98",
+        "H04N19/146",
+        "H04N19/152"
+    ],
+    "claims": "\n1. An encoding apparatus adapted for respectively compression-encoding a digital video signal and a digital speech signal related thereto to transmit encoded signals, the apparatus comprising:\nfirst characteristic detecting means for detecting the characteristic of the digital video signal;\nsecond characteristic detecting means for detecting the characteristic of the digital speech signal;\nsynthesizing means for synthesizing outputs of the first and second characteristic detecting means; and\ncontrol means for controlling allocated information quantities of compression encoding of the digital video signal and the digital speech signal on the basis of an output of the synthesizing means.\n2. An encoding apparatus as set forth in claim 1, wherein the first and second characteristic detecting means respectively detect activities of a video signal and a speech signal.\n3. An encoding apparatus as set forth in claim 2, wherein the activity is detected by detecting changes in point of space and/or time.\n4. An encoding apparatus as set forth in claim 3, wherein the first characteristic means comprises a frame memory for frame-delaying a digital video signal, a line memory for line-delaying the digital video signal, a sample memory for sample-delaying the digital video signal, first difference calculating means for calculating a difference between the frame-delayed digital video signal from the frame memory and an input digital video signal, second difference calculating means for calculating a difference between the line-delayed digital video signal from the line memory and the input digital video signal, and third difference calculating means for determining a difference between the sample-delayed digital video signal from the sample memory and the input digital video signal.\n5. An encoding apparatus as set forth in claim 4, wherein the first characteristic detecting means includes non-linear synthesizing means for non-linearly synthesizing outputs of the first, second and third difference calculating means.\n6. An encoding apparatus as set forth in claim 1,\nwherein there is provided a buffer memory for temporarily holding a compression-encoded signal thereafter to output it as an output signal, and\nwherein the control means controls allocated information quantities of compression encoding of the digital video signal and the digital speech signal in accordance with a quantity of information stored in the buffer memory and a synthesis output of the synthesizing means.\n7. An encoding apparatus as set forth in claim 1, wherein the second characteristic detecting means comprises amplitude information generating means for generating amplitude information of an input digital speech signal, energy detecting means for detecting energy on the basis of amplitude value information from the amplitude information generating means, and convolution operation means for implementing convolution operation to an output of the energy detecting means.\n8. An encoding apparatus as set forth in claim 1, wherein the synthesizing means respectively multiplies respective outputs of the first and second characteristic detecting means by predetermined coefficients thereafter to synthesize them.\n9. An encoding apparatus as set forth in claim 1, wherein the first characteristic detecting means and the second characteristic detecting means respectively comprise great change quantity detecting means for detecting great change of signal, first comparing means for comparing an output of the great change quantity detecting means with a predetermined threshold value, very small change detecting means for detecting very small change of signal, second comparing means for comparing an output of the very small change quantity detecting means with a predetermined threshold value, and judging means for judging from outputs of the first and second comparison means whether or not activity exists.\n10. An encoding method of respectively compression-encoding a digital video signal and a digital speech signal related thereto to transmit them,\nthe method comprising the steps of:\ndetecting the characteristic of the digital video signal;\ndetecting the characteristic of the digital speech signal;\nsynthesizing a characteristic detection output of the digital video signal and a characteristic detection output of the digital speech signal; and\ncontrolling allocated information quantities of compression encoding of the digital video signal and the digital speech signal on the basis of the synthesis output.\n11. An encoding method as set forth in claim 10, wherein, at detections of the characteristics of the digital video signal and the digital speech signal, activities of the video signal and the speech signal are respectively detected.\n12. An encoding method as set forth in claim 11, wherein the activity is detected by detecting changes in point of space and/or time of signal.",
+    "status": "Expired - Lifetime",
+    "citations_own": [
+        "JPS5961286A",
+        "US4541008A",
+        "US4868653A",
+        "US4907087A",
+        "JPH0358582A",
+        "US5151941A",
+        "EP0515101A2",
+        "JPH04360481A",
+        "US5231492A",
+        "US5455684A",
+        "US5500672A",
+        "US5550581A"
+    ],
+    "citations_ftf": [],
+    "citedby_own": [
+        "US5793416A",
+        "WO1998035500A1",
+        "US5815600A",
+        "US5877814A",
+        "US5991443A",
+        "US6006105A",
+        "US6111863A",
+        "US6141032A",
+        "WO2000074388A1",
+        "US6256349B1",
+        "US6490250B1",
+        "US20030214422A1",
+        "US7092774B1",
+        "US20080165105A1",
+        "US20100157984A1",
+        "US20100287083A1",
+        "US8724968B2",
+        "US9113133B2"
+    ],
+    "citedby_ftf": [
+        "KR970057947A",
+        "CN1174631C",
+        "AU1242901A",
+        "US6801246B2"
+    ]
+}

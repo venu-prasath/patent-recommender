@@ -1,0 +1,70 @@
+{
+    "patent_link": "https://patents.google.com/patent/US4561093A/en",
+    "patent_id": "US4561093A",
+    "title": "Servicing a software-controlled elevator",
+    "abstract": "A computer-controlled system, such as an elevator, is tested by augmenting computer operation with a diagnostic device containing a computer and coded diagnostic programs that a service technician identifies through a keyboard using diagnostic test codes that appear on an overlay which contains special codes and identifiers associated with numerical displays and lights on the diagnostic device for correlating test results to the test performed according to the program.",
+    "inventors": [
+        "John C. Doane",
+        "David L. Hardenbrook"
+    ],
+    "assignee": "Otis Elevator Co",
+    "classifications": [
+        "G05B19/106",
+        "B66B5/0025",
+        "G05B2219/24056"
+    ],
+    "claims": "\n1. For diagnostically testing a system controller by a computer, a diagnostic device connectable to the system computer is characterized by a diagnostic computer for providing stored, sequenced diagnostic test instructions to the system computer in response to a coded diagnostic test signal, identifying a particular diagnostic test to be performed, for receiving system operating information from the system computer for processing the information in a predetermined manner of the stored diagnostic test and for providing information signals indicating the results of the sequenced test;\na code entry keyboard means for providing the coded diagnostic test signal;\ndisplay means including at least one numerical display and a plurality of lights, for providing visual indications of test results in response to display signals provided in response to the information signals provided by the diagnostic computer;\ndisplay device means for converting the information signal into drive signals that operate the displays;\na diagnostic test sequence overlay comprising a removable sheet which fits around the keyboard and the displays and contains a cutout for the keyboard and each numerical display and each light, coded test instructions that can be entered into the keyboard for performing a diagnostic test, coded identifiers for each numerical display and each light to correlate a diagnostic test result indicated on the diagnostic test carried out by a code entered on the keyboard.\n2. The invention of claim 1, characterized by means electrically connected to the diagnostic computer for receiving an erasable, programmable read-only memory device and another such device and for use in copying the contents of the first into the second in response under the control of the diagnostic computer according to a stored program in response to a coded instruction entered on the keyboard identifying the stored program.\n3. The invention of claim 1, characterized in that said overlay contains instructions on a plurality of flip-chart pages.\n4. The invention according to claim 1, characterized in that the diagnostic device is contained in a rectangular, suitcase-like container having a carrying handle and a removable cover.\n5. A method for testing a computer-controlled system characterized by:\n(a) connecting a test-preprogrammed, diagnostic test tool to the computer;\n(b) placing a test overlay on the test tool;\n(c) entering instructions on a keyboard on the test tool according to instructions on the overlay; and\n(d) observing data on displays on the test tool.",
+    "status": "Expired - Fee Related",
+    "citations_own": [
+        "US4002973A",
+        "US4055801A",
+        "US4108358A",
+        "US4168796A",
+        "US4308615A",
+        "US4348636A",
+        "US4393498A"
+    ],
+    "citations_ftf": [
+        "GB1050462A",
+        "DE1221831B",
+        "GB1328978A",
+        "US4106593A",
+        "US4218745A",
+        "JPS6153992B2"
+    ],
+    "citedby_own": [
+        "US4649515A",
+        "US4685065A",
+        "US4697243A",
+        "US4930604A",
+        "US5100621A",
+        "US5127012A",
+        "US5522480A",
+        "EP0866022A2",
+        "US5817994A",
+        "EP1050503A1",
+        "WO2001010009A1",
+        "US6715586B1",
+        "US20040257065A1",
+        "US7254827B1",
+        "US20080006487A1",
+        "US20080283342A1",
+        "US20090001976A1"
+    ],
+    "citedby_ftf": [
+        "US4692298A",
+        "JPS62201864U",
+        "ES2016822B3",
+        "JPS63272757A",
+        "GB2210999B",
+        "JPH0776725B2",
+        "JPH01226678A",
+        "GB8808446D0",
+        "FI89580C",
+        "DE8904375U1",
+        "DE3911391C5",
+        "US5039940A",
+        "DE4112626A1",
+        "FI112068B"
+    ]
+}

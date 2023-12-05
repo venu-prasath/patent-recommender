@@ -1,0 +1,44 @@
+{
+    "patent_link": "https://patents.google.com/patent/US6662158B1/en",
+    "patent_id": "US6662158B1",
+    "title": "Temporal pattern recognition method and apparatus utilizing segment and frame-based models",
+    "abstract": "A method and apparatus is provided for identifying patterns from a series of feature vectors representing a time-varying signal. The method and apparatus use both a frame-based model and a segment model in a unified framework. The frame-based model determines the probability of an individual feature vector given a frame state. The segment model determines the probability of sub-sequences of feature vectors given a single segment state. The probabilities from the frame-based model and the segment model are then combined to form a single path score that is indicative of the probability of a sequence of patterns. Another aspect of the invention is the use of a frame-based model and a segment model to segment feature vectors during model training. Under this aspect of the invention, the frame-based model and the segment model are used together to identify probabilities associated with different segmentations.",
+    "inventors": [
+        "Hsiao-Wuen Hon",
+        "Kuansan Wang"
+    ],
+    "assignee": "Microsoft Technology Licensing LLC",
+    "classifications": [],
+    "claims": "\n1. A temporal signal recognition system for identifying patterns from a series of feature vectors, the system comprising:\n2. The temporal signal recognition system of claim 1 wherein the temporal signal represents speech and the patterns represent words.\n3. The temporal signal recognition system of claim 1 wherein the decoder is further capable of generating multiple path scores, each path score indicative of a separate probability that a separate sequence of patterns is represented by the series of feature vectors.\n4. The temporal signal recognition system of claim 1 further comprising a language model capable of providing a probability that a sequence of patterns will appear in an environment wherein the path score is further based on the language model.\n5. The temporal signal recognition system of claim 1 wherein the path score is further based on a probability that the segment states will have lengths that match the lengths hypothesized for the segment states by the frame-based model.\n6. The temporal signal recognition system of claim 1 wherein the path scores are based in part on the equation\np\n\ue8a0\n(\nO\n|\nW\n)\n=\n\u2211\nq\nh\n\ue89e\n\ue89e\n\u2211\nq\ns\n\ue89e\np\n\ue8a0\n(\nO\n|\nq\nh\n,\nq\ns\n)\n\ue89e\np\n\ue8a0\n(\nq\ns\n|\nq\nh\n)\n\ue89e\np\n\ue8a0\n(\nq\nh\n|\nW\n)\n,\n7. The temporal signal recognition system of claim 1 further comprising a trainer capable of training the frame-based model and the segment model based on a training text and a segmented series of feature vectors, the segmentation of the segmented series of feature vectors being determined using a probability score that includes both a frame-based model component and a segment model component.\n8. A method of speech recognition comprising:\n9. The method of claim 8 wherein identifying a most likely sequence of patterns comprises identifying a most likely sequence of entries in a lexicon.\n10. The method of claim 8 further comprising determining a duration probability indicative of the likelihood of the sequence of segment states given the sequence of frame states and further combining the duration probability with at least the frame-based probability and the segment-based probability when identifying a most likely sequence of patterns.\n11. The method of claim 10 wherein dividing the sequence of feature vectors into sub-sequences of feature vectors comprises segmenting the feature vectors based on the sequence of frame states.\n12. The method of claim 10 wherein determining the duration probability comprises determining the likelihood that each segment state will have a length that spans all of the feature vectors in the sub-sequence assigned to the segment state.\n13. The method of claim 10 further comprising determining a state-sequence probability for the sequence of frame states by determining the likelihood of the sequence of frame states given a pattern string hypothesis and further combining the state-sequence probability with at least the frame-based probability, the duration probability and the segment-based probability when identifying a most likely sequence of patterns.\n14. The method of claim 8 further comprising determining a language model probability that is indicative of the likelihood of a sequence of patterns in an environment and further combining the language model with at least the frame-based probability and the segment-based probability when identifying a most likely sequence of patterns.\n15. A method of training a pattern recognition system using feature vectors generated from a training signal, the method comprising:\n16. The method of claim 15 further comprising:\n17. The method of claim 15 further comprising:\n18. A computer-readable medium having computer-executable components for performing steps comprising:\n19. The computer-readable medium of claim 18 having computer-executable instructions for performing the further step of determining a duration probability indicative of the likelihood of the sequence of segment states given the sequence of frame states.\n20. The computer-readable medium of claim 19 wherein the determining the duration probability comprises determining the likelihood that the segment state will have a length that spans all of the feature vectors in the corresponding segment.\n21. The computer-readable medium of claim 20 wherein the duration probability is combined with the frame-based probability and the segment-based probability to identify a most likely sequence of patterns.\n22. The computer-readable medium of claim 21 having computer-executable instructions for performing a further step of determining a state-sequence probability that is indicative of the likelihood of a sequence of frame states given a pattern string hypothesis.",
+    "status": "Expired - Lifetime",
+    "citations_own": [
+        "US4914703A",
+        "US5133012A",
+        "US5369726A",
+        "US5572624A",
+        "US5617509A",
+        "US5625749A",
+        "US5787396A",
+        "US5937384A",
+        "US6055498A",
+        "US6092045A",
+        "US6185528B1"
+    ],
+    "citations_ftf": [],
+    "citedby_own": [
+        "US20030176931A1",
+        "US20040126017A1",
+        "US20040181410A1",
+        "US7062436B1",
+        "US20060184527A1",
+        "US20070219797A1",
+        "US20080162128A1",
+        "US20080162129A1",
+        "US20090259471A1",
+        "US20110125547A1",
+        "US20130185247A1",
+        "US9953646B2",
+        "US20180373952A1"
+    ],
+    "citedby_ftf": []
+}

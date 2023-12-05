@@ -1,0 +1,72 @@
+{
+    "patent_link": "https://patents.google.com/patent/US5542054A/en",
+    "patent_id": "US5542054A",
+    "title": "Artificial neurons using delta-sigma modulation",
+    "abstract": "An artificial neuron for use in a neural processing network comprises a plurality of input signal lines, an arrangement for computing a nonlinear function of the sum of the inputs multiplied by associated weights, and a saturating delta-sigma modulator which oversamples the computed value and produces an encoded neuron output signal. Conversion of signals for use by these neurons preferably is performed by delta-sigma modulators at the inputs to the neurons, which may be incorporated directly into sensors. Processing of the output signals from the neuron includes low-pass filtering and decimation. The present invention may be used in many diverse areas. For example, arrays of sensors with delta signal modulators may be coupled with a network of the neurons to form an intelligent vision system. Linear signal processing, both conventional and adaptive, can be done by a simple neuronal system that operates linearly.",
+    "inventors": [
+        "George W. Batten, Jr."
+    ],
+    "assignee": "Individual",
+    "classifications": [],
+    "claims": "\n1. A neuron comprising:\na plurality of input lines for providing a plurality of input signals to said neuron;\na neuron input unit receiving said input signals and outputting an intermediate signal;\na delta sigma modulator Which includes a saturating adder, said delta sigma modulator receiving said intermediate signal from said neuron input unit and producing a neuron output signal in response.\n2. A neuron as in claim 1, wherein said plurality of input signals are analog signals.\n3. A neuron as in claim 2 further comprising a delta sigma modulator connected to at least one of said plurality of input lines.\n4. A neuron as in claim 1, wherein said plurality of input signals are two-state signals.\n5. A neuron as in claim 4, wherein the two-states are 1 and -1.\n6. A neuron as in claim 1, wherein each of the plurality of input signals is a digital signal.\n7. A neuron as in claim 1, wherein at least one of the plurality of input signals is an analog signal.\n8. A neuron as in claim 1, wherein the neuron output signal is applied as an input to another neuron.\n9. A neuron as in claim 1, wherein the delta sigma modulator has a sampling rate fs, and the intermediate signal has a maximum frequency fo, and the sampling rate fs of the delta sigma modulator is greater than twice the maximum frequency fo of the intermediate signal.\n10. A neuron as in claim 1, wherein each of the plurality of input signals comprise a multibit signal.\n11. A neuron as in claim 1, wherein the neuron output signal comprises a multibit signal.\n12. A neuron as in claim 1, wherein said neuron input unit applies a transfer function to said input signals, and said transfer function is defined by instructions stored in a memory unit.\n13. A neuron as in claim 1, wherein said neuron input unit comprises a memory unit.\n14. A neuron as in claim 13, wherein the plurality of input signals form an address into the memory unit to a word, and the word stored at said address comprises the intermediate signal.\n15. A neuron as in claim 13, wherein the delta sigma modulator comprises a latch receiving the intermediate signal and producing an output signal that comprises the neuron output signal in response to the clock pulse.\n16. A neuron as in claim 15, wherein only the most significant digit of the latch output signal comprises the neuron output signal.\n17. A neuron as in claim 16, wherein the latch output signal is applied as an input to the memory unit.\n18. A neuron as in claim 1, wherein the delta sigma modulator operates in an analog domain.\n19. A neuron as in claim 1, wherein the neuron is embodied in an integrated circuit.\n20. A device as in claim 1, wherein said neuron forms part of a neural processing network.\n21. A device as in claim 20, wherein said neural processing network includes a plurality of delta sigma neurons.\n22. A device as in claim 21, wherein said neural processing network includes a low pass filter which provides a network output.\n23. A neuron comprising:\na plurality of input lines for providing a plurality of input signals to said neuron:\na neuron input unit receiving said input signals and outputting an intermediate signal;\na delta sigma modulator receiving said intermediate signal from said neuron input unit and producing a neuron output signal in response;\nwherein said neuron input unit includes a selector connected to each of said plurality of input lines to select a weight-product corresponding to each of said plurality of input signals.\n24. A neuron as in claim 23, wherein said neuron input unit further comprises an adder for adding each of said plurality of input signals, as modified by the weighting elements, together to form the intermediate signal.\n25. A neuron for a neural processing network comprising:\na plurality of input lines for providing a plurality of input signals to said neuron;\na neuron input unit receiving said input signals and outputting an intermediate signal;\na delta sigma modulator receiving said intermediate signal from said neuron input unit and producing a neuron output signal in response;\nwherein said delta sigma modulator includes a saturating adder receiving the intermediate signal from said neuron input unit and also receiving feedback through the neuron output signal.\n26. An artificial neuron as in claim 25, wherein the saturating adder forms part of an integrator feedback loop.\n27. An artificial neuron as in claim 26, wherein said delta sigma modulator includes a comparator connected to the output of said integrator, said comparator producing as an output the neuron output signal.\n28. A neuron as in claim 25, wherein the saturating adder operates according to a sigmoidal function.\n29. An artificial neuron receiving a plurality of input signals on a plurality of input signal lines, comprising:\na selector unit connected to each of said plurality of input lines, said selector unit selecting and applying a weighting element to each of said plurality of input signals to produce a weight-product on each of said input lines;\nan adder for computing the sum of all weight-products and producing an intermediate output signal; and\na delta sigma modulator receiving said intermediate output signal and producing a neuron output signal.\n30. An artificial neuron as in claim 29, wherein the selector unit comprises a multiplexer.\n31. An artificial neuron as in claim 29, further comprising a second artificial neuron receiving the neuron output signal as an input signal.\n32. An artificial neuron as in claim 29, wherein said delta sigma modulator includes an adder receiving said intermediate signal and said neuron output signal and producing an output signal in response.\n33. An artificial neuron as in claim 29, further comprising a saturating adder and a latch, said saturating adder receiving as input signals the output from the delta sigma modulator adder and a feedback output from said latch, and producing in response an output signal that is produced as an input signal to said latch.\n34. An artificial neuron as in claim 33, wherein said delta sigma modulator further comprises a comparator receiving the output from said latch and producing the neuron output signal.\n35. An artificial neuron as in claim 34, wherein said comparator produces a high neuron output signal when the output of the latch is positive and a low neuron output signal when the output of the latch is negative.\n36. An artificial neuron as in claim 29, further comprising a linear transfer function connected to the output of said adder.\n37. An artificial neuron as in claim 29, wherein said adder comprises an adder tree.\n38. An artificial neuron as in claim 37 wherein said adder comprises a plurality of two-input adders formed into layers.\n39. An artificial neuron as in claim 38, wherein a latch is connected to the output of each two input adder.\n40. An artificial neuron as in claim 37, wherein the delta sigma modulator is embedded in the adder tree.\n41. An adaptive linear combiner, comprising:\na delta sigma modulator for inputting a signal and providing an output signal;\na shift register receiving the output signal from said delta sigma modulator and outputting a plurality of output signals;\na delta sigma neuron connected to the shift register for receiving the plurality of output signals and providing an output signal; and\na low pass filter and decimator connected to the delta sigma neuron and receiving the output signal from the delta sigma neuron.\n42. A device as in claim 41, wherein said adaptive linear combiner operates as a finite impulse response filter.\n43. A device as in claim 41, further comprising:\na second shift register supplying a plurality of input signals to said delta sigma neuron, with said second shift register receiving as an input signal the output signal from the delta sigma neuron.\n44. A device as in claim 43, wherein said adaptive linear combiner comprises an infinite impulse response filter.",
+    "status": "Expired - Fee Related",
+    "citations_own": [
+        "US3293609A",
+        "US3435422A",
+        "US3601811A",
+        "US4891782A",
+        "US4994982A",
+        "US5003490A",
+        "US5091864A",
+        "US5093900A",
+        "US5097141A",
+        "US5142666A",
+        "US5151970A",
+        "US5165010A",
+        "US5170071A",
+        "US5175798A",
+        "US5195171A",
+        "US5211622A",
+        "US5262968A",
+        "US5359700A",
+        "US5379252A",
+        "US5381804A"
+    ],
+    "citations_ftf": [
+        "US5208872A",
+        "FR2687814A1"
+    ],
+    "citedby_own": [
+        "US6067535A",
+        "EP1164356A1",
+        "US6351740B1",
+        "US6381083B1",
+        "US20020194119A1",
+        "US6654730B1",
+        "US6816100B1",
+        "DE102005005022A1",
+        "US20070076893A1",
+        "US7403922B1",
+        "US20080281743A1",
+        "KR100889010B1",
+        "US7715461B2",
+        "US20110094304A1",
+        "US20140185951A1",
+        "JP2017138760A",
+        "US20170368682A1",
+        "JP2019049916A"
+    ],
+    "citedby_ftf": [
+        "EP0840238A1",
+        "US6460134B1",
+        "US6202198B1",
+        "US6469648B2",
+        "US6484133B1",
+        "JP4208485B2",
+        "US6662091B2",
+        "CA2452376A1",
+        "US7580570B2",
+        "US7429923B2",
+        "FR2903254B1"
+    ]
+}

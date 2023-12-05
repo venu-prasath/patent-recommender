@@ -1,0 +1,70 @@
+{
+    "patent_link": "https://patents.google.com/patent/US6463321B2/en",
+    "patent_id": "US6463321B2",
+    "title": "Method and computer program product for assessing neurological conditions and treatments using evoked response potentials",
+    "abstract": "A method is provided for diagnosing the presence of a neurological disorder or otherwise assessing the neurological condition of a patient. The method also allows the assessment of a treatment regimen used by a patient. The method includes the collection and analysis of ERP data. The method of the invention begins by conducting a plurality of ERP trials on a patient. In an embodiment of the invention, the data from the ERP trials is then characterized to produce a characterizing ERP signal vector for the patient. Projections based on the characterizing ERP signal vector are then generated. The projections are compared to information derived from the ERP data of patients having known neurological conditions. To perform diagnosis, the projections are compared to standards, such as one or more characterizing ERP signal vectors from known healthy patients, and one or more characterizing ERP signal vectors from patients known to have the disorder. The probable presence or absence of the neurological disorder is decided by a weighted vote of the projections, where the weighting is a function of how closely each projection compares to the respective standards. Projections can also be used to perform other types of neurological assessment, such as tracking a patient's response to a treatment regimen, assessing the treatability of a patient with respect to a particular regimen, determining the effects of a particular regimen, or categorizing a patient in order to create a homogenous group for a clinical trial.",
+    "inventors": [
+        "Richard Granger"
+    ],
+    "assignee": "University of California",
+    "classifications": [
+        "A61B5/7246",
+        "A61B5/377",
+        "A61B5/389",
+        "G16H20/30",
+        "G16H40/63",
+        "G16H50/20",
+        "G16H50/70",
+        "Y10S128/92"
+    ],
+    "claims": "\n1. A method of facilitating the diagnosis of a neurological disorder, comprising the steps of:\n2. The method of claim 1, wherein said step (a) comprises the step of repeating an ERP trial approximately once every one to two seconds, for approximately two minutes.\n3. The method of claim 1, further comprising the step of:\n4. The method of claim 3, wherein said step (d) comprises the steps of:\n5. The method of claim 4, wherein said step ii) comprises sampling each concatenated signal approximately once every 10 milliseconds.\n6. The method of claim 3, wherein said step (b) comprises randomly deleting components of the characterizing ERP signal vector of the patient under assessment to create the projections.\n7. The method of claim 3, wherein said step (b) comprises deleting components of the characterizing ERP signal vector of the patient under assessment according to a deterministic algorithm to create the projections.\n8. The method of claim 1, wherein said step (c) comprises the step of:\n9. The method of claim 8, wherein said step (i) comprises comparing each projection with at least one characterizing ERP signal vector from at least one patient, respectively, known not to be afflicted with the neurological disorder.\n10. The method of claim 8, wherein said step (i) comprises comparing each projection with at least one characterizing ERP signal vector from at least one patient, respectively, known to be afflicted with the neurological disorder.\n11. The method of claim 8, wherein said step (i) comprises the steps of:\n12. A computer program product comprising a computer usable medium having computer readable program code means embodied in the medium for causing an application program to execute on a computer that facilitates the diagnosis of a neurological disorder, the computer readable program code means comprising:\n13. A method of facilitating determination of treatability, with respect to a first treatment regimen, of a patient under assessment, the method comprising the steps of:\n14. The method of claim 13, wherein said step (a) comprises the step of repeating an ERP trial approximately once every one to two seconds, for approximately 2 minutes.\n15. The method of claim 13, further comprising the step of:\n16. The method of claim 15 wherein said step (d) comprises the steps of:\n17. The method of claim 16, wherein said step (ii) comprises sampling each concatenated signal approximately once every ten milliseconds.\n18. The method of claim 15, wherein said step (b) comprises randomly deleting components of the characterizing ERP signal vector of the patient under assessment to create the projections.\n19. The method of claim 15, wherein said step (b) comprises deleting components of the characterizing ERP signal vector of the patient under assessment according to a deterministic algorithm to create the projections.\n20. The method of claim 13, wherein said step (c) comprises the step of:\n21. The method of claim 20, wherein said step (i) comprises the steps of:\n22. The method of claim 21, wherein said step (i) further comprises the steps of:\n23. A computer program product comprising a computer usable medium having computer readable program code means embodied in the medium for causing an application program to execute on a computer that facilitates the assessment of the likely responsiveness of a patient under assessment to a treatment regimen, the computer readable program code means comprising:\n24. A method of monitoring the response, to a treatment regimen, of a patient being treated for a neurological disorder, the method comprising the steps of:\n25. The method of claim 24 wherein said step (a) comprises the step of repeating an ERP trial approximately once every one to two seconds, for approximately two minutes.\n26. The method of claim 24, further comprising the step of:\n27. The method of claim 26, wherein said step (d) comprises the steps of:\n28. The method of claim 27 wherein said step (ii) comprises sampling each concatenated signal approximately once every ten milliseconds.\n29. The method of claim 26, wherein said step (b) comprises randomly deleting components of the characterizing ERP signal vector of the patient being treated, to create the projections.\n30. The method of claim 26, wherein said step (b) comprises deleting components of the characterizing ERP signal vector of the patient being treated, wherein deletions are performed according to a deterministic algorithm to create the projections.\n31. The method of claim 24, wherein said step (c) comprises the step of:\n32. The method of claim 31, wherein said step (i) comprises the steps of:\n33. The method of claim 31, wherein step (i) comprises the step of comparing each projection with at least one characterizing ERP signal vector from at least one other patient, respectively, wherein at least one such patient comprises a patient who is neurologically healthy.\n34. The method of claim 31, wherein step (i) comprises the step of comparing each projection with at least one characterizing ERP signal vector from at least one other patient, respectively, wherein at least one such patient comprises a patient who is afflicted with the neurological disorder of the patient being treated.\n35. A computer program product comprising a computer usable medium having computer readable code means embodied in the medium for causing an application program to execute on a computer that facilitates the assessment of a current condition of a patient being treated for a neurological disorder after beginning a treatment regimen, the computer readable code means comprising:\n36. A method of assessing a patient with respect to the nature and extent of side effects experienced in response to a treatment regimen, wherein the patient is being treated for a neurological disorder, the method comprising the steps of:\n37. The method of claim 36 wherein said step (a) comprises the step of repeating an ERP trial approximately once every one to two seconds, for approximately two minutes.\n38. The method of claim 36, further comprising the step of:\n39. The method of claim 38, wherein said step (d) comprises the steps of:\n40. The method of claim 39, wherein said step (ii) comprises sampling each concatenated signal approximately once every ten milliseconds.\n41. The method of claim 38, wherein said step (b) comprises randomly deleting components of the characterizing ERP signal vector of the patient under assessment to create the projections.\n42. The method of claim 38, wherein said step (b) comprises deleting components of the characterizing ERP signal vector of the patient under assessment according to a deterministic algorithm to create the projections.\n43. The method of claim 36, wherein step (c) comprises the step of:\n44. The method of claim 43, wherein step (i) comprises the steps of:\n45. A computer program product comprising a computer usable medium having computer readable program code means embodied in the medium for causing an application program to execute on a computer that facilitates the assessment of the nature and extent of side affects resulting from a treatment regimen, the computer readable program code means comprising:\n46. A method of assessing the results of a treatment regimen for a neurological disorder, comprising the steps of:\n47. The method of claim 46 wherein said step (a) comprises the step of repeating an ERP trial approximately once every one to two seconds, for approximately two minutes.\n48. The method of claim 46, further comprising the step of:\n49. The method of claim 48, wherein said step (d) comprises the steps of:\n50. The method of claim 49, wherein said step (ii) comprises sampling each concatenated signal approximately once every ten milliseconds.\n51. The method of claim 48, wherein said step (b) comprises randomly deleting components of the characterizing ERP signal vector of the test patient to create the projections.\n52. The method of claim 48, wherein said step (b) comprises deleting components of the characterizing ERP signal vector of the test patient according to a deterministic algorithm to create the projections.\n53. The method of claim 46, wherein step (c) comprises the step of:\n54. The method of claim 53, wherein step (i) comprises the steps of:\n55. A computer program product comprising a computer usable medium having computer readable program code means embodied in the medium for causing an application program to execute on a computer that facilitates the assessment of the results of a treatment regimen for a neurological disorder, the computer readable program code means comprising:\n56. A method of determining an enrollment of subjects in a study of a neurological treatment, comprising the steps of:\n57. The method of claim 56, wherein said step (a) comprises the step of repeating an ERP trail approximately once every one to two seconds, for approximately two minutes.\n58. The method of claim 56, further comprising the step of:\n59. The method of claim 58, wherein said step (e) comprises the steps of:\n60. The method of claim 59, wherein said step (ii) comprises sampling each concatenated signal approximately once every ten milliseconds.\n61. The method of claim 56, wherein the plot representing the at least one other candidate is a median point for the at least one other candidate.\n62. The method of claim 57, wherein the plot representing the at least one other candidate is a mean point for the at least one other candidate.\n63. A computer program product comprising a computer-usable medium having computer-readable program code means embodied in the medium for causing an application program to execute on a computer that facilitates the determination of enrollment of subjects in a study of a neurological treatment, the computer-readable program code means comprising:",
+    "status": "Expired - Fee Related",
+    "citations_own": [
+        "US4214591A",
+        "US4844086A",
+        "US4862359A",
+        "US4913160A",
+        "US4926969A",
+        "US5083571A",
+        "US5230346A",
+        "US5287859A",
+        "WO1994005202A1",
+        "US5357976A",
+        "US5363858A",
+        "US5392788A",
+        "US5769074A",
+        "US5792062A",
+        "US5816247A",
+        "US5873823A",
+        "US6052619A",
+        "US6223074B1",
+        "WO2001045554A2"
+    ],
+    "citations_ftf": [],
+    "citedby_own": [
+        "US20020188217A1",
+        "US20040193019A1",
+        "US20060136806A1",
+        "US20080091118A1",
+        "WO2009103156A1",
+        "US20100076334A1",
+        "US20100143256A1",
+        "US20110054391A1",
+        "US8114023B2",
+        "US8636711B2"
+    ],
+    "citedby_ftf": [
+        "US6622036B1",
+        "US20030144875A1",
+        "US6284217B1",
+        "US6671543B1",
+        "EP1494127A1",
+        "US7433727B2",
+        "US7647098B2",
+        "US8688208B2",
+        "US20090062679A1",
+        "EP2887865A4",
+        "EP4099906A4",
+        "CN111666434B"
+    ]
+}

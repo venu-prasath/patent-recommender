@@ -1,0 +1,61 @@
+{
+    "patent_link": "https://patents.google.com/patent/US20090252167A1/en",
+    "patent_id": "US20090252167A1",
+    "title": "Queue processing method",
+    "abstract": "A method of processing data packets, each data packet being associated with one of a plurality of entities. The method comprises storing a data packet associated with a respective one of said plurality of entities in a buffer, storing state parameter data associated with said stored data packet, the state parameter data being based upon a value of a state parameter associated with said respective one of said plurality of entities, and processing a data packet in said buffer based upon said associated state parameter data.",
+    "inventors": [
+        "Finbar Naven"
+    ],
+    "assignee": "US Bank NA",
+    "classifications": [
+        "H04L47/32",
+        "H04L47/50",
+        "H04L49/90"
+    ],
+    "claims": "\n1. A method of processing data packets, each data packet being associated with one of a plurality of entities, the method comprising:\nstoring a data packet associated with a respective one of said plurality of entities in a buffer;\nstoring state parameter data associated with said stored data packet, the state parameter data being based upon a value of a state parameter associated with said respective one of said plurality of entities; and\nprocessing a data packet in said buffer based upon said associated state parameter data.\n2. A method according to claim 1, wherein said processing comprises:\nselecting a data packet for processing; and\nprocessing the state parameter data associated with said selected data packet with reference to a current value of the state parameter associated with said respective entity.\n3. A method according to claim 2, wherein if said processing indicates a first relationship between said state parameter data associated with said selected data packet and the current value of said state parameter associated with said respective entity the method further comprises:\ntransmitting said selected data packet to at least one destination associated with the selected data packet.\n4. A method according to claim 3, wherein said first relationship is equality.\n5. A method according to claim 2, wherein if said processing indicates a second relationship between said state parameter data associated with said selected data packet and the current value of said state parameter associated with the respective entity the method further comprises:\ndiscarding said selected data packet.\n6. A method according to claim 1, wherein said buffer is a queue.\n7. A method according to claim 6, wherein said queue is a first-in, first-out queue.\n8. A method according to claim 1, wherein a state parameter associated with an entity is updated in response to at least one event associated with said entity.\n9. A method according to claim 8, wherein said event is a reset.\n10. A method according to claim 1 wherein said state parameter is a counter.\n11. A method according to claim 1, wherein said respective entity is a source of said data packet.\n12. A method according to claim 1, wherein said respective entity is a destination of said data packet.\n13. A method according to claim 1, wherein said entity is a computing device.\n14. A method according to claim 1 wherein said entity is a computer program running on a computing device.\n15. A method according to claim 1 wherein said state parameter data is stored in said buffer.\n16. A method according to claim 15 wherein said state parameter data is stored in said buffer alongside said data packet.\n17. A method of storing data packets in a buffer, each data packet being associated with one of a plurality of entities, the method comprising:\nreceiving a data packet associated with a respective one of said plurality of entities;\ndetermining a value of a state parameter associated with said respective one of said plurality of entities;\nstoring said data packet in the buffer; and\nstoring state parameter data based upon said determined value.\n18. A method according to claim 17, wherein said queue is a first-in, first-out queue.\n19. A method according to claims 17, wherein said state parameter is a counter.\n20. A method according to claim 17, wherein said respective entity is a source of said data packet.\n21. A method according to claim 17, wherein said respective entity is a destination of said data packet.\n22. A method according to claim 17, wherein said state parameter data is stored in said buffer.\n23. A method according to claim 22, wherein said state parameter data is stored in said buffer alongside said data packet.\n24. Apparatus for processing data packets, the apparatus comprising;\na memory storing processor readable instructions; and\na processor configured to read and execute instructions stored in said memory;\nwherein said processor readable instructions comprise instructions controlling the processor to carry out a method according to claim 1.\n25. A computer program comprising instructions controlling the computer to carry out a method according to claim 1.\n26. A carrier medium carrying the computer program of claim 25.\n27. Apparatus for processing data packets, each data packet being associated with one of a plurality of entities, the apparatus comprising:\na memory storing a data packet associated with a respective one of said plurality of entities in a buffer;\na memory storing state parameter data associated with said stored data packet, the state parameter data being based upon a value of a state parameter associated with said respective one of said plurality of entities; and\na processor processing a data packet in said buffer based upon said associated state parameter data.\n28. Apparatus according to claim 27, wherein said buffer is a queue.\n29. Apparatus according to claim 27 wherein said processor is configured to:\nselect a data packet for processing; and\nprocess the state parameter data associated with said selected data packet with reference to a current value of the state parameter associated with said respective entity.\n30. Apparatus according to claim 27, wherein the apparatus is a switching device.\n31. Apparatus for storing data packets in a buffer, each data packet being associated with one of a plurality of entities, the apparatus comprising:\na receiver adapted to receive a data packet associated with a respective one of said plurality of entities;\na processor adapted to determine the value of a state parameter associated with said respective one of said plurality of entities;\na memory storing said data packet in the buffer; and\na memory storing state parameter data based upon said determined value.\n32. Apparatus according to claim 31, wherein said buffer is a queue.\n33. Apparatus according to claim 31 wherein said processor is configured to:\nselect a data packet for processing; and\nprocess the state parameter data associated with said selected data packet with reference to a current value of the state parameter associated with said respective entity.\n34. Apparatus according to claim 31, wherein the apparatus is a switching device.",
+    "status": "Active",
+    "citations_own": [
+        "US5809522A",
+        "US6201807B1",
+        "US20020003777A1",
+        "US20020181481A1",
+        "US6678271B1",
+        "US20050018701A1",
+        "US20050088969A1",
+        "US20050147032A1",
+        "US6967926B1",
+        "US20060251108A1",
+        "US7145914B2",
+        "US7221647B2",
+        "US20070153683A1",
+        "US7324438B1",
+        "US7447197B2",
+        "US7453810B2",
+        "US7483631B2",
+        "US7539133B2",
+        "US7596086B2",
+        "US7660239B2",
+        "US7742408B2"
+    ],
+    "citations_ftf": [
+        "US4945548A",
+        "US6493347B2",
+        "JPH1132055A",
+        "US6856627B2",
+        "US6804239B1",
+        "WO2002084957A2",
+        "US7190667B2",
+        "US7324428B1",
+        "US7864789B2",
+        "US7953074B2"
+    ],
+    "citedby_own": [
+        "US20100251268A1",
+        "US20140359036A1",
+        "US20170024347A1",
+        "US20200059437A1"
+    ],
+    "citedby_ftf": [
+        "US9170976B2"
+    ]
+}

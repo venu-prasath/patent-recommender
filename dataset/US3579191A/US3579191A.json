@@ -1,0 +1,38 @@
+{
+    "patent_link": "https://patents.google.com/patent/US3579191A/en",
+    "patent_id": "US3579191A",
+    "title": "Network using adaptive elements",
+    "abstract": "A communication network is provided using information storage control means for selecting a direct path from calling to called portions of the network. The network contains nodes and links therebetween. Each of the links has a switch controlled by an adaptive element therein. The adaptive element includes means for controlling the probability that a signal which emanates from the node traverses the link containing the adaptive element. Means operated in cooperation with the adaptive element are further provided so that any node which receives and passes on a signal is inhibited from receiving a further signal without first being reset.",
+    "inventors": [
+        "John Hugh Andreae",
+        "Brian Ronald Gaines",
+        "Peter White"
+    ],
+    "assignee": "STC PLC",
+    "classifications": [],
+    "claims": "\n1. A network containing nodes and links therebetween, each of said links having therein a switch controlled by an adaptive element, said adaptive elements including means to control the probability that a signal which emanates from the node traverses the link containing the adaptive element, said probability being determined by the output state of said adaptive element, and means operated in cooperation with said adaptive element whereby an node which receives and passes on a signal is inhibited from receiving a further signal without first being reset.\n2. A network as claimed in claim 1 wherein at least one of the said links have delays therein.\n3. A network as claimed in claim 2 wherein means are provided for updating the state of the adaptive elements by information obtained from sampling the occupancy of links of a real system of which the network is a model.\n4. A network as claimed in claim 3 and a computer, said network being operatively connected to said computer to control the performance of said computer.\n5. A network as claimed in claim 3 wherein lights switched by links of the network provided an illuminated display of the path through the network.\n6. A network as claimed in claim 3, wherein the inputs to a node from one of the links include a pulse-sensitive switch arranged to be closed by a control signal in pulse form, said control signal emanating from said node, information or current signals carried by the link being undisturbed by such a pulse control signal.\n7. A network as claimed in claim 3 wherein the inputs to a node from one of the links include a current sensitive switch arranged to pass a signal in one direction and to be locked in the closed position by a voltage applied between ends of the appropriate link and to be unlocked by the application of a reset signal.\n8. A network as claimed in claim 3 wherein at least one of the links contains an AND gate to which any probe signal through the link and the output of the adaptive element of that link are arranged to be applied.\n9. A network as claimed in claim 3 wherein the adaptive element in one of the links sets the threshold of a threshold gate to which signals through the said link are applied.\n10. A method of extracting a path between a sending node and a receiving node of a network containing nodes and links therebetween, each of said links having therein a switch controlled by an adaptive element, said adaptive elements including means to control the probability that a signal which emanates from the node traverses the link containing the adaptive element, said probability being determined by the output state of said adaptive element, and means operated in cooperation with said adaptive element whereby any node which receives and passes on a signal is inhibited from receiving a further signal without first being reset, wherein at least one of the said links have delays therein, and wherein means are provided for updating the state of the adaptive elements by information obtained from sampling the occupancy of links of a real system of which the network is a model, the method including the steps of applying a probe signal to the sending node and when the probe signal has been received at the receiving node locking the switches in these links traversed by the probe signal.",
+    "status": "Expired - Lifetime",
+    "citations_own": [
+        "US3103648A",
+        "US3165644A",
+        "US3238504A",
+        "US3246302A",
+        "US3273125A",
+        "US3303473A",
+        "US3327291A"
+    ],
+    "citations_ftf": [],
+    "citedby_own": [
+        "US3810100A",
+        "US4112488A",
+        "US4247892A",
+        "US4858147A",
+        "US4967340A",
+        "US4972363A",
+        "US5050095A",
+        "US5404451A",
+        "US5809282A",
+        "US20060034347A1"
+    ],
+    "citedby_ftf": []
+}

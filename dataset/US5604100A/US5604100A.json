@@ -1,0 +1,49 @@
+{
+    "patent_link": "https://patents.google.com/patent/US5604100A/en",
+    "patent_id": "US5604100A",
+    "title": "Method and system for sequencing genomes",
+    "abstract": "The present invention pertains to a method for sequencing genomes. The method comprises the steps of obtaining nucleic acid material from a genome. Then there is the step of constructing a clone library and one or more probe libraries from the nucleic acid material. Next there is the step of comparing the libraries to form comparisons. Then there is the step of combining the comparisons to construct a map of the clones relative to the genome. Next there is the step of determining the sequence of the genome by means of the map. The present invention also pertains to a system for sequencing a genome. The system comprises a mechanism for obtaining nucleic acid material from a genome. The system also comprises a mechanism for constructing a clone library and one or more probe libraries. The constructing mechanism is in communication with the nucleic acid material from a genome. Additionally, the system comprises a mechanism for comparing said libraries to form comparisons. The comparing mechanism is in communication with the said libraries. The system also comprises a mechanism for combining the comparisons to construct a map of the clones relative to the genome. The said combining mechanism is in communication with the comparisons. Further, the system comprises a mechanism for determining the sequence of the genome by means of said map. The said determining mechanism is in communication with said map. The present invention additionally pertains to a method for producing a gene of a genome.",
+    "inventors": [
+        "Mark W. Perlin"
+    ],
+    "assignee": "Cybergenetic Holdings Inc",
+    "classifications": [
+        "G16B40/00",
+        "G16B40/10",
+        "C12Q1/6869",
+        "C12Q2600/124",
+        "G16B20/00"
+    ],
+    "claims": "\n1. A method of mapping a region of a genome comprised of the steps:\n(a) obtaining nucleic acid material from a genome;\n(b) constructing a clone library and a long-range probe library from said nucleic acid material;\n(c)hybridizing long-range probes to the clone library to form comparisons;\n(d) detecting the comparisons of the long-range probes to the clone library to form detections;\n(e) recording the detections to form a first set of data;\n(f) binning the long-range probes relative to bin probes to form a second set of data different from the first set of data; and\n(g) combining said first set of data and said second set of data to construct a map of the clones which covers the region of the genome.\n2. A method as described in claim 1 wherein said clone library has an average DNA insert size not exceeding 350 kilobases.\n3. A method as described in claim 1 wherein said clone library includes bacterial or phage cloning vectors.\n4. A method as described in claim 1 wherein said clone library contains at least two genome equivalents.\n5. A method as described in claim 1 wherein said genome is a mammalian genome.\n6. A method as described in claim 5 wherein said mammalian genome is a human genome.\n7. A method as described in claim 1 wherein the long-range probe library consists of chromosomal DNA from somatic cell hybrids.\n8. A method as described in claim 1 wherein the long-range probe library consists of chromosomal DNA from radiation hybrids.\n9. A method as described in claim 7 wherein step (f) includes binning the long-range probes relative to bin probes using a polymerase chain reaction.\n10. A method as described in claim 1 wherein the bin probes consist of PCR primer pairs that map to unique genome locations.\n11. A method as described in claim 1 wherein the first data set has uncertainty in the detected comparisons.\n12. A method as described in claim 1 wherein step (c) includes hybridizing to at least 73 long-range probes.\n13. A method for identifying and isolating a gene linked to a genetic trait comprised of the steps:\n(a) constructing a map of a region of a genome according to the method of claim 1; and\n(b) using said map to aid in positional cloning and thereby identifying and isolating a gene linked to a genetic trait.\n14. A method as described in claim 13 wherein said gene is related to a human disease.\n15. A method of genome mapping comprised of the steps:\n(a) obtaining nucleic acid material from a genome;\n(b) constructing a clone library and a long-range probe library from said nucleic acid material;\n(c) hybridizing long-range probes to the clone library to form comparisons;\n(d) detecting the comparisons of the long-range probes to the clone library to form detections;\n(e) recording the detections to form a first set of data;\n(f) binning the long-range probes relative to bin probes to form a second set of data different from the first set of data;\n(g) performing short-range probings using a short-range probe library on the clone library to form a third set of data different form the first and second sets of data; and\n(f) combining said first set of data, said second set of data and said third set of data to construct a map of the clones relative to said genome.\n16. A method as described in claim 15 wherein the short-range probe library consists of oligonucleotides of size between 5 base pairs and 15 base pairs.\n17. A method of forming a tiling path of overlapping clones comprising the steps of:\n(a) constructing a genome map according to the method of claim 15; and\n(b) producing sets of mapped overlapping clones from the clones in the clone library, thereby forming a tiling path of mapped overlapping clones.\n18. A method as described in claim 15 wherein the short-range probe library consists of a plurality of clones.\n19. A method of genome mapping comprised of the steps:\n(a) obtaining nucleic acid material from a genome;\n(b) constructing a clone library and a long-range probe library from said nucleic acid material;\n(c) hybridizing long-range probes to the clone library to form comparisons;\n(d) detecting the comparisons of the long-range probes to the clone library to form detections;\n(e) recording the detections to form a first set of data;\n(f) performing short-range probings using a short-range probe library to form a second set of data different from the first set of data; and\n(g) combining said first set of data and said second set of data to construct a map of the clones relative to said genome.\n20. A method of sequencing a genome comprising the steps of:\n(a) constructing a tiling path of overlapping clones according to the method of claim 17;\n(b) determining DNA sequences of the clones in the tiling path; and\n(c) combining these DNA sequences to form mapped DNA sequences, thereby sequencing said genome.\n21. A method of mapping cDNAs relative to a genome comprising the steps of:\n(a) obtaining a cDNA whose corresponding gene is present in said genome;\n(b) labeling said cDNA;\n(c) hybridizing the labeled cDNA with clones in the tiling path constructed according to the method of claim 17, to form detections;\n(d) recording said detections to form a fourth set of data, different from first, second and third sets of data from claim 17; and\n(e) using said fourth set of data to map the cDNA relative to said genome.\n22. A method of performing genome mismatch scanning (GMS) comprising the steps of:\n(a) constructing a tiling path of overlapping clones according to the method of claim 17; and\n(b) using clones in the tiling path as hybridization probes in GMS.",
+    "status": "Expired - Lifetime",
+    "citations_own": [
+        "US5102785A",
+        "US5219726A"
+    ],
+    "citations_ftf": [],
+    "citedby_own": [
+        "WO1998023631A1",
+        "US5871697A",
+        "US5972693A",
+        "US6048691A",
+        "US6208941B1",
+        "US6225546B1",
+        "WO2002004661A2",
+        "US6418382B2",
+        "US20020182630A1",
+        "US20030068610A1",
+        "US6674452B1",
+        "US20040043416A1",
+        "US20100114809A1",
+        "US9268903B2",
+        "US11817180B2"
+    ],
+    "citedby_ftf": [
+        "US6972183B1",
+        "US20040241759A1",
+        "US20050070005A1",
+        "US7110885B2",
+        "US7987056B2",
+        "CA2619657C"
+    ]
+}

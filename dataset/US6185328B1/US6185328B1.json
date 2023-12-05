@@ -1,0 +1,57 @@
+{
+    "patent_link": "https://patents.google.com/patent/US6185328B1/en",
+    "patent_id": "US6185328B1",
+    "title": "Method and system for classifying and processing of pixels of image data",
+    "abstract": "A system and method classify a pixel of image data as one of a plurality of image types. A first image characteristic value for the pixel, a second image characteristic value for the pixel, a third image characteristic value for the pixel, and a fourth image characteristic for the pixel is determined. Some of these determinations may be resolution dependent. The values from these determination are utilized in assigning an image type classification to the pixel. Moreover, if at least one of the image characteristic values is greater than a predetermined threshold value the pixel is classified as a halftone peak value. The system includes a plurality of microclassifiers for determining a distinct image characteristic value of the pixel; a plurality of macroreduction circuits connected to the plurality of microclassifiers for performing further higher level operations upon the distinct image characteristic values of the pixel to produce reduced values; and a classification circuit to classify the pixel as an image type based on the reduced values from the macroreduction circuits. The system also includes a circuit to detect flat peaks without detecting multiple peaks and a rectangular blur filtering system.",
+    "inventors": [
+        "Jeng-Nan Shiau"
+    ],
+    "assignee": "Xerox Corp",
+    "classifications": [
+        "H04N1/40062",
+        "G06T7/44",
+        "G06T2207/10008"
+    ],
+    "claims": "\n1. A method for reducing false halftone detection in image areas having thin lines, comprising the steps of:\n2. The method as claimed in claim 1, wherein said step (a) determines the horizontal video range value for the pixel dependent upon a resolution of the video stream.\n3. The method as claimed in claim 1, wherein said step (b) determines the vertical video range value for the pixel dependent upon a resolution of the video stream.",
+    "status": "Expired - Lifetime",
+    "citations_own": [
+        "US5343309A",
+        "US5361142A",
+        "US5696842A",
+        "US5920646A",
+        "US5963342A"
+    ],
+    "citations_ftf": [],
+    "citedby_own": [
+        "US6347153B1",
+        "US6411735B1",
+        "US6426755B1",
+        "US20030179925A1",
+        "US6650775B1",
+        "US20030218779A1",
+        "US6681054B1",
+        "US6707953B1",
+        "US20040114185A1",
+        "US20040257619A1",
+        "US20050058364A1",
+        "US20050100225A1",
+        "US20050163374A1",
+        "US20050286772A1",
+        "US20060153475A1",
+        "US20060232794A1",
+        "US20070242288A1",
+        "US20080239401A1",
+        "US20090067754A1",
+        "US20100290089A1",
+        "US20100299294A1",
+        "US7965413B2",
+        "US20110153615A1",
+        "US8452088B1",
+        "US20140002459A1",
+        "US8731058B1",
+        "US9361367B2",
+        "US9628635B1",
+        "CN113791857A"
+    ],
+    "citedby_ftf": []
+}

@@ -1,0 +1,64 @@
+{
+    "patent_link": "https://patents.google.com/patent/US4773021A/en",
+    "patent_id": "US4773021A",
+    "title": "Adaptive model-based pressure control and method of resin cure",
+    "abstract": "Composites such as graphite reinforced PMR-15 resin are cured in a heated press by following a temperature schedule and changing from low to high pressure after the start of resin cross linking. A pressure control and method to time application of high pressure uses temperature and dielectric sensor outputs and a semi-empirical model of the resin electrical conductivity. The model estimates the future variation of resin conductivity and determines time-to-go to a maximum in electrical conductivity. A signal to apply high pressure is generated when the estimated time to maximum conductivity falls below a threshold. On-line fitting of the model to sensor data as it is gathered provides a mechanism for adapting the control to the peculiarities of a given batch of resins and a particular cure schedule.",
+    "inventors": [
+        "Lawson P. Harris",
+        "Ram K. Upadhyay"
+    ],
+    "assignee": "General Electric Co",
+    "classifications": [
+        "G05B13/048",
+        "B29C35/0288",
+        "B29C43/58",
+        "G01N2203/0092"
+    ],
+    "claims": "\n1. An adaptive model-based pressure control system for an apparatus in which a resin-containing workpiece is cured by heating according to a given temperature vs. time schedule and applying a low pressure during initial stages of the cure and a high pressure after the start of resin cross linking, comprising:\nsensors and associated instrumentation for supplying workpiece temperature and resin conductivity data to a control computer during the cure process;\nsaid control computer having means for computing the predicted future variation of resin conductivity and estimated time to a conductivity maximum from a mathematical model which utilizes current temperature and conductivity data, precalculated estimates of the fraction of cross linking completed, and activation energy and cure constants; and\nmeans for sending a signal to said apparatus to apply said high pressure to said workpiece when the estimated time to conductivity maximum drops below a preset threshold.\n2. The pressure control system of claim 1 further comprising means for fitting said mathematical model on-line to said current data.\n3. The pressure control system of claim 2 wherein said last-mentioned means is comprised of means for adjusting said activation energy constant initially, and thereafter adjusting said cure constant and recalculating the estimated time to conductivity maximum.\n4. The pressure control system of claim 2 wherein said computer has data acceptance logic to reject said current data not in a cross linking range of times and temperatures and which differs by a given factor from the last data.\n5. The pressure control system of claim 2 wherein said sensors are a thermocouple and a dielectric sensor having a parallel plate capacitor structure.\n6. An adaptive pressure control system for a heated press in which a graphite cloth reinforced PMR-15 resin workpiece is cured by following a given temperature vs. time schedule and applying low pressure during initial stages of the cure and high pressure after the start of resin cross linking, comprising:\nmeans for sensing workpiece temperature and resin conductivity and supplying sensor data to a control computer during the cure cycle; said control computer having:\nmeans for precalculating from a cross linking model an estimate of the fraction of cross linking reaction completed as a function of temperature and time;\nmeans for computing the predicted future variation of resin conductivity and estimated time to a conductivity maximum from a mathematical model which utilizes current temperature and conductivity data, the fraction of cross linking completed, and activation energy and cure constants that are adjusted on-line to fit said model to said current data; and\nmeans for sending a signal to said heated press to apply said high pressure to said workpiece when the estimated time to conductivity maximum drops below a preset threshold.\n7. The pressure control system of claim 6 wherein said sensing means are a thermocouple and a high conductivity dielectric sensor having a parallel plate capacitor structure.\n8. The pressure control system of claim 7 further comprising means for rejecting said sensor data not in a cross linking range of times and temperatures and any conductivity data that differs by more than a given factor from last accepted data.\n9. A method to control application of high pressure during the curing and cross linking of a resin-containing material that is heated according to a given temperature schedule, comprising:\ncontinuously measuring the temperature and electrical conductivity of said material during a cure process;\nproviding a conductivity model to predict future variation of resin conductivity from currently sensed temperature and conductivity data, a precalculated estimate of the fraction of cross linking completed, and activation energy and cure constants;\nadjusting the values of said constants which serve as adjustable parameters in improving agreement between incoming data and model calculations;\ncomputing an estimated time-to-go to a resin conductivity maximum; and\napplying said high pressure to said material when the time-to-go is below a threshold.\n10. The method of claim 9 wherein said conductivity model is expressed mathematically by: ##EQU7## where \u03c3, T, and \u03b1 are the electrical conductivity, absolute temperature, and fractional completion of the cross linking reaction, respectively, of the resin, subscripts o refer to a reference condition just prior to the cross linking reaction, E is the activation energy constant, and C is the cure constant.\n11. The method of claim 9 further comprising rejecting unsuitable values of said incoming data not in a cross linking range of time and temperature.\n12. The method of claim 11 further comprising adjusting the activation energy constant E until an acceptable number of data are accumulated and the fraction of cross linking completed is above a threshold, then adjusting the cure constant C and calculating the time-to-go to conductivity maximum.\n13. The method of claim 9 further comprising rejecting any temperature and conductivity data points that are below thresholds and not in a cross linking range, and any conductivity data that differs excessively from a last accepted value.\n14. The method of claim 13 further comprising adjusting only said activation energy constant, starting with a default value, until a given number of acceptable data points are accumulated and the calculated fraction of cross linking completed is above a threshold, and thereafter adjusting only said cure constant and calculating the time-to-go to conductivity maximum.\n15. The method of claim 9 wherein said material being cured is a fiber-reinforced resin.\n16. The method of claim 9 wherein said material being cured is graphite cloth reinforced PMR-15 resin.",
+    "status": "Expired - Lifetime",
+    "citations_own": [
+        "US3819915A",
+        "US3985712A",
+        "US4373092A",
+        "US4515545A",
+        "US4542466A",
+        "US4546438A",
+        "US4551807A",
+        "US4721589A"
+    ],
+    "citations_ftf": [
+        "JPS6235371B2"
+    ],
+    "citedby_own": [
+        "US4921415A",
+        "WO1990013425A1",
+        "US5019318A",
+        "US5065106A",
+        "US5097431A",
+        "US5106568A",
+        "US5219498A",
+        "WO1995021059A1",
+        "WO1999022921A1",
+        "US6099162A",
+        "US20020075006A1",
+        "US20020133320A1",
+        "US20040010068A1",
+        "US20040133301A1",
+        "US6774643B2",
+        "US20050119785A1",
+        "US20050173820A1",
+        "US20050248047A1",
+        "WO2005086965A3",
+        "CN100430853C",
+        "CN100456176C",
+        "US7676953B2",
+        "CN101920558A",
+        "US8239170B2",
+        "US8275577B2",
+        "US8311774B2",
+        "EP2605006A1"
+    ],
+    "citedby_ftf": [
+        "DE102005039837B4"
+    ]
+}

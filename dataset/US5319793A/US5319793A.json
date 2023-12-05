@@ -1,0 +1,70 @@
+{
+    "patent_link": "https://patents.google.com/patent/US5319793A/en",
+    "patent_id": "US5319793A",
+    "title": "Method and apparatus for improved compression and recording of color video data in a personal computer using a plurality of lookup tables",
+    "abstract": "A personal computer system is operated to concurrently execute threads of multitasking operations to capture motion video data from a video source, compress such data, and record the compressed data in a file. Compression is selectively done in either one of two modes, an inter-frame compression mode and a intra-frame compression mode, both modes being block-oriented. During intra-frame compression, homogenous blocks are used to represent four pixel values with a single pixel value when the four pixels in a block are perceptually similar. During inter-frame compression, unchanged blocks are used to represent four pixel values as unchanged from the preceding frame when the four pixels are perceptually similar to the same four pixels in the preceding frame. Additionally, inter-frame compressed video frames use homogenous blocks to represent four pixel values with a single pixel when the four pixel values in a block are perceptually similar to each other but are perceptually different from the same four pixels in the previous frame.",
+    "inventors": [
+        "Steven M. Hancock",
+        "Mark A. Pietras",
+        "Arturo A. Rodriguez"
+    ],
+    "assignee": "International Business Machines Corp",
+    "classifications": [
+        "H04N9/8045",
+        "H04N19/507",
+        "H04N19/96",
+        "H04N19/98",
+        "H04N5/781"
+    ],
+    "claims": "\n1. A method of operating a personal computer system having a main memory for storing data and programs including a multitasking operating system, a general purpose microprocessor for executing programs stored in said main memory, a source of uncompressed frames of motion video data comprising a series of digitized pixel values, and an output device for recording compressed frames, wherein said method comprises the steps of:\n(a) storing, in said main memory, a plurality of lookup tables for use in analyzing pixel color values expressed in a luminance-chrominance format YCrCb (where Y is a value representing luminance of a pixel color, Cr is a value representing red chrominance of a pixel color, Cb is a value representing blue chrominance of a pixel color), said tables including\n(a1) a first lookup table containing a plurality of pixel luminance profiles stored at locations accessible by a first index containing a Y value concatenated with an AVG-- Y value wherein AVG-- Y is an average of Y values in a block, each luminance profile containing a homogenous bit that is set to a not-homogenous state when (Y-AVG-- Y) exceeds a predetermined homogenous threshold and is set to a homogenous state when (Y-AVG-- Y) is equal to or less than said homogenous threshold,\n(a2) a second lookup table containing a plurality of threshold indicators stored at locations accessible by an index including a current AVG-- YCrCb value concatenated with an AVG-- YCrCb-- AT-- LAST-- UPDATE value for a block, each threshold indicator being set to a first state when (AVG YCrCb-AVG-- YCrCb-- AT-- LAST-- UPDATE) exceeds a predetermined threshold and to a second state when (AVG-- YCrCb-AVG-- YCrCb-- AT-- LAST-- UPDATE) does not exceed such threshold, and\n(a3) a third table containing a plurality of AVG-- YCrCb-- AT-- LAST-- UPDATE values stored at locations accessible by a third index including a block number identifying location of a block in a frame, each AVG-- Y-- AT-- LAST-- UPDATE value being a AVG-- Y value when a block was last changed;\n(b) storing an uncompressed frame from said source in said main memory, said uncompressed frame having a predetermined number of groups of blocks of pixel values, each group containing a predetermined number of blocks, each block containing a predetermined number of pixel values;\n(c) defining each pixel values by a YCrCb value;\n(d) operating said microprocessor to process a group, one block at a time and create an output entry for a group being processed, wherein said output entry comprises a header for a group being processed, said header having a plurality of bit fields for each block in said group being processed which bit fields indicate block status as being unchanged, changed-homogenous, and changed-not-homogenous, by steps comprising\n(d1) determining average YCrCb values AVG Y, AVG Cr and AVG Cb from all pixel values in a block,\n(d2) creating a block luminance profile by reading from said first lookup table a plurality of pixel luminance profiles for each pixel in a block, each pixel luminance profile being read using a first index comprising Y for such pixel and AVG Y of its block,\n(d3) reading from said third lookup table an AVG-- YCrCb-- AT-- LAST-- UPDATE value for said block being processed,\n(d4) reading a threshold indicator from said second lookup table using a second index of said AVG-- YCrCb-- AT-- LAST-- UPDATE value from step (d3) concatenated with current AVG-- YCrCb for said block being processed,\n(d5) examining, when said threshold indicator read in step (d4) is in said second state thereof, whether any pixel luminance profile in said block luminance profile is set to a not-homogeneous state, and placing a plurality of pixel color values in said output entry when a pixel luminance profile is set to a not-homogenous state or placing a single pixel color value when all of said pixel profile values are set to homogenous states;\n(d6) setting said block group header to indicate said block being processed has a homogenous status or a not-homogenous status in accordance with results of (d5),\n(d7) updating said third table wit current AVG-- YCrCb and returning to step (d1) to process a next block,\n(d8) when said threshold indicator read in step (d4) is in said first state thereof, setting said block group header to indicate said block being processed has an unchanged status, and returning to step (d1) to process a next block,\nand (d9) transmitting to said recording means a single pixel color value for a homogenous block and a plurality of pixel color values for a not-homogenous block; and\n(e) transmitting output entries from said groups in a frame to said recording device for recording said output entries as a compressed frame.\n2. A method of operating a personal computer system in accordance with claim 1 comprising:\nstoring contrast bits in each of said pixel luminance profiles in said first lookup table, said contrast bits in each pixel luminance profile indicating if (Y-AVG-- Y) exceeds a predetermined contrast threshold;\nstoring in said main memory a fourth lookup table which contains contrast bits for pixels in a block at the last update thereof;\nand, immediately after step (d4), reading from said fourth lookup table said contrast bits at last update, comparing such contrast bits with contrast bits in said luminance profiles from step (d2), and performing step (d5) when said comparison indicates inequality, and branching to step (d8) when said comparison indicates equality.\n3. A personal computer system having a main memory for storing data and programs including a multitasking operating system, a general purpose microprocessor for executing programs stored in said main memory, a source of uncompressed frames of motion video data comprising a series of digitized pixel values, and an output device for recording compressed frames, said personal computer system comprising:\n(a) a plurality of lookup tables stored in said main memory for use in analyzing pixel color values expressed in a luminance-chrominance format YCrCb (where Y is a value representing luminance of a pixel color, Cr is a value representing red chrominance of a pixel color, Cb is a value representing blue chrominance of a pixel color), said tables including\n(a1) a first lookup table containing a plurality of pixel luminance profiles stored at locations accessible by a first index containing a Y value concatenated with an AVG-- Y value wherein AVG-- Y is an average of Y values in a block, each luminance profile containing a homogenous bit that is set to a not-homogenous state when (Y-AVG-- Y) exceeds a predetermined homogenous threshold and is set to a homogenous state when (Y-AVG-- Y) is equal to or less than said homogenous threshold,\n(a2) a second lookup table containing a plurality of threshold indicators stored at locations accessible by an index including a current AVG-- YCrCb value concatenated with an AVG-- YCrCb-- AT-- LAST-- UPDATE value for a block, each threshold indicator being set to a first state when (AVG YCrCb-AVG-- YCrCb-- AT-- LAST-- UPDATE) exceeds a predetermined threshold and to a second state when (AVG-- YCrCb-AVG-- YCrCb-- AT-- LAST-- UPDATE) does not exceed such threshold, and\n(a3) a third table containing a plurality of AVG-- YCrCb-- AT-- UPDATE values stored at locations accessible by a third index including a block number identifying location of a block in a frame, each AVG--Y -- AT-- LAST-- UPDATE value being a AVG-- Y value when a block was last changed;\n(b) an uncompressed frame from said source stored in said main memory, said uncompressed frame having a predetermined number of groups of blocks of pixel values, each group containing a predetermined number of blocks, each block containing a predetermined number of pixel values;\n(c) means for defining each pixel value by a YCrCb value:\n(d means for operating said microprocessor to process a group, one block at a time and create an output entry for a group being processed, wherein said output entry comprises a header for a group being processed, said header having a plurality of bit fields for each block in said group being processed which bit fields indicate block status as being unchanged, changed-homogenous, and changed-not-homogenous, said means (d) comprising\n(d1) means for determining average YCrCb values AVG Y, AVG Cr and AVG Cb from all pixel values in a block,\n(d2) means for creating a block luminance profile by reading from said first lookup table a plurality of pixel luminance profiles for each pixel in a block, each pixel luminance profile being read using a first index comprising Y for such pixel and AVG Y of its block,\n(d3) means for reading from said third lookup table an AVG--YCrCb -- AT-- LAST-- UPDATE value for said block being processed,\n(d4) means for reading a threshold indicator from said second lookup table using a second index of said AVG--YCrCb -- AT-- LAST-- UPDATE value from means (d3) concatenated with current AVG-- YCrCb for said block being processed,\n(d5) means for examining, when said threshold indicator read in means (d4) is in said second state thereof, whether any pixel luminance profile in said block luminance profile is set to a not-homogenous state, and placing a plurality of pixel color values in said output entry when a pixel luminance profile is set to a not-homogenous state or placing a single pixel color value when all of said pixel profile values are set to homogenous states;\n(d6) means for setting said block group header to indicate said block being processed has a homogenous status or a not-homogenous status in accordance with examining results of means (d5),\n(d7) means for updating said third table with current AVG-- YCrCb and returning to means (d1) to process a next block,\n(d8) means for setting said block group header to indicate said block being processed has an unchanged status, and returning to means (d1) to process a next block, when said threshold indicator read in means (d4) is in said first state thereof,\nand (d9) means for transmitting to said recording means a single pixel color value for a homogenous block and a plurality of pixel color values for a not-homogenous block; and\n(e) means for transmitting output entrees from said groups in a frame to said recording device for recording said output entries as a compressed frame.\n4. A personal computer system in accordance with claim 3 comprising:\ncontrast bits stored in each of said pixel luminance profiles in said first lookup table, said contrast bits in each pixel luminance profile indicating if Y-AVG-- Y) exceeds a predetermined contrast threshold;\na fourth lookup table in said main memory which contains contrast bits for pixels in a block at the last update thereof;\nand, means for reading said contrast bits at last update from said fourth lookup table, comparing such contrast bits with contrast bits in said luminance profiles from means (d2), and operating means (d5) when said comparison indicates inequality, and operating means (d8) when said comparison indicates equality.",
+    "status": "Expired - Fee Related",
+    "citations_own": [
+        "US4743959A",
+        "US5164819A",
+        "US5177608A"
+    ],
+    "citations_ftf": [
+        "GB9022761D0",
+        "US5218647A"
+    ],
+    "citedby_own": [
+        "US5434913A",
+        "US5450130A",
+        "US5490247A",
+        "US5493568A",
+        "US5506954A",
+        "US5566238A",
+        "US5574934A",
+        "US5579389A",
+        "US5585944A",
+        "US5600797A",
+        "US5631967A",
+        "US5651676A",
+        "US5673393A",
+        "WO1997049024A1",
+        "US5748776A",
+        "US5754765A",
+        "US5764994A",
+        "US5809237A",
+        "US5812144A",
+        "US5862388A",
+        "US5893130A",
+        "US5949409A",
+        "US5949891A",
+        "US6091850A",
+        "US6092071A",
+        "US6125398A",
+        "US20030151614A1",
+        "US6647143B1",
+        "US20080144727A1",
+        "US20110202546A1",
+        "US11108405B2"
+    ],
+    "citedby_ftf": [
+        "GB9325073D0",
+        "EP1463325B1",
+        "AU753002B2",
+        "GB2436880B",
+        "US8259797B2"
+    ]
+}

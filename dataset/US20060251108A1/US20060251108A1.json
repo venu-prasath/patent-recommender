@@ -1,0 +1,76 @@
+{
+    "patent_link": "https://patents.google.com/patent/US20060251108A1/en",
+    "patent_id": "US20060251108A1",
+    "title": "System for scaling by parallelizing network workload",
+    "abstract": "A method for scaling a network system which includes providing at least one network interface and providing a flexible association between packets and a plurality of processing entities via the plurality of memory access channels. Each network interface including a plurality of memory access channels.",
+    "inventors": [
+        "Ariel Hendel",
+        "Michael Wong",
+        "Yatin Gajjar",
+        "Shimon Muller"
+    ],
+    "assignee": "Oracle America Inc",
+    "classifications": [
+        "H04L47/10",
+        "H04L47/2441",
+        "H04L47/27",
+        "H04L47/29",
+        "H04L47/32",
+        "H04L49/90",
+        "H04L49/9031",
+        "H04L49/9063"
+    ],
+    "claims": "\n1. A method for scaling a network system comprising:\nproviding at least one network interface, each network interface including a plurality of memory access channels,\nproviding a flexible association between packets and a plurality of processing entities via the plurality of memory access channels.\n2. The method of claim 1 wherein\nthe flexible association is based upon stateful association.\n3. The method of claim 1 wherein\nthe flexible association is based upon stateless association.\n4. The method of claim 1 wherein\neach of the plurality of memory access channels includes a channel context.\n5. The method of claim 1 wherein\nthe flexible association is provided via a packet classification process.\n6. The method of claim 5 wherein\nthe packet classification process includes a hierarchical approach, with lower layer information determining a group and high layer information refining selection of a processing entity within a group.\n7. The method of claim 6 wherein\nduring the packet classification process, higher layer information may dictate and override the group selection in certain applications.\n8. The method of claim 6 further comprising:\nperforming a non-strict hierarchical classification on a packet;\nassociating the packet with one of the plurality of memory access channels based upon the non-strict hierarchical classification.\n9. The method of claim 8 further comprising:\noptimistically matching during the non-strict hierarchical classification to maximize hash table utilization.\n10. The method of claim 8 further comprising:\nproviding a flow table format that supports both exact matching and optimistic matching.\n11. The method of claim 8 wherein:\nthe non-strict hierarchical classification includes determining whether to use a virtual local area network information or media access controller information during the classification.\n12. The method of claim 8 wherein:\nthe non-strict hierarchical classification includes determining whether to perform a key search during the classification; and,\nif a key search is performed, using results from the key search to override other classification results.\n13. A network interface unit for scaling a network system having a plurality of processing entities comprising:\na memory access channel module, the memory access channel module a plurality of parallel memory access channels,\na packet classifier, the packet classifier providing a flexible association between packets and the plurality of processing entities via the plurality of memory access channels.\n14. The network interface unit of claim 13 wherein\nthe flexible association is based upon stateful association.\n15. The network interface unit of claim 13 wherein\nthe flexible association is based upon stateless association.\n16. The network interface unit of claim 13 wherein\neach of the plurality of memory access channels includes a channel context.\n17. The network interface unit of claim 13 wherein\nthe flexible association is provided via a packet classification process.\n18. The network interface unit of claim 17 wherein\nthe packet classification process includes a hierarchical approach, with lower layer information determining a group and high layer information refining selection of a processing entity within a group.\n19. The network interface unit of claim 18 wherein\nduring the packet classification process, higher layer information may dictate and override the group selection in certain applications.\n20. The network interface unit of claim 13 wherein:\nthe packet classifier performs a non-strict hierarchical classification on a packet.\n21. The network interface unit of claim 20 wherein:\nthe packet classifier associates the packet with one of the plurality of memory access channels based upon the non-strict hierarchical classification.\n22. The network interface unit of claim 20 further comprising:\noptimistically matching during the non-strict hierarchical classification to maximize hash table utilization.\n23. The network interface unit of claim 20 wherein:\nthe network interface includes a flow table, the flow table including a flow table format that supports both exact matching and optimistic matching.\n24. The network interface unit of claim 20 wherein:\nthe non-strict hierarchical classification includes determining whether to use a virtual local area network information or media access controller information during the classification.\n25. The network interface unit of claim 20 wherein:\nthe non-strict hierarchical classification includes determining whether to perform a key search during the classification; and,\nif a key search is performed, using results from the key search to override other classification results.",
+    "status": "Active",
+    "citations_own": [
+        "US5909686A",
+        "US5920566A",
+        "US5923847A",
+        "US5938736A",
+        "US5940401A",
+        "US6014380A",
+        "US6016310A",
+        "US6021132A",
+        "US6049528A",
+        "US6081522A",
+        "US6081512A",
+        "US6088356A",
+        "US6115378A",
+        "US6128666A",
+        "US6246680B1",
+        "US6587866B1",
+        "US6591303B1",
+        "US6633946B1",
+        "US6667980B1",
+        "US6735206B1",
+        "US20040098496A1",
+        "US20040226019A1",
+        "US20050053060A1",
+        "US20060168381A1",
+        "US7197601B2"
+    ],
+    "citations_ftf": [
+        "US7436830B2",
+        "US6901491B2",
+        "KR100512949B1"
+    ],
+    "citedby_own": [
+        "WO2009122122A1",
+        "US8793361B1",
+        "CN105264837A",
+        "US10681189B2",
+        "US11544141B2"
+    ],
+    "citedby_ftf": [
+        "US8327353B2",
+        "US7685172B2",
+        "US7797576B2",
+        "US20080267176A1",
+        "US8250352B2",
+        "US8446824B2",
+        "US8607039B2",
+        "US9253248B2",
+        "KR102121947B1",
+        "US11646980B2"
+    ]
+}

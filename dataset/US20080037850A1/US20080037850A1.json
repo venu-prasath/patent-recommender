@@ -1,0 +1,59 @@
+{
+    "patent_link": "https://patents.google.com/patent/US20080037850A1/en",
+    "patent_id": "US20080037850A1",
+    "title": "Method and processor for generating a medical image",
+    "abstract": "In a method for generation of a medical image, starting from an acquired data set of an organ to be depicted, a magnification factor and/or an image section to be depicted are automatically determined dependent on the organ to be depicted. Based on this a medical image is generated from the data set. A data processing unit for medical images is fashioned for implementation of such a method and computer software implements such a method when it is executed on a data processing unit.",
+    "inventors": [
+        "Stefan Assmann",
+        "Okan Ekinci"
+    ],
+    "assignee": "Siemens Healthcare GmbH",
+    "classifications": [
+        "G06T7/0012",
+        "G06T2207/10072",
+        "G06T2207/30004"
+    ],
+    "claims": "\n1. A method for generating a medical image, comprising the steps of:\nmaking an acquired data set of an anatomical organ, to be depicted with a display attribute selected from the group consisting of a magnification factor and an image section of the anatomical organ, available to a data processor;\nmaking a user preference for said display attribute available to the data processor;\nin said data processor, automatically determining said display attribute dependent on said organ and dependent on said user preference; and\nfrom said data processor, causing said data set of said anatomical organ to be visually displayed in a display presentation embodying the automatically determined display attribute.\n2. A method as claimed in claim 1 comprising storing in a databank accessible by said data processor, respective associations of different display attributes with different anatomical organs, and automatically determining said display attribute in said data processor by selecting the display attribute associated in said databank with the anatomical organ in said data set.\n3. A method as claimed in claim 1 comprising automatically determining said display attribute in said data processor by operating on said data set with an algorithm selected from the group consisting of segmentation algorithms and pattern recognition algorithms.\n4. A method as claimed in claim 1 comprising, in said data processor, automatically determining said display attribute to cause the anatomical organ to be depicted in said presentation together with a pre-determined region surrounding the anatomical organ.\n5. A method as claimed in claim 1 comprising, in said data processor, automatically determining if said anatomical organ is only partially visible in said presentation and, if so, automatically causing said presentation to be displayed in a format allowing said presentation to be shifted.\n6. A method as claimed in claim 1 comprising making an examination indication available to said data processor, and automatically determining said display attribute in said data processor dependent on said anatomical organ, said user preference, and said examination indication.\n7. A method as claimed in claim 1 comprising allowing manual modification by a user of said user preference.\n8. A method as claimed in claim 1 comprising, after displaying said presentation, executing a further image processing step in said data processor based on said presentation embodying the automatically determined display attribute.\n9. A data processor for generating a medical image, comprising:\na data input that receives an acquired data set of an anatomical organ, to be depicted with a display attribute selected from the group consisting of a magnification factor and an image section of the anatomical organ;\nan input unit allowing entry into the data processor of a user preference for said display attribute;\nsaid data processor automatically determining said display attribute dependent on said organ and dependent on said user preference; and\nsaid data processor automatically generating an output comprising display presentation data wherein said data set of said anatomical organ is displayed in a display presentation embodying the automatically determined display attribute.\n10. A computer-readable medium encoded with a data structure, said computer-readable medium being loadable into a data processor, and said data structure, when said computer-readable medium is loaded in said data processor, causing said data processor to:\nreceive an acquired data set of an anatomical organ, to be depicted with a display attribute selected from the group consisting of a magnification factor and an image section of the anatomical organ, to a data processor;\nallow entry into the data processor of a user preference for said display attribute;\nautomatically determine said display attribute dependent on said organ and dependent on said user preference; and\ncause said data set of said anatomical organ to be visually displayed in a display presentation embodying the automatically determined display attribute.",
+    "status": "Active",
+    "citations_own": [
+        "US5187776A",
+        "US5552605A",
+        "US20030200119A1",
+        "US20030215120A1",
+        "US20040068167A1",
+        "US20040169668A1",
+        "US20050102315A1",
+        "US20050228250A1",
+        "US20060133658A1",
+        "US20060139318A1",
+        "US20070025606A1",
+        "US20070036405A1",
+        "US20070154075A1",
+        "US20070274587A1"
+    ],
+    "citations_ftf": [
+        "DE102006037063A1"
+    ],
+    "citedby_own": [
+        "US7978891B2",
+        "US20110228997A1",
+        "GB2504386A",
+        "US20140180087A1",
+        "WO2014155238A1",
+        "USD716841S1",
+        "USD717340S1",
+        "US8942917B2",
+        "USD735343S1",
+        "US9198835B2",
+        "US9433339B2",
+        "US9517184B2",
+        "US11215711B2",
+        "US11710309B2"
+    ],
+    "citedby_ftf": [
+        "US9060674B2",
+        "JP7337806B2",
+        "WO2020110500A1",
+        "CN111797902A"
+    ]
+}

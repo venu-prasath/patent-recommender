@@ -1,0 +1,38 @@
+{
+    "patent_link": "https://patents.google.com/patent/US4258357A/en",
+    "patent_id": "US4258357A",
+    "title": "Alarm signalling systems",
+    "abstract": "The invention consists of applying a signalling condition to a telephone subscriber line to prime a common burglar alarm arrangement provided at the telephone exchange, which arrangement is activated by the removal of the signalling condition from the line by, for example, a burglary detection device. The equipment at the telephone exchange automatically identifies the subscriber line when the signalling condition is removed and activates an event recording alarm equipment in a Police or Security central station, giving a print out of the identity of the subscriber whose premises have been entered. The major advantage of the system is that the cutting of the telephone line causes the tripping of the common alarm equipment.",
+    "inventors": [
+        "Leslie J. Browell"
+    ],
+    "assignee": "Telent Technologies Services Ltd",
+    "classifications": [
+        "H04M11/04",
+        "G08B19/00",
+        "G08B25/08"
+    ],
+    "claims": "\n1. A remote alarm signalling system comprising protected premises and a telecommunications exchange, and further comprising:\n(i) at each protected premises, detector means for detecting the presence of an alarm condition and alarm signalling means responsive to the detector means and connected to a telecommunications line serving the protected premises and terminated on a telecommunications exchange, the alarm signalling means being arranged to apply to the telecommunications line a characteristic signal when the alarm detector is primed and to remove the characteristic signal from the line when the detector means detects the alarm condition and\n(ii) at the telecommunications exchange, for each telecommunications line having an alarm signalling means for providing an alarm connected to it, monitoring means connected to the line for detecting the application and removal of the characteristic signal, and a common alarm identification circuit connected to the monitoring means and taken into use by the monitoring means when said monitoring means detects that the characteristic signal has been removed from the line, and wherein the common alarm identification circuit is arranged to generate coded signals indicative of the identity of the alarm condition for display at an alarm monitoring equipment.\n2. A remote alarm signalling system according to claim 1 in which the alarm monitoring equipment is located remotely from the exchange and is connected to the exchange by exclusive land line.\n3. A remote alarm signalling system according to claim 2 in which the alarm monitoring equipment comprises a microprocessor controlled event recorder arranged to provide a human recognizable record of the identity of the alarm condition.\n4. A remote alarm signalling system according to claim 1 in which the alarm signalling means includes a polarised resistor circuit arrangement adapted to be connected across the telecommunications line to generate the characteristic signal.\n5. A remote alarm signalling system according to claim 4 in which the detector means includes a switching device activated by the alarm condition and adapted to remove the polarised resistor arrangement from the telecommunications line.\n6. A remote alarm signalling system according to any one of claims 4 or 5, wherein the alarm signalling means include a reset arrangement adapted when actuated to reverse the polarisation of the characteristic signal, and wherein the alarm identification circuit arrangement includes means for detecting the reversal of the polarity of the characteristic signal.\n7. A remote alarm signalling system according to claim 6 in which the alarm identification circuit arrangement upon detection of the reversed polarisation of the characteristic signal causes the monitoring means for the particular telecommunications line to be reset.\n8. A remote alarm signalling system according to claim 7 in which the detector means includes a visual indicator adapted to be activated when the monitoring means associated with the particular telecommunications line is reset and the reset arrangement is actuated.\n9. A remote alarm signalling system according to claim 8 in which the visual indicator comprises a light emitting diode.\n10. A remote alarm signalling system according to claim 8 in which the reset arrangement includes a manually operable key switch.\n11. A remote alarm signalling system according to claim 10 in which the characteristic signal is applied to the telecommunications line by way of a manually operable key switch.\n12. A remote alarm signalling system according to claim 11 in which the characteristic alarm signal is applied to the telecommunications line momentarily in response to the detection of an alarm condition regardless of the state of the telecommunication line.",
+    "status": "Expired - Lifetime",
+    "citations_own": [
+        "US3648268A",
+        "US3925763A",
+        "US4044351A",
+        "US4118700A"
+    ],
+    "citations_ftf": [],
+    "citedby_own": [
+        "US4442320A",
+        "US4528423A",
+        "WO1985004302A1",
+        "US4641127A",
+        "US4849971A",
+        "WO1998008205A1",
+        "US6034619A",
+        "US6266396B1",
+        "FR2806811A1",
+        "US6397275B1",
+        "US20140192963A1"
+    ],
+    "citedby_ftf": []
+}

@@ -1,0 +1,22 @@
+{
+    "patent_link": "https://patents.google.com/patent/US20030077586A1/en",
+    "patent_id": "US20030077586A1",
+    "title": "Method and apparatus for combining gene predictions using bayesian networks",
+    "abstract": "Computer based apparatus and method automates gene prediction in a subject genomic sequence. A plurality of expert systems provide preliminary or intermediate gene predictions. A Bayesian network combiner combines the intermediate gene predictions and forms a final gene prediction. The final gene prediction accounts for dependencies between individual expert systems and dependencies between adjacent parts of the subject genomic sequence.",
+    "inventors": [
+        "Vladimir Pavlovic",
+        "Simon Kasif",
+        "Ashutosh Garg"
+    ],
+    "assignee": "Hewlett Packard Development Co LP",
+    "classifications": [
+        "G16B20/00",
+        "C12Q2600/158"
+    ],
+    "claims": "\n1. Computer apparatus for gene prediction comprising:\na plurality of units for predicting gene locations in a subject genomic sequence, each unit providing respective intermediate indications of gene locations output by the unit;\na combiner coupled to each unit to receive the respective intermediate output indications of predicted gene locations, the combiner being formed of a Bayesian network which combines the predicted gene locations using probabilities of gene locations of the subject genomic sequence, and forming a final combined output for indicating predicted genes of the subject genomic sequence.\n2. Computer apparatus as claimed in claim 1 wherein the plurality of units is a plurality of expert systems.\n3. Computer apparatus as claimed in claim 1 wherein the Bayesian network accounts for dependencies between individual units and dependencies between adjacent parts of the subject genomic sequence.\n4. Computer apparatus as claimed in claim 3 wherein the Bayesian network combines the predicted gene locations according to\n5. Computer apparatus as claimed in claim 1 wherein the subject genomic sequence is a DNA or RNA sequence.\n6. Computer apparatus as claimed in claim 1 wherein gene locations include exon predictions.\n7. Computer apparatus as claimed in claim 6 wherein gene locations further include exon and intron predictions; and\nthe final combined output indicates exons and introns of the predicted genes of the subject genomic sequence.\n8. Computer apparatus as claimed in claim 1 wherein the Bayesian network is trained on known genes of a known genome sequence.\n9. A method for automated gene prediction, comprising the steps of:\nusing a plurality of expert systems, preliminarily predicting gene locations in a subject genomic sequence;\nusing a Bayesian network, combining the preliminarily predicted gene locations to form a final combined output indicating predicted genes of the subject genomic sequence, the Bayesian network accounting for dependencies between individual expert systems and dependencies between adjacent parts of the subject genomic sequence.\n10. A method as claimed in claim 9 wherein the step of combining using a Bayesian network combines according to\n11. A method as claimed in claim 9 wherein the subject genomic sequence is a DNA or RNA sequence.\n12. A method as claimed in claim 9 wherein gene locations include exon predictions.\n13. A method as claimed in claim 12 wherein gene locations further include exon and intron predictions; and\nthe final combined output indicates exons and introns of the predicted genes of the subject genomic sequence.",
+    "status": "Expired - Fee Related",
+    "citations_own": [],
+    "citations_ftf": [],
+    "citedby_own": [],
+    "citedby_ftf": []
+}

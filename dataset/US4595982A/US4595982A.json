@@ -1,0 +1,46 @@
+{
+    "patent_link": "https://patents.google.com/patent/US4595982A/en",
+    "patent_id": "US4595982A",
+    "title": "Expert system and method for making decisions in accordance with the decisions of a mentor",
+    "abstract": "This invention relates to an expert system and method for decision making using computer generated paramorphic models of an expert's decisional process.",
+    "inventors": [
+        "Frank N. Burt"
+    ],
+    "assignee": "Mynd Corp",
+    "classifications": [],
+    "claims": "\n1. A method for making decisions within a problem sphere comprising the steps of:\n(a) defining the logical sphere of the problem by capturing descriptive information according to parameters supplied by an expert who acts as a mentor;\n(b) characterizing each unique situation in terms of intermediate judgments about each parameter so defined;\n(c) assessing the relative logical and experiential importance of each intermediate judgment;\n(d) subdivding the intermediate judgments into classes of major importance and minor importance;\n(e) identifying a presented example as being logically identical to previously encountered situations in a given fraction of its intermdiate judgments.\n2. The method of claim 1 wherein step (e) comprises identifying a presented example as being logically iddentical to a previously encountered situation by comparing the presented example with a judgment base consisting of stored intermediate judgments.\n3. The method of claim 1 wherein step (e) comprises identifying a presented example as being logically identical to a previously encountered situation in only its major intermediate judgments by comparing the presented example with a judgment base consisting of stored intermediate judgments.\n4. The method of claim 1 wherein step (e) comprises identifying a presented example as being logically identical to a previously encountered situation in a given fraction of its major intermediate judgments by comparing the presented example with a judgment base consisting of stored intermediate judgments.\n5. The method of claim 1 or of claim 2 or of claim 3 or of claim 4 further comprising the steps of:\n(f) describing the logical differences between a presented example and previously encountered situations in terms of those intermediate judgments which differ;\n(g) Accepting from the mentor verification of an interpretation;\n(h) accepting an interpretation from the mentor where no interpretation can be derived; and\n(i) storing the accumulated logically unique intermediate judgments representative of presented situations in a judgment base without storing the input data values thereof.\n6. The decisional method of claim 5 wherein the structure of the stored judgment base is reported by defining each situation in terms of its differences from a common reference state.\n7. The decisional method of claim 5 wherein the structure of the stored judgment base is reported by producing a decision-tree algorithmic model.\n8. A method for generating an output decision state from a paramorphic model of a decisional process in which a presented situation is transduced into intermediate judgments representative of the presented situation according to parameterization given by a mentor expressing the data in terms of individual data types, data units, data requirements, and data ranges comprising the steps of:\n(a) attempting to identify a presented example as being logically identical to a previously encountered situation by comparing all of the intermediate judgments representative of the presented situation with the judgment base of the paramorphic model;\n(1) if a logically identical situation is found, generating an output decision state; and\n(2) if no logically identical situation comprising all of the intermediate judgments representative of the presented situation is found in the judgment base, attempting to identify the presented example as being logically identical to a previously encountered situation in only its intermediate judgments of major logical significance;\n(b) if a situation which is logically identical in only a intermediate judgments of major logical significance is found, generating an internal decision state from the paramorphic model, displaying the internal decision state together with its differences from the output decision state of closest logical significance, requesting verification of the internal decision state from the mentor, augmenting the judgment base, and then repeating the attempt of (a); and\n(1) if no logically identical situation comprising intermediate judgments of major logical significance representative of the presented situation is found in the judgment base, attempting to identify the presented example as being logically identical to a previously encountered situation in percentage of the intermediate judgments of major logical significance and\n(2) if a situation which is logically identical in only a percentage of intermediate judgments of major logical significance is found, generating an internal decision state from the paramorphic model, displaying the internal decision state together with its differences from the output decision state of closest logical significance, requesting verification of the internal decision state from the mentor, augmenting the judgment base, and then repeating the attempt of (a) and\n(c) if no logically identical situation is found in the judgment base, requesting an interpretation of the presented situation from the mentor, storing the interpretation, and,\n(1) reporting a stored interpretation of the output decision state if a logically identical situation is found.\n9. The method of claim 8 which includes recalculation of all values within the judgment base and re-storage of the judgment base, and repeating the logical identical situation attempt of (a)(1).\n10. A system for making decisions based on a set of intermediate judgments about a given situation comprising:\n(a) means for capturing descriptive information according to parameters supplied by an expert who acts as a mentor, such information being characterized in terms of intermediate judgments;\n(b) means for assessing the relative logical and experiental importance of each intermediate judgment;\n(c) means for subdividing the intermediate judgments into classes of major and minor importance; and\n(d) means for identifying a presented example as being logically identical to a previously encountered situation in a given fraction of its intermediate judgments.\n11. The system of claim 10 wherein said identifying means includes means for identifying a presented example as being logically identical to a previously encountered situation.\n12. The system of claim 10 wherein said identifying means includes means for identifying a presented example as being logically identical to a previously encountered situation in only its major intermediate judgments.\n13. The method of claim 10 wherein said identifying means includes means for identifying a presented example as being logically identical to a previously encountered situation in a given fraction of its major intermediate judgments.\n14. The system of claim 10 or of claim 11 or of claim 12 or of claim 13 further comprising:\n(e) means for describing the differences between a presented example and the previously encountered situation of closest logical significance;\n(f) means for accepting from the mentor verification of an interpretation;\n(g) means for accepting an interpretation from the mentor where no interpretation can be derived;\n(h) means for storing the accumulated logically unique intermediate judgments representative of presented situations in a judgment base.",
+    "status": "Expired - Lifetime",
+    "citations_own": [
+        "US3601811A",
+        "US3794982A",
+        "US4130881A"
+    ],
+    "citations_ftf": [],
+    "citedby_own": [
+        "US4754410A",
+        "US4783752A",
+        "US4817092A",
+        "US4816994A",
+        "US4829426A",
+        "US4872122A",
+        "US4873687A",
+        "US4881230A",
+        "US4885705A",
+        "US4937742A",
+        "US4975840A",
+        "US5228116A",
+        "US5732397A",
+        "US5799293A",
+        "US5829002A",
+        "US5839113A",
+        "US6062862A",
+        "US6466928B1",
+        "US6527556B1",
+        "US6535863B1",
+        "US6598036B1",
+        "US20040260666A1",
+        "US6968533B1",
+        "US20100107096A1"
+    ],
+    "citedby_ftf": []
+}

@@ -1,0 +1,72 @@
+{
+    "patent_link": "https://patents.google.com/patent/US4275557A/en",
+    "patent_id": "US4275557A",
+    "title": "Method and apparatus for controlling thrust in a gas turbine engine",
+    "abstract": "Gas turbine engine thrust is controlled by automatically adjusting compressor rotational speed with novel functions of engine inlet temperature to hold thrust to rated values for varying engine inlet temperature conditions. Furthermore, compressor rotational speed is automatically adjusted as a function of inlet pressure to provide a thrust rating schedule which varies with altitude. Compressor corrected rotational speed is limited through a novel function of engine inlet temerature to protect against turbine overtemperature when the engine inlet temperature exceeds the flat thrust rating point.",
+    "inventors": [
+        "Ira E. Marvin",
+        "Joseph R. Cowgill"
+    ],
+    "assignee": "General Electric Co",
+    "classifications": [
+        "F02C9/28",
+        "F05D2270/051",
+        "Y02T50/60"
+    ],
+    "claims": "\n1. Apparatus for controlling thrust of a gas turbine engine of the type having a compressor, a combustor and a turbine with means for producing signals proportional to engine inlet temperature, engine inlet pressure and comproessor physical rotational speed, a fuel controller, and a power lever adapted to be set to different angles to select a different desired engine thrust at each power lever angle, wherein the improvement comprises means for providing a demand compressor physical speed signal adjusted by engine inlet pressure and temperature wherein said means for providing a demand compressor physical speed signal comprises means for producing a first demand compressor corrected speed signal as a function of the selected power lever angle, said last recited signal being further proportional to compressor physical speed divided by \u03b8n , wherein n is that exponent which provides flat-rated thrust independent of engine inlet temperature for those inlet temperatures which are below a preselected flat-rating inlet temperature, means for comparing said compressor physical speed signal and said demand compressor physical speed signal to develop an error signal, said error signal being coupled to said fuel controller in order to maintain said desired thrust at each selected power lever angle.\n2. The apparatus as recited in claim 1 wherein said means for providing a demand compressor physical speed signal comprises means for producing a demand compressor corrected speed signal as a function of power lever angle, means for providing a predetermined inlet pressure lapse rate signal which provides a predetermined thrust rating schedule which varies with altitude, and means for biasing said demand compressor corrected speed signal with said lapse rate signal.\n3. The apparatus as recited in claim 1 wherein said means for providing a demand compressor physical speed signal further comprises means for biasing the first demand compressor corrected speed at a predetermined lapse rate as a function of engine inlet pressure to produce a flat-rated demand corrected speed signal which increases with altitude.\n4. The apparatus as recited in claim 3 wherein said means for providing a demand compressor physical speed signal further comprises means for producing a second demand compressor corrected speed signal as a function of engine inlet temperature resulting in a predetermined maximum level of turbine temperature.\n5. The apparatus as recited in claim 4 wherein said means for providing a demand compressor physical speed signal further comprises means for selecting the lesser quantity of said flat-rated demand compressor corrected speed signal and said second demand compressor corrected speed signal, means for producing a signal proportional to a temperature correction factor as a function of engine inlet temperature which relates compressor physical speed and compressor corrected speed at engine inlet temperatures other than sea level standard day temperatures, and means for applying said selected lesser compressor corrected speed signal and said temperature correction factor to produce a demand compressor physical speed signal as a function thereof.\n6. Apparatus for controlling thrust of a gas turbine engine of the type having a compressor, a combustor and a turbine with means for producing signals proportional to engine inlet temperature, engine inlet pressure and compressor physical rotational speed, a fuel controller, and a power lever adapted to be set to different angles to select a different desired engine thrust at each power lever angle, wherein the improvement comprises means for providing a demand compressor physical speed signal adjusted by engine inlet pressure and temperature, means for comparing said compressor physical speed signal and said demand compressor physical speed signal to develop an error signal, said error signal being coupled to said fuel controller in order to maintain said desired thrust at each selected power lever angle wherein said means for providing a demand compressor physical speed signal comprises means for producing a temperature correction factor signal as a function of engine inlet temperature which relates compressor physical speed and compressor corrected speed at engine inlet temperatures other than sea level standard day temperature, means for producing a demand compressor corrected speed signal as a function of power lever position and biased by a predetermined lapse rate as a function of engine inlet pressure, means for producing a separate demand compressor corrected speed signal as a function of engine inlet temperature, means for selecting the lesser of the two demand compressor corrected speed signals and means for applying said selected lesser corrected speed signal and said temperature correction factor to produce a demand compressor physical speed signal as a function thereof.\n7. The apparatus as recited in claim 1 wherein said means for producing signals proportional to engine inlet temperature comprises a temperature sensor.\n8. The apparatus as recited in claim 1 wherein said means for producing signals proportional to engine inlet pressure comprises a pressure sensor at the inlet to the engine.\n9. The apparatus as recited in claim 1 wherein said means for producing signals proportional to engine inlet pressure comprises a pressure sensor at the discharge from said compressor.\n10. The apparatus as recited in claim 3 wherein said means for providing a demand compressor physical speed signal further comprises means for limiting said flat-rated demand corrected speed signal as a function of engine inlet temperature to protect against turbine overtemperature when the engine inlet temperature exceeds flat thrust rating point.\n11. In a gas turbine engine of the type having a compressor, a combustor, a turbine, a fuel controller, and a power lever adapted to be variably positioned to select engine thrust, a method of controlling thrust for varying values of engine inlet pressure and temperature comprising the steps of:\nproducing signals respectively proportional to engine inlet temperature, engine inlet pressure and power lever position;\nproducing a temperature correction factor proportional to engine inlet temperature which related compressor physical speed and compressor corrected speed at engine inlet temperatures other than standard day temperature;\nproducing a demand compressor corrected speed proportional to a selected power level position and biased by a predetermined lapse rate proportional to engine inlet pressure;\nproducing a separate demand compressor corrected speed proportional to engine inlet temperature;\nselecting the lesser of the two demand compressor corrected speeds;\napplying the selected lesser speed and the temperature correction factor to produce a demand compressor physical speed as a function thereof; and\napplying said signals to said fuel controller to automatically adjust compressor physical rotational speed at a fixed power lever position, whereby a selected thrust level is maintained at varying engine inlet temperatures within limits imposed for turbine overtemperature protection and compressor physical speed is modulated with variations in engine inlet pressure to provide a thrust rating schedule which varies with altitude.\n12. In the method of controlling thrust in a gas turbine engine as recited in claim 11, the step of modulating compressor physical speed to substantially match the demand compressor physical speed.",
+    "status": "Expired - Lifetime",
+    "citations_own": [
+        "US3314233A",
+        "US3316713A",
+        "US3797233A",
+        "US3832846A",
+        "US3902315A",
+        "US3928962A",
+        "US3936226A",
+        "US4060980A"
+    ],
+    "citations_ftf": [
+        "US3307353A",
+        "US3295315A",
+        "JPS4936452B1",
+        "US3764814A",
+        "US3854287A"
+    ],
+    "citedby_own": [
+        "US4928484A",
+        "US5163282A",
+        "US5315819A",
+        "US5447023A",
+        "EP0932091A2",
+        "JP2002115565A",
+        "US20020131864A1",
+        "US6487490B1",
+        "EP1538320A1",
+        "US20050193739A1",
+        "US20060129301A1",
+        "US20070260424A1",
+        "US20090097959A1",
+        "US20100024536A1",
+        "CN103291464A",
+        "US9506405B2",
+        "US20160363001A1",
+        "US20160368612A1",
+        "US20170218789A1",
+        "US20170248083A1",
+        "US9909510B2",
+        "US10227893B2",
+        "US10473038B2",
+        "US10539222B2",
+        "US11236635B2",
+        "US11300069B2",
+        "US11473509B2",
+        "US11686258B2",
+        "US11767794B2"
+    ],
+    "citedby_ftf": [
+        "EP0054555A4",
+        "US4414807A",
+        "GB2262623B",
+        "EP1837506B1"
+    ]
+}

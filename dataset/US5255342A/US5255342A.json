@@ -1,0 +1,59 @@
+{
+    "patent_link": "https://patents.google.com/patent/US5255342A/en",
+    "patent_id": "US5255342A",
+    "title": "Pattern recognition system and method using neural network",
+    "abstract": "An inner product computing unit computes inner products of an input pattern whose category is unknown, and orthogonalized dictionary sets of a plurality of reference patterns whose categories are known. A nonlinear converting unit nonlinearly converts the inner products in accordance with a positive-negative symmetrical nonlinear function. A neural network unit or a statistical discriminant function computing unit performs predetermined computations of the nonlinearly converted values on the basis of preset coefficients in units of categories using a neural network or a statistical discriminant function. A determining section compares values calculated in units of categories using the preset coefficients with each other to discriminate a category to which the input pattern belongs.",
+    "inventors": [
+        "Tsuneo Nitta"
+    ],
+    "assignee": "Toshiba Corp",
+    "classifications": [
+        "G10L15/16",
+        "G06N3/045",
+        "G06V10/75"
+    ],
+    "claims": "\n1. A speech pattern recognition system comprising:\nspeech input means for inputting a speech pattern to be recognized;\nfeature extracting means for extracting feature vectors from the input speech pattern;\ndictionary mean for storing a plurality of orthogonalized reference patterns, which are equal to eigenvectors calculated using Karhunen-Loeve (KL) expansion, and whose categories are known;\ninner product computing means, provided for each category, for computing inner products of the input speech pattern, using said feature vectors, whose category is unknown and the orthogonalized reference patterns of a category which are stored in said dictionary means and whose category is known;\nconverting means, provided for each category, for nonlinearly converting the inner product of a category, which is computed by said inner product computing means, in accordance with a positive-negative symmetrical nonlinear function;\nevaluation value computing means, provided for each category and each evaluation value computing means including a multi-layer neural network whose elements each include multiplier means for multiplying an input signal from a lower adjacent layer by a preset weight coefficient and being connected to all elements constituting an upper adjacent layer, for computing an evaluation value of a category using the nonlinearly converted values calculated by said converting means and weight coefficients which are preset in said neural network of a category based on a discriminatively trained Back Propagation (BP) algorithm;\ncomparing means for comparing the evaluation values obtained by said evaluation value computing means using said neural networks with other evaluation values; and\ndiscriminating means for outputting a category to which the input speech pattern belongs as a recognition result using comparison results of said comparing means.\n2. A computer-implemented speech pattern recognition method comprising the steps of:\ninputting a speech pattern to be recognized;\nextracting feature vectors from the input speech;\ncomputing inner products of the input pattern, using said feature vectors, whose category is unknown and orthogonalized reference patterns of a category which are equal to eigenvectors calculated using Karhunen-Loeve (KL) expansion, and whose category is known;\nnonlinearly converting the inner product of a category, which is computed in the computing step, in accordance with a positive-negative symmetrical nonlinear function;\ncomputing an evaluation value from the nonlinearly converted values converted by the converting step and weight coefficients using a multiple neural network whose elements each include multiplier means for multiplying an input signal from a lower adjacent layer by a preset weight coefficients and connected to all elements constituting an upper adjacent layer in which said weight coefficients are preset for each category based on a discriminatively trained Back Propagation (BP) algorithm;\ncomparing in the evaluation values obtained from said neural networks in the evaluation value computing step of said categories with other evaluation values; and\ndiscriminating and outputting a category to which the input pattern belongs as a recognition result from comparison results of the comparing step.\n3. A speech pattern recognition system, comprising:\nspeech input means for inputting a speech to be recognized;\nfeature extracting means for extracting feature vectors from the input speech;\nmulti-layer neural networks whose elements each include multiplier means for multiplying an input signal from a lower adjacent layer by a preset weight coefficient and connected to all elements constituting an upper adjacent layer and, respectively provided for categories of speech, for receiving the feature vectors as input, and for outputting evaluation values for each category, each of said neural networks having, as weight coefficients of a hidden layer, the weight coefficients being computed based on a discriminatively trained Back Propagation (BP) algorithm, eigenvectors calculated in advance by Karhunen-Loeve (KL) expansion from known feature vectors belonging to one of said categories, a nonlinear function of an output of the hidden layer being a positive-negative symmetrical nonlinear function; and\ndetermining means for determining a category as a recognition result from evaluation values output from the multi-layer neural networks.\n4. A speech pattern recognition system as recited in claim 1, wherein said multi-layer neural network comprises:\nsecond inner product computing means for computing second inner products using said nonlinearly converted inner products of a category from said converting means and said preset weight coefficients;\nsecond converting means for nonlinearly converting said second inner products computed by said second inner product computing means;\nmeans for obtaining a sum of the nonlinearly converted second inner products from said second converting means; and\nthird converting means for nonlinearly converting the sum of the nonlinearly converted second inner products, thereby producing said evaluation value.",
+    "status": "Expired - Fee Related",
+    "citations_own": [
+        "US4394538A",
+        "US4624011A",
+        "US4736429A",
+        "US4783802A",
+        "US4805225A",
+        "US4888823A",
+        "US4903306A",
+        "US4942608A"
+    ],
+    "citations_ftf": [],
+    "citedby_own": [
+        "US5530886A",
+        "US5602938A",
+        "US5689584A",
+        "US5692098A",
+        "US5751904A",
+        "US5774846A",
+        "US5790754A",
+        "US5802488A",
+        "US5832108A",
+        "US5884296A",
+        "US6070139A",
+        "US6134537A",
+        "US6317517B1",
+        "US20020128820A1",
+        "US20020194119A1",
+        "US20030058943A1",
+        "US6778704B1",
+        "US20080021652A1",
+        "US7403922B1",
+        "US20080222067A1",
+        "US20080281743A1",
+        "US20100076723A1",
+        "US20140337025A1",
+        "US20140343933A1",
+        "US20150254554A1",
+        "US20160379626A1",
+        "US20180330717A1",
+        "CN114219306A"
+    ],
+    "citedby_ftf": []
+}

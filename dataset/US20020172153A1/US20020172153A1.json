@@ -1,0 +1,51 @@
+{
+    "patent_link": "https://patents.google.com/patent/US20020172153A1/en",
+    "patent_id": "US20020172153A1",
+    "title": "Data rate adjuster using transport latency",
+    "abstract": "An apparatus and method for reducing the data rate in a network using a delay processor. Since an increase in the data rate can overwhelm parts of the network hardware, such as a router, a delay processor is introduced so that data is delayed by a fixed amount so as to lower the data rate. A configuration table determines the amount of delay. A slowly changing amount of delay can be used in place of a fixed amount.",
+    "inventors": [
+        "Stephen Vernon"
+    ],
+    "assignee": "Northrop Grumman Systems Corp",
+    "classifications": [
+        "H04L47/10",
+        "H04L47/193",
+        "H04L47/286"
+    ],
+    "claims": "\n1. A method of controlling a data rate in a network, comprising:\nplacing data packets into a data stream in a network;\nrouting said data stream through a delay device; and\ndelaying selected data in said network by a fixed delay amount.\n2. The method according to claim 1, wherein said selected data is delayed by storing in memory buffers.\n3. The method according to claim 1, wherein said delay device includes a configuration table for determining said selected data.\n4. The method according to claim 1, wherein said delay causes a change in round trip latency for said selected data.\n5. The method according to claim 1, wherein said network includes at least one client processor, at least one server processor, at least one network router and a delay processor.\n6. An apparatus for controlling a data rate in the network, comprising:\nat least one first processor connected to said network;\nat least one second processor connected to said network; and\na delay processor for controlling the data rate in said network.\n7. The apparatus according to claim 6, wherein said network further comprises at least one router.\n8. The apparatus according to claim 6, wherein said delay processor includes memory buffers.\n9. The apparatus according to claim 8, wherein data stored in said memory buffers is stored by a fixed amount of time.\n10. The apparatus according to claim 9, wherein the fixed amount of time is determined from a configuration table in said delay processor.\n11. A method of controlling a data rate in a network, comprising:\nplacing data packets into a data stream in a network;\nrouting said data stream through a delay device; and\ndelaying data in said network by a delay amount determined by passing the data rate through a low pass filter.\n12. The method according to claim 11, wherein said data is delayed by storing in memory buffers.\n13. The method according to claim 11, wherein said delay device includes a configuration table.\n14. The method according to claim 11, wherein said delay causes a change in round trip latency.\n15. The method according to claim 11, wherein said network includes at least one client processor, at least one server processor, at least one network router and a delay processor.\n16. An apparatus for controlling a data rate in the network, comprising:\nat least one first processor connected to said network;\nat least one second processor connected to said network; and\na delay processor for controlling the data rate in said network, said delay processor delaying data in said network, the amount of delay being controlled by the output of the low pass filter, where the low pass filter receives the data rate as an input.\n17. The apparatus according to claim 11, wherein said network further comprises at least one router.\n18. The apparatus according to claim 11, wherein said delay processor includes memory buffers.",
+    "status": "Expired - Lifetime",
+    "citations_own": [
+        "US5802106A",
+        "US6018516A",
+        "US6038216A",
+        "US6046980A",
+        "US6115357A",
+        "US6118765A",
+        "US6119235A",
+        "US6205120B1",
+        "US6208640B1",
+        "US20020110134A1",
+        "US6732168B1",
+        "US6912225B1"
+    ],
+    "citations_ftf": [],
+    "citedby_own": [
+        "US20030103460A1",
+        "US6741563B2",
+        "US20050097242A1",
+        "US7236459B1",
+        "US20070280125A1",
+        "US20080043643A1",
+        "US20080244713A1",
+        "US20080267069A1",
+        "US20090274046A1",
+        "US7869366B1",
+        "CN109951351A",
+        "US10616086B2"
+    ],
+    "citedby_ftf": [
+        "US7388836B2",
+        "US20090086729A1",
+        "US7948887B2"
+    ]
+}

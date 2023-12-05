@@ -1,0 +1,45 @@
+{
+    "patent_link": "https://patents.google.com/patent/US6594587B2/en",
+    "patent_id": "US6594587B2",
+    "title": "Method for analyzing biological elements",
+    "abstract": "The present invention is in the field of bioinformatics, particularly as it pertains to determining the associations of biological elements. More specifically, the present invention relates to the determination of associations among a set of biological elements using an algorithm that is capable of generating a Steiner tree.",
+    "inventors": [
+        "Manor Askenazi"
+    ],
+    "assignee": "Monsanto Technology LLC",
+    "classifications": [
+        "G16B20/00",
+        "C12Q2600/158",
+        "G16B45/00"
+    ],
+    "claims": "\n1. A method for analyzing biological elements, comprising:\n2. The method as in claim 1, wherein said genes with increased RNA transcription are selected based on a single RNA transcription profiling.\n3. A method for analyzing biological elements, comprising:\n4. A method for analyzing biological elements, comprising:\n5. A method for analyzing biological elements, comprising:\n6. A method for analyzing biological elements, comprising:\n7. A method for analyzing biological elements, comprising:\n8. The method as in claim 7, wherein said edges are differentially weighted according to known biorelationships.\n9. The method of claim 7, wherein said algorithm creates a Steiner subgraph with the lowest possible total edge weight said algorithm can determine, and further comprising\n10. A method for analyzing genes, comprising:\n11. The method as in claim 10, wherein said genes with increased RNA transcription are selected based on a single RNA transcription profiling.\n12. A method for analyzing genes, comprising:\n13. A method for analyzing genes, comprising:\n14. A method for analyzing genes, comprising:\n15. A method for analyzing genes, comprising:\n16. The method as in claim 15, wherein said edges are differentially weighted according to known biorelationships.\n17. The method of claim 15, wherein said algorithm creates a Steiner subgraph with the lowest possible total edge weight said algorithm can determine, and further comprising\n18. A program storage device readable by a machine, tangibly embodying a program of instructions executable by a machine to perform method steps to analyze biological elements, said method steps comprising:\n19. The device as in claim 18, wherein said genes with increased RNA transcription are selected based on a single RNA transcription profiling.\n20. A program storage device readable by a machine, tangibly embodying a program of instructions executable by a machine to perform method steps to analyze biological elements, said method steps comprising:\n21. A program storage device readable by a machine, tangibly embodying a program of instructions executable by a machine to perform method steps to analyze biological elements, said method steps comprising:\n22. A. program storage device readable by a machine, tangibly embodying a program of instructions executable by a machine to perform method steps to analyze biological elements, said method steps comprising:\n23. A program storage device readable by a machine, tangibly embodying a program of instructions executable by a machine to perform method steps to analyze biological elements, said method steps comprising:\n24. A program storage device readable by a machine, tangibly embodying a program of instructions executable by a machine to perform method steps to analyze biological elements, said method steps comprising:\n25. The device as in claim 24, wherein said edges are differentially weighted according to known biorelationships.\n26. The device of claim 24, wherein said algorithm creates a Steiner subgraph with the lowest possible total edge weight said algorithm can determine, and further comprising\n27. A program storage device readable by a machine, tangibly embodying a program of instructions executable by a machine to perform method steps to analyze genes, said method steps comprising:\n28. The device as in claim 27, wherein said genes with increased RNA transcription are selected based on a single RNA transcription profiling.\n29. A program storage device readable by a machine, tangibly embodying a program of instructions executable by a machine to perform method steps to analyze genes, said method steps comprising:\n30. A program storage device readable by a machine, tangibly embodying a program of instructions executable by a machine to perform method steps to analyze genes, said method steps comprising:\n31. A program storage device readable by a machine, tangibly embodying a program of instructions executable by a machine to perform method steps to analyze genes, said method steps comprising:\n32. A program storage device readable by a machine, tangibly embodying a program of instructions executable by a machine to perform method steps to analyze genes, said method steps comprising:\n33. The device as in claim 32, wherein said edges are differentially weighted according to known biorelationships.\n34. The device of claim 32, wherein said algorithm creates a Steiner subgraph with the lowest possible total edge weight said algorithm can determine, and further comprising",
+    "status": "Expired - Lifetime",
+    "citations_own": [
+        "US6144962A"
+    ],
+    "citations_ftf": [],
+    "citedby_own": [
+        "US20030068610A1",
+        "WO2004031765A1",
+        "US20040249620A1",
+        "US20050097628A1",
+        "US20050154535A1",
+        "US20050165594A1",
+        "US20060140860A1",
+        "US20070225956A1",
+        "US20090093969A1",
+        "US20090099784A1",
+        "CN104462139A",
+        "CN107004067A"
+    ],
+    "citedby_ftf": [
+        "FI20055198A",
+        "US20070198653A1",
+        "CN103246828B",
+        "CN103218542B",
+        "US20170337293A1",
+        "CN106909805B",
+        "CN107944226B",
+        "CN109583133B"
+    ]
+}

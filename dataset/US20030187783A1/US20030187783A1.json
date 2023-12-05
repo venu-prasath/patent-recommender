@@ -1,0 +1,56 @@
+{
+    "patent_link": "https://patents.google.com/patent/US20030187783A1/en",
+    "patent_id": "US20030187783A1",
+    "title": "Systems and methods to monitor credit fraud",
+    "abstract": "A method of monitoring credit fraud relating to a plurality of merchants includes, on a server computer, collecting transaction information relating to the merchants and electronically evaluating the collected transaction information for potentially fraudulent activities using specific criteria. The method further includes flagging merchants having transaction information indicating potentially fraudulent activity. Systems for implementing the method are also provided.",
+    "inventors": [
+        "Mark Arthus",
+        "Michael Sgaraglio",
+        "William Miller"
+    ],
+    "assignee": "First Data Corp",
+    "classifications": [
+        "G06Q40/08",
+        "G06Q20/10"
+    ],
+    "claims": "\n1. A method of monitoring credit fraud relating to a plurality of merchants, comprising:\non a server computer, collecting transaction information relating to the merchants;\nelectronically evaluating the collected transaction information for potentially fraudulent activities using specific criteria; and\nflagging merchants having transaction information indicating potentially fraudulent activity.\n2. The method of claim 1, further comprising receiving at the server computer a request to display at least a partial list of flagged merchants and transmitting the request to a credit fraud investigator.\n3. The method of claim 1, further comprising receiving a request at the server computer to transmit the structure of a decision tree that facilitates the completion of a credit risk evaluation and transmitting the structure of the decision tree to a credit fraud investigator.\n4. The method of claim 1, further comprising receiving at the server computer a request from a credit fraud investigator to transmit, for one of the flagged merchants, merchant information from a file relating to the merchant and transmitting the merchant information to the credit fraud investigator.\n5. The method of claim 4, further comprising receiving at the server computer revised merchant information from the credit fraud investigator and storing the revised merchant information in a database.\n6. The method of claim 4, further comprising receiving at the server computer a request to add the merchant to a watch list.\n7. The method of claim 4, further comprising receiving at a server computer a request to transmit the merchant information to a collections officer.\n8. The method of claim 1, wherein the specified criteria comprises merchants processing at least one transaction involving a personal credit card account owned by the merchant.\n9. The method of claim 1, wherein the specified criteria comprises merchants processing at least one transaction involving goods or services in a different business from the merchant's business.\n10. The method of claim 1, wherein the specified criteria comprises merchants having charge back volumes in excess of charge volumes.\n11. A system for monitoring credit fraud relating to a plurality of merchants, comprising:\na data storage arrangement; and\na server computer configured to access the data storage arrangement;\nwherein the server computer is adapted to communicate with at least one other computer through a network, wherein the server computer is configured to collect transaction information relating to the merchants and electronically evaluate the collected transaction information for potentially fraudulent actives using specified criteria, wherein the server computer is further configured to flag merchants having transaction information indicating potentially fraudulent activity.\n12. The system of claim 11, wherein the server computer is further configured to receive a request to display at least a partial list of flagged merchants and transmit the list to a credit fraud investigator.\n13. The system of claim 11, wherein the server computer is further configured to receive a request to transmit the structure of a decision tree that facilitates the completion of a credit risk evaluation and transmit the structure of the decision tree to a credit fraud investigator.\n14. The system of claim 11, wherein the server computer is further configured to receive a request from a credit fraud investigator to transmit, for a flagged merchant, merchant information from a file relating to the merchant and transmit the merchant information to the credit fraud investigator.\n15. The system of claim 14, wherein the server computer is further configured to receive revised merchant information from the credit fraud investigator and store the revised merchant information in a database.\n16. The system of claim 14, wherein the server computer is further configured to add the merchant to a watch list.\n17. The system of claim 14, wherein the server computer is further configured to transmit the merchant information to a collections officer.\n18. The system of claim 11, wherein the specified criteria comprises merchants processing at least one transaction involving a personal credit card account owned by the merchant.\n19. The system of claim 11, wherein the specified criteria comprises merchants processing at least one transaction involving goods or services in a different business from the merchant's business.\n20. The system of claim 11, wherein the specified criteria comprises merchants having charge back volumes in excess of charge volumes.\n21. In a computer system having a graphical user interface, including a display and an entry device, a method of monitoring credit fraud relating to a plurality of merchants, the method comprising:\nreceiving an instruction to request, from a server computer, a list of merchants suspected of fraudulent activity;\ntransmitting the request to the server computer;\nreceiving and displaying the list;\nreceiving an instruction to request, from the server computer, merchant information relating to a first merchant in the list of merchants;\ntransmitting the request to the server computer;\nreceiving and displaying the merchant information relating to the first merchant;\nreceiving an instruction to transmit, to the server computer, revised merchant information; and\ntransmitting the revised merchant information.\n22. The computer system of claim 21, wherein the revised merchant information includes adding the merchant to a watch list.\n23. The computer system of claim 21, wherein the revised merchant information includes an instruction to transmit the merchant information to a collections officer.\n24. The computer system of claim 21, wherein the revised merchant information includes a notation that explains why the merchant activity was not fraudulent.",
+    "status": "Abandoned",
+    "citations_own": [
+        "US5432326A",
+        "US5689100A",
+        "US6189029B1",
+        "US6330546B1",
+        "US20020120559A1",
+        "US6820067B1"
+    ],
+    "citations_ftf": [],
+    "citedby_own": [
+        "US20040199463A1",
+        "US20050004872A1",
+        "US20050044043A1",
+        "US20050086166A1",
+        "US20050178824A1",
+        "US20070094137A1",
+        "WO2007044763A3",
+        "US20080301019A1",
+        "US7480631B1",
+        "US7546271B1",
+        "US7580886B1",
+        "US7881996B1",
+        "US20110066551A1",
+        "US7962391B2",
+        "US20120226613A1",
+        "US8417636B2",
+        "US8543477B2",
+        "US8655773B1",
+        "US8694424B2",
+        "US8700510B2",
+        "US20150006358A1",
+        "US20150032604A1",
+        "US20160217470A1",
+        "US9858553B2",
+        "US10147074B2",
+        "US11551230B2"
+    ],
+    "citedby_ftf": []
+}

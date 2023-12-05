@@ -1,0 +1,37 @@
+{
+    "patent_link": "https://patents.google.com/patent/US4616328A/en",
+    "patent_id": "US4616328A",
+    "title": "Apparatus for the determination of the technical parameters of machines particularly agricultural machines, based on probable use",
+    "abstract": "Apparatus for the prediction of performance parameters of a proposed machine, in particular, an agricultural machine, includes a keyboard for entry of data in accordance with a set of input parameters useful in the calculation of performance parameters, a display for displaying performance parameters, a memory for storage of data inputted by the keyboard, and a data processor interconnecting the memory and the numerical board for performing mathematical calculations to output values of the performance parameters in response to the inputting of data at the keyboard. Included within the data processor is an analyzer for selecting input parameters specific to a mathematical correlation, a microprocessor for calculating values of intermediary parameters from the inputted data based on patterns of such data, and a synthesizer employing values of selected input parameters and the intermediary parameters to provide mathematical correlation for attaining values of the performance parameters.",
+    "inventors": [
+        "Laszlo Kassay",
+        "Sandor Nemeth"
+    ],
+    "assignee": "MEZOGAZDASAGI ES ELELMISZERIPARI SZERVEZO VALLALAT",
+    "classifications": [
+        "A01D41/00",
+        "Y10S706/912"
+    ],
+    "claims": "\n1. Apparatus for evaluating construction of machines, particularly agricultural machines, by calculation of a set of output parameters identifying characteristics of machinery useful in judging the utility of the machinery wherein each of the output parameters is associated with a specific one of the characteristics, there being input parameters and input data which quantifies the input parameters with specific values, there being intermediary parameters for which data is not available, the input parameters and the intermediary parameters being used in the calculation of the output parameters, the apparatus comprising:\na keyboard for entry of the input data of the input parameters;\na parameter base module having a parameter memory for storage of a set of the input parameters and the intermediary parameters, and a set of the output parameters for characterization of a machine to be constructed;\na numerical board coupled to said base module and employing electric signals for displaying individual parameters of the set of input and intermediary parameters;\nan analyzer module connecting with said base module for selecting specific ones of the input and the intermediary parameters to be used in producing mathematical correlations among the input and the intermediary parameters;\nprocessing means including a microprocessor connecting with said keyboard and said base module and said analyzer module, said processing means interpolating said input data of said keyboard and calculating said intermediary parameters by the aid of predetermined patterns of such data, said processing means further including a data memory for storing information describing the predetermined patterns of data;\nsynthesizer means connecting with said data memory, said parameter memory, and said analyzer module for developing mathematically, by a sequence of mathematical steps, correlations among the input and the intermediary parameters selected by the analyzer module, the correlations providing values for the output parameters in the characterization of a machine to be constructed and being stored in said parameter memory; and\nan object module connecting with said analyzer module and being responsive to said microprocessor for displaying the numerical values of the output parameters provided by said base module for a machine to be constructed.\n2. Apparatus according to claim 1 further comprising a housing and a printer, said printer connecting with said object module and providing a display on a printed sheet of the numerical values of the output parameters; said base and said analyzer and said object modules being located in said housing, and said printer being disposed in a separate casing.\n3. Apparatus according to claim 2 wherein said base module includes indicators of ten elementary numbers, and signal lamps.\n4. Apparatus according to claim 3 wherein said parameter memory further stores mathematical algorithms and programs for said microprocessor.\n5. Apparatus according to claim 1 or claim 4 wherein said numerical board includes switching and key elements for designation of acceptance, cancellation, and correction functions of said apparatus.\n6. Apparatus according to claim 1 or claim 4 wherein said processing means is provided with colored lamps indicating readiness for service and designating an operating state of said apparatus.\n7. Apparatus according to claim 1 or claim 4 wherein said parameter base module includes keys for the entry of numbers and lamps for designating states of operation.\n8. Apparatus according to claim 2 wherein said modules are configured to permit their connection and disconnection from said housing.\n9. Apparatus according to claim 1 wherein said synthesizer means operates in accordance with a program for forming vectorial surfaces of the parameters of a machine system, the vectorial sufaces showing a variation of output parameter as a function of variations in input and intermediary parameters, this being accomplished with the aid of said microprocessor whereby a tendency curve may be calculated as a function of time, the tendency curve showing a variation in output parameter as a function of time.\n10. Apparatus according to claim 9, wherein said synthesizer means includes a lamp associated with a switch for indicating a state of readiness in the operation of said synthesizer means; said apparatus further comprising keys on said housing to enter instructions in the operation of said synthesizer means, said objects module and said printer in the production of a plot of the tendency curve and in the generation of a mathematical surface by said synthesizer unit and the coupling of said curve and said surface via said object module to said printer.\n11. Apparatus according to claim 10 wherein one of said modules includes a key for initiation of operation of the apparatus and a second key for terminating said operation.\n12. Apparatus according to claim 11 wherein said object module includes a set of parameter displays and numerical displays corresponding to parameters supplied by said base module to said object module, the numerical display being presented in four or more digits, there being a flashing lamp to indicate a failure and a colored lamp to indicate end of operation of said processing and said synthesizer means.",
+    "status": "Expired - Fee Related",
+    "citations_own": [
+        "US4296409A",
+        "US4368509A",
+        "US4376298A",
+        "US4472770A",
+        "US4491906A",
+        "US4495559A",
+        "US4512747A"
+    ],
+    "citations_ftf": [],
+    "citedby_own": [
+        "US4740886A",
+        "US5027299A",
+        "US5394678A",
+        "US5730305A",
+        "US6230089B1"
+    ],
+    "citedby_ftf": [
+        "JPS6265164A"
+    ]
+}

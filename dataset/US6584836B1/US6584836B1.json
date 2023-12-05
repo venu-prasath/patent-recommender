@@ -1,0 +1,37 @@
+{
+    "patent_link": "https://patents.google.com/patent/US6584836B1/en",
+    "patent_id": "US6584836B1",
+    "title": "Bias method for identifying and removing machine contribution to test data",
+    "abstract": "A method for predicting product performance uses sample data from a manufactured product under at least first and second different conditions, to establish transfer functions and a bias term simultaneously, which are then used to predict second condition properties for product when first condition properties are measured. In an illustrated embodiment, a method for predicting tire uniformity, preferably a harmonic component of force variation, preferably when operating at a high speed, is based on a tire's tested uniformity. A production tire's predicted tire uniformity is determined by a calculation using transfer functions applied to production tire measurement data obtained from factory floor testing equipment, which includes a factory floor balance checker and a factory tire uniformity machine, where the data are modified by a bias term that minimizes the machines contribution to the data. The transfer functions are determined by calculations involving a combination of measurements on a tire sample, which preferably comprises one or more tires of the same construction as the production tire for which predictions are desired. The combination of measurements, in the illustrated embodiment, includes measurements on a factory floor balance checker, on a factory floor tire uniformity machine, and on a test lab tire uniformity machine. The test lab tire uniformity machine is preferably operated at a speed higher than the factory floor tire uniformity machine, and most preferably at a speed approximately equal to the speed at which the predicted uniformity is desired.",
+    "inventors": [
+        "Gregory David Shteinhauz",
+        "Gregory Scott Johanning"
+    ],
+    "assignee": "Goodyear Tire and Rubber Co",
+    "classifications": [],
+    "claims": "\n1. A method for isolating test machine contribution using sample data from a manufactured product comprising the steps of:\n2. A method for predicting a harmonic component of force variation comprising the steps of:\n3. A method according to claim 2, characterized by the step of:\n4. A method according to claim 2, characterized by the step of:\n5. A method according to claim 2, characterized by the step of:\n6. A method according to claim 2, characterized by the step of:\n7. A method of correlating test data, measured on more than one machine, which includes:\n8. A method of tuning a test machine comprising:\n9. A method of tuning a test machine of claim 8 comprising:",
+    "status": "Expired - Lifetime",
+    "citations_own": [
+        "US3739533A",
+        "US3946527A",
+        "US4404848A",
+        "US4404849A",
+        "US4914869A",
+        "US5263284A",
+        "US5396438A",
+        "US5396817A",
+        "US5614676A",
+        "US6065331A",
+        "US6257956B1"
+    ],
+    "citations_ftf": [],
+    "citedby_own": [
+        "US6748341B2",
+        "WO2012031002A1",
+        "US9582288B1",
+        "US9983869B2",
+        "US10024763B2",
+        "WO2020050125A1"
+    ],
+    "citedby_ftf": []
+}

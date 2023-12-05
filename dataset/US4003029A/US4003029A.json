@@ -1,0 +1,35 @@
+{
+    "patent_link": "https://patents.google.com/patent/US4003029A/en",
+    "patent_id": "US4003029A",
+    "title": "Information search system",
+    "abstract": "An information search system, includes a storage device in which, for example, words are alphabetically arranged, each word being coded by a number for each letter or character and a number corresponding to the order of each letter in the word. The letter code numbers of a word to be searched are successively fed into an input station whose output actuates a counter for a unit and is also coded into a corresponding letter number. Two pickups and associated registers read out and temporarily store the order number and letter number respectively and feed them to respective comparator networks to which are also fed the counter and encoder output respectively. Control networks are provided which respond to the comparator network outputs such that when the read out order number is greater or less than the counter output number the storage device is driven in a reverse or advance direction respectively and when the counter and order numbers are equal the order comparator network is actuated to drive the storage device in advance or return directions in accordance with the relationship of the read out and input letter codes until these numbers are equal.",
+    "inventors": [
+        "Masaaki Niiho"
+    ],
+    "assignee": "Pentax Corp",
+    "classifications": [
+        "G06F16/90348",
+        "Y10S707/99933"
+    ],
+    "claims": "\n1. The method of operating a word data processing system for information searching comprising the steps of encoding each character of a word by assigning a character number representative of the particular character, and an order number representative of the position of each character in a word; storing the information so encoded in an information storage; sequentially entering into said system from an input word generator characters of a word to be searched; encoding each character to be searched as a first number representative of the character, and a second number representing the position of the character in the word to be searched; reading out the character and order number of a character at an output of said information storage; comparing the order number and character number of said output character with the respective first and second numbers of the character being searched; and driving said information storage to position the next adjacent word at said output until the second number is equal to the order number of the output character and the first number is equal to the character number of the output character, and repeating said comparing step for each such character comprising the word to be searched, said system comprising first and second comparator networks, and including the steps of feeding said order and second numbers to said first comparator network to produce first, second and third output signals when said order number is less than, greater than and equal to said second number respectively, driving said information storage in advance and reverse directions in response to said first and second signals respectively, feeding said character first number and third signal to said second comparator network to produce first, second and third output signals when said character number is less than, greater than or equal to said first number respectively, and driving said information storage in response to said second comparator first, second and third output signals in an advance and reverse direction and stopping said information storage drive respectively.\n2. The method of claim 1, wherein said step for producing said second numbers comprises the entry of said letters of a word to be searched into a counter network which advances a unit in response to the entry of a letter.\n3. A method for searching information comprising the steps of: driving an assembly of stored data elements through the sensing regions of two detector elements; each of said stored data segments comprising individual data elements arranged in a predetermined sequence; each of said data segments being encoded as a numerical code mark indicating the position of a particular data element in the associated data segment and a code mark representing the particular data element; respectively reading out the numerical code mark and the code mark of a data segment with said two detector elements during a search operation; sequentially introducing into an input station search data elements comprising the data segment to be searched by encoding such search data elements with a code indicating the position of the data element in the data segment and the particular data element; said code corresponding to the same code used in encoding said assembly of stored data segments; applying to a first comparator said numerical code marks of the stored and search data elements to produce first, second and third output signals when the position of said stored data element is less than, greater than and equal to the position of said search data element, respectively; driving said assembly of stored data elements in advance and reverse directions in response to said first and second signals, respectively; applying said search data element code mark and said third signal to a second comparator to produce first, second and third output signals when said stored data element code mark is less than, greater than and equal to said search data element code mark, respectively; and driving said assembly of stored data elements in response to said second comparator first, second and third output signals in an advance and a reverse direction and stopping said drive, respectively.",
+    "status": "Expired - Lifetime",
+    "citations_own": [
+        "US3293615A",
+        "US3512134A",
+        "US3538503A",
+        "US3568155A",
+        "US3601808A",
+        "US3614744A",
+        "US3643226A",
+        "US3676851A",
+        "US3733589A"
+    ],
+    "citations_ftf": [],
+    "citedby_own": [
+        "US4314356A",
+        "US4785413A",
+        "US5226148A",
+        "US5829002A"
+    ],
+    "citedby_ftf": []
+}

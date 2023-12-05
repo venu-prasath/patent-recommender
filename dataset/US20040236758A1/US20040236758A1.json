@@ -1,0 +1,68 @@
+{
+    "patent_link": "https://patents.google.com/patent/US20040236758A1/en",
+    "patent_id": "US20040236758A1",
+    "title": "Methods, systems and computer program products for web services access of analytical models",
+    "abstract": "Accessing an analytical model is provided by invoking the analytical model hosted by an analytic engine through a web services interface to the analytic engine. Invocation of the analytical model through the web services interface may be independent of the analytic engine hosting the analytical model. Furthermore, the analytical model may be a predictive model markup language (PMML) model. Invoking the analytical model may be provided by creating a set of tables utilized to store model information and parsing a PMML modeling language representation of the analytical model to populate the set of tables. A web services signature is generated for the analytical model based on the populated set of tables.",
+    "inventors": [
+        "John Medicke",
+        "Feng-wei Russell"
+    ],
+    "assignee": "LinkedIn Corp",
+    "classifications": [
+        "G06F16/2465",
+        "G06F16/972",
+        "Y10S707/99936",
+        "Y10S707/99943"
+    ],
+    "claims": "\n1. A method of accessing an analytical model, comprising:\nproviding a web services abstraction of the analytical model so as to allow invocation of the analytical model hosted by an analytic engine through a web services interface to the analytic engine.\n2. The method of claim 1, further comprising invoking the analytical model through the web services interface independent of the analytic engine hosting the analytical model.\n3. The method of claim 1, wherein the analytical model is a predictive model markup language (PMML) model.\n4. The method of claim 3, wherein providing a web services abstraction comprises automatically generating a web services abstraction of the analytical model.\n5. The method of claim 4, wherein automatically generating comprises:\ncreating a set of tables utilized to store model information;\nparsing a PMML modeling language representation of the analytical model to populate the set of tables; and\ngenerating a web services signature for the analytical model based on the populated set of tables.\n6. The method of claim 5, wherein creating a set of tables comprises:\ncreating a model table;\ncreating a mining field table associated with the model table; and\ncreating physical model tables.\n7. The method of claim 6, wherein the physical model tables include a cluster model table, a tree model table and/or a neural network model table.\n8. The method of claim 6, wherein the model table contains model identification, model name, model type, model class and attributes fields;\nwherein the mining field table contains model id, mining field name, optype, outlier, value, usage type, minimum value and maximum value fields; and\nwherein the physical model tables each include a model name field and a model field.\n9. The method of claim 8, wherein parsing a PMML modeling language representation of the analytical model to populate the set of tables comprises extracting information from the PMML modeling language representation to populate the model table and the mining input constraints table.\n10. The method of claim 9, wherein extracting information further comprises:\nparsing elements with a model tag to extract the model type and storing the model type in the model type field of the model table; and\nparsing elements with the model tag to extract attributes and storing the attributes in the attributes field of the model table.\n11. The method of claim 10, wherein extracting information further comprises:\naggregating values from a value attribute to store a list of candidates if an optype is categorical; and\nparsing a univariate stats field for minimum and maximum values if an optype of a value attribute is continuous.\n12. The method of claim 9, wherein generating a web services signature comprises:\nimporting mining models to respective ones of the physical model tables;\ngenerating a Java bean to wrap around an invocation statement associated with invocation of the analytical model based on the populated tables;\ngenerating a web services document based on the generated Java bean; and\npublishing the generated web service document.\n13. The method of claim 12, wherein generating a Java bean comprises carrying out the following for a model in the model table:\nquerying the model and model input constraint tables to retrieve parameters to be applied to the analytical model;\ngenerating a Java bean method to serve as a signature for the analytical model, the signature including a list of the retrieved parameters;\ngenerating validation logic for inputs based on model constraints; and\ngenerating an invocation statement to invoke the analytical model and retrieve results of invocation of the analytical model.\n14. A system for accessing an analytic model, comprising:\na predictive model markup language (PMML) interrogator configured to parse a PMML file associated with the analytical model and populate tables with information about the analytical model;\na bean creator configured to generate a Java bean to wrap an invocation statement that invokes the analytical model based on the populated tables; and\na bean to web services circuit configured to transform the Java bean to a web services document so as to allow the analytical model to be invoked by a user of a web services interface.\n15. The system of claim 14, wherein the tables populated by the PMML interrogator comprise:\na model table; and\na mining field table associated with the model table.\n16. The system of claim 15, wherein tables with information about the analytical model also include physical model tables and wherein the physical model tables include a cluster model table, a tree model table and/or a neural network model table.\n17. The system of claim 15, wherein the model table contains model identification, model name, model type, model class and attributes fields;\nwherein the mining field table contains model id, mining field name, optype, outlier, value, usage type, minimum value and maximum value fields; and\nwherein tables with information about the analytical model also include physical model tables and wherein the physical model tables each include a model name field and a model field.\n18. The system of claim 17, wherein the PMML interrogator is further configured to extract information from the PMML file to populate the model table and the mining input constraints table.\n19. The system of claim 18, wherein the PMML interrogator is further configured to parse elements with a model tag to extract the model type, to store the model type in the model type field of the model table and to parse the element with the model tag to extract attributes and storing the attributes in the attributes field of the model table.\n20. The system of claim 19, wherein the PMML interrogator is further configured to aggregate values from a value attribute to store a list of candidates if an optype is categorical and to parse a univariate stats field for minimum and maximum values if an optype of a value attribute is continuous.\n21. The system of claim 16, wherein the bean creator is further configured to import mining models to respective ones of the physical model tables.\n22. The system of claim 21, wherein the bean creator is further configured to query the model and model input constraint tables to retrieve parameters to be applied to the analytical model, to generate a Java bean method to serve as a signature for the analytical model, the signature including a list of the retrieved parameters, to generate validation logic for inputs based on model constraints, to generate an invocation statement to invoke the analytical model and to retrieve results of invocation of the analytical model.\n23. A system for accessing a analytical model, comprising:\nan analytic engine configured to host the analytical model; and\nmeans for providing a web services abstraction of the analytical model so as to allow invocation of the analytical model through a web services interface.\n24. The system of claim 23, wherein the analytical model is a predictive model markup language (PMML) model and wherein the means for providing a web services abstraction comprises:\nmeans for creating a set of tables utilized to store model information;\nmeans for parsing a PMML modeling language representation of the analytical model to populate the set of tables; and\nmeans for generating a web services signature for the analytical model based on the populated set of tables.\n25. A computer program product for accessing an analytical model through a web services interface, comprising:\na computer readable medium having computer readable program code embodied therein, the computer readable program product comprising:\ncomputer readable program code configured to create a set of tables utilized to store model information;\ncomputer readable program code configured to parse a modeling language representation of the analytical model to populate the set of tables; and\ncomputer readable program code configured to generate a web services signature for the analytical model based on the populated set of tables.",
+    "status": "Expired - Fee Related",
+    "citations_own": [
+        "US6240411B1",
+        "US6388592B1",
+        "US6430615B1",
+        "US20030065926A1",
+        "US20030069908A1",
+        "US20030135509A1",
+        "US20030139907A1",
+        "US20030177054A1",
+        "US20030195889A1",
+        "US20030220860A1",
+        "US20030229635A1",
+        "US20040122844A1",
+        "US6823334B2",
+        "US6912533B1",
+        "US6920458B1"
+    ],
+    "citations_ftf": [
+        "US20020046143A1",
+        "US6338066B1",
+        "US8291007B2",
+        "US20020013760A1",
+        "US7194434B2",
+        "EP1360608A2",
+        "US6782375B2",
+        "US7870012B2",
+        "US7107491B2"
+    ],
+    "citedby_own": [
+        "US20070022154A1",
+        "WO2007117474A2",
+        "US7788681B1",
+        "US20110066551A1",
+        "WO2013050958A1",
+        "US20140330745A1",
+        "US20150178366A1",
+        "WO2017024242A1",
+        "CN106777025A",
+        "CN110955470A"
+    ],
+    "citedby_ftf": [
+        "US20050125401A1",
+        "US8484663B2",
+        "US8990947B2",
+        "US9552403B2",
+        "AU2016302371B2",
+        "CN105117938A",
+        "CN110955467A"
+    ]
+}

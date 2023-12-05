@@ -1,0 +1,63 @@
+{
+    "patent_link": "https://patents.google.com/patent/US4276744A/en",
+    "patent_id": "US4276744A",
+    "title": "Control system for gas turbine engine",
+    "abstract": "A gas turbine engine control system is provided. In a preferred control system for use in combination with a helicopter, input signals respectively representative of power turbine speed error, power turbine shaft torque, and compressor shaft speed are employed. From these input signals, five intermediate signals are developed. One of the intermediate signals represents the main rotor speed error. Each of the five intermediate signals is provided with a separate predetermined gain and coupled to summation means. The predetermined gains are selected to be of values which reduce the effects of resonances provided by the mail and tail rotors of the helicopter. The output of the summation means represents a control signal and may be employed to operate a fuel control valve.",
+    "inventors": [
+        "Alan D. Pisano"
+    ],
+    "assignee": "General Electric Co",
+    "classifications": [
+        "F02C9/28",
+        "F05D2220/329"
+    ],
+    "claims": "\n1. In combination with a gas turbine engine having first drive shaft means coupled to engine compressor means and second drive shaft means adapted to provide rotational motion to at least one airfoil, a control system for controlling the rotational speed of the second drive shaft means, the control system being of the type including means for developing a first signal representative of a desired rotational speed of the second drive shaft means and a second signal representative of the actual rotational speed of the second drive shaft means, means for developing an error signal representative of the difference between said first and second signals, integrator means for integrating the error signal, first gain means for providing a desired gain to the integrated error signal, the integrated error signal comprising a control signal, and including a fuel valve control means responsive to the control signal for controlling the passage of fuel to the engine, wherein the control system further comprises:\n(a) means for developing a third signal representative of the rotational speed of said first drive shaft means;\n(b) means for developing a fourth signal representative of the torque provided by said second drive shaft means;\n(c) signal processing means coupled to receive the error signal, said third and fourth signals and to develop a plurality of intermediate signals therefrom; and\n(d) summing means coupled to receive said plurality of intermediate signals and the output of the first gain means and developing an output signal, said output signal comprising the control signal to said fuel valve control means for controlling the passage of fuel to said engine.\n2. A control system in accordance with claim 1 in which said airfoil is characterized by a multiplicity of lightly damped resonances.\n3. A control system in accordance with claim 1 in which said gas turbine engine comprises an engine for a helicopter and in which said second drive shaft means is adapted to provide rotational motion to a main rotor and to a tail rotor.\n4. A control system in accordance with claim 3 in which the first gain means provides a predetermined gain and said signal processing means includes gain means for providing said error signal, said third signal, and said fourth signal with predetermined gains for reducing the effects of mechanical resonances associated with said main rotor and said tail rotor.\n5. A control system in accordance with claim 4 in which said signal processing means includes estimator means for receiving said error signal and said fourth signal and developing a first intermediate signal therefrom, said first intermediate signal being representative of the main rotor speed error.\n6. A control system in accordance with claim 5 in which said signal processing means comprises:\n(a) second gain means coupled to receive said error signal and to develop a second one of said intermediate signals;\n(b) third gain means coupled to receive said first intermediate signal and to develop a third one of said intermediate signals;\n(c) fourth gain means coupled to receive said fourth signal and to develop a fourth one of said intermediate signals;\n(d) fifth gain means coupled to receive said third signal and to develop a fifth one of said intermediate signals; and\n(e) said summing means coupled to receive the output of the first gain means, said second intermediate signal, said third intermediate signal, said fourth intermediate signal, and said fifth intermediate signal, and developing said control signal.",
+    "status": "Expired - Lifetime",
+    "citations_own": [
+        "US2926732A",
+        "US2942416A",
+        "US3034583A",
+        "US3114240A",
+        "US3152444A",
+        "US3174284A",
+        "US3309868A",
+        "US3600888A",
+        "US3851463A",
+        "US3982389A",
+        "US3999373A"
+    ],
+    "citations_ftf": [
+        "GB1519143A"
+    ],
+    "citedby_own": [
+        "US4411595A",
+        "US4928484A",
+        "US4951549A",
+        "US4993221A",
+        "US5046923A",
+        "US5331559A",
+        "US20050193739A1",
+        "US20090321554A1",
+        "US20100219286A1",
+        "US8499874B2",
+        "US8669670B2",
+        "US8866334B2",
+        "US8922043B1",
+        "US8984895B2",
+        "US9051873B2",
+        "EP3045696A1",
+        "US20160348533A1",
+        "US10094288B2",
+        "US10801361B2",
+        "US20210017915A1",
+        "US11313285B2",
+        "US11377222B2",
+        "US11691747B2"
+    ],
+    "citedby_ftf": [
+        "US4453378A",
+        "US4693077A",
+        "FR2843812B1",
+        "GB201418753D0"
+    ]
+}

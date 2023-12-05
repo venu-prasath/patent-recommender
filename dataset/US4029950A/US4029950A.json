@@ -1,0 +1,83 @@
+{
+    "patent_link": "https://patents.google.com/patent/US4029950A/en",
+    "patent_id": "US4029950A",
+    "title": "Numerical control system for machines utilizing a programmable sequence controller",
+    "abstract": "A numerical control system utilizes a programmable sequence controller as a data transmitter for transmitting numerical control data from a digital computer to machine controllers associated with numerically controlled machine tools. The digital computer converts each of the least units of the numerical control data to a predetermined number of output commands and, upon request, transfers the output commands along with address codes to the sequence controller which has an input-output circuit connected at its output terminals with data input terminals of the machine controllers, so that by selectively setting and resetting the output terminals designated by the address codes, the sequency controller can supply the numerical control data to any one of the machine controllers.",
+    "inventors": [
+        "Kyosuke Haga"
+    ],
+    "assignee": "Toyoda Koki KK",
+    "classifications": [
+        "G05B19/4147",
+        "G05B19/4181",
+        "Y02P90/02"
+    ],
+    "claims": "\n1. A machine control system comprising in combination;\na plurality of numerically controlled machines;\na plurality of machine controllers respectively connected with said machines for controlling the operations of said machines in accordance with numerical control data;\na digital computer provided with a memory device for storing said numerical control data and adapted to convert each of the least units of said numerical control data to a predetermined number of set and reset commands;\na programmable sequence controller comprising:\na. an input-output circuit provided with a plurality of addressable input and output terminals, a predetermined number of said output terminals being addressed respectively to data input terminals of said machine controllers,\nb. a program memory device for containing a predetermined sequence control program,\nc. register means connected with said digital computer for receiving from said digital computer said set and reset commands along with address codes designating said predetermining number of said terminals, and\nd. a logic control circuit adapted to set or reset one of said output terminals as a result of examining the signal conditions of said input terminals in accordance with said sequence control program and to set or reset said output terminals addressed to said data input terminals when said set and reset commands and said address codes are supplied from said register means, whereby said programmable sequence controller is operable as a data transmitter for said numerical control data between said digital computer and said machine controllers.\n2. A machine control system as claimed in claim 1 wherein each of said machines is a numerically controlled machine tool for machining a workpiece.\n3. A machine control system as claimed in claim 2 wherein at least one of said machine controllers is a numerical controller which comprises a decoder for decoding signal conditions of said data input terminals to a letter data each time said predetermined number of set and reset commands have been transferred respectively to said data input terminals.\n4. A machine control system as claimed in claim 3 wherein said decoder has a reading signal terminal and is operable to decode said signal conditions of said data input terminal when a reading command signal is input to said reading signal terminal.\n5. A machine control system as claimed in claim 2 wherein at least one of said machine controllers is a machine control unit which comprises presettable shift registers each connected at a predetermined number of data preset terminals thereof with said output terminals of said input-output circuit for receiving a predetermined number of interpolation data from the computer through the sequence controller and a pulse generator connected for generating shift pulse signals to said shift registers to cause said shift registers to output drive pulses in accordance with said interpolation data.\n6. A machine control system as claimed in claim 5 wherein said output terminals connected respectively with said data preset terminals of one of said shift registers are identical to those connected respectively with said data preset terminals of the other shift register, and each of said shift registers further has a setting command terminal so as to receive and interpolation data when a setting command signal is given to said setting command terminal from said sequence controller.\n7. A machine control system as claimed in claim 6 wherein said machine control unit further includes a ring counter responsive to said shift pulse signals from said pulse generator for generating an interpolation data request signal to said input-output circuit of said sequence controller when the content of said ring counter becomes a predetermined value.\n8. A machine control system as claimed in claim 2 wherein said input-output circuit is connected at specified input terminals respectively with data request terminals of said machine controllers for receiving data request signals from said machine controllers and said computer is enabled to monitor the signal conditions of said specified input terminals so as to supply through said sequence controller said numerical control data to any one of said machine controllers when said machine controllers generate said data request signal.\n9. A machine control system as claimed in claim 8 wherein in order to monitor said data request signals said digital computer is tasked to periodically supply to said register means interruption commands which are respectively accompanied by the address codes for said specified input terminals.\n10. A machine control system as claimed in claim 9 wherein said register means comprises a first register for receiving said interruption commands together with said address codes and a second register for informing the signal conditions of said specified address to said digital computer, and said logic control circuit is further adapted to examine the signal condition of said specified input terminals designated by said address code and then to set the result of said examination in the second register in such a format as recognized by said digital computer whenever any one of said interruption commands is set along with said address code in said first register.\n11. A machine control system as claimed in claim 8 wherein said machine controllers are a numerical controller including a decoder for decoding said numerical control data and a machine control unit so constructed as to receive interpolation data directly and wherein in response to said data request signals from said numerical controller and said machine control unit said digital computer is further adapted to selectively deliver said numerical control data and said interpolation data in the form of said set and reset commands to said first register.\n12. A machine control system as claimed in claim 2 wherein said input-output circuit is connected at specified input terminals respectively with data request terminals of said machine controllers for receiving data request signals from said machine controllers and wherein said program memory device is further provided with a monitoring program according to which said logic control circuit operates to examine the signal conditions of said specified input terminals and, if the presence of any one of said data request signals is recognized, to set in said register means an interruption request signal and a machine code corresponding to said machine controller generating said data request signal.\n13. A machine control system as claimed in claim 12 wherein said register means of said sequence controller comprises a first register for registering said interruption request signal and said machine code from said logic control circuit and a second register for selectively receiving said numerical control data and interpolation data in the form of said set and reset commands from said digital computer.\n14. A machine control system as claimed in claim 13 wherein said machine controllers are a numerical controller including a decoder for decoding said numerical control data and a machine control unit so constructed so as to receive and interpolation data directly and wherein in response to said data request signals form said numerical controller and said machine control unit said digital computer is further adapted to selectively deliver said numerical control data and said interpolation data to said second register.\n15. A machine control system as claimed in claim 2 wherein each of said machine controllers includes an auxiliary function register for memorizing an auxiliary function data contained in said numerical control data supplied from said digital computer through said sequence controller, output terminals of said register being connected respectively with said input terminals of said input-output circuit, and wherein in response to a decoding request signal from said sequence controller, said digital computer is operable to read said auxiliary function data input to said input-output circuit in cooperation with said sequence controller to decode said auxiliary function data and to set in said register means an output command for an output element depending upon the result of said decoding.\n16. A machine control system as claimed in claim 15 wherein said auxiliary function register is operable to generate said decoding request signal for said input-output circuit when said auxiliary function data has been registered in said auxiliary function register and said digital computer is enabled to monitor the signal condition of an input terminal of said input-output circuit assigned to said decoding request signal.\n17. A machine control system as claimed in claim 16 wherein said register means of said sequence controller comprises a first register for receiving examine interruption instructions which said digital computer supplies in order in response to said decoding request signal so as to examine the signal conditions of said input terminals connected to said auxiliary function register, and a second register for receiving input interruption instructions that said logical control circuit supplies in order in response to said examine interruption instructions so as to enable said digital computer to be aware of said signal conditions of said input terminals connected to said auxiliary function register.\n18. A machine control system as claimed in claim 17 wherein said output element is a dummy output element provided in said input-output circuit for use as an input element for said sequence control program stored in said program memory device.\n19. A machine control system as claimed in claim 2 wherein each of said machine controllers comprises an auxiliary function register for memorizing auxiliary function data contained in said numerical control data supplied from said digital computer through said sequence controller, output terminals of said register being connected respectively with said input terminals of said input-output circuit, and wherein said program memory device is further provided with an auxiliary function decoding program for causing said logic control circuit to examine the signal conditions of said input terminals connected with said auxiliary function register and to set a predetermined output elements if the examine results are satisfied.\n20. A machine control system as claimed in claim 17 wherein said predetermined output element is utilized as an input condition for said sequence program to activate a controlled element of said machine tool designated by said auxiliary function data when an interlocking condition between said predetermined output element and another input element is satisfied.",
+    "status": "Expired - Lifetime",
+    "citations_own": [
+        "US3668653A",
+        "US3760169A",
+        "US3763360A"
+    ],
+    "citations_ftf": [
+        "JPS533038B2"
+    ],
+    "citedby_own": [
+        "US4122519A",
+        "US4165534A",
+        "US4190884A",
+        "US4212081A",
+        "US4215399A",
+        "US4215397A",
+        "US4215396A",
+        "US4215395A",
+        "US4215398A",
+        "US4228495A",
+        "US4253141A",
+        "US4257103A",
+        "US4298928A",
+        "EP0044565A2",
+        "US4314329A",
+        "US4396974A",
+        "US4433383A",
+        "US4472783A",
+        "US4550375A",
+        "US4550366A",
+        "US4580207A",
+        "US4584638A",
+        "US4866596A",
+        "US4931709A",
+        "US4943905A",
+        "DE4014746A1",
+        "US5057755A",
+        "US5099413A",
+        "US5140237A",
+        "US5157595A",
+        "US5187656A",
+        "US5252899A",
+        "US5309352A",
+        "US5359270A",
+        "US6208904B1",
+        "US6424874B1",
+        "US6687766B1",
+        "US20050086632A1",
+        "US20060004479A1",
+        "US6988191B1",
+        "US20190202017A1"
+    ],
+    "citedby_ftf": [
+        "DE2927254C2",
+        "JPS56140411A",
+        "JPS5717014A",
+        "JPS58197509A",
+        "JPS58197508A",
+        "JPH0232370Y2",
+        "US4578764A",
+        "JPS6020611U",
+        "JPS61211705A",
+        "JPS62151833U",
+        "JPS62266605A",
+        "JPS62290909A",
+        "JPH03260809A"
+    ]
+}

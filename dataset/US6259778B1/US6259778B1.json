@@ -1,0 +1,44 @@
+{
+    "patent_link": "https://patents.google.com/patent/US6259778B1/en",
+    "patent_id": "US6259778B1",
+    "title": "Method and apparatus for detecting modem tones for implementation of a different billing structure for modem calls",
+    "abstract": "This invention provides telecommunication companies and operators of private branch exchanges (PBXs) with the ability to detect the use of modem calls and bill the user accordingly. By detecting a modem call, the telecommunication company and PBX operator can bill the modem call differently than a voice call. Billing rate structure plans can be created based on the connection time of the modem call, the number of bits transferred during the modem connection, or a combination of both connection time and number of bits transferred.",
+    "inventors": [
+        "John T. Corwith"
+    ],
+    "assignee": "Nokia of America Corp",
+    "classifications": [
+        "H04M15/8207",
+        "G06Q30/0283",
+        "H04M15/00",
+        "H04M15/80",
+        "H04M2215/0152",
+        "H04M2215/22",
+        "H04M2215/7813"
+    ],
+    "claims": "\n1. A method for detecting modem tones for implementing a billing scheme, comprising the steps of:\n2. The method for detecting modem tones for implementing a billing scheme of claim 1, where the point-of-presence is an Internet connection.\n3. The method for detecting modem tones for implementing a billing scheme of claim 1, where the point-of-presence is an Intranet connection.\n4. A method for billing modem calls in a private branch exchange, comprising the steps of:\n5. The method for billing modem calls in a private branch exchange, of claim 4 further comprising the steps of:\n6. The method for billing modem calls in a private branch exchange, of claim 4 further comprising the steps of:\n7. The method for billing modem calls in a private branch exchange, of claim 6 further comprising the steps of:\n8. The method for billing modem calls in a private branch exchange, of claim 6 further comprising the steps of:\n9. An apparatus for implementing a billing scheme for modem calls, comprising:\n10. The apparatus for implementing a billing scheme for modem calls of claim 9, where the means for determining whether an incoming call at a local office is a voice or modem call is a controller.",
+    "status": "Expired - Fee Related",
+    "citations_own": [
+        "US5790642A",
+        "US5835240A",
+        "US5898763A",
+        "US5905785A",
+        "US5946670A",
+        "US6088687A"
+    ],
+    "citations_ftf": [],
+    "citedby_own": [
+        "US20020101826A1",
+        "US6580788B1",
+        "US20030128826A1",
+        "US6741685B1",
+        "US6792089B2",
+        "US20050160280A1",
+        "US6928150B2",
+        "US20050243984A1",
+        "US20050249341A1",
+        "US20050278550A1",
+        "US20070291919A1"
+    ],
+    "citedby_ftf": []
+}

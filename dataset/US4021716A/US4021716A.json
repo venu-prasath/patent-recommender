@@ -1,0 +1,45 @@
+{
+    "patent_link": "https://patents.google.com/patent/US4021716A/en",
+    "patent_id": "US4021716A",
+    "title": "Reactionless gimbal drive system",
+    "abstract": "A reactionless drive system is disclosed comprising in combination a base, a torquer mechanism, the stator portion of which is affixed to the counter-rotational inertia member and accepting control signals from sources external to the system. A rotatable member, coupled to the torquer, is driven in a first direction. A torque compensator consisting of stator and rotor members is coupled between the base and the first mentioned rotatable member in one instance, and to an oppositely rotating member in another instance. All the foregoing components act together to maintain angular momentum of the system during its operative mode to a value of substantially zero. An electronic subsystem is provided which senses the angular velocities of the rotating members and provides a feedback signal to the torque compensator.",
+    "inventors": [
+        "Arthur K. Rue"
+    ],
+    "assignee": "Raytheon Co",
+    "classifications": [
+        "G01C19/04",
+        "Y10T74/1221",
+        "Y10T74/1282"
+    ],
+    "claims": "\n1. In a substantially reactionless drive, supported by a base, having a torquer responsive to external electrical signals, a single degree of freedom rotational inertia member coupled to the torquer, and a single degree of freedom counter rotational inertia member coupled to the torquer and driven in a direction opposite to said rotational inertia member during operative mode of said drive, the improvement comprising in combination:\nan elongated extension, integral with and perpendicular to the rotational inertia members positioned at the axis of rotation and coupled to the torquer;\na torque compensator comprising an electric motor coupling the base with the extension;\nelectronic means, the output of which is connected to the torque compensator; and\ntransducing means, comprising first transducers positioned at the periphery of the inertia members and second transducers positioned at the axis of rotation, coupling the rotational inertia members to the electronic means, said electronic means including a torque compensation loop electrically interlinking the rotational member, the counter rotational member and the torque compensator so as to feed back an electrical error correcting signal supplied by said transducers to the torque compensator, during operative mode of said drive.\n2. The invention as stated in claim 1, wherein the torque compensator comprises rotor and stator members, said rotor being coupled to said extension and said stator being attached to said base.\n3. The invention as stated in claim 2, wherein said transducing and electronic means enable maintenance of a torque by the torque compensator acting on the base in opposite direction to a substantially equal torque acting on the rotational inertia member for maintaining the total angular momentum of said drive during said operative mode to a value of substantially zero.\n4. The invention as stated in claim 2, wherein said transducing means comprises:\nfirst sensing means peripherally coupled to said inertia members for measuring angular velocities of said inertia members at said axis of rotation; and\nsecond sensing means, coupled to said inertia members at said axis rotation, for measuring angular velocities of said inertia members at a pair of axes which are orthogonal to each other and orthogonal to said axis of rotation, for measuring angular acceleration of said inertia members at said axes, or for measuring linear acceleration of said inertia members with respect to said axes.\n5. The invention as stated in claim 2, wherein said electronic means comprises:\namplifying and integration means connected to the transducing means; and\nsignal summing and feedback control compensating means, responsive to electrical signal inputs from said amplifying and integration means, for providing said error correction signals.\n6. The invention as stated in claim 2, wherein said torquer comprises rotor and stator members, said rotor being coupled to said extension and driving same in a first direction during said operative mode, and said stator being coupled to and rotating with said counter rotational inertia member in a second direction opposite to said first direction during said operative mode.\n7. The invention as stated in claim 1, wherein the torque compensator comprises rotor and stator members, said rotor being coupled to the counter rotational inertia member and said stator being attached to the base.\n8. The invention as stated in claim 7, wherein said transducing and electronic means enable maintenance of a torque by the torque compensator acting on the base in opposite direction to a substantially equal torque acting on the counter rotational inertia member for maintaining the total angular momentum of said drive during said operative mode to a value of substantially zero.\n9. The invention as stated in claim 7, wherein said transducing means comprises:\nfirst sensing means peripherally coupled to said inertia members for measuring angular velocities of said inertia members at said axis of rotation; and\nsecond sensing means, coupled to said inertia members at said axis of rotation, for measuring angular velocities of said inertia members at a pair of axes which are orthogonal to each other and orthogonal to said axis of rotation, for measuring angular acceleration of said inertia members at said axes, or for measuring linear acceleration of said inertia members with respect to said axes.\n10. The invention as stated in claim 7, wherein said electronic means comprises:\namplifying and integration means connected to the transducing means; and\nsignal summing and feedback control compensating means, responsive to electrical signal inputs from said amplifying and integration means, for providing said error correction signals.\n11. The invention as stated in claim 7, wherein said torquer comprises rotor and stator members, said rotor being coupled to said extension and driving same in a first direction during said operative mode, and said stator being coupled to and rotating with said counter rotational inertia member in a second direction opposite to said first direction during said operative mode.",
+    "status": "Expired - Lifetime",
+    "citations_own": [
+        "US3111290A",
+        "US3329375A",
+        "US3424401A",
+        "US3439548A",
+        "US3498476A",
+        "US3526795A"
+    ],
+    "citations_ftf": [],
+    "citedby_own": [
+        "US4500823A",
+        "US4525659A",
+        "US4555757A",
+        "US4663703A",
+        "US4687161A",
+        "US5205518A",
+        "US5210636A",
+        "US5751078A",
+        "US6107770A",
+        "WO2001057473A1",
+        "US6341750B1",
+        "US20080012514A1",
+        "US20090108684A1",
+        "US9797723B1",
+        "US9816815B1",
+        "WO2022093426A1"
+    ],
+    "citedby_ftf": []
+}

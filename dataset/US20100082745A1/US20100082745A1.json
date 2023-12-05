@@ -1,0 +1,43 @@
+{
+    "patent_link": "https://patents.google.com/patent/US20100082745A1/en",
+    "patent_id": "US20100082745A1",
+    "title": "System for providing feeds for entities not associated with feed services",
+    "abstract": "A system is described for providing feeds for entities not associated with feed services. The system may include a processor, a memory and an interface. The memory may store an identifier of an entity, an update condition and a feed. The entity may include content, and the update condition may describe an update to the content. The interface may communicate with a device of the user. The processor may receive the identifier of the entity and the update condition of the entity via the interface. The processor may generate a feed for the entity and the processor may add the content to the feed when the content is updated in accordance with the update condition. The processor may then provide the feed to the device of the user via the interface.",
+    "inventors": [
+        "Marc Davis",
+        "Jeonghee Yi"
+    ],
+    "assignee": "Yahoo Inc",
+    "classifications": [],
+    "claims": "\n1. A computer implemented method of providing an update to an entity via a feed, comprising:\nreceiving an identification of an entity from a user;\nreceiving an update condition for the entity, the update condition describing an update to a content of the entity;\ngenerating a feed for the entity;\nadding the content of the entity to the feed when the content is updated in accordance with the update condition; and\nproviding the feed to the user.\n2. The computer implemented method of claim 1 wherein the feed comprises a web feed.\n3. The computer implemented method of claim 1 further comprising receiving a configuration of the feed service from the user.\n4. The computer implemented method of claim 3 wherein the configuration comprises a time interval, the time interval indicating how often the content should be added to the feed.\n5. The computer implemented method of claim 1 further comprising providing the content to the user through a messaging service when the content is updated in accordance with the update condition.\n6. The computer implemented method of claim 5 wherein the messaging service comprises at least one of an email service, a text messaging service, a video messaging service, an audio messaging service, or a voicemail service.\n7. The computer implemented method of claim 1 wherein the entity comprises at least one of a web page, an intranet page, a feed, or a proprietary data source.\n8. The computer implemented method of claim 1 wherein the feed comprises a really simple syndication feed.\n9. A computer implemented method of generating feeds for entities not associated with feed services, comprising:\nreceiving a registration from a user to receive a feed from an entity, irrespective of whether the entity provides the feed;\ndetermining whether the entity provides the feed; and\naccessing the feed from the entity and providing the feed to the user if the entity provides the feed, otherwise generating a new feed for the entity and providing the new feed to the user.\n10. The computer implemented method of claim 9 wherein the feed comprises a web feed.\n11. The computer implemented method of claim 9 further comprising receiving a configuration of the feed.\n12. The computer implemented method of claim 9 further comprising providing the feed to the user through a messaging service.\n13. The computer implemented method of claim 10 wherein the messaging service comprises at least one of an email service, a text messaging service, a video messaging service, an audio messaging service, or a voicemail service.\n14. The computer implemented method of claim 9 further comprising providing the feed to the user through a feed protocol.\n15. The computer implemented method of claim 14 wherein the feed protocol comprises a really simply syndication feed protocol.\n16. The computer implemented method of claim 9 wherein the new feed provides a notification to the user when the entity is updated.\n17. The computer implemented method of claim 16 wherein the new feed only provides the notification to the user if the entity is updated in accordance with an update criteria.\n18. A system for providing an update to an entity via a feed, comprising:\na memory to store an identifier of an entity, the entity comprising of a content, an update condition, the update condition describing an update to the content of the entity, and a feed;\nan interface operatively connected to the memory, the interface to communicate with a device of a user; and\na processor operatively connected to the memory and the interface, the processor for running instructions, wherein the processor receives the identifier of the entity from the device of the user via the interface, receives the update condition from the device of the user via the interface, generates the feed for the entity, adds the content of the entity to the feed when the content is updated in accordance with the update condition, and provides the feed to the device of the user via the interface.\n19. The system of claim 18 wherein the feed comprises a web feed.\n20. The system of claim 18 wherein the processor receives a configuration of the feed from the device of the user via the interface.\n21. The system of claim 20 wherein the configuration comprises a time interval, the time interval indicating how often the content should be added to the feed.\n22. The system of claim 18 wherein the processor provides the content to the user through a messaging service when the content is updated in accordance with the update condition.\n23. The system of claim 22 wherein the messaging service comprises at least one of an email service, a text messaging service, a video messaging service, an audio messaging service, or a voicemail service.\n24. The system of claim 18 wherein the entity comprises at least one of a web page, an intranet page, a feed, or a proprietary data source.\n25. The system of claim 24 wherein the feed comprises an advertisement related to the entity.",
+    "status": "Abandoned",
+    "citations_own": [
+        "US20060167860A1",
+        "US20070198526A1",
+        "US20070214477A1",
+        "US20080016177A1",
+        "US20080097871A1",
+        "US20080125969A1",
+        "US20080155112A1",
+        "US20090030933A1",
+        "US20090063294A1",
+        "US20090144392A1",
+        "US20090187638A1",
+        "US20100010822A1",
+        "US20100030582A1",
+        "US7669123B2",
+        "US20100049534A1",
+        "US7702545B1"
+    ],
+    "citations_ftf": [],
+    "citedby_own": [
+        "US20110238758A1",
+        "WO2011136822A1",
+        "US20130100017A1",
+        "US8555157B1",
+        "US20140004838A1",
+        "US20230004266A1",
+        "US11822771B2"
+    ],
+    "citedby_ftf": []
+}

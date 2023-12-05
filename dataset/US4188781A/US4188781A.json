@@ -1,0 +1,75 @@
+{
+    "patent_link": "https://patents.google.com/patent/US4188781A/en",
+    "patent_id": "US4188781A",
+    "title": "Non-linear dual mode regulator circuit",
+    "abstract": "A control circuit is described for sensing and correcting deviations in speed of a turbine-generator. The control circuit compares actual turbine speed with a speed reference signal and provides a non-linear speed control signal to the turbine. The non-linear speed control signal is characterized by a first substantially constant slope for deviations in speed below a preselected deviation and a second substantially greater slope for deviations in speed above the preselected deviation. Substantially improved power system frequency regulation is thereby maintained.",
+    "inventors": [
+        "Daniel Johnson",
+        "Raymond T. Girard"
+    ],
+    "assignee": "General Electric Co",
+    "classifications": [
+        "F02C9/28",
+        "F05D2270/02",
+        "F05D2270/061"
+    ],
+    "claims": "\n1. In a turbine-generator control system having means to control fuel flow to the turbine in accordance with an electrical fuel command signal, a non-linear droop control circuit comprising:\nmeans for obtaining a difference signal proportional to the difference between a reference signal proportional to synchronous speed and a signal proportional to the actual turbine speed;\nlimiter means responsive to said difference signal for providing an output signal proportional to said difference signal below a preselected threshold and a magnitude limited signal above said preselected threshold; and\nfirst summing amplifier means for summing said difference signal and the output signal from said limiter means;\nsecond summing amplifier means for summing the output of said first summing amplifier and said signal proportional to actual turbine speed for providing said command signal, said command signal enabling fuel flow at a faster rate for an output signal above said threshold than for an output signal below said threshold.\n2. The non-linear droop control circuit of claim 1 wherein said command signal enables fuel flow below said threshold at a rate established by a 4 percent change in speed from no load to full load of said gas turbine-generator.\n3. The non-linear droop control circuit of claim 1 wherein said command signal enables fuel flow above said threshold at a rate established by a one percent change in speed from no load to full load of said gas turbine-generator.\n4. The non-linear droop control circuit of claim 1 wherein said means for obtaining a difference signal comprises an operational amplifier including inputs adapted to receive said reference signal and said turbine speed signal.\n5. A control circuit adapted to sense deviations in speed of a turbine-generator and provide a non-linear fuel control signal to said turbine for regulating the speed of said turbine, said circuit comprising:\ncomparator means for providing an output difference signal having a magnitude and sense proportional to the difference between a signal proportional to the speed of said turbine-generator and a reference speed;\namplifier means responsive to said output difference signal for providing an amplifier output signal proportional to said difference signal below a preselected threshold and a magnitude limited signal above said preselected threshold; and\nmeans operatively summing the output difference signal, the amplifier output signal and said signal proportional to speed for providing said non-linear fuel control signal, said fuel control signal characterized by a first substantially constant slope for deviations in speed below said preselected threshold and a second substantially greater slope for deviations in speed above said preselected threshold.\n6. The control circuit of claim 5 wherein said amplifier means includes means for establishing said preselected threshold.\n7. The control circuit of claim 6 wherein said preselected threshold represents deviation in speed of approximately\u00b10.5 percent from a synchronous speed.\n8. The control circuit of claim 5 wherein said means operatively summing includes:\nfirst summing means for summing said output difference signal and said amplifier output signal; and\nsecond summing means for summing the output of said first summing means and said signal proportional to speed to provide said fuel control signal.\n9. The control circuit of claim 5 wherein said fuel control signal characterized by a first substantially constant slope causes said turbine to exhibit a frequency regulation of a first percent for deviations in turbine speed below said preselected threshold.\n10. The control circuit of claim 9 where said fuel control signal characterized by a second substantially greater slope causes said turbine to exhibit a frequency regulation of a second percent less than said first percent.",
+    "status": "Expired - Lifetime",
+    "citations_own": [
+        "US3151450A",
+        "US3520133A",
+        "US3854287A",
+        "US4010605A",
+        "US4077204A"
+    ],
+    "citations_ftf": [
+        "DE1100770B",
+        "US3295316A",
+        "JPS5032886B2"
+    ],
+    "citedby_own": [
+        "US4283910A",
+        "US4303976A",
+        "US4417440A",
+        "US4418529A",
+        "US4422289A",
+        "US4432201A",
+        "US4441156A",
+        "US4442667A",
+        "US4449360A",
+        "US4507915A",
+        "US4517797A",
+        "US4593523A",
+        "US4697238A",
+        "US4783957A",
+        "US4845943A",
+        "US4884397A",
+        "US4928484A",
+        "US4993221A",
+        "US5029441A",
+        "FR2840955A1",
+        "US20040119293A1",
+        "US20100194111A1",
+        "EP3054129A1",
+        "TWI574141B"
+    ],
+    "citedby_ftf": [
+        "GB2081934B",
+        "FR2517751B1",
+        "US4463267A",
+        "JPH0444090B2",
+        "JPS62247799A",
+        "JPH02111144A",
+        "US5197280A",
+        "JPH02245901A",
+        "JPH02267328A",
+        "CA2762184A1",
+        "WO2011109514A1",
+        "US8984895B2",
+        "CA2813680A1",
+        "US9051873B2",
+        "US10094288B2",
+        "US9562479B2",
+        "KR101893689B1"
+    ]
+}

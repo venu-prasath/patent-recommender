@@ -1,0 +1,63 @@
+{
+    "patent_link": "https://patents.google.com/patent/US4737929A/en",
+    "patent_id": "US4737929A",
+    "title": "Highly parallel computation network employing a binary-valued T matrix and single output amplifiers",
+    "abstract": "Advantageous neural network realizations are achieved by employing only negative gain amplifiers and a clipped T matrix having conductances Tij which have only two values. Preferably, one of these values is a preselected value set by the value of a fixed resistor, and the other value is zero, created simply with an open circuit. Values for the Tij terms of the clipped T matrix are obtained through an iterative process which operates on the clipped and nonclipped matrices and minimizes the error resulting from the use of the clipped T matrix.",
+    "inventors": [
+        "John S. Denker"
+    ],
+    "assignee": "AT&T Corp",
+    "classifications": [
+        "G06G7/12",
+        "G06N3/065"
+    ],
+    "claims": "\n1. A neural network for developing output signal vectors belonging to a preselected set of signals responsive to input currents approximating said output signal vectors comprising:\na plurality of amplifiers, each having an input and an inverting output;\nmeans for applying said input currents to said input of each of said amplifiers; and\nan interconnection matrix, connecting said output of each of said amplifiers to each of said inputs with a conductance that is either of a first preselected value or of a second preselected value, forming a collection of condutances that are related to said set of output signal vectors.\n2. The network of claim 1 wherein one of said preselected values is essentially zero.\n3. A neural network for minimizing an energy function having a plurality of local minima comprising:\na plurality of amplifiers, each having an input and an inverting output;\nmeans for applying input currents to the input of each of said amplifiers; and\nan interconnection matrix, connecting the non-inverting output of each of said amplifiers to each said inputs with a conductance Tij ' that is either of a first preselected value or of a second preselected value, where said Tij ' represents the conductance between the output of the ith amplifier and the input of the jth amplifier and where said Tij ' conductances are selected to create said plurality of local minima at which said network is at equilibrium.\n4. The network of claim 3 wherein said conductances are selected in accordance with a procedure of developing a set of multi-level Tij values that create an energy function having said plurality of local minima, and of repetitively computing Tij ' values which are truncated representations of the selected expression (Tij +\u0393Vi + Vj A), where \u0393 is less than one, V1 + equals (VA -Tij \"Vj A), Tij \" is the Tij ' from the previous repetition, and Vj A is the jth component of one of said local minima, said computing of Tij ' being done over all of said minima.\n5. The network of claim 4 wherein said truncated representation is realized by recognizing the sign of said selected expression.\n6. The network of claim 3 wherein said conductances are selected in accordance with a procedure of developing a set of multi-level Tij values that create an energy function having said plurality of local minima, and of repetitively computing Tij ' values which are truncated representations of the selected expression ##EQU7## where \u0393 is less than one, Vi + equals (VA -Tij \"Vj A), Tij \" is the Tij ' from the previous repetition, and Vj A is the jth component of one of said local minima, said computing of Tij ' being done over all of said minima.\n7. The network of claim 6 wherein said truncated representation is realized by recognizing the sign of said selected expression.\n8. A neural network for developing output signal vectors belonging to a preselected set of signals VA, VB, VC . . . , each Vi comprising a plurality of components and said set of signals being developed in response to applied input currents that approximate said set of signals comprising:\na plurality of amplifiers, each having an input and an inverting output, and each of said outputs comprising one of said components;\nmeans for applying said input currents to said input of each of said amplifiers; and\nan interconnection matrix, connecting said output of each of said amplifiers to each of said inputs with a conductance that is within a preselected limited range of values that is related to a dot product of said set of signal values.",
+    "status": "Expired - Lifetime",
+    "citations_own": [
+        "US4218768A",
+        "US4536844A",
+        "US4660166A"
+    ],
+    "citations_ftf": [
+        "US3863231A"
+    ],
+    "citedby_own": [
+        "US4807168A",
+        "US4809222A",
+        "US4849925A",
+        "US4866645A",
+        "US4901271A",
+        "US4903226A",
+        "US5021961A",
+        "US5047655A",
+        "US5056037A",
+        "US5058049A",
+        "US5068662A",
+        "US5093781A",
+        "US5113367A",
+        "US5146541A",
+        "AU633812B2",
+        "US5220202A",
+        "US5224066A",
+        "US5274747A",
+        "US5276771A",
+        "US5276773A",
+        "US5355438A",
+        "US5361328A",
+        "US5485548A",
+        "US5588090A",
+        "US5602965A",
+        "US5630023A",
+        "US5943653A",
+        "US6167390A"
+    ],
+    "citedby_ftf": [
+        "US5201029A",
+        "US5191637A",
+        "US5131073A",
+        "US5185851A",
+        "US5167006A",
+        "US5581662A",
+        "JP2868640B2"
+    ]
+}

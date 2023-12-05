@@ -1,0 +1,69 @@
+{
+    "patent_link": "https://patents.google.com/patent/US6122634A/en",
+    "patent_id": "US6122634A",
+    "title": "Fractal nested layout for hierarchical system",
+    "abstract": "The present invention discloses a method, apparatus, and article of manufacture for displaying a visual hierarchy of nodes. A top level node in the hierarchy is displayed as a window and lower level nodes are displayed within an area of the top level node. Lower level nodes are either expanded or unexpanded. Unexpanded lower level nodes are displayed in one area and expanded lower level nodes are displayed in another area. The unexpanded nodes conceal their contents and the expanded nodes disclose their contents, so that a visual hierarchy of nodes can be displayed a single display screen. The expanded nodes can contain several layers of lower level nodes that are visually formatted like the window.",
+    "inventors": [
+        "Stephen Andrew Brodsky"
+    ],
+    "assignee": "International Business Machines Corp",
+    "classifications": [
+        "G09G5/00",
+        "G06F11/3636",
+        "G06F11/3664",
+        "G06F16/289",
+        "G06F8/75",
+        "G06F9/542",
+        "G09G5/14"
+    ],
+    "claims": "\n1. A method for displaying a visual hierarchy of nodes as a fractal nested layout on a monitor connected to a computer, comprising the steps of:\n(a) displaying a higher level node in the hierarchy as a window on the monitor; and\n(b) simultaneously displaying a plurality of lower level nodes as nested and separate regions within an area of the window of the higher level node thereby displaying a fractal nested layout, wherein the lower level nodes comprise a plurality of levels within the visual hierarchy, so that a plurality of unexpanded lower level nodes are displayed opaquely in a first area within the display of the higher level node and a plurality of expanded lower level nodes are displayed as windows in a second area within the display of the higher level node, wherein the unexpanded lower level nodes conceal their contents and the expanded lower level nodes disclose their contents, wherein the visual hierarchy of nodes is a consistent display of the higher and lower level nodes having regularity of the layout at each level of the hierarchy, wherein the expanded lower level nodes are visually formatted like the higher level node and the first and second areas have the same relative spatial positions in the layout at each level of the hierarchy and wherein all nodes of the hierarchy are displayed in a single pane of the window of the higher level node, and the spatial relationship between displayed nodes in the fractal nested layout is indicative of the relationship between nodes in the hierarchy.\n2. The method of claim 1, comprising the further step of selectively expanding and unexpanding the lower level nodes.\n3. The method of claim 1, wherein the nodes may represent objects, folders, classes, packages, containers, archives, compressed files, windows, lists, tables, notebooks, dialogs, groups, collection, indices, matrices, states, and diagrams.\n4. The method of claim 1, wherein the nodes are heterogeneous in their representation.\n5. The method of claim 1, wherein the nodes in a first hierarchy may be linked to nodes in a second hierarchy.\n6. The method of claim 1, wherein the displayed unexpanded nodes comprise a graphical representation that indicates the number of levels contained within the unexpanded nodes.\n7. The method of claim 1, wherein the displayed expanded nodes comprise a graphical representation that is distinct from the unexpanded nodes.\n8. A computerized apparatus for displaying a visual hierarchy of nodes as a fractal nested layout, comprising:\n(a) means, performed by the computer, for displaying a higher level node in the hierarchy as a window on the monitor;\n(b) means, performed by the computer, for simultaneously displaying a plurality of lower level nodes as nested and separate regions within an area of the window of the higher level node thereby displaying a fractal nested layout, wherein the lower level nodes comprise a plurality of levels within the visual hierarchy, so that a plurality of unexpanded lower level nodes are displayed opaquely in a first area within the display of the higher level node and a plurality of expanded lower level nodes are displayed as windows in a second area within the display of the higher level node, unexpanded nodes being nodes that conceal their contents and expanded nodes being nodes that disclose their contents, wherein the visual hierarchy of nodes is a consistent display of the higher and lower level nodes having regularity of the layout at each level of the hierarchy, wherein the expanded lower level nodes are visually formatted like the higher level node and the first and second areas have the same relative spatial positions in the layout at each level of the hierarchy, and wherein all nodes of the hierarchy are displayed in a single pane of the window of the higher level node, and the spatial relationship between displayed nodes in the fractal nested layout is indicative of the relationship between nodes in the hierarchy.\n9. The apparatus of claim 8, comprising the further step of selectively expanding and unexpanding nodes.\n10. The apparatus of claim 8, wherein the nodes may represent objects, folders, classes, packages, containers, archives, compressed files, windows, lists, tables, notebooks, dialogs, groups, collection, indices, matrices, states, and diagrams.\n11. The apparatus of claim 8, wherein the nodes are heterogeneous in their representation.\n12. The apparatus of claim 8, wherein the nodes in a first hierarchy may be linked to nodes in a second hierarchy.\n13. The apparatus of claim 8, wherein the displayed unexpanded nodes comprise a graphical representation that indicates the number of levels contained within the unexpanded nodes.\n14. The apparatus of claim 8, wherein the displayed expanded nodes comprise a graphical representation that is distinct from the unexpanded nodes.\n15. An article of manufacture comprising a program storage medium readable by a computer having a memory, the medium tangibly embodying one or more programs of instructions executable by the computer to perform method steps for displaying a visual hierarchy of nodes as a fractal nested layout, the method comprising the steps of:\n(a) displaying a higher level node in the hierarchy as a window on the monitor;\n(b) simultaneously displaying a plurality of lower level nodes as nested and separate regions within an area of the window of the higher level node thereby displaying a fractal nested layout, wherein the lower level nodes comprise a plurality of levels within the visual hierarchy, so that a plurality of unexpanded lower level nodes are displayed opaquely in a first area within the display of the higher level node and a plurality of expanded lower level nodes are displayed as windows in a second area within the display of the higher level node, unexpanded lower level nodes being nodes that conceal their contents and expanded nodes being nodes that disclose their contents, wherein the visual hierarchy of nodes is a consistent display of the higher and lower level nodes having regularity of the layout at each level of the hierarchy, wherein the expanded lower level nodes are visually formatted like the higher level node and the first and second areas have the same relative spatial positions in the layout at each level of the hierarchy, and wherein all nodes of the hierarchy are displayed in a single pane of the window of the higher level node, and the spatial relationship between displayed nodes in the fractal nested layout is indicative of the relationship between nodes in the hierarchy.\n16. The article of manufacture of claim 15, comprising the further step of selectively expanding and unexpanding nodes.\n17. The article of manufacture of claim 15, wherein the nodes may represent objects, folders, classes, packages, containers, archives, compressed files, windows, lists, tables, notebooks, dialogs, groups, collection, indices, matrices, states, and diagrams.\n18. The article of manufacture of claim 15, wherein the nodes are heterogeneous in their representation.\n19. The article of manufacture of claim 15, wherein the nodes in a first hierarchy may be linked to nodes in a second hierarchy.\n20. The article of manufacture of claim 15, wherein the displayed unexpanded nodes comprise a graphical representation that indicates the number of levels contained within the unexpanded nodes.\n21. The article of manufacture of claim 15, wherein the displayed expanded nodes comprise a graphical representation that is distinct from the unexpanded nodes.",
+    "status": "Expired - Fee Related",
+    "citations_own": [
+        "US4554625A",
+        "US5212771A",
+        "US5341466A",
+        "US5485568A"
+    ],
+    "citations_ftf": [
+        "JP3809198B2"
+    ],
+    "citedby_own": [
+        "US20010052110A1",
+        "US20020075311A1",
+        "US20020080177A1",
+        "US20030048292A1",
+        "US20030122827A1",
+        "US20030128243A1",
+        "US20030229482A1",
+        "US6751620B2",
+        "US20050165766A1",
+        "EP1612698A1",
+        "US20060007229A1",
+        "US20060125200A1",
+        "US20060195615A1",
+        "US20070156677A1",
+        "US20070198581A1",
+        "US7389284B1",
+        "US20090248737A1",
+        "US7610351B1",
+        "US20100226593A1",
+        "US20110145760A1",
+        "US7974714B2",
+        "US8046313B2",
+        "US8046716B2",
+        "US20150138203A1",
+        "USRE46310E1",
+        "US10361802B1",
+        "USRE47908E1",
+        "USRE48056E1"
+    ],
+    "citedby_ftf": [
+        "EP1026586A3",
+        "GB2354853A",
+        "US6802057B1",
+        "JP4921175B2",
+        "CA2531132C",
+        "JP4862854B2",
+        "CN110908741A"
+    ]
+}

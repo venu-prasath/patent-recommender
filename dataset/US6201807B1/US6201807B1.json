@@ -1,0 +1,68 @@
+{
+    "patent_link": "https://patents.google.com/patent/US6201807B1/en",
+    "patent_id": "US6201807B1",
+    "title": "Real-time hardware method and apparatus for reducing queue processing",
+    "abstract": "A simple high speed Real-Time method and apparatus for processing a queue in a network queue server is presented. Long packets at the beginning of the queue are processed while a pointer chains down the queue to find shorter packets. When a shorter packet is found the pointer stops and waits for a timing threshold to be met. When the timing threshold is met the short packet is processed until completion and then work is resumed on the long packet. The method is implemented using a pointer to identify the position in the queue that is currently being processed, a pointer to search for the shorter packets, two registers to hold values of the respective pointers and memory to hold the location of the discontinued packet. An additional register is utilized to hold the incremented cycle processing time, and a final register is used to hold a threshold value for processing a packet. Lastly, a previous pseudo head register is also utilized when the queue is not doubly linked.",
+    "inventors": [
+        "G. N. Srinivasa Prasanna"
+    ],
+    "assignee": "Intel Corp",
+    "classifications": [
+        "H04Q11/0478",
+        "H04L2012/5651",
+        "H04L2012/5652",
+        "H04L2012/5679",
+        "H04L2012/5681"
+    ],
+    "claims": "\n1. A queue processing system comprising at least one queue server for processing a queue, wherein said queue server further comprises:\n2. A queue processing system as claimed in claim 1 wherein said queue server further comprises an adder for incrementing said processing counter register.\n3. A queue processing system as claimed in claim 1 wherein said queue server further comprises a previous pseudo head register for holding a previous value of said pseudo head register.\n4. A queue processing system as claimed in claim 1 wherein said queue server further comprises a comparator for comparing said processing counter with said fair counter.\n5. A queue processing system as claimed in claim 1 wherein said queue server further comprises a true head pointer stored in said true head register.\n6. A queue processing system as claimed in claim 1 wherein said queue server further comprises a pseudo head pointer which is stored in said pseudo head register.\n7. A queue processing system as claimed in claim 1, wherein the queue is implemented in hardware memory as a linked list (standard technique) and the number of read, write, and read-modify-write operations per cycle are minimized.\n8. A method of processing a queue consisting of a plurality of first packets and at least one second packet, with a queue server including a true head pointer, a pseudo head pointer, a true head register, a pseudo head register, a previous pseudo head register, a processing counter and a fair counter, said method comprising the steps of:",
+    "status": "Expired - Lifetime",
+    "citations_own": [
+        "US4872159A",
+        "US5224099A",
+        "US5233606A",
+        "US5319753A",
+        "US5528587A",
+        "US5535201A",
+        "US5742600A",
+        "US5748629A",
+        "US5768273A",
+        "US5892762A"
+    ],
+    "citations_ftf": [
+        "US4914650A",
+        "JP2736092B2",
+        "US5150358A",
+        "US5313579A"
+    ],
+    "citedby_own": [
+        "US20030046488A1",
+        "US20030067934A1",
+        "US6560667B1",
+        "US20030135351A1",
+        "US20030231635A1",
+        "US20040039895A1",
+        "US20040054880A1",
+        "US20040071152A1",
+        "US20040073778A1",
+        "US20040073728A1",
+        "US20040085901A1",
+        "US20040098496A1",
+        "US20040109369A1",
+        "US20040186921A1",
+        "US20050033884A1",
+        "US20050144413A1",
+        "US20050147038A1",
+        "US20050198361A1",
+        "US7006515B1",
+        "US20060069882A1",
+        "US20070234009A1",
+        "US20090252167A1",
+        "USRE41849E1",
+        "US7895239B2",
+        "US7991983B2"
+    ],
+    "citedby_ftf": [
+        "US6772202B2",
+        "JP5416168B2"
+    ]
+}

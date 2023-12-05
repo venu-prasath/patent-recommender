@@ -1,0 +1,46 @@
+{
+    "patent_link": "https://patents.google.com/patent/US4038526A/en",
+    "patent_id": "US4038526A",
+    "title": "Optimizing control system for aircraft",
+    "abstract": "The disclosure of this invention pertains to a system for optimizing fuel consumption in an aircraft having two engines, wherein a computer is programmed to increase the fuel flow to the engine which, consequent upon a fuel flow perturbation, shows itself to be responsible for the greater acceleration of the aircraft. Direction changes resulting from unequal fuel flows to the engines are compensated for by automatic rudder control, and speed changes resulting from the fuel flow changes are compensated for by automatic speed control also acting on fuel flow, all whereby direction and speed of flight are maintained while fuel consumption is minimized.",
+    "inventors": [
+        "Edward Stuart Eccles",
+        "David James Moore"
+    ],
+    "assignee": "UK Secretary of State for Defence",
+    "classifications": [
+        "B64D31/12",
+        "F02C9/42"
+    ],
+    "claims": "\n1. In an aircraft including: a power plant having at least two engines having respective gross thrust versus fuel flow characteristics and positioned on opposite sides of the longitudinal axis of the aircraft, a speed control loop for maintaining the speed of the aircraft substantially constant, and a direction control loop for maintaining the direction of the aircraft substantially constant, a method for optimizing the operating efficiency of the power plant to account for differences in the efficiencies of the engines by adjustably proportioning fuel flow to the engines, said method comprising the steps of:\na. simultaneously perturbing the fuel flow to each of said two engines a small amount, the respective perturbations being opposite in sign;\nb. sensing acceleration in the aircraft flight direction produced in response to the perturbation of step (a);\nc. comparing the sign of the perturbation in fuel flow to one of said engines with the sign of acceleration sensed as a result of the perturbations in fuel flow to the engines to determine if said signs are the same or opposite;\nd. if said compared signs are the same, increasing fuel flow to said one engine and decreasing fuel flow by a like amount to the other of said engines;\ne. if said compared signs are opposite, decreasing fuel flow to said one engine and increasing fuel flow by a like amount to said other engine; and\nf. repeating steps (a) through (e) until no net acceleration is sensed in response to perturbations of the fuel flow to said engines.\n2. The method according to claim 1 wherein said speed control loop develops a speed signal in electrical form, the amplitude of said speed signal being employed to control fuel flow through two throttle valves for said two engines, respectively, and wherein step (a) comprises the steps of:\ngenerating two time-varying electrical perturbation signals, one for each engine, the amplitudes of said two perturbation signals having equal but oppositely polarized rates of amplitude change; and\nsumming each perturbation signal with said speed signal individually to vary the flow through said throttle valves in accordance with the summed signals.\n3. The method according to claim 2 wherein step (b) includes the step of providing an electrical acceleration signal having an amplitude and sign proportional to acceleration of said aircraft in a forward direction, and wherein step (c) comprises the step of electrically multiplying the perturbation signal for said predetermined engine by said electrical signal and monitoring the sign of the product of the multiplication.\n4. The method according to claim 3 wherein steps (d) and (e) include the steps of:\ngenerating an electrical correction signal for each engine;\nchanging the amplitudes of said correction signals in opposite senses in accordance with the sign of the product of said multiplication; and\nsumming each of said correction signals with the speed signal to further control said throttle valves.",
+    "status": "Expired - Lifetime",
+    "citations_own": [
+        "US3174284A",
+        "US3299630A",
+        "US3403507A",
+        "US3517509A",
+        "US3758764A"
+    ],
+    "citations_ftf": [],
+    "citedby_own": [
+        "US4130863A",
+        "US4212064A",
+        "FR2463441A1",
+        "US4325123A",
+        "US4383441A",
+        "US4393696A",
+        "US4410948A",
+        "EP0092501A2",
+        "US4438497A",
+        "FR2570201A1",
+        "US4947096A",
+        "US5001638A",
+        "US5006993A",
+        "US5285638A",
+        "US20110202251A1",
+        "US9354621B2",
+        "US20160214731A1",
+        "WO2018063575A1"
+    ],
+    "citedby_ftf": []
+}

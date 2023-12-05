@@ -1,0 +1,56 @@
+{
+    "patent_link": "https://patents.google.com/patent/US5133012A/en",
+    "patent_id": "US5133012A",
+    "title": "Speech recognition system utilizing both a long-term strategic and a short-term strategic scoring operation in a transition network thereof",
+    "abstract": "A plurality of candidate phonetic segments extracted from the input speech signal are passed through transition networks prepared for the respective words so as to obtain a score by weighting/averaging the long-term strategic scores by taking consideration of statistic distribution of the similarities or distances of phonetic segments and the short-term strategic scores by taking consideration of the environment of the phonetic segments.",
+    "inventors": [
+        "Tsuneo Nitta"
+    ],
+    "assignee": "Toshiba Corp",
+    "classifications": [],
+    "claims": "\n1. A speech recognition system comprising:\nmeans for acoustically analyzing an input speech signal for obtaining feature parameters of the input speech signal;\nmeans for extracting a plurality of candidate phonetic segments from the feature parameters of the input speech signal, the candidate phonetic segments including acoustic feature labels of a silence, buzz, unvoiced sound and power dips;\nmeans for causing the candidate phonetic segments to be passed through transition networks constructed for respective words to be recognized to effect a word verification operation to obtain candidate words;\nmeans for determining a work score Q(k) of the candidate word by using a following equation including a first score represented by a first term and a second score represented by a second term of the following equation: ##EQU7## where \u03bc denotes a weighing coefficient (0\u2266\u03bc\u22661), Sl denotes a similarity of a phonetic segment in a frame, L denotes a number of phonetic segments, S1l is a similarity of a first-order phonetic segment in a frame in which the phonetic segment takes a maximum value, and Smaxl denotes a maximum similarity of a corresponding phonetic segment;\nmean for selecting that candidate word having the largest candidate score Q(k) to be a result of speech recognition; and\noutputting the selected candidate word as said result of speech recognition.\n2. A speech recognition system according to claim 1, wherein the first score represented by the first term of said equation is derived in consideration of a segment environment in an input segment lattice and the second score represented by the second term of said equation is derived in consideration of a statistical distribution of a similarity of the candidate phonetic segments.\n3. A speech recognition system according to claim 1, wherein said candidate phonetic segment extracting means includes:\nmeans for continuously performing a similarity calculation between feature parameters extracted from the input speech signal and a set of orthogonalized dictionaries prepared in units of segments in a phonetic segment dictionary during a frame time; and\nmeans for obtaining the candidate phonetic segments of predetermined orders from results of the similarity calculation and a phonetic segment lattice defined by names of the candidate phonetic segments and calculated similarities corresponding to the names of the candidate phonetic segments.\n4. A speech recognition system according to claim 3, wherein said phonetic segment lattice is obtained by using a multiple linear predictive coding (LPC) mel-cepstrum similarity measure defined as follows: ##EQU8## where C denotes LPC mel-cepstrum, ##EQU9## are weight coefficient obtained from eigen value, and eigen vector of a segment name Ki, respectively, (\u00b7) is an inner product and \u2225 is a norm.\n5. A speech recognition system according to claim 4, wherein said phonetic segment extracting means includes further means for extracting at least one of acoustic feature labels including power labels, spectral pattern labels, silence [Q(J)], buzz [B(J)] unvoiced sound [F(J)] and power dips [D(J)] selected from first term in said LPC mel-cepstrum.",
+    "status": "Expired - Fee Related",
+    "citations_own": [
+        "US4624011A",
+        "US4625287A",
+        "US4677672A",
+        "US4677673A",
+        "US4803729A",
+        "US4868879A",
+        "US4888823A",
+        "US5001760A",
+        "US5018201A"
+    ],
+    "citations_ftf": [],
+    "citedby_own": [
+        "US5309547A",
+        "US5416892A",
+        "US5606645A",
+        "US5822728A",
+        "US5878392A",
+        "US6236964B1",
+        "US20010039492A1",
+        "US20020196163A1",
+        "US20030016675A1",
+        "US6629073B1",
+        "US6662158B1",
+        "US20050064374A1",
+        "US20050192802A1",
+        "US20050234722A1",
+        "US20050283364A1",
+        "US20060190256A1",
+        "US20060247915A1",
+        "US20080033723A1",
+        "US20090112591A1",
+        "US20090132237A1",
+        "US7679534B2",
+        "US8583440B2",
+        "US8606582B2",
+        "CN104538028A",
+        "CN107492382A"
+    ],
+    "citedby_ftf": [
+        "US6266640B1",
+        "DE19857070A1"
+    ]
+}

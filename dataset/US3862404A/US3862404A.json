@@ -1,0 +1,64 @@
+{
+    "patent_link": "https://patents.google.com/patent/US3862404A/en",
+    "patent_id": "US3862404A",
+    "title": "Device for carrying out two-dimensional interpolation in conjunction with a fixed word store",
+    "abstract": "A device for use with a fixed word store for multidimensional interpolation of function values not stored in the store by adding stored functional support values which surround the desired value on a coordinate basis. Analog/digital converters and digital/analog converters cause analog signals to be received and emitted by the device which otherwise operates in a purely digital mode. As used with an internal combustion engine two fixed value stores may be rendered effective in separate calculating cycles to control respective engine control functions such as ignition and fuel injection.",
+    "inventors": [
+        "Volkmar Fiedrich"
+    ],
+    "assignee": "Siemens AG",
+    "classifications": [
+        "G06F17/175",
+        "F02D41/2416",
+        "F02P5/15",
+        "Y02T10/40"
+    ],
+    "claims": "\n1. A device for carrying out multi-dimensional interpolation in response to coordinate digital input words xo, ya each having higher value bits MSB (xo), MSB, (yo) which are used to characterize a support value with the next lower abscissa and ordinate, respectively, and lower value bits LSB (xo), LSB (yo) for use in interpolating between four adjacent support values; a fixed value store; a pair of selector circuits for receiving respective one of the digital input words and feeding the address inputs of said fixed value store in response to receipt of control signals, said selector circuits operable to optionally feed the number represented by the higher value bits directly to said store or to provide the digital number in each case increased by 1; a counter having As many bits as the number of lower value bits of said two input words together and operating consecutively through each counting position during a calculating cycle; a pair of test circuits for the respective input words xo, yo for comparing the low value bits of the respective words with numbers xi and Eta represented by assigned bits of the counter and operable whenever a number represented by the count is higher than a number represented by the lower value bits of an input word to operate the respective selector circuits to feed the higher value bits MSB (xo), MSB (yo) directly to said fixed word store, and whenever a number represented by the count is less than the number represented by the lower value bits of an input word the number is increased by 1 and fed to said fixed word store; a register; an adder circuit connected to said fixed word store to add the individual function values therefrom and transfer the addition to said register which is erased at the beginning of a calculating cycle; and means for controlling said adder circuit and transfer of information to said register, the interpolated information being stored in said register upon completion of operation of said counter through all of its counting positions.\n2. A device according to claim 1, comprising a digital comparator for each input word xo, and yo which simultaneously receives the number xi or eta corresponding to the particular count and assigned to the input word in the form of a multi-digit digital value, and the low value bits LSB (xo) or LSB (yo) assigned to the input words xo or yo and the comparator assigned to the input word xo or yo emits a zero at the output when xi is greater than LSB (xo) or eta is greater than LSB (yo), and emits a one when xi is smaller than or equal to LSB (xo) or eta is smaller than or equal to LSB (xo) and wherein each selector circuit has a respective digital adder, the adder assigned to the input word xo or yo being fed with the higher value bits MSB (xo), or MSB (yo) and the bit present at the output of the comparator assigned to the input word.\n3. A device according to claim 1, comprising a pair of analog/digital converters connected to respective one of said selector circuits for receiving coordinate analog input words xo'', yo'' and converting the same to corresponding digital input words xo, yo.\n4. A device according to claim 1, comprising a digital/analog converter connected to said adder circuit for converting the interpolation value to an analog control signal.\n5. A device according to claim 3 for controlling an internal combustion engine having a rotating member and a movable control member wherein the analog input words xo'' and yo'' correspond to the rotation duration and control member positions, fuel injection means for said engine, a second fixed word store connected in parallel with the first-mentioned word store, said fixed word stores each operable to provide a respective control value for controlling the ignition time and duration of fuel injection calculated in separate calculating cycles in response to the analog input words, and means for operatively connecting the two parallel fixed word stores to said adder circuit during respective separate calculating cycles, and means connecting said adder circuit to said fuel injection and ignition means.\n6. A device according to claim 4 for controlling an internal combustion engine having a rotating component, comprising an inductive scanner associated with the rotating component of the engine and connected to one of said analog/digital converters and operable to provide an input signal thereto representing revolution duration, a throttle valve for said engine connected to the other of said analog/digital converters and operable to supply a signal thereto indicative of the position of said throttle valve, an electronic ignition device connected to said digital/analog converter for controlling injection duration from the multi-dimensional interpolation.\n7. A device according to claim 4 for controlling an internal combustion engine having a rotating component, comprising an inductive scanner associated with the rotating component of the engine and connected to one of said analog/digital converters and operable to provide an input signal thereto representing revolution duration, a throttle valve for said engine connected to the other of said analog/digital converters and operable to supply a signal thereto indicative of the position of said throttle valve, a magnet valve connected to said digital/analog converter for controlling injection duration in response to multi-dimensional interpolation.\n8. A device according to claim 4 for controlling an internal combustion engine having a rotating component, comprising an inductive scanner associated with the rotating component of the engine and connected to one of said analog/digital converters and operable to provide an input signal thereto representing revolution duration, a throttle valve for said engine connected to the other of said analog/digital converters and operable to supply a signal thereto indicative of the position of said throttle valve, an electronic ignition device and a magnet valve connected to said digital/analog converter for controlling ignition and injection duration, and an additional fixed word store alternately connected in circuit with the first-mentioned store in separate calculating cycles for controlling said magnet valve and said ignition device, respectively.",
+    "status": "Expired - Lifetime",
+    "citations_own": [
+        "US3621216A"
+    ],
+    "citations_ftf": [
+        "JPS549257B2"
+    ],
+    "citedby_own": [
+        "US3935846A",
+        "US3987289A",
+        "US3991727A",
+        "US4001565A",
+        "US4048965A",
+        "US4313412A",
+        "US4383441A",
+        "US4393836A",
+        "US4393696A",
+        "US4438497A",
+        "US4493303A",
+        "US4511989A",
+        "US4528639A",
+        "US4987544A",
+        "US5311012A",
+        "US5677967A",
+        "WO2000019902A1",
+        "US6052427A",
+        "EP1395042A2"
+    ],
+    "citedby_ftf": [
+        "US4108115A",
+        "FR2379115B1",
+        "JPS5628536B2",
+        "JPS5489110A",
+        "DE2903978C2",
+        "JPS5945830B2",
+        "IT1123578B",
+        "DE3006633C2",
+        "US4471449A",
+        "US4468747A",
+        "EP0112150B1",
+        "JPS59144973A",
+        "DE3335924A1",
+        "DE3438781C2",
+        "GB2181923B",
+        "EP0724137B1",
+        "JP2004333156A"
+    ]
+}

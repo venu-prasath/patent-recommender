@@ -1,0 +1,79 @@
+{
+    "patent_link": "https://patents.google.com/patent/US20040107102A1/en",
+    "patent_id": "US20040107102A1",
+    "title": "Text-to-speech conversion system and method having function of providing additional information",
+    "abstract": "The present invention relates to a text-to-speech conversion system and method having a function of providing additional information. An object of the present invention is to provide a user with words, as the additional information, that are expected to be difficult for the user to recognize or belong to specific parts of speech among synthesized sounds output from the text-to-speech conversion system. The object can be achieved by providing the method of selecting emphasis words from an input text by using language analysis data and speech synthesis result analysis data obtained from the text-to-speech conversion system and of structuring the selected emphasis words in accordance with sentence pattern information on the input text and a predetermined layout format.",
+    "inventors": [
+        "Seung-Nyang Chung",
+        "Jeong-mi Cho"
+    ],
+    "assignee": "Samsung Electronics Co Ltd",
+    "classifications": [
+        "G10L13/00",
+        "G10L13/10"
+    ],
+    "claims": "\n1. A text-to-speech conversion system, comprising:\na speech synthesis module for analyzing text data in accordance with morphemes and a syntactic structure, synthesizing the text data into speech by using obtained speech synthesis analysis data, and outputting synthesized sounds;\nan emphasis word selection module for selecting words belonging to specific parts of speech as emphasis words from the text data by using the speech synthesis analysis data obtained from the speech synthesis module; and\na display module for displaying the selected emphasis words in synchronization with the synthesized sounds.\n2. The text-to-speech conversion system as claimed in claim 1, further comprising a structuring module for structuring the selected emphasis words in accordance with a predetermined layout format.\n3. The text-to-speech conversion system as claimed in claim 2, wherein the structuring module comprises:\na meta DB in which layouts for structurally displaying the emphasis words selected in accordance with the information type and additionally displayed contents are stored as meta information;\na sentence pattern information-adaptation unit for rearranging the emphasis words selected from the emphasis word selection module in accordance with the sentence pattern information; and\nan information-structuring unit for extracting the meta information corresponding to the determined information type from the meta DB and applying the rearranged emphasis words to the extracted meta information.\n4. The text-to-speech conversion system as claimed in claim 1, wherein the emphasis words include words that are expected to have distortion of the synthesized sounds among words in the text data by using the speech synthesis analysis data obtained from the speech synthesis module.\n5. The text-to-speech conversion system as claimed in claim 4, wherein the words that are expected to have the distortion of the synthesized sounds are words of which matching rates are less than a predetermined threshold value, each of said matching rates being determined on the basis of a difference between estimated output and an actual value of the synthesized sound of each speech segment of each word.\n6. The text-to-speech conversion system as claimed in claim 5, wherein the difference between the estimated output and actual value is calculated in accordance with the following equation:\n7. The text-to-speech conversion system as claimed in claim 1, wherein the emphasis words are selected from words of which emphasis frequencies are less than a predetermined threshold value by using information on the emphasis frequencies for the respective words in the text data obtained from the speech synthesis module.\n8. A text-to-speech conversion system, comprising:\na speech synthesis module for analyzing text data in accordance with morphemes and a syntactic structure, synthesizing the text data into speech by using obtained speech synthesis analysis data, and outputting synthesized sounds;\nan emphasis word selection module for selecting words belonging to specific parts of speech as emphasis words from the text data by using the speech synthesis analysis data obtained from the speech synthesis module; and\nan information type-determining module for determining information type of the text data by using the speech synthesis analysis data obtained from the speech synthesis module, and generating sentence pattern information; and\na display module for rearranging the selected emphasis words in accordance with the generated sentence pattern information and displaying the rearranged emphasis words in synchronization with the synthesized sounds.\n9. The text-to-speech conversion system as claimed in claim 8, further comprising a structuring module for structuring the selected emphasis words in accordance with a predetermined layout format.\n10. The text-to-speech conversion system as claimed in claim 9, wherein the structuring module comprises:\na meta DB in which layouts for structurally displaying the emphasis words selected in accordance with the information type and additionally displayed contents are stored as meta information;\na sentence pattern information-adaptation unit for rearranging the emphasis words selected from the emphasis word selection module in accordance with the sentence pattern information; and\nan information-structuring unit for extracting the meta information corresponding to the determined information type from the meta DB and applying the rearranged emphasis words to the extracted meta information.\n11. The text-to-speech conversion system as claimed in claim 8, wherein the emphasis words include words that are expected to have distortion of the synthesized sounds among words in the text data by using the speech synthesis analysis data obtained from the speech synthesis module.\n12. The text-to-speech conversion system as claimed in claim 11, wherein the words that are expected to have the distortion of the synthesized sounds are words of which matching rates are less than a predetermined threshold value, each of said matching rates being determined on the basis of a difference between estimated output and an actual value of the synthesized sound of each speech segment of each word.\n13. The text-to-speech conversion system as claimed in claim 12, wherein the difference between the estimated output and actual value is calculated in accordance with the following equation:\n14. The text-to-speech conversion system as claimed in claim 8, wherein the emphasis words are selected from words of which emphasis frequencies are less than a predetermined threshold value by using information on the emphasis frequencies for the respective words in the text data obtained from the speech synthesis module.\n15. A text-to-speech conversion method, the method comprising the steps of:\na speech synthesis step for analyzing text data in accordance with morphemes and a syntactic structure, synthesizing the text data into speech by using obtained speech synthesis analysis data, and outputting synthesized sounds;\nan emphasis word selection step for selecting words belonging to specific parts of speech as emphasis words from the text data by using the speech synthesis analysis data; and\na display step for displaying the selected emphasis words in synchronization with the synthesized sounds.\n16. The text-to-speech conversion method as claimed in claim 15, further comprising a structuring step for structuring the selected emphasis words in accordance with a predetermined layout format.\n17. The text-to-speech conversion method as claimed in claim 16, wherein the structuring step comprises the steps of:\ndetermining whether the selected emphasis words are applicable to the information type of the generated sentence pattern information;\ncausing the emphasis words to be tagged to the sentence pattern information in accordance with a result of the determining step or rearranging the emphasis words in accordance with the determined information type; and\nstructuring the rearranged emphasis words in accordance with meta information corresponding to the information type extracted from the meta DB.\n18. The text-to-speech conversion method as claimed in claim 18, wherein layouts for structurally displaying the emphasis words selected in accordance with the information type and additionally displayed contents are stored as the meta information in the meta DB.\n19. The text-to-speech conversion method as claimed in claim 15, wherein the emphasis word selecting step further comprises the step of selecting words that are expected to have distortion of the synthesized sounds from words in the text data by using the speech synthesis analysis data obtained from the speech synthesis step.\n20. The text-to-speech conversion method as claimed in claim 19, wherein the words that are expected to have the distortion of the synthesized sounds are words of which matching rates are less than a predetermined threshold value, each of said matching rates being determined on the basis of a difference between estimated output and an actual value of the synthesized sound of each speech segment of each word.\n21. The text-to-speech conversion method as claimed in claim 15, wherein in the emphasis word selection step, the emphasis words are selected from words of which emphasis frequencies are less than a predetermined threshold value by using information on the emphasis frequencies for the respective words in the text data obtained from the speech synthesis step.\n22. A text-to-speech conversion method, the method comprising the steps of:\na speech synthesis step for analyzing text data in accordance with morphemes and a syntactic structure, synthesizing the text data into speech by using obtained speech synthesis analysis data, and outputting synthesized sounds;\nan emphasis word selection step for selecting words belonging to specific parts of speech as emphasis words from the text data by using the speech synthesis analysis data; and\na sentence pattern information-generating step for determining information type of the text data by using the speech synthesis analysis data obtained from the speech synthesis step, and generating sentence pattern information; and\na display step for rearranging the selected emphasis words in accordance with the generated sentence pattern information and displaying the rearranged emphasis words in synchronization with the synthesized sounds.\n23. The text-to-speech conversion method as claimed in claim 22, wherein the emphasis word selecting step further comprises the step of selecting words that are expected to have distortion of the synthesized sounds from words in the text data by using the speech synthesis analysis data obtained from the speech synthesis step.\n24. The text-to-speech conversion method as claimed in claim 23, wherein the words that are expected to have the distortion of the synthesized sounds are words of which matching rates are less than a predetermined threshold value, each of said matching rates being determined on the basis of a difference between estimated output and an actual value of the synthesized sound of each speech segment of each word.\n25. The text-to-speech conversion method as claimed in claim 22, wherein in the emphasis word selection step, the emphasis words are selected from words of which emphasis frequencies are less than a predetermined threshold value by using information on the emphasis frequencies for the respective words in the text data obtained from the speech synthesis step.\n26. The text-to-speech conversion method as claimed in claim 22, wherein the sentence pattern information-generating step comprises the steps of:\ndividing the text data into semantic units by referring to a domain DB and the speech synthesis analysis data obtained in the speech synthesis step;\ndetermining representative meanings of the divided semantic units, tagging the representative meanings to the semantic units, and selecting representative words from the respective semantic units;\nextracting a grammatical rule suitable for a syntactic structure format of the text from the domain DB, and determining actual information by applying the extracted grammatical rule to the text data; and\ndetermining the information type of the text data through the determined actual information, and generating the sentence pattern information.\n27. The text-to-speech conversion method as claimed in claim 26, wherein information on a syntactic structure, a grammatical rule, terminologies and phrases of various fields divided in accordance with the information type is stored as domain information in the domain DB.\n28. The text-to-speech conversion method as claimed in claim 22, further comprising a structuring step for structuring the selected emphasis words in accordance with a predetermined layout format.\n29. The text-to-speech conversion method as claimed in claim 28, wherein the structuring step comprises the steps of:\ndetermining whether the selected emphasis words are applicable to the information type of the generated sentence pattern information;\ncausing the emphasis words to be tagged to the sentence pattern information in accordance with a result of the determining step or rearranging the emphasis words in accordance with the determined information type; and\nstructuring the rearranged emphasis words in accordance with meta information corresponding to the information type extracted from the meta DB.\n30. The text-to-speech conversion method as claimed in claim 29, wherein layouts for structurally displaying the emphasis words selected in accordance with the information type and additionally displayed contents are stored as the meta information in the meta DB.",
+    "status": "Abandoned",
+    "citations_own": [
+        "US5384893A",
+        "US5634084A",
+        "US5673362A",
+        "US5680628A",
+        "US5924068A",
+        "US5949961A",
+        "US6078885A",
+        "US6185533B1",
+        "US6289304B1",
+        "US20010044724A1",
+        "US6338034B2",
+        "US20020059073A1",
+        "US20020072908A1",
+        "US20020110248A1",
+        "US6477495B1",
+        "US20020184027A1",
+        "US20030023443A1",
+        "US6665641B1",
+        "US20040030555A1",
+        "US6751592B1",
+        "US6865533B2",
+        "US20050216267A1",
+        "US6996529B1",
+        "US7028038B1",
+        "US7236923B1",
+        "US7251604B1"
+    ],
+    "citations_ftf": [
+        "JP2996978B2",
+        "JPH05224689A",
+        "JPH064090A",
+        "JP2000112845A",
+        "KR20010002739A",
+        "JP3314058B2",
+        "JP3589972B2"
+    ],
+    "citedby_own": [
+        "US20050021331A1",
+        "US20060136212A1",
+        "US7207004B1",
+        "US20070260460A1",
+        "US20080243510A1",
+        "US20090157714A1",
+        "US20090198497A1",
+        "US20090313022A1",
+        "CN102324191A",
+        "US20120209611A1",
+        "US20160135047A1",
+        "JP2016109832A",
+        "US20170116176A1",
+        "US10649726B2",
+        "US11226946B2",
+        "US11544306B2"
+    ],
+    "citedby_ftf": [
+        "JP4859101B2",
+        "JP5159853B2",
+        "JP6002598B2",
+        "JP6309852B2",
+        "DE112017001987T5"
+    ]
+}

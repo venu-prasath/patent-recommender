@@ -1,0 +1,61 @@
+{
+    "patent_link": "https://patents.google.com/patent/US6748341B2/en",
+    "patent_id": "US6748341B2",
+    "title": "Method and device for machinery diagnostics and prognostics",
+    "abstract": "Machinery diagnostics and prognostics is an emerging engineering field that seeks to accurately determine the operational health of a machine without waiting for the machine to fail, performing maintenance that may not yet be required or, in the worst case, performing unnecessary maintenance that inadvertently causes other problems and hastens machine health deterioration. Accurate prediction of machine health (operability) enables operators to base machine maintenance on the machine's actual condition, in contrast to the common practice of time-based maintenance (e.g., perform maintenance every 100 hours). The \u201cjust-in-time\u201d methodology of the machine health monitoring system (MHMS) of the present invention translates into significant cost savings by providing early warning of impending failures and thus reducing unanticipated catastrophic machine failures through preventative maintenance techniques (but no more or no less than is required) while simultaneously keeping false alarm rates low. The MHMS couples proprietary analysis, modeling and pattern recognition techniques to provide accurate machine health predictions. The MHMS's combination of technologies provides accurate, easy-to-understand, early indication of potential problems, enabling efficient and timely repair. In addition, MHMS technology can continuously \u201clearn\u201d from its own machine health monitoring experience, so that system accuracy and false alarm rate improve over time.",
+    "inventors": [
+        "George E. Crowder, Jr."
+    ],
+    "assignee": "Frontier Technology Inc",
+    "classifications": [],
+    "claims": "\n1. A computer readable medium having instructions encoded thereon that cause a computer system to perform an accurate machine health prediction upon receipt of raw monitored machine operating variables data from said machine, the instructions on the computer readable medium comprising:\n2. A method for predicting machine failure comprising the steps of: (a) presenting a machine wherein operability of the machine is dependent on the values of a set of machine variables; (b) presenting a computer means comprising the computer readable medium of claim 1; (c) measuring the set of machine variables to provide a set of measured machine variables, the set of measured machine variables comprising input to said computer means; and (d) observing the value of the PMA output of the computer means, the value of the PMA being predictive of machine failure.",
+    "status": "Expired - Lifetime",
+    "citations_own": [
+        "US5414632A",
+        "US5602761A",
+        "US5884245A",
+        "US5905648A",
+        "US6041287A",
+        "US6298308B1",
+        "US6549869B1",
+        "US6584836B1",
+        "US6591296B1",
+        "US20030158705A1",
+        "US20030164762A1"
+    ],
+    "citations_ftf": [],
+    "citedby_own": [
+        "US20030158772A1",
+        "US20060071800A1",
+        "US20060224434A1",
+        "US20070088570A1",
+        "US7218974B2",
+        "US20080140352A1",
+        "US20080140360A1",
+        "WO2008157498A1",
+        "US20090037206A1",
+        "US20090138153A1",
+        "CN101660402A",
+        "US20100100337A1",
+        "US7881904B1",
+        "CN102011576A",
+        "CN102043900A",
+        "US20140122381A1",
+        "US11170635B2"
+    ],
+    "citedby_ftf": [
+        "WO2003042928A2",
+        "US7162390B2",
+        "US7752013B1",
+        "US8095588B2",
+        "US9304512B2",
+        "DE102009003110A1",
+        "CN104424064A",
+        "CN104850916A",
+        "FR3043463B1",
+        "CN107909161B",
+        "JP7249902B2",
+        "DE102021202712B3",
+        "CN116520817B"
+    ]
+}

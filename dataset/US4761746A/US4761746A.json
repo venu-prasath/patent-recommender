@@ -1,0 +1,52 @@
+{
+    "patent_link": "https://patents.google.com/patent/US4761746A/en",
+    "patent_id": "US4761746A",
+    "title": "Dynamic reconstruction method for discrimination network",
+    "abstract": "A dynamic network reconstruction method in which the node processing information such as a node processing volume and a ratio at which a node is satisfied is collected for all nodes to maintain an efficient network even when the characteristic of an object described in a condition clause is changed in a Rete network of a production system using the knowledge technology and the network is changed based on the node processing information.",
+    "inventors": [
+        "Shunichi Tano",
+        "Motohisa Funabashi",
+        "Shoichi Masui",
+        "Seiji Sakaguchi"
+    ],
+    "assignee": "Hitachi Ltd",
+    "classifications": [
+        "G06N5/047",
+        "Y10S706/914"
+    ],
+    "claims": "\n1. A method for dynamically reconstructing a network in a system in which a determination of whether or not a composite condition for an object data including a data name and at least a pair of an attribute name and an attribute value is satisfied based on network nodes representing clauses of the composite condition, said network nodes being sequentially processed beginning with a node corresponding to the highest position in the network, comprising the steps of:\ncollecting node processing information when said composite condition is determined to be satisfied; and\ndynamically reconstructing the network basded on the collected node processing information.\n2. A method according to claim 1, wherein said step of dynamically reconstructing the network includes a step of referencing a table which represents favorableness for hierarchic relationships between the nodes.\n3. A method according to claim 1 wherein said node processing information includes information related to a processing volume of each node and information related to a ratio at which a condition described in each node is satisfied.",
+    "status": "Expired - Lifetime",
+    "citations_own": [
+        "US4286330A",
+        "US4599693A",
+        "US4599692A",
+        "US4628435A",
+        "US4649515A",
+        "US4670848A"
+    ],
+    "citations_ftf": [],
+    "citedby_own": [
+        "US4849905A",
+        "US4951225A",
+        "US5023807A",
+        "US5047951A",
+        "US5072405A",
+        "US5129037A",
+        "US5146537A",
+        "US5155803A",
+        "US5159662A",
+        "US5179633A",
+        "US5181256A",
+        "US5197115A",
+        "US5241652A",
+        "US5245699A",
+        "US5349663A",
+        "US5353385A",
+        "US5371809A",
+        "US5390286A",
+        "US5694599A",
+        "US5774449A",
+        "US20090313198A1"
+    ],
+    "citedby_ftf": []
+}

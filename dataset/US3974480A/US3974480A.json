@@ -1,0 +1,43 @@
+{
+    "patent_link": "https://patents.google.com/patent/US3974480A/en",
+    "patent_id": "US3974480A",
+    "title": "Data processing system, specially for real-time applications",
+    "abstract": "This invention relates to a data processing system, specially for real-time applications. This system comprises a processor having a relatively small number of registers, and safeguard storages consisting each of a stack of sequentially addressable registers. When a program being performed is interrupted, all the information contents of the processor registers are transferred to at least one safeguard storage. The transferred information are subsequently extracted, upon resumption of the interrupted program, from the safeguard storage, in a sequential order reverse with respect to the order in which they had been previously transferred. This system is specially adapted for controlling industrial processes.",
+    "inventors": [
+        "Francois Gernelle"
+    ],
+    "assignee": "Individual",
+    "classifications": [],
+    "claims": "\n1. Data processing system, particularly for real-time applications requiring a relatively moderate processing capability, which comprises:\na. a processor comprising:\ni. a plurality of registers,\nj. means for interrupting a processing program or subprogram,\nk. means for performing said processing program or subprogram, and for performing at least one subprogram necessary for a real-time application upon the occurrence of an interruption caused by said interrupting means, and subsequently, upon completion of said subprogram necessary for a real-time application, for resuming the performance of the previously interrupted program or subprogram,\nb. a plurality of safeguard storages consisting each of a stack of N independent and sequentially addressable registers,\nc. means for controlling a transfer of the contents of all the registers of said processor to at least one of said safeguard storages in a predetermined sequential order when a program or subprogram is interrupted and for re-loading the registers of said processor with said contents previously transferred to at least one of said safeguard storages in a sequential order reverse with respect to said predetermined order when resuming said interrupted program or subprogram,\nd. and at least one bus line connecting said registers of said processor to said safeguard storages for transferring said contents, and said interrupting means to said performing means for transmitting an interrupt signal from said interrupting means to said performing means.\n2. Data processing system as set forth in claim 1, further comprising a plurality of rapid peripheral units connected to the same said bus line, and channels connected to said rapid peripheral units and to said processor through said bus line for exchanging information between said processor and said rapid peripheral units, at least some of said safeguard storages being inserted in said information exchange channels and connected to said processor through said bus line and to said rapid peripheral units for operation as buffer storages under time-sharing conditions.\n3. Data processing system as set forth in claim 1, further comprising safeguard storages connected to said processor through said bus line for temporarily storing, in at least some of these safeguard storages, immediate results and subprogram parameters in said predetermined sequential order and between two selected steps of said program or of one of said subprograms.\n4. Data processing system as set forth in claim 1, further comprising read-only storages connected to said bus line for recording the instructions of said program and subprograms, and live storages connected to said bus line for recording parameters of said program and subprograms.\n5. Data processing system as set forth in claim 1, further comprising slow peripheral units having arbitrary numbers of inputs and outputs, and standardized couplers having all same predetermined numbers of inputs and outputs, each of said coupler inputs and outputs being adapted to be used for coupling any one of said slow peripheral units to said bus line.\n6. Data processing system as set forth in claim 1, wherein said bus line comprises a plurality of conductors and a plurality of identical connectors for connecting storages and peripheral units to said bus line, each conductor of said bus line extending to each one of said connectors.",
+    "status": "Expired - Lifetime",
+    "citations_own": [
+        "US3286239A",
+        "US3568158A",
+        "US3639911A",
+        "US3688263A",
+        "US3699532A",
+        "US3725868A",
+        "US3757307A",
+        "US3805038A",
+        "US3838261A",
+        "US3838260A"
+    ],
+    "citations_ftf": [],
+    "citedby_own": [
+        "US4095268A",
+        "US4164017A",
+        "US4410939A",
+        "EP0108291A1",
+        "WO1984002407A1",
+        "WO1984002628A1",
+        "FR2587518A1",
+        "US4903201A",
+        "US4905196A",
+        "FR2779842A1",
+        "US20040088242A1",
+        "US20040103003A1",
+        "GB2474522A",
+        "US9484078B2"
+    ],
+    "citedby_ftf": []
+}

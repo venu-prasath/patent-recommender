@@ -1,0 +1,26 @@
+{
+    "patent_link": "https://patents.google.com/patent/US6772069B1/en",
+    "patent_id": "US6772069B1",
+    "title": "Determining protein function and interaction from genome analysis",
+    "abstract": "A computational method system, and computer program are provided for inferring functional links from genome sequences. One method is based on the observation that some pairs of proteins A\u2032 and B\u2032 have homologs in another organism fused into a single protein chain AB. A trans-genome comparison of sequences can reveal these AB sequences, which are Rosetta Stone sequences because they decipher an interaction between A\u2032 and B. Another method compares the genomic sequence of two or more organisms to create a phylogenetic profile for each protein indicating its presence or absence across all the genomes. The profile provides information regarding functional links between different families of proteins. In yet another method a combination of the above two methods is used to predict functional links.",
+    "inventors": [
+        "David Eisenberg",
+        "Edward M. Marcotte",
+        "Michael J. Thompson",
+        "Matteo Pellegrini",
+        "Todd O. Yeates"
+    ],
+    "assignee": "University of California",
+    "classifications": [
+        "G16B20/00",
+        "G16B30/10",
+        "G16B10/00",
+        "G16B30/00"
+    ],
+    "claims": "\n1. A method for identifying a high confidence functional link between at least two proteins, comprising the following steps:\n2. The method of claim 1, further comprising:\n3. The method of claim 2, further comprising displaying the functional links as networks of related proteins, comprising:\n4. The method of claim 3, wherein the placing of the plurality of proteins in a diagram utilizes a computer.\n5. The method of claim 1, further comprising:\n6. The method of claim 5, wherein the placing of substantially all protein pairs in a diagram utilizes a computer.\n7. the method of claim 1, wherein in the \u201cRosetta Stone\u201d method establishing that the pair of non-homologous amino acid sequence segments of (i) have significant sequence similarities to different sequence segments of the protein of (ii) comprises showing that a computed probability (p) value is below a statistically significant threshold.\n8. The method of claim 7, wherein the probability threshold is set with respect to a value 1/N, wherein N is an integer based on the total number of protein sequences in a database.\n9. the method of claim 1, wherein in the \u201cRosetta Stone\u201d method the non-homologous amino acid sequence segments from different protein sequences of (i) are at least about 50 amino acid residues long.\n10. the method of claim 1, wherein in the \u201cRosetta Stone\u201d method the non-homologous amino acid sequence segments from different polypeptide sequences of (i) are between about 50 and about 1000 amino acid residues long.\n11. The method of claim 1, wherein in the \u201cRosetta Stone\u201d method statistically insignificant Rosetta stone links are filtered out when either protein in (i) has a plurality of homologs.\n12. The method of claim 1, wherein in the \u201cRosetta Stone\u201d method the plurality of homologues is more than about 100 homologues.\n13. The method of claim 1, wherein in the \u201cRosetta Stone\u201d method statistically insignificant Rosetta Stone links are filtered out when either protein in (i) forms a plurality of Rosetta Stone links to other distinct proteins.\n14. The method of claim 13, wherein the plurality of Rosetta Stone links is more than about 100.\n15. The method of claim 14, wherein the plurality of Rosetta Stone links is more than about 25.\n16. The method of claim 1, wherein the phylogenetic profile is generated using a bit type profiling method.\n17. The method of claim 1, wherein the phylogenetic profile is generated using an evolutionary distance method.\n18. The method of claim 1, wherein the phylogenetic profile is generated in a binary code describing the presence or absence of a given protein in an organism.\n19. The method of claim 1, wherein the phylogenetic profile is generated in a continuous code that describes how similar the related sequences are in the different genomes.\n20. The method of claim 1, wherein the phylogenetic profile is generated using an evolution probability process, wherein the process comprises\n21. The method of claim 20, wherein the conditional probability matrix is defined by a Markov process with substitution rates over a fixed time interval.\n22. The method of claim 20, wherein the conversion from an amino acid substitution log odds matrix to a conditional probability matrix is represented by:\n23. The method of claim 22, wherein Pj's are the abundances of amino acid j and are computed by solving a plurality of linear equations given by the normalization condition that:\n\u2211\ni\n\ue89e\nPs\n\ue8a0\n(\ni\n\u2192\nj\n)\n=\n1.",
+    "status": "Expired - Lifetime",
+    "citations_own": [],
+    "citations_ftf": [],
+    "citedby_own": [],
+    "citedby_ftf": []
+}

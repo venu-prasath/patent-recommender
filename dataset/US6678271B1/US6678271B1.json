@@ -1,0 +1,47 @@
+{
+    "patent_link": "https://patents.google.com/patent/US6678271B1/en",
+    "patent_id": "US6678271B1",
+    "title": "High performance system and method having a local bus and a global bus",
+    "abstract": "An apparatus and method for providing a translation layer between a local bus and a global bus is described. The apparatus has a local bus and a global bus respectively coupled to a local bus gateway and a global bus gateway. A storage unit is coupled to both of the gateways, the storage unit having a traffic unit. Traffic control logic is coupled to at least one of the gateways and to at least one traffic statistic register.",
+    "inventors": [
+        "Jack Flinsbaugh"
+    ],
+    "assignee": "RPX Clearinghouse LLC",
+    "classifications": [
+        "H04L47/30",
+        "H04L47/22",
+        "H04L47/32"
+    ],
+    "claims": "\n1. An apparatus, comprising:\n1) an ingress queue depth share so as to define a depth of said ingress queue;\n2) an egress queue depth share so as to define a depth of said egress queue; and\n2. The apparatus of claim 1 wherein said egress queue depth share and said ingress queue depth share.] add to 100% of said memory resource.\n3. The apparatus of claim 1 wherein said memory resource further comprises a random access memory.\n4. The apparatus of claim 1 wherein said ingress queue share can be further divided into a priority queue depth share and a non-priority queue depth share.\n5. The apparatus of claim 4 further comprising a second register to store a second memory space setting that defines a boundary between said priority queue and said non priority queue within said ingress queue.\n6. The apparatus of claim 1 further comprising register space to store a statistic of said traffic conditions.\n7. The apparatus of claim 6 wherein said statistic is ingress traffic units dropped.\n8. The apparatus of claim 6 wherein said statistic is egress traffic units dropped.\n9. The apparatus of claim 6 wherein said statistic is ingress traffic units passed.\n10. The apparatus of claim 6 wherein said statistic is egress traffic units passed.\n11. The apparatus of claim 6 wherein said statistic is the state of said ingress queue.\n12. The apparatus of claim 6 wherein said statistic is the state of said egress queue.\n13. The apparatus of claim 1 further comprising register space to store a plurality of statistics associated with said traffic conditions, said plurality of statistics further comprising;\n1) ingress traffic units dropped;\n2) egress traffic units dropped;\n3) ingress traffic units passed;\n4) egress traffic units passed;\n5) the state of said ingress queue; and,\n6) the state of said egress queue.\n14. The apparatus of claim 13 further comprising a different traffic statistic register for each of said statistics.\n15. The apparatus of claim 1 further comprising traffic control logic to control entry of ingress traffic units into said ingress queue and entry of egress traffic units into said egress queue.\n16. The apparatus of claim 15 wherein said traffic control logic causes an ingress traffic unit to be dropped if said ingress queue depth less the state of said ingress queue is an insufficient amount of memory space to queue said ingress traffic unit into said ingress queue.\n17. The apparatus of claim 15 wherein said traffic control logic causes an egress traffic unit to be dropped if said egress queue depth less the state of said egress queue is an insufficient amount of memory space to queue said egress traffic unit into said egress queue.\n18. The apparatus of claim 1 further comprising a queue management layer to determine said memory space setting in light of said traffic conditions.\n19. The apparatus of claim 17 wherein said queue management layer is at least partially implemented as a microprocessor located on an adapter card.\n20. The apparatus of claim 1 wherein said traffic unit is a packet.\n21. The apparatus of claim 1 wherein said bus is a token based bus.\n22. The apparatus of claim 1 further comprising a token hold time register to control how long a local bus gateway can hold onto a token that is passed over said local bus, said local bus gateway to control the presentation of egress traffic units onto said local bus.\n23. The apparatus of claim 1 wherein said token hold time may be increased to increase a service rate of said egress queue in light of said traffic conditions.\n24. The apparatus of claim 21 wherein said local bus further comprises an accelerator net that, when activated by a local bus gateway, causes said local bus gateway to gain greater control over said token as compared to other functional units that are attached to said local bus, said local bus gateway to control the presentation of egress traffic units onto said local bus.\n25. A method, comprising:\n26. The method of claim 25 wherein said traffic statistic is said ingress queue's dropped traffic units.\n27. The method of claim 25 wherein said traffic statistic is said egress queue's dropped traffic units.\n28. The method of claim 25 wherein said traffic statistic is said ingress queue's passed traffic unit.\n29. The method of claim 25 wherein said traffic statistic is said egress queue's passed traffic units.\n30. The method of claim 25 further comprising:\n31. The method of claim 30 further comprising incrementing a passed traffic unit register if said state is less than said depth.\n32. The method of claim 30 further comprising incrementing a state register if said state is equal to said depth.\n33. The method of claim 30 further comprising flushing said traffic unit if said state is equal to said depth.\n34. The method of claim 30 further comprising incrementing a dropped traffic unit register if said state is equal to said depth.\n35. A method comprising:\n36. The method of claim 35 wherein said critical percentage is 100%.\n37. The method of claim 35 further comprising programming a token hold time value into a service request register in order to cause said increase in said service rate.\n38. The method of claim 35 wherein said traffic statistic register is a passed traffic unit register.\n39. The method of claim 35 further comprising incrementing a second traffic statistic register in response to a decision to drop a traffic unit that was to be entered into said queue, said second traffic statistic register being a dropped traffic unit register.\n40. The method of claim 35 wherein said increasing a service rate of said queue further comprises granting said gateway a higher percentage of the bandwidth of said bus than said gateway enjoyed just prior to said granting.\n41. The method of claim 35 wherein said increasing a service rate of said queue further comprises forcing a bus master to increase the rate at which service requests by a gateway are granted.\n42. The method of claim 35 wherein said traffic unit is an egress traffic unit and said queue is a egress queue.\n43. The method of claim 42 further comprising storing priority ingress traffic units into a priority ingress queue and storing non-priority ingress traffic units into a non-priority ingress queue, said non-priority ingress queue and said priority ingress queue sharing a memory resource with said queue.\n44. A machine readable medium having stored thereon sequences of instructions, which when executed by a processor, cause said processor to perform the acts of:\n45. An adapter card, comprising:\n1) a first queue depth share so as to define a depth of said first queue;\n2) a second queue depth share so as to define a depth of said second queue; and",
+    "status": "Expired - Fee Related",
+    "citations_own": [
+        "US4667322A",
+        "US5274641A",
+        "US5448564A",
+        "US5509117A",
+        "US5517662A",
+        "US5669009A",
+        "US6092115A",
+        "US6118792A",
+        "US6246682B1",
+        "US6349394B1",
+        "US6373842B1",
+        "US6487212B1",
+        "US6522188B1"
+    ],
+    "citations_ftf": [],
+    "citedby_own": [
+        "US20020112067A1",
+        "US20030005070A1",
+        "US20030043810A1",
+        "US20040143593A1",
+        "US20050226249A1",
+        "US20060171846A1",
+        "US20070217336A1",
+        "US20090252167A1",
+        "US20150227475A1",
+        "DE102016004105B3",
+        "US11782851B2"
+    ],
+    "citedby_ftf": []
+}

@@ -1,0 +1,38 @@
+{
+    "patent_link": "https://patents.google.com/patent/US6205288B1/en",
+    "patent_id": "US6205288B1",
+    "title": "Apparatus and method for reproducing a video signal according to a video signal recording mode of a digital video disk and a television mode",
+    "abstract": "An apparatus and method for reproducing a video signal of a digital video disk. The method includes the steps of checking a television mode; if the television mode is a PAL system, selecting a video processor in a PAL mode and checking a video signal mode recorded in the disk; and if the video signal recording mode is an NTSC system, selecting a video decoder in an NTSC mode so as to supply a pseudo PAL video signal to a television.",
+    "inventors": [
+        "Jeong-Hyun Gong"
+    ],
+    "assignee": "Samsung Electronics Co Ltd",
+    "classifications": [
+        "H04N5/93",
+        "H04N9/7925",
+        "H04N5/85"
+    ],
+    "claims": "\n1. A pseudo Phase Alternation by Line (PAL) video signal reproducing apparatus for reproducing information of a digital video disk and transferring a reproduced signal to a television, said apparatus comprising:\n2. A pseudo PAL video signal reproducing apparatus as claimed in claim 1, wherein said controller comprises a microcomputer having a memory which stores a control program for selecting said MPEG video decoder and said video processor in the PAL or NTSC mode.\n3. A method for reproducing a pseudo PAL video signal in a digital video disk reproducing apparatus having an MPEG (Moving Picture Experts Group) video decoder and a video processor, said method comprising the steps of:\n4. A method for reproducing a video signal in a digital video disk reproducing apparatus having an MPEG (Moving Picture Experts Group) video decoder and a video processor, said method comprising the steps of:\n5. A pseudo Phase Alternation by Line (PAL) video signal reproducing apparatus for reproducing a Moving Pictures Experts Group (MPEG) generated from information of a digital video disk for display on a television in accordance with a video clock signal, said apparatus comprising:\n6. A pseudo PAL video signal reproducing apparatus as claimed in claim 5, further comprising an input section to receive an input indicative of the television mode of the television.\n7. A pseudo PAL video signal reproducing apparatus as claimed in claim 6, wherein said controller selects said PAL modes of said video processor and said MPEG video decoder if the television mode and the mode of information reproduced from the digital video disk is said PAL mode, selects said PAL mode of said video processor and said NTSC mode of said MPEG video decoder if the television mode is said PAL mode and the mode of information reproduced from the digital video disk is said NTSC mode, and selects said NTSC modes of said video processor and said MPEG video decoder if the television mode is said NTSC mode.\n8. A pseudo PAL video signal reproducing apparatus as claimed in claim 7, wherein said controller selects said NTSC mode of said video decoder regardless of the mode of the information reproduced from the digital video disk.\n9. A pseudo PAL video signal reproducing apparatus as claimed in claim 8, wherein said MPEG video decoder generates a video synchronization signal based upon the selection of mode of said MPEG video decoder by said controller, and transmits said video synchronization signal to said video processor to control processing of said digital video data.\n10. A pseudo PAL video signal reproducing apparatus as claimed in claim 5, wherein said controller selects said PAL modes of said video processor and said MPEG video decoder if the television mode and the mode of information reproduced from the digital video disk is said PAL mode, selects said PAL mode of said video processor and said NTSC mode of said MPEG video decoder if the television mode is said PAL mode and the mode of information reproduced from the digital video disk is said NTSC mode, and selects said NTSC modes of said video processor and said MPEG video decoder if the television mode is said NTSC mode.\n11. A pseudo PAL video signal reproducing apparatus as claimed in claim 10, wherein said controller selects said NTSC mode of said video decoder regardless of the mode of the information reproduced from the digital video disk.\n12. A pseudo PAL video signal reproducing apparatus as claimed in claim 10, wherein said MPEG video decoder generates a video synchronization signal based upon the selection by said controller, and transmits said video synchronization signal to said video processor to control processing of said digital video data.\n13. A pseudo PAL video signal reproducing apparatus as claimed in claim 12, wherein said video processor includes a clock generator to generate chrominance signals having different frequencies based upon the selection of mode of said video processor by said controller.\n14. A pseudo PAL video signal reproducing apparatus as claimed in claim 13, wherein said clock generator generates a first chrominance signal having a frequency of 3.58 MHZ if said controller selects said video processor to be in said NTSC mode and generates a second chrominance signal having a frequency of 4.43 MHZ if said controller selects said video processor to be in said PAL mode.\n15. A pseudo PAL video signal reproducing apparatus as claimed in claim 14, wherein said video processor receives said video clock signal from external of said PAL video signal reproducing apparatus and transfers said video clock signal to said MPEG video decoder.\n16. A pseudo PAL video signal reproducing apparatus as claimed in claim 10, wherein said video processor includes a clock generator to generate chrominance signals having different frequencies based upon the selection of mode of said video processor by said controller.\n17. A pseudo PAL video signal reproducing apparatus as claimed in claim 16, wherein said clock generator generates a first chrominance signal having a frequency of 3.58 MHZ if said controller selects said video processor to be in said NTSC mode and generates a second chrominance signal having a frequency of 4.43 MHZ if said controller selects said video processor to be in said PAL mode.\n18. A pseudo PAL video signal reproducing apparatus as claimed in claim 5, wherein said video processor receives said video clock signal from external of said PAL video signal reproducing apparatus and transfers said video clock signal to said MPEG video decoder.",
+    "status": "Expired - Lifetime",
+    "citations_own": [
+        "US5005077A",
+        "US5229853A",
+        "US5255091A",
+        "US5457499A",
+        "US5504532A",
+        "US5530484A",
+        "US5631710A",
+        "US5734435A"
+    ],
+    "citations_ftf": [],
+    "citedby_own": [
+        "US20030035645A1",
+        "US20030190144A1",
+        "US6727958B1",
+        "US20040184790A1",
+        "US20060007359A1"
+    ],
+    "citedby_ftf": [
+        "CN101510975B"
+    ]
+}

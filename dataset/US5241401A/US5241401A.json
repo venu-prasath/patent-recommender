@@ -1,0 +1,70 @@
+{
+    "patent_link": "https://patents.google.com/patent/US5241401A/en",
+    "patent_id": "US5241401A",
+    "title": "Image signal encoding apparatus and method for controlling quantization step size in accordance with frame skip numbers",
+    "abstract": "An image signal encoding apparatus having a control means for detecting a degree of redundancy of an inputted image signal and for conducting frame skip control based on a frame skip number determination and a determined skip number, an encoding processing means for processing a frame signal indicated by a transmission from said control means by block units into which a screen is divided, quantizing this signal, and encoding and outputting this signal through the medium of a transmission buffer, and a step size control means for controlling the step size of the quantization, characterized in that the step size control means comprises a correction buffer amount calculation means, which calculates a correction buffer amount indicating an excess in the transmission buffer from the frame skip number and a previously supplied transmission speed, and a step size calculation means, which outputs a quantization step size which is smaller as the correction buffer amount indicates a larger excess of the transmission buffer.",
+    "inventors": [
+        "Hiroshi Fujiwara",
+        "Hiroo Uwabu",
+        "Masanori Maruyama",
+        "Eiji Kakii"
+    ],
+    "assignee": "Graphics Communication Tech Ltd",
+    "classifications": [
+        "H04N19/587",
+        "H04N19/115",
+        "H04N19/126",
+        "H04N19/132",
+        "H04N19/172",
+        "H04N19/176",
+        "H04N19/60",
+        "H04N19/61",
+        "H04N19/124",
+        "H04N19/146",
+        "H04N19/152"
+    ],
+    "claims": "\n1. An image signal encoding apparatus, comprising:\ncontrol means for detecting a degree of redundancy of an inputted image signal and for conducting frame skip control based on a frame skip number determination and a determined skip number;\nan encoding processing means for processing a frame signal indicated by a transmission from said control means by block units into which a screen is divided, quantizing said signal, and encoding and outputting said signal through the medium of a transmission buffer; and\nstep size control means for controlling the step size of said quantization, said step size control means comprising a correction buffer amount calculation means, which calculates a correction buffer amount indicating a surplus in said transmission buffer from said frame skip number and a previously supplied transmission speed;\nand a step size calculation means, which outputs a quantization step size which is smaller as said correction buffer amount indicates a larger surplus of said transmission buffer; and\na judgment means for conducting, when a quantization step size is outputted from said step size calculation means, quantization in accordance with said outputted step size only when a difference between said outputted step size and a step size which was immediately previously used exceeds a limit value which is externally supplied.\n2. An image signal encoding method comprising:\ndetecting a degree of redundancy of an inputted image signal;\nconducting frame skip control based on a frame skip number determination and a determined skip number;\nprocessing a frame signal indicated by a transmission by block units into which a screen is divided;\nquantizing said signal;\nencoding and outputting said signal through the medium of a transmission buffer; and\ncontrolling the step size of said quantizing, said controlling comprising:\ncalculating a correction buffer amount indicating a surplus in said transmission buffer from said frame skip number and a previously supplied transmission speed;\noutputting a quantization step size which is smaller as said correction buffer amount indicates a larger surplus of said transmission buffer; and\nconducting, when a quantization step size is outputted, quantization in accordance with said outputted step size only when a difference between said outputted step size and a step size which was immediately previously used exceeds a limit value which is externally supplied.",
+    "status": "Expired - Fee Related",
+    "citations_own": [
+        "US4894713A",
+        "US4951140A",
+        "US5089888A",
+        "US5126842A",
+        "DE4134999A1"
+    ],
+    "citations_ftf": [
+        "JPS62272790A",
+        "JP2637075B2",
+        "JPS63102482A",
+        "JPS63187922A",
+        "EP0397206B1",
+        "JPH0722396B2",
+        "US5164828A"
+    ],
+    "citedby_own": [
+        "US5422736A",
+        "US5452103A",
+        "US5481309A",
+        "US5508745A",
+        "EP0707427A2",
+        "US5568199A",
+        "US5689307A",
+        "US5710595A",
+        "US5754241A",
+        "US5786856A",
+        "US5933450A",
+        "EP0771120A3",
+        "US5956083A",
+        "US5991443A",
+        "US20060245657A1",
+        "CN104508640A",
+        "US20170180729A1",
+        "US10708617B2"
+    ],
+    "citedby_ftf": [
+        "JP3013602B2",
+        "US5592225A",
+        "JP3313118B2",
+        "JP3889013B2"
+    ]
+}

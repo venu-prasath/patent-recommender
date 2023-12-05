@@ -1,0 +1,47 @@
+{
+    "patent_link": "https://patents.google.com/patent/US4782506A/en",
+    "patent_id": "US4782506A",
+    "title": "Arrangement for operating and maintaining a telecommunications system",
+    "abstract": "An operation support system architecture for a telecommunication system contains a control arrangement (BWS) inserted between the system (S) to be operated and an opertor station (DSS). The control arrangmeent comprises, besides a processor and an input/output unit (EAB), a memory (RSP) which contains the operating and maintenance knowledge of the system (S), namely in the form of the CCITT Specification Language SDL/PR. Further the control arrangement (BWS) comprises a correlation memory (ZSP) in which are stored the definition for the formation of MML commands to the system (S) and the formal description of the reactions expected by the system (S). On the basis of the data in the two memories (RSP, ZSP), a translator (I), also present in the control arrangmeent (BWS), can send the correct and properly structured commands directly to the system (S) or respectively evaluate the reactions of the system (S). The arrangement makes possible a paperless operation and maintenance, which is largely independent of the type of system (S) connected and can easily be adapted to changing conditions.",
+    "inventors": [
+        "Maximilian Sevcik"
+    ],
+    "assignee": "Siemens Schweiz AG",
+    "classifications": [],
+    "claims": "\n1. An arrangement for the preparation of operating and maintenance procedures for at least one stored program controlled telecommunications system, more particularly, a telephone exchange system, where the operator can transmit the desired procedures via an operator station to the control apparatus of the telecommunications system and corresponding reactions of the telecommunications system are transmitted to the operator station, characterized in that there is inserted between the operator station (DSS) and the telecommunications system (S) a control arrangement (BWS) comprising an input/output unit (EAB) forming the interface to the operator station (DSS) and to the telecommunications system (S), and a processor, which control arrangement (BWS) further comprises a memory (RSP) in which all operating and maintenance procedures of the telecommunication system (S), being represented in accordance with a procedural version of a specification and description language (SDL/PR), are stored; that the control arrangement (BWS) has access to a correlation memory (ZSP) in which is stored, for all SDL/PR output signals, the structure--defined in a formal representation--of the commands corresponding to these signals and to be given to the telecommunication system (S) or to the operator station (DSS); that in the correlation memory (ZSP), there are stored further, for all reactions originating from the operator station (DSS) or from the telecommunication system (S), the SDL/PR input signals corresponding to the reactions and converted into said formal representation, that the control arrangement (BWS) further comprises a translator (I) which interprets the reactions originating from the telecommunication system (S) or from the operator station (DSS) and converts them to the formal representation and generates therefrom the corresponding SDL/PR input signal based on the data in the correlation memory (ZSP); and that the translator (I) correlates to the SDL/PR output signals to be given to the telecommunication system (S) or to the operator station (DSS), on the basis of the data in the correlation memory (ZSP), the respective formal command, then converting the command to a form suitable for delivery to the operator station (DSS) or to the telecommunication system (S).\n2. The arrangement according to claim 1, further characterized in that the translator (I) converts the formal representation of the commands into MML commands for the telecommunication system (S) or converts the MML reactions of the telecommunication system (S) into the formal representation.\n3. The arrangement according to claim 2, further characterized in that the control arrangement (BWS) with the memory (RSP) and the correlation memory (ZSP) is realized in a personal computer, the two said memories (RSP, ZSP) being freely programmable by the operator with the aid of a formal language.\n4. The arrangement according to claim 2, further characterized in that the control arrangement (BWS) has access to a converter program (UP) which converts data contained in the two said memories (RSP, ZSP) into a representation which permits the automatic production of manuals (HB) containing the respective operating and maintenance procedures.",
+    "status": "Expired - Lifetime",
+    "citations_own": [
+        "US4653085A",
+        "US4696026A"
+    ],
+    "citations_ftf": [],
+    "citedby_own": [
+        "US5049873A",
+        "US5101424A",
+        "WO1993018598A1",
+        "AU645000B2",
+        "WO1994006232A1",
+        "US5347564A",
+        "US5442690A",
+        "US5455853A",
+        "US5461662A",
+        "US5463682A",
+        "EP0684725A2",
+        "US5481601A",
+        "US5511116A",
+        "US5548640A",
+        "US5764955A",
+        "EP0887754A2",
+        "US5860810A",
+        "US5940790A",
+        "EP0684574A3",
+        "US6055298A",
+        "US6226633B1",
+        "KR100359152B1",
+        "US6477245B1"
+    ],
+    "citedby_ftf": [
+        "AU607622B2",
+        "FI104675B"
+    ]
+}

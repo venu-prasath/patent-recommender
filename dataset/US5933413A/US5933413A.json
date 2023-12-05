@@ -1,0 +1,55 @@
+{
+    "patent_link": "https://patents.google.com/patent/US5933413A/en",
+    "patent_id": "US5933413A",
+    "title": "Adaptive priority determination for servicing transmit and receive in network controllers",
+    "abstract": "A network interface stores data frames between a host computer and a network in a buffer memory. The network interface stores data frames received from the host computer via a peripheral component interconnect (PCI) bus in a transmit buffer for transmission on the network. The network interface also stores data from the network in a receive buffer for transfer to a host computer memory via the PCI bus. A priority control selectively allocates host computer resources based on network transmission and network reception by the network interface, and based on available space in the receive buffer, available data in the transmit buffer, and the estimated length of data packets received from the network. The selective allocation of host computer resources minimizes transmit buffer underflow and receive buffer overflow.",
+    "inventors": [
+        "Shashank C. Merchant",
+        "Jeffrey Roy Dwork"
+    ],
+    "assignee": "GlobalFoundries Inc",
+    "classifications": [
+        "H04L49/9078",
+        "H04L49/90",
+        "H04L49/901"
+    ],
+    "claims": "\n1. In a network interface having at least one memory buffer and transmitting and/or receiving data packets between a network and a host computer, a method for allocating host computer resources comprising:\nfirst determining an occurrence of at least one of the transmitting and receiving of said data packets on the network by the network interface; and\nbased on the determined occurrence, selectively allocating host computer resources for one of (1) storing first data bytes from the host computer into the memory buffer for transmission onto the network, and (2) removing second data bytes, obtained from the receiving of said data packets, from the memory buffer for transfer to the host computer, wherein the selectively allocating step comprises:\n(a) detecting a data transfer condition between the buffer and the host computer;\n(b) estimating a length of a data packet from the network;\n(c) comparing space available for the second data bytes in the memory buffer to the estimated length of the data packet;\n(d) selectively assigning priority of the host computer resources to said removing the second data bytes based on the comparing step and the first determining step identifying the occurrence of said receiving of said data packets coincident with the detected condition.\n2. The method of claim 1, wherein the selectively assigning priority step comprises assigning priority to said removing the second data bytes in response to the first determining step identifying the occurrence of said receiving of said data packets and no occurrence of said transmitting of said data packets, and the comparing step determining the space available is less than the estimated length.\n3. The method of claim 1, wherein the selectively assigning priority step comprises assigning a don't care priority in response to the comparing step determining the space available is greater than the estimated length.\n4. The method of claim 1, wherein the selectively allocating step further comprises second determining if the memory buffer stores a complete frame of the first data bytes for a data packet to be transmitted on the network.\n5. The method of claim 4, wherein the selectively assigning step comprises assigning a don't care priority in response to: (1) the second determining step determining the memory buffer does not store said complete frame, and (2) the first determining step identifying the occurrence of said transmitting of said data packets and the occurrence of said receiving of said data packets coincident with the data transfer condition.\n6. The method of claim 4, further comprising:\ndetermining an average transfer rate between the buffer and the host computer;\nfirst comparing the average transfer rate with said space available for the second data bytes and a predetermined network rate;\nsecond comparing the average transfer rate with a number of the first data bytes stored in the buffer and the predetermined network rate; and\nsetting the priority to one of the removing the second data bytes and storing the first data bytes based on the first and second comparing steps.\n7. The method of claim 6, wherein the average transfer rate determining step comprises calculating the average transfer rate based on prescribed bus conditions between the host computer and the memory buffer, the prescribed bus conditions including bus burst and bus latency.\n8. The method of claim 6, wherein the priority setting step comprises:\nsetting the priority to the removing of the second data bytes if the space available for the second data bytes multiplied by the predetermined network rate is greater than the average transfer rate; and\nsetting the priority to the storing of the first data bytes if the number of the first data bytes stored in the buffer multiplied by the predetermined network rate is greater than the average transfer rate.\n9. The method of claim 1, wherein the step of estimating the length of the data packet comprises setting said length to equal a maximum prescribed frame size of said data packet.\n10. The method of claim 1, wherein the step of estimating the length of the data packet comprises:\ninitially setting the estimated length of the data packet to a minimum frame size;\nincreasing the estimated length of the data packet in response to a detected overflow condition in the buffer.\n11. In a network interface having at least one memory buffer and transmitting and/or receiving data packets between a network and a host computer, a method for allocating host computer resources, comprising:\nfirst determining an occurrence of at least one of the transmitting and receiving of said data packets on the network by the network interface, and\nbased on the determined occurrence, selectively allocating host computer resources for one of (1) storing first data bytes from the host computer into the memory buffer for transmission onto the network, and (2) removing second data bytes obtained from the receiving of said data packets, from the memory buffer for transfer to the host computer, wherein the selectively allocating step comprises:\n(a) detecting a data transfer condition between the buffer and the host computer;\n(b) estimating a length of a data packet from the network;\n(c) comparing space available for the second data bytes in the memory buffer to the estimated length of the data packet;\n(d) second determining if the memory buffer stores a complete frame of the first data bytes for a data packet to be transmitted on the network; and\n(e) selectively assigning priority of the host computer resources to said storing the first data bytes based on the comparing step, and the first determining step identifying the occurrence of said transmitting of said data packets coincident with the detected condition.\n12. The method of claim 11, wherein the selectively assigning priority step comprises setting the priority to said storing of the first data bytes if the memory buffer does't not store said complete frame of the first data bytes and the space available for the second data bytes in the memory buffer is greater than the estimated length of the data packet.\n13. A network interface comprising:\na computer bus interface configured for exchanging data frames with a host computer, each of the data frames comprising a plurality of data bytes;\na network bus interface configured for outputting data packets carrying first data bytes onto a network medium at a network transmission rate and receiving data packets carrying second data bytes from the network medium;\nat least one memory buffer connected for receiving the first data bytes from the computer bus interface and the second data bytes from the network bus interface, the memory buffer having predetermined byte storage requirements before output of the first and second data bytes, respectively, and\na priority controller selectively allocating host computer resources to one of (1) transfer the first bytes from the host computer to the memory buffer via the computer bus interface, and (2) transfer the second bytes from the memory buffer to the host computer via the memory bus, based on detection of transmission and/or reception of data packets by the network bus interface and the respective number of first and second data bytes stored in the memory buffer, further comprising:\nmeans for determining a buffer space available for the second bytes from the network bus interface;\nmeans or determining an estimated data packet frame size, the priority controller selectively allocating the host computer resources based on the estimated data packet frame size and the buffer space available for the second bytes.\n14. The network interface of claim 13, wherein the frame size is a prescribed maximum frame size.\n15. The network interface of claim 13, wherein the means for determining an estimated data packet frame size comprises an accumulator increasing the estimated data packet frame size in response to a detected overflow condition in the buffer.\n16. The network interface of claim 13, wherein the priority controller allocates the host computer resources to transfer the first bytes from the host computer to the memory buffer if: (1) the network bus interface is transmitting the data packets, (2) the buffer space available for the second bytes is greater than the estimated data packet frame size, and (3) the buffer stores first data bytes less than the corresponding byte storage requirement.",
+    "status": "Expired - Lifetime",
+    "citations_own": [
+        "US4839891A",
+        "US4942553A",
+        "US5136582A",
+        "US5210749A",
+        "US5293487A",
+        "US5440691A",
+        "US5682552A"
+    ],
+    "citations_ftf": [],
+    "citedby_own": [
+        "US6157623A",
+        "US6170025B1",
+        "US6182125B1",
+        "US6230247B1",
+        "US20020051445A1",
+        "US20020083185A1",
+        "US20020080721A1",
+        "WO2002052427A1",
+        "US6442603B1",
+        "SG95658A1",
+        "US20030091050A1",
+        "US20050114498A1",
+        "US20050198414A1",
+        "US6970921B1",
+        "US20050273514A1",
+        "US20060221988A1",
+        "US20070097963A1",
+        "US7251702B2",
+        "US20080175258A1",
+        "US7724740B1",
+        "US7860120B1",
+        "US7894480B1",
+        "US20120110230A1",
+        "US8351445B1"
+    ],
+    "citedby_ftf": []
+}

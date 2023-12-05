@@ -1,0 +1,46 @@
+{
+    "patent_link": "https://patents.google.com/patent/US20080256177A1/en",
+    "patent_id": "US20080256177A1",
+    "title": "Method and Apparatus for Maintaining Information at an Ims Client",
+    "abstract": "A method, IP Multimedia Subsystem (IMS) client terminal, and Session Initiation Protocol (SIP) application server for synchronizing data stored at the IMS client terminal with data stored at the SIP application server. When the IMS client terminal sends a request to the SIP application server, the server determines whether the request includes information identifying the current state of the data stored at the client. If so, the server determines whether to send further data to the client based upon the information included in the request.",
+    "inventors": [
+        "Christer Boberg",
+        "Anders Lindgren",
+        "Hubert Przybysz"
+    ],
+    "assignee": "Telefonaktiebolaget LM Ericsson AB",
+    "classifications": [
+        "H04L67/1095",
+        "H04L65/1104",
+        "H04L65/1016",
+        "H04L67/568"
+    ],
+    "claims": "\n1. A method of synchronizing data stored at an IP Multimedia Subsystem client with data stored at a SIP application server of the IP Multimedia Subsystem, the method comprising:\nreceiving at the application server, a SIP SUBSCRIBE request sent from the client, said request requesting data stored at the application serve;\ndetermining whether the request contains within a header thereof, an indication of the current state of the data stored at the client;\nif the request does not contain the indication, sending all of said data from the SIP application server to the client within a SIP NOTIFY message; and\nif the request does contain the indication, determining at the application server, from the condition, whether the data stored at the client differs from the data stored at the SIP application server and, if yes, sending the requested data to the client within a SIP NOTIFY message.\n2. The method according to claim 1, wherein, if it is determined that the data currently stored at the client is up-to-date, the application server informs the client that the client's data is up-to-date by sending one of an empty SIP NOTIFY or a 400 series message to the client.\n3. The method according to claim 1, wherein the indication of the current state of the data stored at the client is one of a timestamp or version number.\n4. The method according to claim 1, further comprising generating the indication of the current state of the data stored at the client by the application server or another data source prior to or at the time that the currently stored data was sent to the client.\n5. An IP Multimedia Subsystem client terminal comprising:\na memory for storing data together with an indication of the current state of the data; and\nmeans for generating and sending to a SIP application server of the IP Multimedia Subsystem, a SIP SUBSCRIBE message to refresh the stored data, the message including the indication.\n6. A SIP application server comprising:\na memory for storing data together with an indication of the current state of the data;\nmeans for receiving from an IP Multimedia Subsystem client, a SIP SUBSCRIBE requesting a refresh of data stored at the client, the SUBSCRIBE including an indication of the current state of the data stored at the client;\nmeans for comparing the received indication against the indication stored for the data in said memory; and\nmeans for sending the data stored at the application server to said client in a SIP NOTIFY if the received indication differs from the stored indication.",
+    "status": "Abandoned",
+    "citations_own": [
+        "US5827201A",
+        "US20040015569A1",
+        "US20040068574A1",
+        "US20040151192A1",
+        "US20050210104A1",
+        "US20050233776A1",
+        "US20050255811A1",
+        "US20080059640A1"
+    ],
+    "citations_ftf": [
+        "US5857201A"
+    ],
+    "citedby_own": [
+        "US20110238758A1",
+        "US20120054263A1",
+        "US20120124156A1",
+        "US20140122637A1",
+        "US20150220610A1",
+        "US20160119386A1",
+        "CN110069350A",
+        "US10691820B1"
+    ],
+    "citedby_ftf": [
+        "US20090182821A1"
+    ]
+}

@@ -1,0 +1,56 @@
+{
+    "patent_link": "https://patents.google.com/patent/US5572624A/en",
+    "patent_id": "US5572624A",
+    "title": "Speech recognition system accommodating different sources",
+    "abstract": "The speech recognition system disclosed herein obtains improved recognition accuracy by employing recognition models which are discriminatively trained from a data base comprising training data from different sources, e.g., both male and female voices. A linear discriminant analysis is performed on the training data using expanded matrices in which sources are identified or labelled. The linear discriminant analysis yields respective transforms for the different sources which however map the different sources onto a common vector space in which the vocabulary models are defined.",
+    "inventors": [
+        "Vladimir Sejnoha"
+    ],
+    "assignee": "Nuance Communications Inc",
+    "classifications": [
+        "G10L15/06",
+        "G06F18/2132"
+    ],
+    "claims": "\n1. A computer implemented method for generating translations from speech which accommodates different sources using a common set of vocabulary models, said method comprising:\na) inputting, from multiple sources, acoustic training data with associated phonetic transcriptions;\nb) identifying multi-phone elements employed in said training data;\nc) for each of said multi-phone elements, generating a corresponding multi-phone model comprising a sequence of states, each state from each model defining a class;\nd) training said multi-phone models from said training data independently of source;\ne) labeling training data with source and class identifiers;\nf) accumulating source specific statistics from said training data identifying within-class and between-class variances;\ng) combining said training data statistics from across all sources using expanded matrices;\nh) generating a composite eigen vector matrix from said expanded matrices;\ni) splitting said composite eigen vector matrix into sections corresponding to respective sources for use in transforming speech data obtained from the respective sources;\nj) transforming training data from respective sources using corresponding eigen vector matrix sections;\nk) repeating steps c through j using transformed training data for step d until transform matrices converge;\nl) generating and storing vocabulary models using transformed training data;\nm) converting speech to be recognized from a given source to a succession of data frames;\nn) transforming the frame data using the corresponding eigen vector matrix section obtained in step i; and\no) comparing the transformed frame data with said stored vocabulary models to identify those models which best match the frame data.\n2. A computer method as set forth in claim 1 wherein said multi-phone elements are diphones representing the transition from the midpoint of a first phone occurring in the data to the midpoint of the next phone occurring in the data.\n3. A computer method as set forth in claim 1 wherein said multi-phone models are Hidden Markov Models.\n4. A computer method as set forth in claim 1 wherein said states are probability distribution functions.\n5. A computer method as set forth in claim 1 wherein said step j further comprises ordering the components of said eigen vector sections and reducing the number of dimensions in the transformed data.\n6. A computer implemented method for generating translations from speech from different sources, said method comprising:\na) inputting acoustic training data with associated phonetic transcriptions;\nb) identifying transitional diphone elements employed in said training data which span from the middle of one phone to the middle of the next phone.\nc) for each of said diphone elements, generating a corresponding diphone model comprising a sequence of states, each state from each model defining a class;\nd) training said diphone models from said training data;\ne) labeling training data and class identifiers;\nf) accumulating statistics from said training data identifying within-class and between-class variances and combining said training data statistics from across all sources using expanded matrices;\ng) generating composite eigen vector matrix from said expanded matrices and splitting said composite eigen vector matrix into sections corresponding to respective sources;\nh) transforming said training data using respective sections of said eigen vector matrix and reducing the number of dimensions;\ni) repeating steps c through h using transformed training data for step d until transform matrices converge;\nj) generating and storing vocabulary models using transformed training data;\nk) converting speech to be recognized to a succession of data frames;\nl) transforming the frame data using the eigen vector matrix obtained in step g; and\nm) comparing the transformed frame data with said stored vocabulary models to identify those models which best match the frame data.\n7. A computer method as set forth in claim 6 wherein the multi-phone models generated in step c are Hidden Markov Models.\n8. A computer method as set forth in claim 6 wherein said states are probability distribution funtions.\n9. A computer implemented method for generating translations from speech, which accomodates different sources using a common set of vocabulary models, said method comprising:\na) inputting from multiple sources, acoustic training data with associated phonetic transcriptions;\nb) identifying transitional diphone elements employed in said training data which span from the middle of one phone to the middle of the next phone;\nc) for each of said diphone elements, generating a corresponding diphone model comprising a sequence of states, each state from each model defining a class;\nd) training said diphone models from said training data independently of source; labeling training data with source and class identifiers;\nf) accumulating source specific statistics from said training data identifying within-class and between-class variances;\ng) combining said training statistics from across all soures using expanded matrices;\nh) generating a composite eigen vector matrix from said expanded matrices;\ni) splitting said composite eigen vector matrix into sections corresponding to respective sources for use in transforming speeh data obtained from the respective sources;\nj) transforming training data from respective sources using corresponding eigen vector matrix and reducing number of dimensions;\nk) repeating steps c through j using transformed training data for step d until transform matrices converge;\nl) generating and storing vocabulary models using transformed training data;\nm) converting speech to be recognized from a given source to a succession of data frames;\nn) transforming the frame data using the corresponding eigen vector matrix section obtained in step i; and\no) comparing the transformed frame data with said stored vocabulary models to identify those models which best match the frame data.",
+    "status": "Expired - Fee Related",
+    "citations_own": [
+        "US4741036A"
+    ],
+    "citations_ftf": [],
+    "citedby_own": [
+        "US5799278A",
+        "EP0881625A2",
+        "EP0953968A2",
+        "US5995935A",
+        "WO2001013361A1",
+        "US6253165B1",
+        "US6260013B1",
+        "US6332122B1",
+        "US6377924B1",
+        "US20020049582A1",
+        "US6438519B1",
+        "US6629073B1",
+        "US6662158B1",
+        "WO2004010329A1",
+        "US20050049872A1",
+        "US6920421B2",
+        "US20060235698A1",
+        "US20070192100A1",
+        "US20070208566A1",
+        "US7286989B1",
+        "US20080147579A1",
+        "US20090030676A1",
+        "US20090208913A1",
+        "US7650282B1",
+        "US20120150541A1",
+        "US20140058731A1",
+        "US8744847B2",
+        "US20140367582A1",
+        "US9240188B2",
+        "US9355651B2",
+        "US10223934B2",
+        "US10529357B2",
+        "US10622008B2"
+    ],
+    "citedby_ftf": []
+}

@@ -1,0 +1,42 @@
+{
+    "patent_link": "https://patents.google.com/patent/US20020186885A1/en",
+    "patent_id": "US20020186885A1",
+    "title": "Verifying results of automatic image recognition",
+    "abstract": "A method for image processing includes analyzing one or more images so as to determine a respective classification for each of a multiplicity of elements in the images, wherein the elements are not individual characters in a language or numerical system. A plurality of the elements that have the same classification and were found at different locations in the one or more images are displayed together for a human operator. An input is received from the operator indicative of whether the computer erred in the classification of any of the displayed elements.",
+    "inventors": [
+        "Aviad Zlotnick",
+        "Eugene Walach"
+    ],
+    "assignee": "International Business Machines Corp",
+    "classifications": [],
+    "claims": "\n1. A method for image processing, comprising:\nanalyzing one or more images so as to determine a respective classification for each of a multiplicity of elements in the images, wherein the elements are not individual characters in a language or numerical system;\ndisplaying together for a human operator a plurality of the elements that have the same classification and were found at different locations in the one or more images; and\nreceiving an input from the operator indicative of whether the computer erred in the classification of any of the displayed elements.\n2. A method according to claim 1, wherein the elements comprise pictures of three-dimensional image features.\n3. A method according to claim 1, wherein the elements comprise words of more than one character.\n4. A method according to claim 1, wherein the elements comprise non-alphanumeric symbols.\n5. A method according to claim 1, wherein analyzing the one or more images comprises carrying out a process of automated image analysis using a computer.\n6. A method according to claim 1, wherein displaying the plurality of the elements comprises dividing the one or more images into segments, such that one of the plurality of the elements is contained in each of the segments, and displaying the segments containing the elements.\n7. A method according to claim 6, wherein displaying the segments comprises displaying the segments in a grid pattern on a computer display.\n8. A method according to claim 1, wherein displaying the segments comprises displaying the segments on a computer display, and wherein receiving the input comprises sensing a selection of one of the plurality of the elements on the computer display, wherein the selection is made by the operator using a pointing device associated with the computer.\n9. A method according to claim 8, wherein the selection of the one of the elements indicates that the classification of the element is erroneous.\n10. A method according to claim 9, and comprising prompting the operator to correct the erroneous classification.\n11. Apparatus for image processing, comprising a verification terminal, which is arranged to verify results of analyzing one or more images so as to determine a respective classification for each of a multiplicity of elements in the images, wherein the elements are not individual characters in a language or numerical system, by displaying together for a human operator a plurality of the elements that have the same classification and were found at different locations in the one or more images, and receiving an input from the operator indicative of whether the computer erred in the classification of any of the displayed elements.\n12. Apparatus according to claim 11, wherein the elements comprise pictures of three-dimensional image features.\n13. Apparatus according to claim 11, wherein the elements comprise words of more than one character.\n14. Apparatus according to claim 11, wherein the elements comprise non-alphanumeric symbols.\n15. Apparatus according to claim 11, wherein the one or more images are analyzed by a process of automated image analysis using a computer.\n16. Apparatus according to claim 11, wherein the one or more images are divided into segments, such that one of the plurality of the elements is contained in each of the segments, and wherein the terminal is arranged to display the segments containing the elements.\n17. Apparatus according to claim 16, and comprising a display screen, which is driven by the terminal to display the segments in a grid pattern.\n18. Apparatus according to claim 11, and comprising a display screen, which is driven by the terminal to display the segments, and a pointing device, which is coupled to the terminal so as to be used by the operator to select one of the plurality of the elements on the computer display.\n19. Apparatus according to claim 18, wherein selection of the one of the elements by the operator indicates that the classification of the element is erroneous.\n20. Apparatus according to claim 19, wherein the terminal is arranged to prompt the operator to correct the erroneous classification.\n21. A computer software product, comprising a computer-readable medium in which program instructions are stored, which instructions, when read by a computer, cause the computer to verify results of analyzing one or more images so as to determine a respective classification for each of a multiplicity of elements in the images, wherein the elements are not individual characters in a language or numerical system, by displaying together for a human operator a plurality of the elements that have the same classification and were found at different locations in the one or more images, and receiving an input from the operator indicative of whether the computer erred in the classification of any of the displayed elements.\n22. A product according to claim 21, wherein the elements comprise pictures of three-dimensional image features.\n23. A product according to claim 21, wherein the elements comprise words of more than one character.\n24. A product according to claim 21, wherein the elements comprise non-alphanumeric symbols.\n25. A product according to claim 21, wherein the one or more images are analyzed by a process of automated image analysis using an image processor.\n26. A product according to claim 21, wherein the one or more images are divided into segments, such that one of the plurality of the elements is contained in each of the segments, and wherein the instructions cause the computer to display the segments containing the elements.\n27. A product according to claim 26, wherein the instructions cause the computer to display the segments in a grid pattern.\n28. A product according to claim 21, wherein the instructions cause the computer to display the segments, and to receive an input made by the operator using a pointing device to select one of the plurality of the elements on the computer display.\n29. A product according to claim 28, wherein selection of the one of the elements by the operator indicates that the classification of the element is erroneous.\n30. A product according to claim 29, wherein the instructions cause the computer to prompt the operator to correct the erroneous classification.",
+    "status": "Abandoned",
+    "citations_own": [
+        "US4695721A",
+        "US4897880A",
+        "US4914709A",
+        "US4974260A",
+        "US5025484A",
+        "US5233672A",
+        "US5257328A",
+        "US5455875A",
+        "US5655029A"
+    ],
+    "citations_ftf": [
+        "US5526447A",
+        "DE69428590T2",
+        "JP3416268B2"
+    ],
+    "citedby_own": [
+        "US20050286772A1",
+        "US7587061B1",
+        "US20140198969A1",
+        "US9767388B2",
+        "WO2017165621A1",
+        "US10449442B2"
+    ],
+    "citedby_ftf": [
+        "BRPI0800754A2",
+        "FR2980870B1"
+    ]
+}

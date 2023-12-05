@@ -1,0 +1,52 @@
+{
+    "patent_link": "https://patents.google.com/patent/US6477539B1/en",
+    "patent_id": "US6477539B1",
+    "title": "Method and apparatus for interfacing a manager and a plant",
+    "abstract": "An interface between a plant manager and a plant utilises object oriented programming concepts to create objects representing resources of the plant. Objects representing physical resources in the plant have a state, and automatically report this state to their parent objects. Logical objects, which are parents to other objects, determine their states based upon the states of their children, and report these to their own parent objects. At the head or apex of this hierarchy of objects is an initial object, whose state is the state of the plant as a whole. Operations, such as software upgrades or sparing of resources, may be implemented by the manager sending a command to the appropriate object, which will implement the command through its descendant objects. The success or failure of this attempt is then reported to the manager.",
+    "inventors": [
+        "Kevin W. Smith"
+    ],
+    "assignee": "RPX Clearinghouse LLC",
+    "classifications": [
+        "G05B19/414",
+        "G05B2219/33103",
+        "Y10S707/99944",
+        "Y10S707/99945"
+    ],
+    "claims": "\n1. A method for interfacing a manager with a plant, comprising:\n2. The method of claim 1 wherein said child objects represent resources having a common attribute and further comprising, upon said plant acquiring a given resource having said attribute, adding a new child object such that said new child object represents said given resource and said new child object is represented by said parent object.\n3. The method of claim 2 further comprising, upon a resource represented by a given child object being removed from said plant, removing said given child object from the child objects represented by said parent object.\n4. The method of claim 2 wherein said operation is a diagnostic analysis to report said common attribute of said parent object.\n5. The method of claim 1 wherein step c) of attempting said operation comprises attempting said operation in respect of each resource represented by t child object having a state indicator indicating a state of unlocked and enabled.\n6. The method of claim 5 further comprising reporting a result of undertaking step c) to said manager.\n7. The method of claim 6 wherein step a) of providing a parent object representing child objects further comprises:\n8. The method of claim 7 further comprising providing at least one further grandparent object representing parent and/or child objects, each parent and/or child object representing at least one resource of said plant and wherein step b) comprises accepting a command from said manager indicating said grandparent object and an operation and step c) comprises attempting said operation in respect of resources represented by said parent and/or child objects.\n9. The method of claim 8 further comprising the deletion of at least one object.\n10. The method of claim 1 wherein each child object represents one resource.\n11. The method of claim 1 wherein at least one child object represents a plurality of resources.\n12. The method of claim 1 wherein said operation is changing the state of the resources of said child objects, and further comprises changing the state of said parent object.\n13. The method of claim 1 wherein said operation is an upgrade of software for the resources represented by said child objects.\n14. The method of claim 1 wherein said operation is a resetting of the resources represented by said child objects.\n15. The method of claim 1 wherein said operation is a continuous diagnostic and management of the state of the resources represented by said child objects.\n16. The method of claim 1 wherein said operation is reprogramming of the parent object to provide the parent object with different methods for carrying out operations.\n17. The method of claim 1 wherein the plant is a network element in a communications system.\n18. The method of claim 1 embodied as instructions on some form of software medium, including a computer diskette, tape, memory chip, or other removable computer readable medium; as well as instructions embodied on remote mediums such as the memory of a remote computer, and downloaded over a suitable link such as over an internet, intranet, dedicated data link, or the like.\n19. The method of claim 1 wherein said operation is a diagnostic analysis of the operability of the resources of said child objects and further comprising updating the current state of said parent object responsive to the operability of the resources of said child objects.\n20. The method of claim 1 wherein said operation is a sparing of resources represented by said child objects.\n21. An interface between a manager and a plant; comprising\n22. The interface of claim 21 wherein said child objects represent resources having a common attribute and further comprising means for, upon said plant acquiring a given resource having said attribute, adding a new child object such that said new child object represents said given resource and said new child object is represented by said parent object.\n23. The interface of claim 22 further comprising means for, upon a resource represented by a given child object being removed from said plant, removing said given child object from the child objects represented by said parent object.\n24. The interface of claim 21 wherein the means c) for attempting said operation comprises means for attempting said operation in respect of each resource represented by a child object having a state indicator indicating a state of unlocked and enabled.\n25. The interface of claim 24 further comprising means to report the result of undertaking means c) to attempt said operation to said manager.\n26. The interface of claim 25 wherein the means a) for the provision of a parent object representing child objects further comprises:\n27. The interface of claim 26 further comprising means to provide at least one further grandparent object representing parent and/or child objects, each parent and/or child object representing at least one resource of said plant and wherein means b) comprises means to accept a command from said manager indicating said grandparent object and an operation and means c) comprises means to attempt said operation in respect of resources represented by said parent and/or child objects.\n28. The interface of claim 27 further comprising means for the deletion of at least one object.\n29. The interface of claim 21 wherein each child object represents one resource.\n30. The interface of claim 21 wherein at least one child object represents a plurality of resources.\n31. A computer readable medium storing computer executable instructions comprising:",
+    "status": "Expired - Lifetime",
+    "citations_own": [
+        "US5181162A",
+        "US5295242A",
+        "US5748618A",
+        "US5778227A",
+        "US5794030A",
+        "US5878421A",
+        "US5893107A",
+        "US5950006A",
+        "US5983234A",
+        "US6003037A",
+        "US6067548A",
+        "US6119122A",
+        "US6119125A",
+        "US6128619A",
+        "US6144962A",
+        "US6201996B1",
+        "US6208955B1",
+        "US6247128B1"
+    ],
+    "citations_ftf": [],
+    "citedby_own": [
+        "US20030126182A1",
+        "US20030126304A1",
+        "US6865549B1",
+        "US6874022B1",
+        "US20060009862A1",
+        "US20060041858A1",
+        "US20070005568A1",
+        "WO2009053282A1",
+        "US20110063133A1",
+        "US9489776B2"
+    ],
+    "citedby_ftf": []
+}

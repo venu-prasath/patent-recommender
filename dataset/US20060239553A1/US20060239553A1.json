@@ -1,0 +1,52 @@
+{
+    "patent_link": "https://patents.google.com/patent/US20060239553A1/en",
+    "patent_id": "US20060239553A1",
+    "title": "CT/MRI heart isolation using a graph cut algorithm",
+    "abstract": "A method and related system for automatically and efficiently isolating the heart in Computer Tomography (CT) or Magnetic Resonance Imaging cardiac scans is disclosed. The method involves segmenting a heart within a set of volumetric data. In accordance with one aspect of the present invention, the set of volumetric data is processed to determine the minimum value of an energy function having a first term, a second term and a third term. The heart is segmented based on the processing of the set of volumetric data.",
+    "inventors": [
+        "Charles Florin",
+        "Romain Moreau-Gobard",
+        "Yuri Boykov",
+        "Gareth Funka-Lea"
+    ],
+    "assignee": "Siemens Medical Solutions USA Inc",
+    "classifications": [
+        "G06T7/12",
+        "G06T7/149",
+        "G06V10/28",
+        "G06T2207/10081",
+        "G06T2207/10088",
+        "G06T2207/30048"
+    ],
+    "claims": "\n1. A method for segmenting a heart within a set of volumetric data, comprising:\nprocessing the set of volumetric data to determine the minimum value of an energy function; and,\nsegmenting the surface of heart based on the processing of the set of volumetric data.\n2. The method as claimed in claim 1, wherein the energy function has a first term, a second term and a third term.\n3. The method as claimed in claim 2, wherein the first term measures how much a pair of neighboring pixels look alike in the set of data and the second term measures how much the value at a pixel resembles the expected appearance of an object.\n4. The method as claimed in claim 3, wherein the third term favors edges that are orthogonal in any radial direction.\n5. The method as claimed in claim 2, wherein one of the three terms favors edges that are orthogonal in a radial direction.\n6. The method as claimed in claim 2, wherein the third term is:\n7. The method as claimed in claim 1, further comprising automatically seeding the heart in the set of volumetric data.\n8. A computer system for segmenting a heart within volumetric data, the computer system comprising:\na processor; and\na memory in communications with the processor, the memory including program code executable by the processor to perform the following steps:\nprocessing the set of volumetric data to determine the minimum value of an energy function; and,\nsegmenting a surface of the heart based on the processing of the set of volumetric data.\n9. The system as claimed in claim 8, wherein the energy function has a first term, a second term and a third term.\n10. The system as claimed in claim 9, wherein the first term measures how much a pair of neighboring pixels look alike in the set of data and the second term measures how much the value at a pixel resembles the expected appearance of an object.\n11. The system as claimed in claim 10, wherein the third term favors edges that are orthogonal in any radial direction.\n12. The system as claimed in claim 10, wherein one of the three terms favors edges that are orthogonal in a radial direction.\n13. The system as claimed in claim 9, wherein the third term is:\n14. The system as claimed in claim 8, further comprising means for automatically seeding the heart in the set of volumetric data.\n15. A method for segmenting an object within a set of volumetric data, comprising:\nprocessing the set of volumetric data to determine the minimum value of an energy function having a first term, a second term and a third term;\nwherein the third term favors edges that are orthogonal in a radial direction; and,\nsegmenting the surface of heart based on the processing of the set of volumetric data.\n16. The method as claimed in claim 15, wherein the first term measures how much a pair of neighboring pixels look alike in the set of data and the second term measures how much the value at a pixel resembles the expected appearance of an object.\n17. The system as claimed in claim 15, wherein the third term is:\n18. The method as claimed in claim 15, wherein the object is a heart.\n19. The method as claimed in claim 18, further comprising automatically seeding the heart in the set of volumetric data.\n20. The method as claimed in claim 19, wherein the step of automatically seeding involves expanding a balloon in the heart until sides of the balloon have contacted the heart.",
+    "status": "Active",
+    "citations_own": [
+        "US20060178587A1"
+    ],
+    "citations_ftf": [],
+    "citedby_own": [
+        "US20070022067A1",
+        "US20080188734A1",
+        "DE102007020060A1",
+        "US20090208078A1",
+        "US20090316964A1",
+        "US20100128953A1",
+        "US20100128954A1",
+        "US20100246956A1",
+        "US20110228997A1",
+        "US20130155064A1",
+        "US8942917B2",
+        "US9153031B2",
+        "US20180038947A1",
+        "CN110073408A",
+        "US11215711B2",
+        "US11710309B2"
+    ],
+    "citedby_ftf": [
+        "US8131075B2",
+        "US8009886B2",
+        "CN102113897B",
+        "US8675943B2",
+        "US9384546B2"
+    ]
+}

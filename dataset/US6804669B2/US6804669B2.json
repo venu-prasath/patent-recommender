@@ -1,0 +1,46 @@
+{
+    "patent_link": "https://patents.google.com/patent/US6804669B2/en",
+    "patent_id": "US6804669B2",
+    "title": "Methods and apparatus for user-centered class supervision",
+    "abstract": "Techniques are provided for incorporating human or user interaction in accordance with the design and/or performance of data mining applications such as similarity determination and classification. Such user-centered techniques permit the mining of interesting characteristics of data in a data or feature space. For example, such interesting characteristics that may be determined in accordance with the user-centered mining techniques of the invention may include a determination of similarity among different data objects, as well the determination of individual class labels. These techniques allow effective data mining applications to be performed in accordance with high dimensional data.",
+    "inventors": [
+        "Charu C. Aggarwal"
+    ],
+    "assignee": "International Business Machines Corp",
+    "classifications": [
+        "G06F16/285",
+        "G06F2216/03",
+        "Y10S707/99936"
+    ],
+    "claims": "\n1. A computer-based method of classifying a test instance in accordance with a data set, the method comprising the steps of:\n2. The method of claim 1, wherein the presenting step further comprises the user being presented with two or more projections respectively representing distributions of the data set such that the user may select one of the projections to be used in the isolating step.\n3. The method of claim 1, wherein the at least one projection presented to the user is chosen randomly.\n4. The method of claim 1, further comprising the step of considering at least one of another portion of the data set and a subset of the isolated portion of the data when the user makes a decision not to have a class determined for the test instance based on the isolated portion of data.\n5. The method of claim 4, wherein further consideration of the data is determined by the distribution of the isolated data set.\n6. The method of claim 1, wherein the class determining step is achieved by computing the fraction of the data which satisfies a particular class.\n7. Apparatus for classifying a test instance in accordance with a data set, the method comprising the steps of:\n8. The apparatus of claim 7, wherein the presenting operation further comprises the user being presented with two or more projections respectively representing distributions of the data set such that the user may select one of the projections to be used in the isolating operation.\n9. The apparatus of claim 7, wherein the at least one projection presented to the user is chosen randomly.\n10. The apparatus of claim 7, wherein the at least one processor is further operative to permit consideration of at least one of another portion of the data set and a subset of the isolated portion of the data when the user makes a decision not to have a class determined for the test instance based on the isolated portion of data.\n11. The method of claim 10, wherein further consideration of the data is determined by the distribution of the isolated data set.\n12. The apparatus of claim 7, wherein the class determining operation is achieved by computing the fraction of the data which satisfies a particular class.\n13. An article of manufacture for classifying a test instance in accordance with a data set, the article comprising a machine readable medium containing one or more programs which when executed implement the steps of:\n14. The article of claim 13, wherein the presenting step further comprises the user being presented with two or more projections respectively representing distributions of the data set such that the user may select one of the projections to be used in the isolating step.\n15. The article of claim 13, wherein the at least one projection presented to the user is chosen randomly.\n16. The article of claim 13, further comprising the step of considering at least one of another portion of the data set and a subset of the isolated portion of the data when the user makes a decision not to have a class determined for the test instance based on the isolated portion of data.\n17. The article of claim 16, wherein further consideration of the data is determined by the distribution of the isolated data set.\n18. The article of claim 13, wherein the class determining step is achieved by computing the fraction of the data which satisfies a particular class.",
+    "status": "Expired - Fee Related",
+    "citations_own": [
+        "US5857179A",
+        "US5987470A",
+        "US5987468A",
+        "US6212526B1",
+        "US6611825B1",
+        "US6633882B1",
+        "US6647383B1"
+    ],
+    "citations_ftf": [],
+    "citedby_own": [
+        "US20030212679A1",
+        "US20030229635A1",
+        "US20040044662A1",
+        "US20040088341A1",
+        "US20040260677A1",
+        "US20060136462A1",
+        "US20070113292A1",
+        "US20070157319A1",
+        "US20080222069A1",
+        "US20100185513A1",
+        "US20100205171A1"
+    ],
+    "citedby_ftf": [
+        "US20040215656A1",
+        "US11663661B2",
+        "US11474978B2",
+        "CN112422633B"
+    ]
+}

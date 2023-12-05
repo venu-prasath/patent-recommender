@@ -1,0 +1,42 @@
+{
+    "patent_link": "https://patents.google.com/patent/US4449144A/en",
+    "patent_id": "US4449144A",
+    "title": "Apparatus for detecting moving body",
+    "abstract": "A moving body detecting apparatus comprises a television camera for picking up an object and delivering video signals thereof, a memory for storing values of spatial filter function in corresponding relation to the picture elements of the television camera, a multiplier for multiplying the video signals by the spatial filter function read out from the memory in synchronism with scanning by the television camera, an integrator for integrating the multiplied signals for a required area, and a calculating device for calculating the desired information as to the moving body, such as its speed, from the result of integration.",
+    "inventors": [
+        "Masatoshi Suzuki"
+    ],
+    "assignee": "Omron Corp",
+    "classifications": [],
+    "claims": "\n1. An apparatus for detecting a moving body comprising:\npickup means for picking up an object and delivering video signals thereof,\nmemory means for storing values of spatial filter function in corresponding relation to the picture elements of the pickup means,\nmeans for successively reading out from the memory means the values of spatial filter function corresponding to the picture elements in synchronism with scanning by the pickup means,\nmeans for multiplying the read-out spatial filter function values by the video signals from the pickup means,\nmeans for integrating the multiplied signals for a required area, and\nmeans for calculating required information as to the object from the result of integration.\n2. An apparatus as defined in claim 1, which further comprises a high pass filter for cutting off the components of frequencies, lower than a frequency corresponding to a spatial frequency, of the video signal delivered from the pickup means.\n3. An apparatus as defined in claim 1 or 2 which has means for specifying a preset area in the imaging plane of the pickup means, and the integrating means integrates the multiplied signals for the specified area.\n4. An apparatus as defined in claim 3 wherein data specifying the preset area of the imaging plane of the pickup means is stored in the memory means along with the spatial filter function values in corresponding relation to the picture elements.\n5. An apparatus for detecting a moving body comprising:\npickup means for picking up an object and delivering video signals thereof,\nmemory means for storing values of complex number spatial filter function in corresponding relation to the picture elements of the pickup means,\nmeans for successively reading out from the memory means the values of real number components and imaginary number components of the spatial filter function corresponding to the picture elements in synchronism with the scanning by the pickup means,\nmeans for individually multiplying the read-out spatial filter function components by the video signals from the pickup means,\nmeans for individually integrating the multiplied signals for each component as to a required area, and\nmeans for calculating required information as to the object from the results of integration.\n6. An apparatus as defined in claim 5 which further comprises a high pass filter for cutting off the components of frequencies, lower than a frequency corresponding to a spatial frequency, of the video signal delivered from the pickup means.\n7. An apparatus as defined in claim 5 which has means for specifying a preset area in the imaging plane of the pickup means, and the integrating means integrates the multiplied signals for the specified area.\n8. An apparatus as defined in claim 5 wherein data specifying a preset area of the imaging plane of the pickup means is stored in the memory means along with the spatial filter function values in corresponding relation to the picture elements.\n9. An apparatus as defined in any one of claims 5 to 8 wherein the calculating means calculates a phase angle from the results of integration of real number components and imaginary number components in respect of one picked-up picture to calculate the speed and direction of movement of the object from a variation in the phase angle.",
+    "status": "Expired - Fee Related",
+    "citations_own": [
+        "US3636330A",
+        "US3993976A",
+        "US4063281A",
+        "US4161750A"
+    ],
+    "citations_ftf": [],
+    "citedby_own": [
+        "US4814884A",
+        "US4839824A",
+        "US4862277A",
+        "US4924507A",
+        "US4928176A",
+        "EP0452627A1",
+        "US5078501A",
+        "US5109425A",
+        "US5159474A",
+        "US5402118A",
+        "US5539454A",
+        "US5729216A",
+        "US5802281A",
+        "US5995900A",
+        "US6141435A",
+        "US6430303B1",
+        "US20050074140A1",
+        "US7321699B2",
+        "US20080102774A1"
+    ],
+    "citedby_ftf": []
+}

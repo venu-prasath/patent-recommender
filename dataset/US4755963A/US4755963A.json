@@ -1,0 +1,41 @@
+{
+    "patent_link": "https://patents.google.com/patent/US4755963A/en",
+    "patent_id": "US4755963A",
+    "title": "Highly parallel computation network with means for reducing the algebraic degree of the objective function",
+    "abstract": "A highly interconnected analog network is constructed with inter-neurons that account for energy function terms of order greater than two. The network comprises analog amplifiers that are connected with a resistive interconnection matrix which connects each amplifier output to the input of all other amplifiers. The connections embodied in the matrix are achieved with conductances whose values are computed in accordance with the set of problem restrictions, while the cost variables of the problem which are to be minimized are incorporated in the input signals.",
+    "inventors": [
+        "John S. Denker",
+        "Richard E. Howard",
+        "Lawrence D. Jackel"
+    ],
+    "assignee": "AT&T Corp",
+    "classifications": [],
+    "claims": "\n1. A highly parallel circuit for developing N simultaneous output signals which minimize an energy function that is characterized by said output signals in terms of products of different ones of said output signals, including product terms of degree greater than two, comprising:\na plurality of M amplifiers where M is a number that is greater than the number N by the number of terms in said energy function whose order is greater than two, where each of said amplifiers, designated by a unique pair of indices i and j, comprises an input port and an output port that develops an output signal Vij,; and\na feedback conductance matrix connecting the output of each of said amplifiers to the input of each of said amplifiers, forming M2 connections, with each of said connections being effected through a conductance Tijkl ;\nwhere each said conductance Tijkl connects the output of the amplifier designated by indices ij to the input of the amplifier designated by indices kl, spanning the range of indices i and j, with conductance values which are linear combinations of \u03bbx and \u03b4z y terms, where \u03bbx are predetermined penalty constants identified by index x and \u03b4z y is a function whose value is one when y=z, and zero otherwise, where y and z span the range of indices i, j, k and l.\n2. The circuit of claim 1, further comprising an input matrix for injecting a predetermined current into each of said inputs of said amplifiers.\n3. The apparatus of claim 2 wherein said input matrix is a combination of preselected input signals and a linear combination of \u03bbx and \u03b4x y terms, wherein said preselected input signals uniquely characterize the circuit's response to stimuli, \u03bbx are preselected penalty constants and \u03b4z y is a function in y and z whose value is one when y=z and zero otherwise.\n4. The circuit of claim 1 wherein for each term in said energy function whose degree is greater than two, said M is increased by one and said feedback matrix is augmented by the coefficients of the equation\nV.sub.u V.sub.m +\u03bb[V.sub.m +(-1+V.sub.w +V.sub.x + . . . )].sup.2\nwhen Vu, Vw, and Vx, are said amplifier output voltages included in that term of said energy function whose degree is greater than two, and Vm is the amplifier output voltage of an additional amplifier included in said plurality of M amplifiers.\n5. The circuit of claim 1 wherein for each term in said energy function of the form Vu Vw Vx . . . said M is increased by one and said feedback matrix is augmented by the coefficients of the equation\nV.sub.u V.sub.m +\u03bb[V.sub.m +(-1+V.sub.w +V.sub.x + . . . )].sup.2\nwhere Vu, Vw, and Vx, are said amplifier output voltages included in that term of said energy function whose degree is greater than two, and Vm is the amplifier output voltage of an additional amplifier included in said plurality of M amplifiers.\n6. The circuit of claim 1 wherein for each term in said energy function of the form ##EQU38## said plurality of M amplifiers is increased by one amplifier developing an output voltage VinA and said feedback matrix is augmented with a term of the form ##EQU39## where \u03bb is a preselected penalty constant and \u03b4 is a function in the variables appearing as a subscript and a superscript of \u03b4, whose value is one when subscript is equal to the superscript and zero otherwise.\n7. The circuit of claim 1 wherein for each term in said energy function of the form ##EQU40## said plurality of M amplifiers is increased by one amplifier developing an output voltage VCout and said feedback matrix is augmented with a term of the form ##EQU41## where \u03bb is a preselected penalty constant and \u03b4 is a function in the variables appearing as a subscript and a superscript of \u03b4, whose value is one when subscript is equal to the superscript and zero otherwise.\n8. Apparatus for solving a routing problem where there are N possible stopping points, where N is a number, there is a cost CAB associated with traveling from point A to point B, and the objective is to go from a starting point \u03b1 to an endpoint \u03c9 with minimum overall attendant cost comprising:\na plurality of (N2 +2N) amplifiers, Vij, where i is a variable assuming said N point designations and an additional \"in\" designation, and j is a variable assuming the said N point designations and an additional \"out\" designation, with j not equal to \"out\" when i is equal to \"in\"; and\na feedback conductance matrix connecting the output of each of said amplifiers to the input of each of said amplifiers, forming (N2 +N)2 connections, with each of said connections being effected through a conductance Tijkl ;\nwhere said feedback conductance matrix comprises conductances Tijkl connecting the output of amplifier ij to the input of amplifier kl with conductance values which are linear combinations of \u03bbx and \u03b4z y terms, where \u03bbx are predetermined penalty constants identified by index x and \u03b4z y is a function whose value is one when y=z, and zero otherwise where y and z span the range of indices i, j, k and l.\n9. The apparatus of claim 8, further comprising an input matrix for inducing a predetermined current into each of said inputs of said amplifiers.\n10. The apparatus of claim 9 wherein said current is related to said cost terms and to a linear combination of \u03bbx and \u03b4z y terms, where \u03bbx are predetermined penalty constants and \u03b4z 1 is a function in parameters z and y whose value is one when y=z, and zero otherwise, and where said z and y paramters take on a value from the set of said N point and said \"in\" and \"out\" designations.\n11. The apparatus of claim 8 wherein the value of said Tijkl terms is related to\nT.sub.ijkl =\u03bb.sub.1 \u03b4.sub.k.sup.i +\u03bb.sub.2 \u03b4.sub.l.sup.j +\u03bb.sub.3 \u03b4.sub.k.sup.j \u03b4.sub.l.sup.out -\u03bb.sub.3 \u03b4.sub.k.sup.j \u03b4.sub.l.sup.out \u03b4.sub.j.sup.\u03c9\n +\u03bb.sub.6 \u03b4.sub.l.sup.i \u03b4.sub.k.sup.in -\u03bb.sub.6 \u03b4.sub.l.sup.i \u03b4.sub.k.sup.in \u03b4.sub.i.sup.\u03b1 +\u03bb.sub.10 \u03b4.sub.k.sup. \u03b4.sub.l.sup.i\n +\u03bb.sub.11 \u03b4.sub.k.sup.i \u03b4.sub.l.sup.j \u03b4.sub.j.sup.out +2\u03bb.sub.11 \u03b4.sub.k.sup.i \u03b4.sub.j.sup.out +\u03bb.sub.11 \u03b4.sub.k.sup.i\n +\u03bb.sub.12 \u03b4.sub.i.sup.in \u03b4.sub.k.sup.i \u03b4.sub.l.sup.j +2\u03bb.sub.12 \u03b4.sub.i.sup.in \u03b4.sub.l.sup.j +\u03bb.sub.12 \u03b4.sub.l.sup.j ].",
+    "status": "Expired - Lifetime",
+    "citations_own": [
+        "US4218768A",
+        "US4464726A",
+        "US4660166A"
+    ],
+    "citations_ftf": [],
+    "citedby_own": [
+        "US4866645A",
+        "US4903226A",
+        "US4937872A",
+        "US4941122A",
+        "US4943556A",
+        "US5075868A",
+        "US5093781A",
+        "US5113367A",
+        "US5832453A",
+        "US20010034626A1",
+        "US9286601B2",
+        "US9400959B2",
+        "US9665888B2",
+        "US9779384B2"
+    ],
+    "citedby_ftf": [
+        "JP6623947B2",
+        "CN110417732B"
+    ]
+}

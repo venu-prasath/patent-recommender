@@ -1,0 +1,40 @@
+{
+    "patent_link": "https://patents.google.com/patent/US6633632B1/en",
+    "patent_id": "US6633632B1",
+    "title": "Method and apparatus for detecting the number of speakers on a call",
+    "abstract": "An apparatus and method for detecting the number of speakers participating in a call having a speaker counting device that is connected with a network for monitoring calls placed over the network. The speaker counting device samples a call to determine the number of speakers participating in the call. Therefore, the speaker counting device allows the network service provider to automatically determine how many different speakers have participated in a particular call over a period of time.",
+    "inventors": [
+        "John Bruce Harlow",
+        "Robert Sayko",
+        "Bruce D. Wycherley"
+    ],
+    "assignee": "AT&T Corp",
+    "classifications": [
+        "H04M3/22",
+        "H04M2201/40",
+        "H04M2203/6027"
+    ],
+    "claims": "\n1. An apparatus for detecting the number of speakers participating in a call, comprising:\n2. A method for detecting the number of speakers participating in a call, comprising:\n3. A method for detecting the number of speakers participating in a call, comprising:",
+    "status": "Expired - Fee Related",
+    "citations_own": [
+        "US5623539A",
+        "US6061648A",
+        "US6363145B1",
+        "US6442265B1"
+    ],
+    "citations_ftf": [],
+    "citedby_own": [
+        "US20030135372A1",
+        "US20050185779A1",
+        "US20070263846A1",
+        "US20110004474A1",
+        "US20130016819A1",
+        "US20150156315A1",
+        "US9324322B1",
+        "US9686402B2",
+        "US9774743B2",
+        "US9876900B2",
+        "US10269374B2"
+    ],
+    "citedby_ftf": []
+}

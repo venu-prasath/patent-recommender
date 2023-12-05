@@ -1,0 +1,47 @@
+{
+    "patent_link": "https://patents.google.com/patent/US20030035645A1/en",
+    "patent_id": "US20030035645A1",
+    "title": "Image reproducing apparatus and image reproducing method",
+    "abstract": "In a case where a first operation section selects between a video signal in a first scheme and a video signal in a second scheme, a second operation section selects between video signals including the video signal of the scheme selected at the first operation section and those of lower-order schemes than the selected scheme and outputs the selected video signal, when there are video signals of lower-order schemes than the scheme selected at the first operation section.",
+    "inventors": [
+        "Toshiaki Tanaka"
+    ],
+    "assignee": "Toshiba Corp",
+    "classifications": [
+        "H04N9/7921",
+        "H04N7/012",
+        "H04N5/85"
+    ],
+    "claims": "\n1. An image reproducing apparatus comprising:\na first operation section configured to select between video signals of a plurality of schemes; and\na second operation section configured to select between video signals including the video signal of the scheme selected at said first operation section and those of lower-order schemes than the selected scheme and outputting the selected video signal, when there are video signals of lower-order schemes than the scheme selected at the first operation section.\n2. The image reproducing apparatus according to claim 1, wherein said first operation section makes the operation of said second operation section disable, when there is no video signal of a lower-order scheme than the scheme selected at the first operation section.\n3. The image reproducing apparatus according to claim 1, wherein said first operation section is a switch provided on the image reproducing apparatus and said second operation section is a remote controller for controlling said image reproducing apparatus.\n4. The image reproducing apparatus according to claim 1, wherein said video signals of the plurality of schemes include video signals in an interlace-scanning scheme and video signals in a progressive-scanning scheme.\n5. The image reproducing apparatus according to claim 1, wherein a video signal of the scheme selected at said first operation section is outputted at the time when the power supply of the body of the image reproducing apparatus is turned on.\n6. The image reproducing apparatus according to claim 1, wherein a video signal of the scheme selected at said first operation section is outputted, regardless of the present switching state, when said first operation section is operated.\n7. An image reproducing apparatus comprising:\nfirst means for selecting between video signals of a plurality of schemes; and\nsecond means for selecting between video signals including the video signal of the scheme selected at said first means and those of lower-order schemes than the selected scheme and outputting the selected video signal, when there are video signals of lower-order schemes than the scheme selected at the first means.\n8. An image reproducing method comprising:\ncausing a first operation section to select between video signals of a plurality of schemes; and\ncausing a second operation section to select between video signals including the video signal of the scheme selected at said first operation section and those of lower-order schemes than the selected scheme and output the selected video signal, when there are video signals of lower-order schemes than the scheme selected at the first operation section.\n9. The image reproducing method according to claim 8, wherein the operation of said second operation section disable, when there is no video signal of a lower-order scheme than the scheme selected at the first operation section.\n10. The image reproducing method according to claim 8, wherein said first operation section is a switch provided on an image reproducing apparatus and said second operation section is a remote controller for controlling said image reproducing apparatus.\n11. The image reproducing method according to claim 8, wherein said video signals of the plurality of schemes include video signals in an interlace-scanning scheme and video signals in a progressive-scanning scheme.\n12. The image reproducing method according to claim 8, wherein a video signal of the scheme selected at said first operation section is outputted at the time when the power supply of the image reproducing apparatus is turned on.\n13. The image reproducing method according to claim 8, wherein a video signal of the scheme selected at said first operation section is outputted, regardless of the present switching state, when said first operation section is operated.\n14. An image reproducing method comprising:\na first step of causing a first operation section to select between video signals of a plurality of schemes; and\na second step of causing a second operation section to select between video signals including the video signal of the scheme selected at said first operation section and those of lower-order schemes than the selected scheme and output the selected video signal, when there are video signals of lower-order schemes than the scheme selected in the first step.",
+    "status": "Abandoned",
+    "citations_own": [
+        "US4982280A",
+        "US5257103A",
+        "US5444491A",
+        "US5530484A",
+        "US5594552A",
+        "US5754248A",
+        "US6205288B1",
+        "US20010016107A1",
+        "US6366329B1",
+        "US6426975B1",
+        "US6657674B1",
+        "US6927801B2"
+    ],
+    "citations_ftf": [
+        "FR2693066A1",
+        "JPH09247624A",
+        "KR100354418B1",
+        "US6108046A"
+    ],
+    "citedby_own": [
+        "US20060050175A1",
+        "US20060221001A1",
+        "US20080043643A1",
+        "US20080267069A1"
+    ],
+    "citedby_ftf": [
+        "JP2004236066A",
+        "JP4693652B2"
+    ]
+}

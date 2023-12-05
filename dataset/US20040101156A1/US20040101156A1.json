@@ -1,0 +1,55 @@
+{
+    "patent_link": "https://patents.google.com/patent/US20040101156A1/en",
+    "patent_id": "US20040101156A1",
+    "title": "Image ranking for imaging products and services",
+    "abstract": "A computer-assisted method provides a plurality of digital images, selects a digital image, obtains one or more image characteristics of the selected digital image, computes one or more image-ranking values for the selected digital image based on the obtained image characteristics of the selected digital image, and ranks the selected digital image using the computed image-ranking values.",
+    "inventors": [
+        "Dhiraj Kacker"
+    ],
+    "assignee": "Shutterfly LLC",
+    "classifications": [
+        "G11B27/031",
+        "H04L67/02",
+        "H04L69/329"
+    ],
+    "claims": "\n1. A computer-assisted method, comprising:\na) providing a plurality of digital images;\nb) selecting a digital image;\nc) obtaining one or more image characteristics of the selected digital image;\nd) computing one or more image-ranking values for the selected digital image based on the obtained image characteristics of the selected digital image; and\nc) ranking the selected digital image using the computed image-ranking values.\n2. The method of claim 1 further comprising uploading the digital images over a computer network to a server.\n3. The method of claim 1 further comprising capturing the digital images using a digital camera.\n4. The method of claim 1 further comprising selecting digital images based on one or more of: the type of the image-capture device, the photographer of the image, a content of the image, and a category of the image-based products ordered from the digital images.\n5. The method of claim 1 wherein the image characteristics include the header information of the digital image.\n6. The method of claim 1 wherein the image characteristics include one or more of image size, color, exposure condition, and pixel value histogram distribution.\n7. The method of claim 1 wherein the image-ranking values are computed based on linear or vector mapping of the scales from individual image characteristics.\n8. The method of claim 1 wherein the computation of the image-ranking values is based on user-specified image usages.\n9. The method of claim 1 further comprising storing the image-ranking values in association with respective selected digital images.\n10. The method of claim 1 further comprising selecting digital images according to the computed image-ranking values for a user-specified image use.\n11. The method of claim 10 wherein the user-specified image use includes information specified in a customer's order.\n12. The method of claim 10 wherein the user-specified image use includes one or more of photographic prints, electronic image sharing, photo cards, photo calendars, photo album, and photo books.\n13. The method of claim 10 further comprising producing an imaging product in response to the user-specified image use.\n14. The method of claim 10 further comprising providing an imaging service in response to the user-specified image use.\n15. The method of claim 1 further comprising rendering selected digital images in response to the image-ranking values of respective digital images.\n16. The method of claim 1 further comprising ranking the selected digital images by an operator for a user-specified image use.\n17. A system for producing an imaging product, comprising:\na) a server that receives digital images;\nb) a processor that ranks the digital images; and\nc) a printing and finishing facility for producing an imaging product using one or more digital images selected using the result of the ranking of he digital images.\n18. The system of claim 17 wherein the server receives the digital images from a computer at a remote location over a computer network.\n19. The system of claim 17 wherein the processor obtains one or more image characteristics of the digital image.\n20. The system of claim 19 wherein the image characteristics of the digital image include one or more of: the type of the image-capture device, the photographer of the image, a content of the image, and a category of the image-based products ordered from the digital images.",
+    "status": "Abandoned",
+    "citations_own": [
+        "US5740270A",
+        "US5751286A",
+        "US6169998B1",
+        "US6324545B1",
+        "US20030068100A1",
+        "US6636648B2",
+        "US6681060B2",
+        "US6738494B1",
+        "US6813618B1"
+    ],
+    "citations_ftf": [],
+    "citedby_own": [
+        "US20040119876A1",
+        "US20040189636A1",
+        "US20050097173A1",
+        "US20050129326A1",
+        "US20050219640A1",
+        "US20060294068A1",
+        "US20070192164A1",
+        "US20070239778A1",
+        "US20080030752A1",
+        "US20080080774A1",
+        "US20080168175A1",
+        "US7885482B2",
+        "US20110209221A1",
+        "US20110211736A1",
+        "US20110262022A1",
+        "US20130064476A1",
+        "US20130246503A1",
+        "US20150169991A1",
+        "US9305118B2",
+        "US9460214B2",
+        "US9460157B2",
+        "US20160366200A1",
+        "US10600139B2"
+    ],
+    "citedby_ftf": []
+}

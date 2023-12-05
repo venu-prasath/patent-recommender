@@ -1,0 +1,45 @@
+{
+    "patent_link": "https://patents.google.com/patent/US20060047616A1/en",
+    "patent_id": "US20060047616A1",
+    "title": "System and method for biological data analysis using a bayesian network combined with a support vector machine",
+    "abstract": "A method for analyzing biological data includes classifying a first set of biological data in a first classifier, classifying a second set of biological data in a second classifier, combining the results of the first classifier with the results of the second classifier, and analyzing the results as a function of the similarity measure of the first classifier and the similarity measure of the second classifier.",
+    "inventors": [
+        "Jie Cheng",
+        "Chao Yuan",
+        "Bernd Wachmann",
+        "Claus Neubauer"
+    ],
+    "assignee": "Siemens Medical Solutions USA Inc",
+    "classifications": [
+        "G16B25/00",
+        "G06F18/2411",
+        "G06F18/29",
+        "G06N7/01",
+        "G16B40/00",
+        "G16B40/10"
+    ],
+    "claims": "\n1. A method for analyzing biological data comprising the steps of:\nclassifying a first set of biological data in a first classifier;\nclassifying a second set of biological data in a second classifier;\ncombining the results of the first classifier with the results of the second classifier; and\nanalyzing the results as a function of the similarity measure of the first classifier and the similarity measure of the second classifier.\n2. The method of claim 1, wherein the first set of biological data and the second set of biological data are the same.\n3. The method of claim 1, wherein the first classifier is a support vector representation and discrimination machine.\n4. The method of claim 1, wherein the second classifier is a Bayesian network.\n5. The method of claim 1, wherein the first set of biological data is a set of microarray data.\n6. The method of claim 1, wherein the second set of biological data is a set of protein mass spectra.\n7. The method of claim 1, wherein the results of the first classifier and the second classifier are combined in parallel.\n8. The method of claim 4, wherein said Bayesian network comprises computing mutual information of pairs of data of said data set, creating a draft network based on the mutual information, wherein data item of said data set comprise nodes of said network and the edges connecting a pair of data nodes represent the mutual information of said nodes, thickening said network by adding edges when pairs of data nodes cannot be d-separated, and thinning said network by analyzing each edge of said draft network with a conditional independent test and removing said edge if said corresponding data nodes can be d-separated.\n9. The method of claim 1, wherein said combining step comprises weighing the results of the first and second classifiers based on the input patterns.\n10. A program storage device readable by a computer, tangibly embodying a program of instructions executable by the computer to perform the method steps for analyzing biological data, said method comprising the steps of:\nclassifying a first set of biological data in a first classifier;\nclassifying a second set of biological data in a second classifier;\ncombining the results of the first classifier with the results of the second classifier, and\nanalyzing the results as a function of the similarity measure of the first classifier and the similarity measure of the second classifier.\n11. The computer readable program storage device of claim 10, wherein the first set of biological data and the second set of biological data are the same.\n12. The computer readable program storage device of claim 10, wherein the first classifier is a support vector representation and discrimination machine.\n13. The computer readable program storage device of claim 10, wherein the second classifier is a Bayesian network.\n14. The computer readable program storage device of claim 10, wherein the first set of biological data is a set of microarray data.\n15. The computer readable program storage device of claim 10, wherein the second set of biological data is a set of protein mass spectra.\n16. The computer readable program storage device of claim 10, wherein the results of the first classifier and the second classifier are combined in parallel.\n17. The computer readable program storage device of claim 13, wherein said Bayesian network comprises computing mutual information of pairs of data of said data set, creating a draft network based on the mutual information, wherein data item of said data set comprise nodes of said network and the edges connecting a pair of data nodes represent the mutual information of said nodes, thickening said network by adding edges when pairs of data nodes cannot be d-separated, and thinning said network by analyzing each edge of said draft network with a conditional independent test and removing said edge if said corresponding data nodes can be d-separated.\n18. The computer readable program storage device of claim 10, wherein said combining step comprises weighing the results of the first and second classifiers based on the input patterns.\n19. A method for analyzing biological data comprising the steps of:\nclassifying a first set of biological data in a first classifier, wherein said first classifier is a support vector representation and discrimination machine, wherein said machine discriminates said data into a plurality of classes using a plurality of discrimination functions, wherein an inner product of each said discrimination function with a kernel function is evaluated on said data, wherein the norm of each said discrimination is minimized, and wherein the value of each said inner product is compared to a threshold to determine whether a biological data item belongs to a class associated with said discrimination function;\nclassifying a second set of biological data in a second classifier, wherein said second classifier is a Bayesian network; and\nanalyzing the combined results of said first classifier and said second classifier as a function of the similarity measure of the first classifier and the similarity measure of the second classifier.",
+    "status": "Expired - Fee Related",
+    "citations_own": [
+        "US6714925B1"
+    ],
+    "citations_ftf": [
+        "US6161130A"
+    ],
+    "citedby_own": [
+        "US20080132420A1",
+        "WO2008157459A2",
+        "EP2245568A1",
+        "JP2013206016A",
+        "US20130289757A1",
+        "US20150220838A1",
+        "WO2018213112A1",
+        "US10373708B2"
+    ],
+    "citedby_ftf": [
+        "US8484023B2",
+        "US8868323B2",
+        "US8442765B1",
+        "US9104752B2"
+    ]
+}

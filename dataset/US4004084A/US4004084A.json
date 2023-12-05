@@ -1,0 +1,62 @@
+{
+    "patent_link": "https://patents.google.com/patent/US4004084A/en",
+    "patent_id": "US4004084A",
+    "title": "Video conferencing system using spatial reduction and temporal resolution",
+    "abstract": "Video conferencing, wherein the outputs of a plurality of television cameras at one location are transmitted to a second location so that parties at the first location are perceived as present by parties at the second location, has received some attention directed toward bandwidth reduction. The subject invention relates to an improved video conferencing system for reducing bandwidth by advantageously applying temporal resolution and spatial reduction to a video picture provided by each camera. The temporal resolution of a picture from one or more of the cameras can be automatically adapted to a control signal, for example, to a speech level control signal so as to advantageously interleave and to give priority to a picture from one camera over a picture from other television cameras. The spatial reduction of each picture obtains by transmitting and displaying less than the total picture, illustratively the middle two-thirds of the picture from each camera.",
+    "inventors": [
+        "Earl Franklin Brown",
+        "John Ormond Limb",
+        "Birendra Prasada"
+    ],
+    "assignee": "AT&T Corp",
+    "classifications": [
+        "H04N7/0806",
+        "H04N7/15"
+    ],
+    "claims": "\n1. In a video conferencing system, apparatus for reducing bandwidth of a plurality of video pictures; each picture having one or more fields, each picture being provided by a corresponding one of a plurality of video cameras, and each picture for display on a corresponding one of a plurality of video monitors; said apparatus including means for spatially reducing a picture from a first group of one or more cameras, said spatial reduction means including means for providing a spatial portion of said picture from said first group of cameras, said spatial portion being less than the total raster of a picture and CHARACTERIZED IN THAT said apparatus further comprises:\ntemporal resolution means operative upon said picture from said first group of cameras, said temporal resolution means including means for interleaving each picture in said first group in a prefixed rotational sequence.\n2. The apparatus defined in claim 1 wherein said spatial portion providing means includes means for improving picture detail, said picture detail improving means including means for providing more than one-half of said total raster.\n3. The apparatus defined in claim 1 further comprising:\nmeans responsive to a control signal for replacing said first group of pictures with a picture from a second group of one or more cameras.\n4. The apparatus defined in claim 1 further comprising:\nmeans adapted to detect a predetermined control signal, and\nmeans responsive to said detected control signal for selectively adjusting said temporal resolution of said first group of pictures.\n5. The apparatus defined in claim 4 wherein said predetermined control signal detecting means includes means adapted to receive a speech signal.\n6. The apparatus defined in claim 1 wherein said interleaving means includes means for improving video presence, said video presence means including means for selectively interleaving a predetermined field of each picture from said first group.\n7. In a video conferencing system, apparatus for reducing bandwidth of a plurality of video signals, each signal having one or more fields and each signal being provided by a corresponding one of a plurality of sources, each source having one or more video cameras, said apparatus comprising\nmeans for spatially reducing a video picture from a first group of cameras in each source, said spatial reduction means including means for providing a spatial portion of said video picture, said spatial portion being less than the total raster of said video picture;\nmeans coupled to said spatial reduction means for temporally resolving each said spatially reduced video picture, said temporal resolution means including means for selectively transmitting a predetermined field of said picture; and\nreceiver means for linearly interpolating a nontransmitted field of said picture.\n8. The apparatus defined in claim 7 further comprising:\nmeans for providing a predetermined control signal; and\nmeans responsive to said control signal for selectively adjusting said temporal resolution of said spatially reduced picture from at least one of said signal sources.\n9. The apparatus defined in claim 8 wherein said predetermined control signal is a speech level control signal.\n10. The apparatus defined in claim 9 wherein said temporal resolution selective adjusting means are responsive to a predetermined threshold level of said speech level control signal.\n11. The apparatus defined in claim 7 further comprising:\nmeans for providing a predetermined control signal and means reponsive to said control signal for selectively adjusting said temporal resolution of a picture from a second group of one or more cameras at each source.",
+    "status": "Expired - Lifetime",
+    "citations_own": [
+        "US3519744A",
+        "US3601530A",
+        "US3715483A"
+    ],
+    "citations_ftf": [],
+    "citedby_own": [
+        "FR2529422A1",
+        "US4467356A",
+        "US4529839A",
+        "US4645872A",
+        "US4650929A",
+        "US4686698A",
+        "US4716585A",
+        "US4748618A",
+        "DE3821645A1",
+        "US4847677A",
+        "US4857993A",
+        "US4914508A",
+        "US4961211A",
+        "US5014267A",
+        "EP0472348A2",
+        "EP0569466A1",
+        "US5572248A",
+        "US5657096A",
+        "GB2313250A",
+        "WO1997049244A1",
+        "US5737011A",
+        "US6124881A",
+        "US20020001372A1",
+        "USRE37508E1",
+        "US6384862B1",
+        "US6397275B1",
+        "US20040076275A1",
+        "US6738356B1",
+        "US20040109547A1",
+        "US20060176951A1",
+        "US20060198611A1",
+        "US20090015652A1",
+        "US20110134237A1",
+        "WO2016046589A1",
+        "US10531050B1"
+    ],
+    "citedby_ftf": []
+}

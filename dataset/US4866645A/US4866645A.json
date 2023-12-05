@@ -1,0 +1,80 @@
+{
+    "patent_link": "https://patents.google.com/patent/US4866645A/en",
+    "patent_id": "US4866645A",
+    "title": "Neural network with dynamic refresh capability",
+    "abstract": "An analog neural network composed of an array of capacitors for storing weighted electric charges. Electric charges, or voltages, on the capacitors control the impedance (resistance) values of a corresponding plurality of MOSFETs which selectively couple input signals to one input of a summing amplifier. A plurality of semiconductor gating elements (e.g. MOSFETs) selectively couple to the capacitor's weighted analog voltage values received serially over an input line. The weighted voltage on the input line are periodically applied to the proper capacitors in the neural network via the gating elements so as to refresh the weighted electric charges on the capacitors, and at a multiplex rate that maintains the voltages on the capacitors within acceptable tolerance levels.",
+    "inventors": [
+        "Charles A. Lish"
+    ],
+    "assignee": "Philips North America LLC",
+    "classifications": [
+        "G06V10/20",
+        "G06N3/063",
+        "G06N3/065"
+    ],
+    "claims": "\n1. A neural network comprising:\na plurality of capacitors for storing weighted electric charges,\nan input terminal for receiving weighted voltages appearing in serial form,\na plurality of controlled semiconductor gating elements coupling individual respective ones of said capacitors to said input terminal,\na plurality of controlled semiconductor variable impedance elements having individual control terminals coupled respectively to individual ones of said capacitors, the impedance value of each of said variable impedance elements being determined by the voltage on its individually coupled capacitor,\nat least one summing amplifier having an input coupled to given ones of said variable impedance elements, said summing amplifier having an output coupled to an output of the neural network,\na plurality of further input terminals for receiving input signals and coupled to individual ones of said variable impedance elements, and\nmeans coupled to control electrodes of said semiconductor gating elements for sequentially energizing the gating elements to refresh the weighted electric charges stored on the capacitors by means of the weighted voltages appearing at said input terminal.\n2. A neural network as claimed in claim 1 wherein said controlled semiconductor variable impedance elements each comprise a MOS field effect transistor device having a gate electrode coupled to a junction point between its individual capacitor and the gating element individually coupled to said capacitor, each MOS field effect transistor device being connected between its individual further input terminal and the input of the summing amplifier.\n3. A neural network as claimed in claim 1 wherein the summing amplifier comprises a low gain operational amplifier having a sigmoid response characteristic.\n4. A neural network as claimed in claim 1 wherein said semiconductor gating elements each include a MOS field effect transistor device having a gate electrode coupled to said sequential energizing means.\n5. A neural network as claimed in claim 1 further comprising:\na microprocessor having first, second and third inputs for receiving, in digital form, said input signals, output signals from said network output, and target signals, respectively,\na memory device for storing digital data corresponding to said weighted voltages, said memory device having a first input coupled to an output of the microprocessor and a second input coupled to an output of a counter,\na digital/analog converter having input means coupled to an output of the memory device and an output coupled to said input terminal, and wherein\nsaid sequential energizing means includes a decoder having input means coupled to said output of the counter and a plurality of output lines coupled to individual ones of the control electrodes of said semiconductor gating elements.\n6. A neural network as claimed in claim 1 wherein said summing amplifier further comprises a second input coupled to a reference potential\n7. A neural network as claimed in claim 1 further comprising a memory device for storing digital data indicative of said weighted voltages, and wherein\nsaid sequential energizing means comprises a counter for addressing said memory device and a decoder coupled to an output of said counter for sequentially energizing the gating elements, said network further comprising\na digital/analog converter coupled between said memory device and said input terminal.\n8. A neural network as claimed in claim 7 further comprising data processing means for receiving said input signals, output signals from the neural network and target signals, said data processing means being responsive to the received signals thereby to supply further signals to said memory device for updating the digital data stored in the memory device as a function of said received signals.\n9. A neural network as claimed in claim 1 wherein at least some of said variable impedance elements are individually coupled between respective ones of said further input terminals and said summing amplifier input.\n10. A neural net comprising a plurality of interconnected active elements wherein a data-interconnection between each pair of interconnected elements comprises a voltage controlled impedance means whose impedance value is indicative of a weight of said interconnection, means connecting individual control terminals of said impedance means to respective capacitances via respective nodes, means coupling a conduction path of a respective transmission gate between said respective node and a further terminal which provides weight signals and which is common to at least a further plurality of said transmission gates, control means coupled to control terminals of said further plurality of transmission gates for sequentially enabling said transmission gates thereby to supply weight signals at said further terminal to respective ones of said capacitances for refreshing charges stored on the relevant capacitances.\n11. A neural net as claimed in claim 10, wherein the control means comprises a memory for storing digital data indicative of the weights, a counter for cyclically addressing said memory, a digital/analog converter for converting digital data supplied by the memory into analog signals and for transmitting said analog signals to said further terminal, and a decoder coupled to said counter for sequentially enabling the relevant transmission gates.\n12. A neural net as claimed in claim 11, wherein the counter is coupled to a clock signal input, and delay means coupled between said clock signal input and the decoder for applying delayed clock signals to said decoder.\n13. A neural net as claimed in claim 11 wherein the neural net comprises input terminals for supplying the interconnected elements with internally generated input signals, output terminals for transmitting output signals which are a function of said input signals, and data processing means for receiving the input signals, the output signals and target signals for making a determination whether the relevant output signals comply with the relevant target signals and for updating the digital data stored in the memory as a function of said determination.\n14. A neural net as claimed in claim 10, wherein each voltage controlled impedance means comprises a conduction channel of a field effect transistor.\n15. A neural net as claimed in claim 14, wherein each transmission gate comprises a conduction channel of a field effect transistor.\n16. A neural net as claimed in claim 10, wherein each active element comprises an amplifier.",
+    "status": "Expired - Fee Related",
+    "citations_own": [
+        "US4660166A",
+        "US4731747A",
+        "US4737929A",
+        "US4752906A",
+        "US4755963A",
+        "US4760437A"
+    ],
+    "citations_ftf": [
+        "IT1002272B",
+        "JPS5576393A"
+    ],
+    "citedby_own": [
+        "US4926180A",
+        "US4961005A",
+        "US4972473A",
+        "US5004932A",
+        "US5010512A",
+        "DE4042139A1",
+        "DE4020001A1",
+        "US5083285A",
+        "US5101361A",
+        "US5113484A",
+        "US5115492A",
+        "US5140531A",
+        "US5167008A",
+        "US5195170A",
+        "US5204872A",
+        "US5222193A",
+        "US5248956A",
+        "US5255346A",
+        "US5274745A",
+        "US5274743A",
+        "US5293459A",
+        "US5327228A",
+        "US5333239A",
+        "US5371835A",
+        "US5386149A",
+        "US5438645A",
+        "US5479574A",
+        "US5666467A",
+        "US5697369A",
+        "US5704014A",
+        "US6513023B1",
+        "US20030176931A1",
+        "CN101894583A",
+        "US8266085B1",
+        "US8694451B2",
+        "WO2016114461A1",
+        "US20200160186A1"
+    ],
+    "citedby_ftf": [
+        "JPH0519337B2",
+        "JP2677656B2",
+        "JPH07101414B2",
+        "JP2831076B2",
+        "US5223750A",
+        "EP0465200A3",
+        "JP2741793B2",
+        "JPH05210649A",
+        "FR2688329A1",
+        "FR2691821B1"
+    ]
+}

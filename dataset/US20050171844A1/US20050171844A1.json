@@ -1,0 +1,41 @@
+{
+    "patent_link": "https://patents.google.com/patent/US20050171844A1/en",
+    "patent_id": "US20050171844A1",
+    "title": "Apparatus and methods for streamlined term adjustment",
+    "abstract": "Embodiments consistent with the present invention enable an advertising client to vary terms of an advertising campaign automatically in order to react to changing business conditions. An advertising client and a publisher establish terms of an advertising campaign including a unit cost for placement of advertisements and a range of acceptable changes. The unit cost may use any pricing model, such as cost per mille, cost per click, or cost per action. During the advertising campaign, the advertising client may submit a change that is automatically implemented to alter the advertising campaign.",
+    "inventors": [
+        "John Ferber",
+        "Eric Kronthal"
+    ],
+    "assignee": "Yahoo AD Tech LLC",
+    "classifications": [
+        "G06Q30/02",
+        "G06Q30/0273"
+    ],
+    "claims": "\n1. A method of modifying an electronic advertising campaign, comprising:\ndetermining terms of the advertising campaign, including a unit price;\nreceiving a proposed change to the unit price; and\nautomatically implementing the proposed change in real time to alter placement of an electronic advertisement related to the advertising campaign.\n2. The method of claim 1, wherein the terms further include a range of acceptable changes, further comprising:\ndetermining whether the proposed change falls within the range of acceptable changes.\n3. The method of claim 1, wherein the determining of the terms includes at least one of: determining a campaign start date, determining a campaign end date, determining a maximum number of changes, and determining a price model.\n4. The method of claim 1, wherein the determining of the terms includes determining the unit price based on a cost per mille (CPM) price model.\n5. The method of claim 1, wherein the determining of the terms includes determining the unit price based on a cost per click (CPC) price model.\n6. The method of claim 1, wherein the determining of the terms includes determining the unit price based on a cost per action (CPA) price model.\n7. The method of claim 1, wherein the automatically implementing to alter placement includes altering at least one of a time at which the advertisement is displayed, a place at which the advertisement is displayed, and a type of advertisement that is displayed.\n8. A method of modifying an online advertising campaign, comprising:\ndetermining terms of the advertising campaign, including a unit price and a range of acceptable changes;\nreceiving a proposed change to the unit price;\nautomatically determining whether the proposed change falls within the range of acceptable changes; and\nwhen the proposed change falls within the range of acceptable changes,\nautomatically calculating a number of units remaining in the advertising campaign based on the proposed change, and\nusing the number of units remaining and the proposed change to direct placement of an online advertisement related to the advertising campaign.\n9. The method of claim 1, wherein determining the terms further includes at least one of: determining a campaign start date, determining a campaign end date, determining a maximum number of changes, and determining a price model.\n10. The method of claim 9, wherein receiving a proposed change further includes receiving a proposed change to the price model of the unit price.\n11. The method of claim 8, wherein determining the terms further includes determining a unit price is based on a cost per mile (CPM) price model.\n12. The method of claim 8, wherein determining the terms further includes determining a unit price is based on a cost per click (CPC) price model.\n13. The method of claim 8, wherein determining the terms further includes determining a unit price is based on a cost per action (CPA) price model.\n14. The method of claim 8, wherein directing placement of the online advertisement includes at least one of: directing a time at which the advertisement is displayed, directing a place at which the advertisement is displayed, and directing a type of advertisement displayed.\n15. A system for adjusting a term of an agreement for an electronic advertising campaign, comprising:\na database that stores terms of the advertising campaign, including a range of acceptable changes; and\na change processor that receives a proposed change to a term of the advertising campaign, automatically determines whether the proposed change is within the range of acceptable changes, and when it is determined that the proposed change is within the range of acceptable changes, implements the proposed change by directing advertisement placement based on the proposed change.\n16. The system of claim 15, wherein the proposed change is a change to a unit price for placement of electronic advertisements.\n17. The system of claim 15, wherein the change processor updates the database based on the proposed change.\n18. The system of claim 15,\nwherein the database further stores a number of units remaining in the advertising campaign, and\nwherein the change processor further calculates the advertisement placement to be directed using the proposed change and the number of units remaining in the advertising campaign.\n19. The system of claim 15, wherein the advertisement placement includes at least one of a time at which an online advertisement is displayed, a website on which the online advertisement is placed, and a type of online advertisement displayed.\n20. The system of claim 15, wherein the terms of the advertising campaign include at least one of: a campaign start date, a campaign end date, a maximum number of changes, and a price model.\n21. The system of claim 20, wherein the proposed change is a change to the price model.",
+    "status": "Abandoned",
+    "citations_own": [
+        "US20050027590A9",
+        "US6968513B1"
+    ],
+    "citations_ftf": [],
+    "citedby_own": [
+        "US20060095336A1",
+        "US20070050254A1",
+        "US20070073583A1",
+        "US20080052150A1",
+        "US20080300989A1",
+        "US20090144129A1",
+        "US20090254410A1",
+        "US20100262497A1",
+        "US20100262499A1",
+        "US20110161407A1",
+        "US20130085837A1",
+        "US20140143047A1",
+        "US8799078B1",
+        "US9449231B2",
+        "US10311486B1",
+        "US10348738B2"
+    ],
+    "citedby_ftf": []
+}

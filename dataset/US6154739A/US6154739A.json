@@ -1,0 +1,63 @@
+{
+    "patent_link": "https://patents.google.com/patent/US6154739A/en",
+    "patent_id": "US6154739A",
+    "title": "Method for discovering groups of objects having a selectable property from a population of objects",
+    "abstract": "The method is for detecting a selectable number of groups of objects having at least one selectable characteristic from a population of objects specifiable by a plurality of attributes. The objects of the population are subdivided into object groups of a first order, on the basis of respectively at least one attribute. The quality of each object group of this order is detected, on the basis of the total number of its objects and the number of its objects having said at least one characteristic. Each object group of this order is included into the number of object groups to be detected, if the object group has a quality higher than the lowest quality of the object group among the object groups detected up to this point. A hypothetical quality is detected on the basis exclusively of those objects of this object group which have at least one of the characteristics. The hypothetical quality is a quality of a hypothetical group derived from the actually processed group and including exclusively the objects thereof having the at least one characteristic. All those object groups of this order the hypothetical quality of which includes a selectable quality value and particularly is of the quality of the respective object groups, are subdivided into object groups of the next lower order, by selecting at least one attribute.",
+    "inventors": [
+        "Stefan Wrobel"
+    ],
+    "assignee": "GMD Forschungszentrum Informationstechnik GmbH",
+    "classifications": [
+        "G06F16/285",
+        "Y10S707/99933",
+        "Y10S707/99935",
+        "Y10S707/99936",
+        "Y10S707/99944"
+    ],
+    "claims": "\n1. A method for detecting a selectable number of groups of objects having at least one selectable characteristic from a population of objects specifiable by a plurality of attributes, each of said object groups having a quality which, by means of a selectable function, results from the number of objects of the object group and from an unusualness of the distribution of the at least one characteristics within the object group and which is detected by a relation between the distribution of the characteristics of the respective object group and the distribution of the characteristics in a reference population, said method comprising the following steps:\na) selecting the at least one characteristic by selecting at least one of the attributes specifying the objects of the population,\nb) subdividing the objects of the population into object groups of a first order, on the basis of respectively at least one attribute,\nc) detecting the quality of each object group of this order, on the basis of the total number of its objects and the number of its objects having said at least one characteristic and/or the number of its objects not having said characteristic,\nd) for each object group, including the object group of this order into the number of object groups to be detected, if the object group has a quality higher than the lowest quality of the object group among the object groups detected up to this point,\ne) for each object group of this order, detecting at least one hypothetical first quality on the basis exclusively of those objects of this object group which have at least one of said characteristics, and/or at least one hypothetical second quality on the basis exclusively of those objects of this object group which do not have at least one of said characteristics, wherein the at least one of the first or second qualities is a quality of a hypothetical group derived from the actually processed group and comprising exclusively the objects thereof having one or not having one of said at least one characteristics,\nf) subdividing all those object groups of this order the at least one of the respectively assigned first or second hypothetical qualities of which comprise a selectable quality value and particularly are of the quality of the respective object groups, into object groups of the next lower order, by selecting at least one attribute, and\ng) repeating steps c) to f) as often as a selectable criterion for termination has been reached.\n2. The method according to claim 1, characterized in that in step d) an object group is included into the number of object groups to be detected only if it is additionally verified that this object group comprises a selectable first minimum number of objects.\n3. The method according to claim 1, characterized in that in step e) the first or second hypothetical quality is detected only if the number of objects having said characteristic comprises a selectable second minimum number.\n4. The method according to claim 2, characterized in that the first minimum number is equal to the second minimum number.\n5. The method according to claim 1, characterized in that the criterion for termination is defined in that the object groups are subdivided until at a subdivision stage no attributes exist anymore for a further subdividing into object groups.\n6. The method according to claim 1, characterized in that the criterion for termination is defined in that the subdividing of object groups into the next lower order results exclusively in object groups whose number is smaller than a selectable third minimum number.\n7. The method according to claim 2, characterized in that the third minimum number is equal to the first or the second minimum number.\n8. The method according to claim 1, characterized in that the criterion for termination is defined to be the lapse of a selectable period of time.\n9. The method according to claim 1, characterized in that the object groups at each subdivision stage according to steps c) to f) are processed in the order of their qualities and/or in the order of their first and/or second hypothetical qualities, with the object group having the highest quality and respectively hypothetical quality being processed first.\n10. The method according to claim 1, characterized in that at each subdivision stage the object groups are processed according to a selectable scheme, particularly a scheme being different from one subdivision stage to the next one.\n11. The method according to claim 1, characterized in that at each subdivision stage it is examined, on the basis of the combination of the attributes defining the object groups, whether a plurality of object groups with the same combination of attributes exist, and, if such is the case, only one of those object groups is examined and, depending on the results of such examinations, is further subdivided.\n12. The method according to claim 1, characterized in that in step d) an object group is included into the number of object groups to be detected only if it is additionally verified that the attributes of this object group differ from those of the object group detected up to this point at least by a predeterminable minimum distance.\n13. The method according to claim 1, characterized in that the attributes of the objects of the population are included in a relational database, especially in interlinked listings or the like.",
+    "status": "Expired - Lifetime",
+    "citations_own": [
+        "US5794209A",
+        "US5933818A",
+        "US6012058A",
+        "US6029195A"
+    ],
+    "citations_ftf": [],
+    "citedby_own": [
+        "US6366907B1",
+        "US6470351B1",
+        "US20020170022A1",
+        "US20020174008A1",
+        "US6496877B1",
+        "US20030018601A1",
+        "US20030050928A1",
+        "WO2003081370A2",
+        "US6643646B2",
+        "US20040015869A1",
+        "US20040030669A1",
+        "US20040088323A1",
+        "US6742023B1",
+        "US20040172409A1",
+        "US20040243608A1",
+        "US20050160055A1",
+        "US20050216525A1",
+        "US20050251570A1",
+        "US20060136344A1",
+        "US20060136345A1",
+        "US7103605B1",
+        "US20070179972A1",
+        "US7424439B1",
+        "US20090043766A1",
+        "US20090228445A1",
+        "US20090239205A1",
+        "US20100161709A1",
+        "US8370386B1",
+        "US10120929B1",
+        "US10360301B2",
+        "US20200089675A1",
+        "US11334720B2"
+    ],
+    "citedby_ftf": [
+        "JP3466152B2"
+    ]
+}

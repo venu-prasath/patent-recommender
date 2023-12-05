@@ -1,0 +1,56 @@
+{
+    "patent_link": "https://patents.google.com/patent/US3770941A/en",
+    "patent_id": "US3770941A",
+    "title": "Data processing system for handling the flow of merchandise articles or services on a plurality of selling points",
+    "abstract": "A data processing system for handling the flow of merchandise articles or services on a plurality of selling points comprises in each selling point a terminal unit for reading data identifying the article or service sold on a ticket associated therewith and for transmitting said data to a central computer. An additional terminal unit is adapted to transmit the number of articles or services available to the computer which in turn causes a recording unit to record accordingly a predetermined number of tickets for each article or service to be transferred to the sellng points. Each terminal unit comprises also an addsubtract unit for effecting transaction computation in local and a printing unit for printing documents.",
+    "inventors": [
+        "W Gechele",
+        "A Pasini"
+    ],
+    "assignee": "Olivetti SpA",
+    "classifications": [
+        "G07G1/14",
+        "G07G1/10"
+    ],
+    "claims": "\n1. A data processing system for handling the flow of merchandise articles or services on a plurality of selling points comprising a central computer, a plurality of data transmission terminal units located at selling points and normally operatively connected to said computer, and a ticket associated with each article or service and recording data for identifying said article or service, said tickets being readable by one of said terminal units before selling said articles or services for transmitting said data to said computer wherein the improvement comprises: a recording unit conditionable for recording said data on tickets to be associated with articles or services to be transferred to said selling points, and at least an additional data transmitting terminal unit connected to said computer and operable for transmitting the number of articles or services available in stock, said computer being jointly controlled by said additional terminal unit and with said plurality of terminal units for conditioning said recording unit for recording a predetermined number of tickets for eaCh one of said articles and services, in accordance with the number of articles or services in stock and those already sold.\n2. A system according to claim 1, wherein each terminal unit of said plurality comprises at least an input device for reading the information recorded on said tickets, said recording unit recording said information in form readable by each one of said input unit.\n3. A system according to claim 1, wherein each terminal unit of said plurality comprises a control unit for normally connecting the relevant terminal to said central computer, an adding and subtracting unit conditionable for effecting transaction computations and manually operable switching means for connecting said adding and subtracting unit to said control unit and for disconnecting the latter from said central computer, whereby the relevant terminal unit is caused to effect by itself transation computations and to send the results to said computer.",
+    "status": "Expired - Lifetime",
+    "citations_own": [
+        "US3121159A",
+        "US3335407A",
+        "US3622995A"
+    ],
+    "citations_ftf": [],
+    "citedby_own": [
+        "US3932730A",
+        "US4068213A",
+        "US4091448A",
+        "WO1984003019A1",
+        "US4602151A",
+        "US4651150A",
+        "US4656591A",
+        "US4664417A",
+        "WO1987006377A1",
+        "US4739322A",
+        "US4816824A",
+        "US4821197A",
+        "US4845636A",
+        "US4903201A",
+        "US4958280A",
+        "US5970469A",
+        "US6014634A",
+        "US20020087413A1",
+        "US6547137B1",
+        "US6584448B1",
+        "US6650225B2",
+        "US20040088242A1",
+        "US20040103003A1",
+        "US20040207512A1",
+        "US6885994B1",
+        "US20050140498A1",
+        "US7599850B1",
+        "US8050969B2",
+        "US8775245B2",
+        "US9519915B1"
+    ],
+    "citedby_ftf": []
+}

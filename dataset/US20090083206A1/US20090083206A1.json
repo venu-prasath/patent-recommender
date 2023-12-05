@@ -1,0 +1,59 @@
+{
+    "patent_link": "https://patents.google.com/patent/US20090083206A1/en",
+    "patent_id": "US20090083206A1",
+    "title": "Apparatus and Method for Constructing Prediction Model",
+    "abstract": "A prediction model constructing apparatus includes a operational result database, similarity calculating means, and prediction model constructing means. The operational result database relates manufacturing conditions of a product manufactured in the past to result information on the manufacturing, and stores a plurality pieces of information obtained by relating the manufacturing conditions to the result information. The similarity calculating means calculates a similarity composed of a plurality of comparison results by comparing the manufacturing conditions stored in the operational result database with a manufacturing condition of a prediction target. The prediction model constructing means determines a parameter of a prediction model corresponding to the manufacturing condition of the prediction target.",
+    "inventors": [
+        "Hiroyasu Shigemori"
+    ],
+    "assignee": "JFE Steel Corp",
+    "classifications": [
+        "G05B19/418",
+        "G05B19/4181",
+        "G06N20/00",
+        "G06Q10/04",
+        "G06Q50/04",
+        "Y02P90/02",
+        "Y02P90/30",
+        "Y02P90/80"
+    ],
+    "claims": "\n1. An apparatus for constructing a prediction model, comprising:\nan operational result database that relates manufacturing conditions of products manufactured in the past to result information on the manufacturing and that stores a plurality pieces of information obtained by relating the manufacturing conditions to the result information;\nsimilarity calculating means for calculating similarity composed of a plurality of comparison results by comparing the manufacturing conditions stored in the operational result database with a manufacturing condition of a prediction target; and\nprediction model constructing means for determining a parameter of a prediction model corresponding to the manufacturing condition of the prediction target,\nwherein, when the prediction model constructing means establishes the relationship between a manufacturing condition and a manufacturing result on the basis of the manufacturing conditions and the result information of the operational result database, the prediction model constructing means comprises:\nmeans for using the similarity as a weight in an evaluation function for evaluating a modeling error of the result information, and\nmeans for using a physical characteristic of the prediction target as a constraint condition to thereby solve a mathematical programming problem concerning the evaluation function within the constraint condition.\n2. The apparatus according to claim 1, further comprising a result prediction device,\nwherein the result prediction device comprising:\nprediction model acquiring means for acquiring a prediction model corresponding to the manufacturing condition of the prediction target; and\nresult prediction means for inputting the manufacturing condition of the prediction target into the prediction model to thereby predict a result corresponding to the manufacturing condition.\n3. The apparatus according to claim 1, further comprising a control device for controlling the manufacturing condition,\nwherein the control device comprising:\nprediction model acquiring means for acquiring a prediction model corresponding to the manufacturing condition of the prediction target; and\ncontrol means for performing control by calculating, using the prediction model, an control input such that a controlled variable becomes a target value with respect to the manufacturing condition of the prediction target.\n4. The apparatus according to claim 1, further comprising a quality design device,\nwherein the quality design device comprising:\nprediction model acquiring means for acquiring a prediction model corresponding to the manufacturing condition of the prediction target; and\nquality design support means for supporting the quality design of a product by outputting at least one output out of the output of a predicted result obtained by inputting at least one manufacturing condition into the prediction model, and the output of a secondary evaluation index calculated based on the predicted result.\n5. A method for constructing a prediction model, comprising:\na similarity calculating step of comparing manufacturing conditions stored in a operational result database that relates manufacturing conditions of products manufactured in the past to result information on the manufacturing and that stores a plurality pieces of information obtained by relating the manufacturing conditions to the result information, with a manufacturing condition of a prediction target, to thereby calculate a similarity composed of a plurality of comparison results; and\na prediction model constructing step of using a manufacturing point corresponding to the manufacturing condition of the prediction target, as a reference,\nwherein, when the prediction model constructing step establishes the relationship between a manufacturing condition and a manufacturing result on the basis of the manufacturing conditions and the result information of the operational result database, the prediction model constructing step comprises:\na step of using the similarity as a weight of an evaluation function for evaluating a modeling error of the result information, and\na step of using a physical characteristic of the prediction target as a constraint condition to thereby solve a mathematical programming problem concerning the evaluation function within the constraint condition.\n6. The method according to claim 5, further comprising a result prediction step,\nwherein the result prediction step comprising:\na prediction model acquiring step of acquiring a prediction model corresponding to the manufacturing condition of the prediction target; and\na result prediction step of inputting the manufacturing condition of the prediction target into the prediction model to thereby predict a result corresponding to the manufacturing condition.\n7. The method according to claim 5, further comprising a control step of controlling the manufacturing condition,\nwherein the control step comprising:\na prediction model acquiring step of acquiring a prediction model corresponding to the manufacturing condition of the prediction target; and\na control step of performing control by calculating, using the prediction model, an control input such that a controlled variable becomes a target value with respect to the manufacturing condition of the prediction target.\n8. The method according to claim 5, further comprising a quality design step,\nwherein the quality design step comprising:\na prediction model acquiring step of acquiring a prediction model corresponding to the manufacturing condition of the prediction target; and\na quality design support step of supporting the quality design of a product by outputting at least one output out of the output of a predicted result obtained by inputting at least one manufacturing condition into the prediction model, and the output of a secondary evaluation index calculated based on the predicted result.\n9. A method for manufacturing a product manufactured by the method according to claim 5.\n10. A method for manufacturing a product manufactured by the method according to claim 6.\n11. A method for manufacturing a product manufactured by the method according to claim 7.\n12. A method for manufacturing a product manufactured by the method according to claim 8.",
+    "status": "Active",
+    "citations_own": [
+        "US6157899A",
+        "US20050288812A1"
+    ],
+    "citations_ftf": [
+        "JP2632117B2",
+        "JPH0695707A",
+        "JP4061008B2",
+        "JP2002157572A",
+        "JP4151298B2",
+        "JP4474847B2"
+    ],
+    "citedby_own": [
+        "US20120150576A1",
+        "US20140122381A1",
+        "WO2016030907A1",
+        "US20160180269A1",
+        "US20170032024A1",
+        "CN107122830A",
+        "US20170297072A1",
+        "US10073439B1",
+        "US20200114406A1",
+        "CN111212434A",
+        "US20220127825A1",
+        "US20220343439A1"
+    ],
+    "citedby_ftf": [
+        "JP5577568B2",
+        "JP2014038595A",
+        "US11144842B2",
+        "JP6566172B1",
+        "CN108628956B",
+        "JP7051724B2",
+        "WO2020152750A1",
+        "TWI792035B",
+        "JP2022021042A"
+    ]
+}

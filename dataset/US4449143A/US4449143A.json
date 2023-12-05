@@ -1,0 +1,63 @@
+{
+    "patent_link": "https://patents.google.com/patent/US4449143A/en",
+    "patent_id": "US4449143A",
+    "title": "Transcodeable vertically scanned high-definition television system",
+    "abstract": "A high-definition television system for electronic cinematography includes vertical scanning for ease of line-rate transcoding or adaptation to standard-definition television systems. The number of vertical line-scans is selected for transcoding to a standard-definition system by deleting alternate vertical line-scan samples.",
+    "inventors": [
+        "Robert A. Dischert",
+        "Kerns H. Powers"
+    ],
+    "assignee": "RCA Corp",
+    "classifications": [],
+    "claims": "\n1. A mastering television video system adaptable for transcoding to systems having different numbers of horizontal lines per frame, comprising:\na controllable transducer for converting an image into a video signal by successive scans of the image;\nscan control means coupled to said transducer for causing said transducer to scan said image in a vertical direction;\nconversion means for converting from vertical to horizontal scan having a preselected number of horizontal lines per frame; and\ncoupling means for coupling said scan control means with said conversion means, said coupling means comprising prefiltering means for reducing aliasing resulting from the vertical-direction sampling represented by said conversion from vertical to horizontal scan.\n2. A high definition television system adapted for easy transcoding to 525 lines-per-frame, 60 frames-per-second digital systems and to 625 lines-per-frame, 50 frames-per-second digital systems, comprising:\nvideo signal generation means for producing vertical line-scan video signals representative of the image to be televised;\nscan control means coupled to said video signal generation means for creating a relatively high-speed vertical scan together with a relatively low-speed horizontal scan; and\ntiming control means coupled to said scan control means for controlling the rate of said vertical scan so as to produce a number of vertical line-scans during each frame for defining the horizontal resolution of the system, said horizontal resolution being established as twice the product of an integer and a ratio, wherein said integer is the number of samples per horizontal line in the system transcoded to, and said ratio is the quotient of the aspect ratio of the high definition television system divided by the aspect ratio of the system transcoded to.\n3. A high definition television system adapted for transcoding with reduced beat generation to television systems scanned horizontally at a high rate and vertically at a low rate, comprising:\ncontrollable signal generation means for generating video signals from the image to be viewed, said signal generation means including deflection means for vertical scanning at a first rate and horizontal scanning at a second rate less than said first;\nsynchronizing signal generating means coupled to said controllable signal generation means for controlling said vertical scanning rate;\nvertical prefiltering means for limiting the bandwidth of said video signals for reduction of aliasing; and\nline sampling means for sampling said bandwidth-limited video signals during each interval representative of a vertical line-scan to produce output signal samples representative of the values of the signal transcoded to.\n4. A transcoder adapted for transcoding vertical-scan high-definition television signals to horizontal-scan standard-definition television signals, comprising: sample-rate conversion means coupled to receive said vertical-scan high-definition television signals for sampling said signals at points during each vertical scan corresponding to the sample points for the horizontal scan of the standard transcoded to, and for selecting alternate vertical lines for reducing the horizontal resolution of the transcoded signal; and coupling means for coupling said sample-rate conversion means to utilization means for coupling horizontal-scan information to said utilization means.\n5. A transcoder according to claim 4 wherein said coupling means further comprises storage means.\n6. A transcoder according to claim 5 wherein said sample-rate conversion means selects alternate vertical lines for reducing the horizontal resolution of the transcoded signal.\n7. A transcoder according to claim 4 further comprising antialias filter means for reducing aliasing due to the sample-rate conversion.\n8. A transcoder according to claim 5 further comprising a two-dimensional filter coupled for reducing aliasing.\n9. A transcoder according to claim 1 further comprising a procrustinator coupled to said sample-rate converter for aspect ratio control.\n10. A transcoder according to claim 1 or 9 further comprising time-interpolation means for frame rate conversion between the frame rate of said HDTV signals and said SDTV signals.\n11. A high-definition television signal generator for generating signals adaptable for ready conversion to standard-definition television, comprising:\nan imager for generating signals representative of a scene being televised;\nscanning means for generating vertical line-scans of said scene;\nsynchronizing signal generating means coupled to said scanning means for generating a number of said line scans per frame established by the product of an integer, first and second quotients and a second integer, where said first quotient is the horizontal-to-vertical aspect ratio of the raster scanned by said imager; said second quotient is the vertical-to-horizontal aspect ratio of the standard-definition television system to which ready conversion is desired, said first integer is two and said second integer is the number of samples per active horizontal line in the standard-definition television.\n12. A high-definition television system, comprising:\nmeans for generating substantially 1060 active samples per vertical scan; and\nmeans for producing 1800 active vertical scans per frame.\n13. A system pursuant to claim 12 wherein said 1800 lines are interlaced.\n14. A system pursuant to claim 12 wherein said active samples are in digital form.\n15. A high definition television system adapted for easy transcoding to 525 lines-per-frame, 60 frames-per-second digital systems and to 625 lines-per-frame, 50 frames-per-second digital systems, comprising:\nvideo signal generation means for producing line-scan video signals representative of the image to be televised;\nscan control means coupled to said video signal generation means for creating a relatively high-speed horizontal scan together with a relatively low-speed vertical scan; and\ntiming control means coupled to said scan control means for controlling the rate of said vertical scan so as to produce substantially 1060 active horizontal line-scans during each frame.",
+    "status": "Expired - Fee Related",
+    "citations_own": [
+        "US4125862A",
+        "GB2084833A",
+        "GB2097219A"
+    ],
+    "citations_ftf": [
+        "JPS567343A",
+        "ES509061A0",
+        "SE8202741L",
+        "DE3126635A1"
+    ],
+    "citedby_own": [
+        "US4496974A",
+        "DE3435332A1",
+        "US4523220A",
+        "US4551753A",
+        "US4633295A",
+        "US4729012A",
+        "US4743970A",
+        "US4751573A",
+        "US4775986A",
+        "US4866519A",
+        "US4965661A",
+        "US4989091A",
+        "US4989092A",
+        "US5029001A",
+        "US5053859A",
+        "US5070406A",
+        "US5258749A",
+        "US5307156A",
+        "US5497198A",
+        "US5587744A",
+        "US5642168A",
+        "US5856850A",
+        "US20020136298A1",
+        "US6563534B1",
+        "US6567986B2",
+        "US20040008914A1",
+        "US20080219594A1",
+        "US20080267069A1",
+        "US20100141683A1"
+    ],
+    "citedby_ftf": [
+        "JPH0467396B2",
+        "GB8325689D0",
+        "US4590518A",
+        "US4622577A",
+        "US4928171A"
+    ]
+}

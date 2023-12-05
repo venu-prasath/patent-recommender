@@ -1,0 +1,57 @@
+{
+    "patent_link": "https://patents.google.com/patent/US20060110021A1/en",
+    "patent_id": "US20060110021A1",
+    "title": "Method for recognizing projection views of radiographs",
+    "abstract": "A method for recognizing the projection view of radiographs comprising the steps of correcting the orientation of the input radiograph, locating a region of interesting in the radiograph, recognizing the projection view of the radiograph.",
+    "inventors": [
+        "Hui Luo",
+        "Jiebo Luo"
+    ],
+    "assignee": "Carestream Health Inc",
+    "classifications": [
+        "G06T7/0012",
+        "G06F18/00",
+        "G06T7/73",
+        "G06T2207/30008",
+        "G06V2201/03"
+    ],
+    "claims": "\n1. A method for recognizing the projection view of radiographs, comprise the steps of:\naccessing an input radiograph correcting the orientation of the radiograph;\nextracting a region of interest from the radiograph; and\nrecognizing the projection view of the radiograph.\n2. The method of claim 1, wherein the step of extracting the region of interest is accomplished by the steps of:\ndetecting a medial axis;\nlocating a center of the region of interest;\ndetermining a size and shape of the region of interest; and\nextracting the region of interest.\n3. The method of claim 2, wherein the step of medial axis is detected using an Euclidean distance map or by a multiscale medial analysis.\n4. The method of claim 1, wherein the step of recognizing the projection view of the radiograph is accomplished by the steps of:\nclassifying the radiograph using a set of pre-trained classifiers corresponding to all possible projection views; and\ndetermining the projection view of the radiograph as the one with the highest confidence according to the classification results.\n5. The method of claim 4, wherein the step of classifying the radiograph comprises the steps of:\nextracting a set of features from the region of interest; and\nclassifying the radiograph by a set of pre-trained classifiers.\n6. The method of claim 5, wherein a set of a pre-trained classifiers is obtained by the steps of:\ncollecting a pre-determined number of training images with known projection view information;\nlocating a region of interest for each of the training images;\ncomputing a set of features from the region of interest of each of the training images;\nassociating a target output specifying the known projection view of each of the training images;\ncomputing a transformed feature set for each of the training images using principal component analysis based on all the training images; and\ntraining a classifier with the transformed feature set and target output.\n7. The method of claim 1, further comprising the step of, prior to correcting the orientation, pre-processing the input radiograph.\n8. The method of claim 7, wherein the step of pre-processing the radiograph comprises the steps of:\nsub-sampling the radiograph;\nsegmenting the radiograph into a foreground region, a background region, and an anatomy region;\nremoving the foreground and background regions from the radiograph to generate an anatomy image; and\nnormalizing the anatomy image based on characteristics of the anatomy region.",
+    "status": "Active",
+    "citations_own": [
+        "US5633511A",
+        "US5862249A",
+        "US6055326A",
+        "US20060064017A1"
+    ],
+    "citations_ftf": [],
+    "citedby_own": [
+        "US20070165924A1",
+        "US20080123929A1",
+        "US20110188743A1",
+        "US20110228997A1",
+        "US20110286649A1",
+        "US8942917B2",
+        "JP2015173923A",
+        "CN106327495A",
+        "CN107368851A",
+        "EP3567525A1",
+        "US10706545B2",
+        "US10891731B2",
+        "US10949968B2",
+        "EP3855396A3",
+        "US11215711B2",
+        "US11710309B2",
+        "EP4216161A1"
+    ],
+    "citedby_ftf": [
+        "JP4690204B2",
+        "WO2008150840A1",
+        "US8077956B2",
+        "US10140699B2",
+        "CA2825169A1",
+        "WO2013165614A1",
+        "WO2014143891A1",
+        "US10410355B2",
+        "US10115194B2"
+    ]
+}

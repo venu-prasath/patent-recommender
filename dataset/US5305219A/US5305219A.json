@@ -1,0 +1,42 @@
+{
+    "patent_link": "https://patents.google.com/patent/US5305219A/en",
+    "patent_id": "US5305219A",
+    "title": "Vehicle movement data analyzing apparatus",
+    "abstract": "A vehicle movement digital data analyzing apparatus according to the present invention is for processing moving conditions of a vehicle momentarily varying with time which are recorded and collected in a record medium, and capable of converting a portion thereof into an enlarged graph to be displayed on display device. The vehicle movement digital data analyzing apparatus includes an input device for inputting information for determining the starting time of a graph to be displayed on the display device and the terminating time of a graph to be displayed on the display device, a page input device for specifying the graph on the preceding page and the graph on the next page adjacent to the graph currently displayed on the display device, and a page scrolling device for performing a graph conversion turning the starting time of the graph currently displayed on the display device into the terminating time of the converted graph when the graph on the preceding page is specified by the page input device and performing a graph conversion turning the terminating time of the graph currently displayed on the display device into the starting time of the converted graph when the graph on the next page is specified by said page input device. The analyzing apparatus further includes a printing device for printing the graph displayed on the display device.",
+    "inventors": [
+        "Wataru Ishibashi",
+        "Akihiro Suzuki"
+    ],
+    "assignee": "Yazaki Corp",
+    "classifications": [],
+    "claims": "\n1. A vehicle movement digital data analyzing apparatus for processing moving conditions of a vehicle momentarily varying with time which are recorded and collected in a record medium, and said vehicle movement digital data analyzing apparatus capable of converting a portion of said moving conditions into an enlarged graph to be displayed on a display means, said vehicle movement digital data analyzing apparatus comprising:\ninput means for inputting information for determining starting time of a graph of said moving conditions to be displayed on said display means and one of time span and scale of enlargement of said graph of said moving conditions to be displayed on said display means;\npage specifying input means for specifying the graph of said moving conditions on a preceding page and the graph of said moving conditions on a next page adjacent to a graph of said moving conditions currently displayed on said display means; and\npage scrolling means for performing a graph conversion turning said starting time of said graph currently displayed on said display means into said terminating time of a converted graph when said graph on said preceding page is specified by said page input means and for performing a graph conversion turning said terminating time of said graph currently displayed on said display means into said starting time of said converted graph when said graph on said next page is specified by said page input means.\n2. A vehicle movement digital data analyzing apparatus as claimed in claim 1, wherein said analyzing apparatus is constituted from a personal computer and a reader-writer connected thereto, said reader-writer reading out compressed vehicle movement data recorded on said record medium and then storing said data into a memory in said personal computer for expanding and analyzing in accordance with an analyzing program afterwards.\n3. A vehicle movement digital data analyzing apparatus as claimed in claim 1, wherein said record medium is IC memory card.\n4. A vehicle movement digital data analyzing apparatus as claimed in claim 1 further comprising printing means for printing the graph displayed on said display means.",
+    "status": "Expired - Lifetime",
+    "citations_own": [
+        "US4644368A"
+    ],
+    "citations_ftf": [
+        "JPH0353673B2"
+    ],
+    "citedby_own": [
+        "US5515284A",
+        "US5590040A",
+        "US5600558A",
+        "US5719765A",
+        "EP0856817A1",
+        "US5852790A",
+        "US5857159A",
+        "US5938716A",
+        "US6026397A",
+        "US6032149A",
+        "US6574538B2",
+        "EP1067484A3",
+        "WO2009040357A1",
+        "US8595034B2",
+        "US8892451B2",
+        "US20180099627A1",
+        "US11030702B1"
+    ],
+    "citedby_ftf": [
+        "DE4338556A1"
+    ]
+}

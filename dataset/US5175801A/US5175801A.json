@@ -1,0 +1,35 @@
+{
+    "patent_link": "https://patents.google.com/patent/US5175801A/en",
+    "patent_id": "US5175801A",
+    "title": "Method for carrying out fuzzy inference",
+    "abstract": "An apparatus for carrying out fuzzy inference and a method therefor are disclosed in which an oblivescence coefficient is introduced and multiplied by a membership function of a conclusion portion in each operating variable linguistic control rule, the oblivescence coefficient being determined through a fuzzy inference according to an oblivescence element corresponding to a difference of times at which the linguistic control rule is established and at which it is used, and/or situations in which the linguistic control rule is established and in which it is used, and the determined oblivescence coefficient is used to vary a weight, or importance, of the linguistic control rule for the operation of the controlled object according thereto so that each linguistic control rule can flexibly be used to execute the fuzzy inference according to its used date, place, and object.",
+    "inventors": [
+        "Tadashi Iokibe"
+    ],
+    "assignee": "Meidensha Corp",
+    "classifications": [
+        "G06F8/00",
+        "G05B13/0275",
+        "G06N7/04",
+        "Y10S706/90"
+    ],
+    "claims": "\n1. An apparatus for providing a plurality of stroke quantities (y1 \u02dcyn) of shield jacks of a tunnel bowling shield machine using fuzzy inferences, comprising:\na) first means having an oblivescence data base, responsive to a present position information (P1) of the shield machine, for providing a plurality of oblivescence elements, used to derive respective oblivescence coefficients (G1 \u02dcGn), on the basis of a difference between the present positon information (P1) and a previous position information (P2) of the shield machine;\nb) second means for executing a series of first fuzzy inferences using a plurality of oblivescence linguistic control rules, to which the oblivescence elements provided by the first means are applied, to derive the oblivescence coefficients (G1 \u02dcGn) for an n number of operating variable fuzzy logic linguistic control rules;\nc) third means, responsive to deviated distance values (x1, x2) of the position of the shield machine from a target scheduled line along which the shield machine is to be advanced, for executing a series of second fuzzy inferences, using the operating variable fuzzy logic linguistic rules to which the oblivescence coefficients (G1 \u02dcGn) are applied and to which the deviated distance values (x1, x2) of the position of the shield machine from the target scheduled line are applied, to derive the respective stroke quantities (y1 \u02dcyn) of the shield jacks so that the shield machine is advanced along the target scheduled line according to the respective stroke quantities of the shield jacks derived therefrom; and\nd) means for advancing the shield machine along the target scheduled line according to the respective stroke quantities of the shield jacks derived therefrom.\n2. A method for providing a plurality of stroke quantities (y1 \u02dcyn) of shield jacks of a tunnel bowling shield machine using fuzzy inferences, comprising the steps of:\na) responsive to a present position information (P1) of the shield machine, providing a plurality of oblivescence elements, used to derive respective oblivescence coefficients (G1 \u02dcGn), on the basis of a difference between the present position information (P1) and a previous position information (P2) of the shield machine;\nb) executing a series of first fuzzy inferences using a plurality of oblivescence linguistic control rules, to which the oblivescence elements provided in the first step a) are applied, to derive the oblivescence coefficients (G1 \u02dcGn) for an n number of operating variable fuzzy logic linguistic control rules;\nc) responsive to deviated distance values (x1, x2) of the position of the shield machine from a target scheduled line along which the shield machine is to be advanced, executing a series of second fuzzy inferences, using the operating variable fuzzy logic linguistic rules to which the oblivescence coefficients (G1 \u02dcGn) are applied and to which the deviated distance values (x1, x2) of the position of the shield machine from the target scheduled line are applied, to derive the respective stroke quantities (y1 \u02dcyn) of the shield jacks so that the shield machine is advanced along the target scheduled line according to the respective stroke quantities of the shield jacks derived therefrom; and\nd) advancing the shield machine along the target scheduled line according to the respective stroke quantities of the shield jacks derived therefrom.",
+    "status": "Expired - Fee Related",
+    "citations_own": [
+        "EP0375155A1",
+        "US5012430A"
+    ],
+    "citations_ftf": [],
+    "citedby_own": [
+        "US5287154A",
+        "US5295061A",
+        "US5388259A",
+        "US5412757A",
+        "US5465320A",
+        "US5499319A",
+        "US5526467A",
+        "US5577169A",
+        "CN110188947A"
+    ],
+    "citedby_ftf": []
+}

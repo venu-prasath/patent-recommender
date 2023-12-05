@@ -1,0 +1,55 @@
+{
+    "patent_link": "https://patents.google.com/patent/US6820067B1/en",
+    "patent_id": "US6820067B1",
+    "title": "System and method for producing web-based process advisor applications",
+    "abstract": "A system for producing a process advisor application uses a process mapping program, a compiler and a program such as a Java servlet to produce a process advisor application. The process mapping program is used to create a decision tree, and the compiler compiles the decision tree into a data file. The data file is then converted into one or more computer viewable documents, such as web pages.",
+    "inventors": [
+        "Christopher Reynolds Hammond",
+        "Jeffrey Stanley Keller",
+        "Austars Raymond Schnore, Jr."
+    ],
+    "assignee": "General Electric Co",
+    "classifications": [],
+    "claims": "\n1. A system for producing a process advisor application, said system comprising:\n2. The system of claim 1 wherein said means for creating is an off-the-shelf process mapping program having a palette that displays a large number of predefined shape icons representing certain decision tree objects and a dynamic grid display onto which an operator may place selected ones of the shape icons.\n3. The system of claim 1 wherein said means for compiling is a compiler that traverses said decision tree and generates an array that represents said decision tree.\n4. The system of claim 3 wherein said array is an XML file.\n5. The system of claim 1 wherein said means for converting is a Java servlet.\n6. The system of claim 1 further comprising means for storing said computer viewable documents.\n7. The system of claim 1 wherein said computer viewable documents are web pages.\n8. The system of claim 7 further comprising means for receiving requests to access said web pages via a computer network.\n9. The system of claim 8 wherein said computer network is the World Wide Web.\n10. The system of claim 7 wherein said means for creating and said means for compiling are loaded on a first computer system and said means for converting are loaded on a second computer system.\n11. The system of claim 10 wherein said second computer system includes a web server and a memory for storing said web pages.\n12. A system for producing a web-based process advisor application, said system comprising:\n13. The system of claim 12 wherein said compiler that traverses said decision tree and generates an array that represents said decision tree.\n14. The system of claim 13 wherein said array is an XML file.\n15. The system of claim 12 wherein said means for converting is a Java servlet.\n16. The system of claim 12 further comprising a web server for receiving requests to access said web pages via the World Wide Web.\n17. The system of claim 12 wherein said process mapping program and said compiler are loaded on a first computer system and said means for converting and said memory are loaded on a second computer system.\n18. The system of claim 17 wherein said second computer system includes a web server for receiving requests to access said web pages via the World Wide Web.\n19. A method for producing a process advisor application, said method comprising:\n20. The method of claim 19 wherein creating a decision tree comprises using a off-the-shelf process mapping program having a palette that displays a large number of predefined shape icons representing certain decision tree objects and a dynamic grid display onto which an operator may place selected ones of the shape icons.\n21. The method of claim 19 wherein compiling said decision tree into a data file comprises using a compiler to traverses said decision tree and generate an array that represents said decision tree.\n22. The method of claim 21 wherein said array is an XML file.\n23. The method of claim 19 wherein converting said data file into one or more computer viewable documents comprises using a Java servlet.\n24. The method of claim 19 further comprising storing said computer viewable documents in a memory.\n25. The method of claim 19 wherein said computer viewable documents are web pages.\n26. The method of claim 25 further comprising receiving requests to access said web pages via the World Wide Web.\n27. A method for producing a web-based process advisor application, said method comprising:\n28. The method of claim 27 further comprising storing said web pages in a memory in said second computer system.",
+    "status": "Expired - Lifetime",
+    "citations_own": [
+        "EP0352514A2",
+        "EP0519096A1",
+        "US5319740A",
+        "US5546507A",
+        "US20010020255A1",
+        "US20010034771A1",
+        "US20010037417A1",
+        "US20010039540A1"
+    ],
+    "citations_ftf": [
+        "JP3817802B2",
+        "JPH1196040A",
+        "JPH11161651A",
+        "JP2000089818A"
+    ],
+    "citedby_own": [
+        "US20030088642A1",
+        "US20030177201A1",
+        "US20030187712A1",
+        "US20030187783A1",
+        "US20050024665A1",
+        "US20060156141A1",
+        "US20070168277A1",
+        "US20080059292A1",
+        "US20080243542A1",
+        "US20080262961A1",
+        "CN102081754A",
+        "US20140143735A1",
+        "US8849638B2",
+        "US9176979B2",
+        "US9652726B2",
+        "US9665836B2",
+        "US9665916B2",
+        "US10339681B2"
+    ],
+    "citedby_ftf": [
+        "DE10248621A1",
+        "CN108304164B"
+    ]
+}

@@ -1,0 +1,58 @@
+{
+    "patent_link": "https://patents.google.com/patent/US4563735A/en",
+    "patent_id": "US4563735A",
+    "title": "Process controlling method and system involving separate determination of static and dynamic compensation components",
+    "abstract": "A method and system of process control comprising in combination a feed-back control in which a deviation of a controlled variable with reference to a target value is applied to a velocity type controller and a manipulated variable is determined in accordance with the output of the controller and a feed-forward control in which a disturbance is detected and a disturbance compensation is determined and added in determining the manipulated variable to counteract the effect of the disturbance. A static compensation component and a dynamic compensation component of the disturbance compensation are separately determined in accordance with the detected disturbance, and the static compensation component is converted to a velocity type signal, and added to the output of the controller to obtain a first sum. The first sum is converted to a position type signal, and added to the dynamic compensation component to obtain a second sum, in accordance with which the manipulated variable is determined.",
+    "inventors": [
+        "Kazuo Hiroi",
+        "Kojiro Ito"
+    ],
+    "assignee": "Toshiba Corp",
+    "classifications": [],
+    "claims": "\n1. A method of process control comprising in combination a (1) feed-back control in which a deviation of a controlled variable with reference to a target value is applied to a velocity type controller and a manipulated variable is determined in accordance with the output of the controller and a (2) a feed-forward control in which a disturbance is detected and a disturbance compensation is determined and used with the output of the controller in determining the manipulated variable to counteract the effect of the disturbance, said method comprising the steps of:\n(a) determining, in accordance with the detected disturbance, a static compensation component and a dynamic compensation component of the disturbance compensation,\n(b) converting the static compensation component to a velocity type signal,\n(c) adding the converted static compensation component to the output of the controller to obtain a first sum,\n(d) converting the first sum to a position type signal,\n(e) adding the dynamic compensation component to the converted first sum to obtain a second sum, and\n(f) determining, in accordance with the second sum, the manipulated variable.\n2. A method as set forth in claim 1, wherein the determination of said dynamic compensation component is achieved by executing incomplete differentiation on said static compensation component.\n3. A method as set forth in claim 1, wherein when the dynamic compensation component is greater than a predetermined value, the output of the controller is ignored and the manipulated variable is determined solely in accordance with the disturbance compensation.\n4. A process control system comprising in combination a (1) feed-back control system having a velocity type controller, and determining a manipulated variable in accordance with the output of the controller, and a (2) feed-forward control system having means for detecting a disturbance and determining, in accordance with the detected disturbance, a disturbance compensation to be used with the output of the controller in determining the manipulated variable to counteract the effect of the disturbance, said process control system comprising:\n(a) disturbance compensation determining means determining, in accordance with the detected disturbance, a position type static compensation component and a dynamic compensation component of the disturbance compensation,\n(b) position type to velocity type converting means for converting the static compensation component into a velocity type signal,\n(c) first adding means for adding the output of the position type to velocity type converting means and the output of the controller to obtain a velocity type first sum,\n(d) velocity type to position type converting means for converting the first sum into a position type signal, and\n(e) second adding means for adding the dynamic compensation component and the output of the velocity type to position type converter to obtain a second sum,\nwherein the second sum is used for determining the manipulated variable.\n5. A system as set forth in claim 4, wherein said disturbance compensation determining means comprises static compensation component determining means determining, in accordance with the detected disturbance, the static compensation component, and incomplete differentiation means for executing incomplete differentiation on the static compensation component to produce the dynamic compensation component.\n6. A system as set forth in claim 4, further comprising means for inhibiting the application of the output of the controller to said first adding means when the dynamic compensation component is greater than a predetermined value.",
+    "status": "Expired - Lifetime",
+    "citations_own": [
+        "US3758762A",
+        "US3767900A",
+        "US3798430A",
+        "US3939328A",
+        "DE2743928A1",
+        "US4313165A",
+        "US4319320A"
+    ],
+    "citations_ftf": [
+        "NL298375A",
+        "GB1416401A",
+        "DE2943354C2"
+    ],
+    "citedby_own": [
+        "US4698745A",
+        "US4714988A",
+        "EP0263616A2",
+        "US4745563A",
+        "US4754410A",
+        "US4769766A",
+        "EP0296638A2",
+        "US4922412A",
+        "US5029066A",
+        "US5043863A",
+        "US5049796A",
+        "US5105138A",
+        "US5136497A",
+        "US5191521A",
+        "US5202837A",
+        "US5249117A",
+        "US5541833A",
+        "US5547296A",
+        "US5745362A",
+        "US20030202821A1",
+        "US20080098920A1",
+        "US20100138004A1"
+    ],
+    "citedby_ftf": [
+        "JPH0298701A",
+        "JP2531796B2",
+        "JP2982209B2",
+        "JPH06505586A"
+    ]
+}

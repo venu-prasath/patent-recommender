@@ -1,0 +1,63 @@
+{
+    "patent_link": "https://patents.google.com/patent/US5394551A/en",
+    "patent_id": "US5394551A",
+    "title": "Semaphore mechanism for a data processing system",
+    "abstract": "In a data processing system a number of processing nodes share resources. Access to the shared resources is controlled by semaphores, each node having a local copy of all the semaphores. Nodes may acquire ownership of semaphores. When a node requires a semaphore operation on a particular semaphore, a semaphore message is broadcast to all the nodes instructing them to perform the semaphore operation on their local copies of the semaphore. If the semaphore is unowned, the node must suspend the semaphore operation until the message returns, so as to ensure correct chronology for the semaphore operation. If, however, the semaphore owned by this node, the node can perform the semaphore operation without waiting for the message to return. This speeds up the semaphore mechanism. If the semaphore is owned by another node, that other node relinquishes ownership so that the semaphore operation can be performed.",
+    "inventors": [
+        "Nicholas P. Holt",
+        "Michael Fields",
+        "Mark N. Fullerton",
+        "Andrew J. Knowles"
+    ],
+    "assignee": "Fujitsu Services Ltd",
+    "classifications": [],
+    "claims": "\n1. A data processing system comprising:\n(a) a plurality of processing nodes,\n(b) a communications network interconnecting the nodes to allow the nodes to send messages over said communications network, the messages being delivered to all the nodes in the same chronological sequence,\n(c) a plurality of shared resources, shared by all the nodes,\n(d) a plurality of semaphores for controlling access to respective shared resources, each node having a local copy of all the semaphores,\n(e) each node including a semaphore ownership table for defining ownership states for the semaphores whereby each semaphore may be unowned (i.e. not owned by any node), or owned by a particular node,\n(f) means in each node, responsive to a request for a semaphore operation on an unowned semaphore, for sending a semaphore message over said communications network instructing all the nodes to perform the semaphore operation on their local copies of the semaphore, and for then suspending the semaphore operation in this node until the semaphore message has been returned from said communications network,\n(g) means in each node, responsive to a request for a semaphore operation on a semaphore owned by this node, for sending a semaphore message over said communications network instructing all the nodes to perform the semaphore operation on their local copies of the semaphore, and for then permitting this node to proceed with the semaphore operation without waiting for the semaphore message to be returned from said communications network and\n(h) means in each node, responsive to a request for a semaphore operation on a semaphore owned by another node, for sending a semaphore message over said communications network instructing all the nodes to perform the semaphore operation on their local copies of the semaphore, and for then suspending the semaphore operation until permission to proceed is received from that other node.\n2. The system according to claim 1 wherein each node includes a queue for queuing values returned by semaphore operations on semaphores owned by other nodes.\n3. The system according to claim 1 wherein each node relinquishes ownership of a semaphore owned by it when it performs a semaphore operation to free the associated shared resource, or when it receives a semaphore message relating to that semaphore from another node.\n4. The system according to claim 1 wherein the means for defining ownership states for semaphores comprises an ownership table, each node having a local copy of the ownership table.\n5. A system according to claim 1 wherein each node includes means responsive to receipt of a semaphore message from another node relating to a locally-owned semaphore, for sending a message over the network indicating that ownership of said locally-owned semaphore is relinquished.\n6. A system according to claim 1 wherein each node includes means responsive to receipt of a semaphore message relating to an unowned semaphore, for updating said semaphore ownership table to indicate that said unowned semaphore is now owned by the node that initiated said semaphore message.\n7. A method of operating a data processing system comprising:\n(a) a plurality of processing nodes,\n(b) a communications network interconnecting the nodes to allow the nodes to send messages over said communications network, the messages being delivered to all the nodes in the chronological sequence, and\n(c) a plurality of shared resources, shared by all the nodes, wherein the method comprises the steps:\n(i) providing a plurality of semaphores for controlling access to respective shared resources, each node having a local copy of all the semaphores,\n(ii) providing a semaphore ownership table in each nodes, said semaphore ownership table defining ownership states for the semaphores whereby each semaphore may be unowned (i.e. not owned by any node), or owned by a particular node,\n(iii) in response to a request in a node for a semaphore operation on an unowned semaphore, sending a semaphore message over said communications network instructing all the nodes to perform the semaphore operation on their local copies of the semaphore, and then suspending the semaphore operation in this node until the semaphore message has been returned from said communications network,\n(iv) in response to a request in a node for a semaphore operation on a semaphore owned by this node, sending a semaphore message over said communications network instructing all the nodes to perform the semaphore operation on their local copies of the semaphore, and then permitting this node to proceed with the semaphore operation without waiting for the semaphore message to be returned from said communications network, and\n(v) in response to a request for a semaphore operation on a semaphore owned by another node, sending a semaphore message over said communications network instructing all the nodes to perform the semaphore operation on their local copies of the semaphore, and then suspending the semaphore operation until permission to proceed is received from that other node.",
+    "status": "Expired - Lifetime",
+    "citations_own": [
+        "US4145739A",
+        "EP0013301A1",
+        "US4316245A",
+        "US4380798A",
+        "US4395757A",
+        "US4412285A",
+        "US4594657A",
+        "US4754398A",
+        "EP0351556A2",
+        "US4964040A",
+        "US4965718A",
+        "US5123106A",
+        "US5138713A",
+        "US5179665A",
+        "US5276886A"
+    ],
+    "citations_ftf": [],
+    "citedby_own": [
+        "US5574922A",
+        "US5586318A",
+        "US5623670A",
+        "US5696939A",
+        "US5727206A",
+        "US5799195A",
+        "US5828876A",
+        "US5842015A",
+        "US5900018A",
+        "US5931923A",
+        "US6112282A",
+        "US6125401A",
+        "US6374362B1",
+        "US6405233B1",
+        "US20020166017A1",
+        "US6532487B1",
+        "US20040199606A1",
+        "US20070150899A1",
+        "US20080114899A1",
+        "US20080114896A1",
+        "US7472212B2",
+        "US20100115518A1",
+        "US20140281297A1"
+    ],
+    "citedby_ftf": [
+        "DE69322057T2",
+        "GB2370131C"
+    ]
+}

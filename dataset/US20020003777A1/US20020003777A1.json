@@ -1,0 +1,74 @@
+{
+    "patent_link": "https://patents.google.com/patent/US20020003777A1/en",
+    "patent_id": "US20020003777A1",
+    "title": "Transmission queue managing system capable of efficiently controlling traffic congestion",
+    "abstract": "A retrieving portion compares a header information of a received packet with packet header patters entered in look-up table of a discarding priority information memorizing portion. The retrieving portion supplies priority information read out from the look-up table on the basis of the comparison result. A discarding priority information adding portion 12 gives high priority to the received packet according to the priority information supplied from the retrieving portion. The discarding priority information adding portion queues the received packet in one of queues. When the number of packets reaches a threshold in each of queues, a collective discarding processing portion collectively discards packets having the high priority.",
+    "inventors": [
+        "Rei Miyamoto"
+    ],
+    "assignee": "NEC Corp",
+    "classifications": [
+        "H04L47/2408",
+        "H04L47/10",
+        "H04L47/29",
+        "H04L47/30",
+        "H04L47/32",
+        "H04L49/3018",
+        "H04L9/40",
+        "H04L49/205",
+        "H04L49/351",
+        "H04L49/50",
+        "H04L69/22"
+    ],
+    "claims": "\n1. A transmission queue managing system for managing a queue serving packets in a packet switch, said transmission queue management system comprising:\na differentiating portion for differentiating a header information of a received packet to produce a differentiated result signal,\nan adding portion connected to said differentiating portion for adding a discard priority bit to said received packet in response to said differentiated result signal supplied from said differentiating portion,\na buffering memory connected to said adding portion for memorizing said received packet to which said priority bit is added to join said received packet to said queue, and\na discarding portion for collectively discarding packets each of which said priority bit represents high priority from said queue when the number of packets of said queue coincides with a predetermined threshold.\n2. A transmission queue managing system as claimed in claim 1, wherein said differentiating portion comprises:\nan information memorizing portion for memorizing at least one packet header pattern, and\na retrieving portion connected to said information memorizing portion for deciding whether all or a predetermined part of said header information of said received packet is memorized in said information memorizing portion as said packet header pattern or not to produce said differentiated result signal when all or said predetermined part of said header information coincides with said packet header pattern.\n3. A transmission queue managing system as claimed in claim 2, said information memorizing portion memorizing two or more packet header patterns different from one another and discard priority class information representative of discard priority classes related with said packet header patterns respectively, wherein said differentiated result signal includes said priority class information corresponding to the header pattern which coincides with all or said predetermined part of said header information.\n4. A transmission queue managing system as claimed in claim 3, said buffering memory includes a plurality of queues, said information memorizing portion further memorizing queue ID numbers which assigned to said queues respectively and which related with said packet header patterns respectively, said differentiated result signal includes the ID number corresponding to the header pattern with which all or said predetermined part of said header information coincide, wherein:\nsaid transmission queue managing system further comprises a queue selecting portion connected between said adding portion and said buffering memory for selecting one of said queues in response to the ID number included in said differentiated result signal.\n5. A transmission queue managing system as claimed in claim 3, the number of said discard priority classes being equal to three or more, wherein said discarding portion discards packets in order of height of said priority classes from said queue.\n6. A transmission queue managing system as claimed in claim 2, said information memorizing portion memorizing two or more packet header patterns, discard priority class information representative of discard priority classes connected with said packet header patterns, and counted values related with said packet header patterns respectively, wherein said differentiated result signal includes said priority class information and the counted value corresponding to the header pattern which coincides with all or said predetermined part of said header information.\n7. A transmission queue managing system as claimed in claim 6, wherein said adding portion adds said discard priority bit to said received packet on the basis of said priority class information and the counted value included in said differentiated result signal.\n8. A transmission queue managing system as claimed in claim 1, wherein said packet header pattern represents a variety of a connection in which said received packet is transmitted.\n9. A method of managing a queue serving packets in a packet switch, comprising the steps of:\ndifferentiating a header information of a received packet to produce a differentiated result signal,\nadding a discard priority bit to said received packet in response to said differentiated result signal,\nmemorizing said received packet to which said priority bit is added to join said received packet to said queue in a buffer memory, and\ncollectively discarding packets each of which said priority bit represents high priority from said queue when the number of packets of said queue coincides with a predetermined threshold.\n10. A method as claimed in claim 9, wherein said differentiating step comprises the steps of:\nreferring an information memorizing portion memorizing at least one packet header pattern, and\ndeciding whether all or a predetermined part of said header information of said received packet is memorized in said information memorizing portion as said packet header pattern or not to produce said differentiated result signal when all or said predetermined part of said header information coincides with said packet header pattern.\n11. A method as claimed in claim 10, said information memorizing portion memorizing two or more packet header patterns different from one another and discard priority class information representative of discard priority classes related with said packet header patterns respectively, wherein said differentiated result signal includes said priority class information corresponding to the header pattern with which all or said predetermined part of said header information coincide.\n12. A method as claimed in claim 11, said buffering memory includes a plurality of queues, said information memorizing portion further memorizing queue ID numbers which assigned to said queues respectively and which related with said packet header patterns respectively, said differentiated result signal includes the ID number corresponding to the header pattern which coincides with all or said predetermined part of said header information, wherein the method further comprise the steps of:\nselecting one of said queues in response to the ID number included in said differentiated result signal.\n13. A method as claimed in claim 11, the number of said discard priority classes being equal to three or more, wherein said discarding step comprises the step of discarding packets in order of height of said priority classes from said queue.\n14. A method as claimed in claim 10, said information memorizing portion memorizing two or more packet header patterns, discard priority class information representative of discard priority classes connected with said packet header patterns, and counted values related with said packet header patterns respectively, wherein said differentiated result signal includes said priority class information and the counted value corresponding to the header pattern with which all or said predetermined part of said header information coincide.\n15. A method as claimed in claim 14, wherein said adding step comprises the step of adding said discard priority bit to said received packet on the basis of said priority class information and the counted value included in said differentiated result signal.\n16. A method as claimed in claim 9, wherein said packet header pattern represents a variety of a connection in which said received packet is transmitted.",
+    "status": "Expired - Fee Related",
+    "citations_own": [
+        "US5280483A",
+        "US5822540A",
+        "US5892762A",
+        "US6185214B1",
+        "US6304552B1",
+        "US6611522B1",
+        "US6707817B1"
+    ],
+    "citations_ftf": [
+        "JP2869080B2",
+        "JP2886976B2",
+        "JPH07135512A",
+        "AU6503296A",
+        "JP3090308B2",
+        "JP3409966B2",
+        "JPH1056458A",
+        "JP3518209B2",
+        "JPH1132078A",
+        "JPH1168835A",
+        "JPH11187031A",
+        "JPH11331257A",
+        "JP3077677B2",
+        "GB2344974B"
+    ],
+    "citedby_own": [
+        "US20040095949A1",
+        "EP1516501A1",
+        "US20060067231A1",
+        "US20060114921A1",
+        "US20070076604A1",
+        "US7266612B1",
+        "US20070230489A1",
+        "US20080008181A1",
+        "GB2458952A",
+        "US8238339B1",
+        "US20190166057A1"
+    ],
+    "citedby_ftf": [
+        "GB2393068A",
+        "US7843968B2",
+        "US7155576B1",
+        "US8867340B2",
+        "EP2073460A1",
+        "WO2010089886A1",
+        "KR20130085541A",
+        "WO2014101060A1",
+        "JP6498257B2"
+    ]
+}

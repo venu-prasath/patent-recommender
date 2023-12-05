@@ -1,0 +1,35 @@
+{
+    "patent_link": "https://patents.google.com/patent/US20130282549A1/en",
+    "patent_id": "US20130282549A1",
+    "title": "Computerized apparatus for enhanced transmission of orders and market data between traders and one or more exchanges",
+    "abstract": "An automated market data distribution system uses proprietary order flow information to provide a trader (or an automated trading system) with an enhanced version of a received market data feed that avoids the need for the trader or automated trading system to always wait for a response to a prior order from such exchange before submitting further orders. The data distribution system preferably comprises a geographically distributed data network with market data enhancement and intelligent order routing capabilities in each region that not only provides each region with market data that is enhanced with order flow data from other regions, but that also employs statistical data and heuristics to re-route and/or cancel orders from a trader in one region to an exchange in another region.",
+    "inventors": [
+        "Edward R. Howorka"
+    ],
+    "assignee": "MarketFactory Inc",
+    "classifications": [],
+    "claims": "\n1. A trading system for allowing an order for a target opportunity, submitted by a trading client to a distant trading venue, to be modified while the order is in transit to the distant trading venue, wherein in instances in which the trading client receives market data indicating that the target opportunity has changed, the order is updated or cancelled.\n2. A trading system for routing orders to multiple exchanges in a plurality of geographical regions, comprising first means at an origin region responsive to an original order for selecting-a destination region and for routing said order to said destination region; and second means at said destination region for receiving said order and for selecting a destination venue for executing said order; wherein said second means selects said destination venue from a plurality of available venues at said destination region only after it receives said submitted order.\n3. The trading system of claim 2 wherein said first means uses aggregated market data from each of said geographical regions to select said destination region.\n4. The trading system of claim 3 wherein said second means uses predicted market data from each of said available venues to select said destination venue.\n5. The trading system of claim 4 further comprising: third means at said destination region for changing said submitted order before said order is submitted to the destination venue.\n6. The trading system of claim 5, wherein an underlying financial instrument is changed to an equivalent financial instrument.\n7. A distributed matching system, comprising: a plurality of geographically distributed matching components; means for associating a respective matching control between an individual order and a selected one of said matching components; and means for reassociating said respective matching control to a different selected one of said matching components.\n8. The matching system of claim 7, further comprising: means for associating the same matching control to two order components of a compound order.\n9. In a trading system in which multiple trading clients are connected to at least one remote electronic exchange through a shared market gateway that distributes market data from the exchange to the clients and transmits order data from the clients to the exchange, first means for maintaining a virtual order book data structure in which market data received from the exchange is supplemented with order data received from the clients second means for maintaining a market impact overlay data structure which includes order data received from the clients that is not yet reflected in the market data previously received from the exchange, and third means for eliminating any order data in the market impact overlay that is already reflected in market data received from the exchange, fourth means responsive to the receipt of new market data for updating the virtual order book with the new market data and the order data still remaining in the market impact overlay.\n10. The trading system of claim 9, wherein a candidate order book is determined for each order in the market impact overlay, and dissonance between the different candidate order books and the most recent market data is used to determine which orders in the market impact overlay data are already reflected in the most recent market data.\n11. The trading system of claim 9, further comprising an API for permitting each client to select whether market data from a particular exchange is to be enhanced with order data not yet reflected in that market data.\n12. The trading system of claim 9, further comprising an API for permitting each client to select a preferred style for receiving market data from more than one exchange.\n13. A trading system for allowing an order for a target opportunity, submitted by a trading client to a distant trading venue, to be modified while the order is in transit to the distant trading venue, wherein in instances in which the trading client receives market data indicating that the target opportunity has changed, the order is UPDATED OR CANCELLED.",
+    "status": "Abandoned",
+    "citations_own": [
+        "US20020087455A1",
+        "US8244621B1"
+    ],
+    "citations_ftf": [],
+    "citedby_own": [
+        "US20140172663A1",
+        "US20150039467A1",
+        "US20160371777A1",
+        "WO2017024020A1",
+        "US20170053349A1",
+        "US20170323234A1",
+        "US20180189674A1",
+        "WO2020070744A1",
+        "US11037241B2",
+        "US11037243B2",
+        "US11153208B2",
+        "US11282138B2",
+        "US11443250B1",
+        "US11488243B2"
+    ],
+    "citedby_ftf": []
+}

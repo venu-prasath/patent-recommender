@@ -1,0 +1,74 @@
+{
+    "patent_link": "https://patents.google.com/patent/US4796205A/en",
+    "patent_id": "US4796205A",
+    "title": "Fire alarm system",
+    "abstract": "A fire alarm system which makes fire determination based on a novel idea which considers various changes of the physical phenomena in the surroundings caused in relation with the occurrence of a fire in terms of changes of vectors. These changes in the physical phenomena are detected by the detecting section in the form of analog data and processed by a data sampling section as sampled data and stored in a storing section in such a manner as discriminating them by the detecting sections. The tendencies of the changes are computed in a first computing section and the vectors representing the present or future conditions of the physical phenomena are computed from the sampled data. The vector is compared in a comparing section with a preliminarily set data related to the fire detection and when the relation therebetween is not a predetermined one, an alarm is given through an alarming section.",
+    "inventors": [
+        "Hiromitsu Ishii",
+        "Yukio Yamauchi"
+    ],
+    "assignee": "Hochiki Corp",
+    "classifications": [
+        "G08B29/183",
+        "G08B26/002"
+    ],
+    "claims": "\n1. A fire alarm system which comprises:\nn (two or more) detecting sections for detecting changes in n different physical phenomena in the surroundings, said changes being due to the occurrence of a fire, said detecting sections respectively, outputting analog data corresponding to the changes;\na data sampling section for sampling the data from each of said detecting sections at predetermined periods;\na storing section for storing said sampled data outputs from said data sampling section corresponding respectively to the n-detecting sections;\na first computing section for extracting said sampled data from said storing section and computing rates of change of such data;\na second computing section for computing vectors representing the present and future conditions of said n different physical phenomena in combination from the rates of changes of the sampled data computed by said first computing section and said data stored in said storing section;\na comparing section for comparing the vectors computed by said second computing section with predetermined data corresponding to hazardous fire conditions, and generating an output when the relation therebetween is not within a predetermined range; and\nan alarming section for giving an alarm in response to the output from said comparing section.\n2. A fire alarm system according to claim 1, wherein said second computing section computes the terminal points of the vectors representing the conditions of said physical phenomena after a predetermined time, and said comparing section compares said terminal points of the respective vectors with respective mathematical closed surfaces corresponding to data from said sampling sections for predetermined levels of the n kinds of physical phenomena, respectively, and generates an output when the terminal point of any of such vector extends beyond the corresponding predetermined closed surface.\n3. A fire alarm system according to claim 2, which further comprises a level determining section provided between one of said data sampling section and said storing section and said first computing section for outputting a signal for actuating said first computing section when at least one of n kinds of data output from said data sampling section exceeds a predetermined level.\n4. A fire alarm system according to claim 2, wherein said first computing section computes the rates of change of the sampled data by one of function approximation of such data and evaluating the difference in such data over successive time intervals.\n5. A fire alarm system according to claim 2, which further comprises a level determining section between said storing section and said first computing section for outputting a signal for actuating said first computing section when the terminal point of any of the vectors representing the conditions of said physical phenomena computed based on the output data from said data sampling section exceeds the mathematical closed surface corresponding to a predetermined level of such data.\n6. A fire alarm system according to claim 5, wherein said second computing section comprises a vector element computing section for predictively computing, for the vectors corresponding to the respective physical phenomena, the terminal points of such vectors after said predetermined period of time based on the rates of change of the sampled data computed by said first computing section.\n7. A fire alarm system according to claim 6, wherein said first computing section comprises a slope computing section for computing vectors having slopes corresponding to the rates of change of the sampled data corresponding to the physical phenomena and a slope comparing section for comparing the slopes of the vectors computed by said slope computing section with predetermined values of such slopes, and generating a output when any of said computed slopes exceeds the predetermined slope thereof, such output actuating said alarming section.\n8. A fire alarm system according to claim 1, wherein said second computing section comprises a vector element computing section for predictively computing, for the vector corresponding to the respective physical phenomena, the terminal point of such vectors after said predetermined period of time based on the rates of change of the sampled data computed by said first computing section.\n9. A fire alarm system according to claim 8, wherein said first computing section comprises a slope computing section for computing vectors having slopes corresponding to changes in the sampled data corresponding to physical phenomena, a slope comparing section for comparing the slopes of the vectors computed by said slope computing section with predetermined values of such slopes, and generating an output when any of said computed slopes exceeds the predetermined slope thereof such outer actuating said alarming section.\n10. A fire alarm system according to claim 1, wherein said second computing section computes the time for the terminal points of each of said computed vectors to extend beyond the closed mathematical surfaces corresponding to predetermined levels of the respective n physical phenomena, and said comprising section compares said time computed by said second computing section with a predetermined danger time and generates an output when such computed time is equal to or less than said danger time.\n11. A fire alarm system according to claim 10, which further comprises a level determining section between one of said data sampling section and said first computing section, and said storing section and said first computing section, said level determining section outputting a signal for actuating said first computing section when at least one of the n kinds of sampled data output from said data sampling section exceeds a predetermined level.\n12. A fire alarm system according to claim 10, wherein said first computing section computes the rates of change of the sample data by one of function approximation and such data and evaluating the difference in such data over successive time intervals.\n13. A fire alarm system according to claim 12, wherein said second computing section comprises a vector element computing section for predictively computing, for the vectors corresponding to the respective physical phenomena, the terminal points of such vectors after said predetermined period of time based on the rates of change of the sampled data computed by said first computing section.\n14. A fire alarm system according to claim 13, wherein said first computing section comprises a slope computing section for computing vectors having slopes corresponding to the rates of change of the sampled data corresponding to the physical phenomena and a slope comparing section for comparing the slopes of the vectors computed by said slope computing section with predetermined values of such slopes, and generating a respective mathematical closed surfaces corresponding to data fron said sampling sections for predetermined levels of the n kinds of physical phenomena, respectively, and generates an output when the terminal point of any of such vector extends beyond the corresponding predetermined closed surface.\n15. A fire alarm system according to claim 12, wherein said first computing section comprises a regression linear line computing section for determining the slopes of the sampled data corresponding to changes in the physical phenomena by approximating such data with linear regression lines, and a slope comparing section for comparing the slopes of the linear regression lines computed by the regression linear line computing section with predetermined slopes, such slope comparing section generating an output for actuating said alarming sectin when any of said computed slopes exceed the corresponding predetermined slope.\n16. A fire alarm system according to claim 15, which further comprises a level determining section between said storing section and said first computing section for outputting a signal for actuating said first computing section when the terminal points of the vectors representing the conditions of said physical phenomena as computed based on the output data from said data sampling section extend beyond the closed mathematical surfaces corresponding to predetermined levels of the respective n physical phenomena.\n17. A fire alarm system according to claim 16, which further comprises a data processing section between said data sampling section and said storing section for calculating the moving averages of the plurality of data from said data sampling section.\n18. A fire alarm system according to claim 10, which further comprises a level determining section between said storing section and said first computing section for outputting a signal for actuating said first computing section when the terminal points of the vectors representing the conditions of said physical phenomena computed based on the output data from said data sampling section extend beyond the closed mathematical surfaces corresponding to predetermined levels of the respective n physical phenomena.\n19. A fire alarm system comprising:\nn (two or more) detecting means for respectively detecting changes in n different physical phenomena in the surroundings, said phenomena changes being due to occurrence of a fire, and respectively outputting data corresponding to said changes;\nfirst computing means for computing vectors representing said respective data of said n different physical phenomena in combination, wherein each said vector results from vectorial addition of said respective data in n-dimensional space;\ncomparison means for comparing said vectors computed by said first computing means with predetermined data corresponding to hazardous fire conditions, said comparison means generating an output indicating hazardous conditions when the relationship between said predetermined data and said vector is not within a predetermined range of acceptable conditions; and\nalarm means for giving an alarm in response to said output from said comparison means.\n20. A fire alarm system as claimed in claim 19 and further comprising second computing means for computing the rates of change of said respective data, said vectors computed by said first computing means from said rates of change of said data representing present and future conditions of said n different physical phenomena in vectorial combination.",
+    "status": "Expired - Fee Related",
+    "citations_own": [
+        "US3924252A",
+        "US4254414A",
+        "US4423326A",
+        "US4496817A",
+        "US4581604A",
+        "US4592000A"
+    ],
+    "citations_ftf": [
+        "JPS50106082A",
+        "DE2341087C3",
+        "JPS5727111Y2",
+        "US4316184A",
+        "US4402054A",
+        "DE3405857C2"
+    ],
+    "citedby_own": [
+        "US4884222A",
+        "US4928255A",
+        "US4937763A",
+        "US5105370A",
+        "US5121344A",
+        "US5237512A",
+        "US5483222A",
+        "US5486811A",
+        "EP0729125A1",
+        "US5557262A",
+        "US5896082A",
+        "US5917417A",
+        "US6104301A",
+        "US20020055826A1",
+        "US20020087290A1",
+        "US6441743B1",
+        "US20020133320A1",
+        "US20030055607A1",
+        "US6556939B1",
+        "US20030139908A1",
+        "US6775641B2",
+        "US20050128071A1",
+        "US6957172B2",
+        "US20080183425A1",
+        "US20090128327A1",
+        "US7539597B2",
+        "US8275577B2",
+        "US20140145851A1",
+        "US9117360B1"
+    ],
+    "citedby_ftf": [
+        "JPH079680B2",
+        "JPH0719315B2",
+        "JPH0378679B2",
+        "JP2758671B2",
+        "US5438983A",
+        "JP3213661B2",
+        "JP4066761B2",
+        "JP4724397B2"
+    ]
+}

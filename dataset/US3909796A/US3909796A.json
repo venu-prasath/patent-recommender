@@ -1,0 +1,39 @@
+{
+    "patent_link": "https://patents.google.com/patent/US3909796A/en",
+    "patent_id": "US3909796A",
+    "title": "Information retrieval system serially comparing search question key words in recirculating registers with data items",
+    "abstract": "Key words defining a search question are entered into circulating registers which circulate the key words in synchronism with data units read out serially from a storage device, each data unit consisting of a key word and codes for locating documents or bibliographies corresponding to said key word. The key words of the data units read out from the storage device are compared with the search question key words in the registers. The data unit whose key word coincide with search question key words are transmitted to a secondary information retrieval device such as a microfilm reader-printer so that the corresponding documents can be retrieved and displayed.",
+    "inventors": [
+        "Tetsuo Kitamura"
+    ],
+    "assignee": "Ricoh Co Ltd",
+    "classifications": [],
+    "claims": "\n1. An information retrieval system comprising: a plurality of recirculating registers for storing a corresponding plurality of key words representing retrieval search questions; a corresponding plurality of comparators, each corresponding to a register; a storage device for storing a plurality of data items each comprising at least one key word whose format is the same as that of the search question key words and an associated code identifying an associated document; means for synchronously applying to each comparator the contents of the corresponding recirculating register and each of the key words of the data items in succession, from at least one of a plurality of data items from said storage device; a plurality of flip-flops, each corresponding to one of said comparators; means for setting each flip-flop upon coincidence of the key words applied to its corresponding comparator; gate output means including register means for receiving the code of the data item whose key words have been compared with the contents of the recirculating registers and responsive to the coincidence of the set state of all flip-flops for gating out the received code; and means for selectively causing selected flip-flops to be set upon the setting of at least one other selected flip-flop, whereby said code may be gated out of the gate output means upon the coincidence of only one or more of said plurality of search question key words with a corresponding key word of a data item, said code word being available for use in locating an associated document.\n2. An information retrieval system as in claim 1 wherein there are N flip-flops (N being an integer) arranged in a series and wherein the means for selectively causing selected flip-flops to be set upon the setting of other selected flip-flops comprises a plurality of gates connecting the set output of each of a plurality of selected flip-flops with the set inputs of each adjacent flip-flop of the series, and a keyboard having a plurality of keys, each key corresponding to the two gates between two adjacent flip-flops and each key manually settable to a first state in which it causes its corresponding gates to be turned on and a closed state in which it causes the last recited gates to be turned off.\n3. An information retrieval system as in claim 2 wherein each of the comparators compares serially, bit-by-bit, the contents of the corresponding recirculating register with the data item key words from the storage device.\n4. An information retrieval system as in claim 3, wherein the gate means comprises a gate for ANDing the set outputs of the flip-flops, a gate flip-flop which is set in response to an output from the last-recited gate, and an AND-gate for ANDing the set output of the gate flipflop with the code received in said register means.",
+    "status": "Expired - Lifetime",
+    "citations_own": [
+        "US2885659A",
+        "US3191006A",
+        "US3311887A",
+        "US3435423A",
+        "US3456243A",
+        "US3636519A",
+        "US3648254A",
+        "US3662348A"
+    ],
+    "citations_ftf": [],
+    "citedby_own": [
+        "US4096934A",
+        "US4314356A",
+        "US4315322A",
+        "US4341929A",
+        "US4554631A",
+        "WO1987001219A1",
+        "US5222234A",
+        "US5265242A"
+    ],
+    "citedby_ftf": [
+        "FR2459512B1",
+        "JPS56145428A",
+        "JP2005018744A"
+    ]
+}

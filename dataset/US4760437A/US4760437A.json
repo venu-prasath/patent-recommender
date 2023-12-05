@@ -1,0 +1,55 @@
+{
+    "patent_link": "https://patents.google.com/patent/US4760437A/en",
+    "patent_id": "US4760437A",
+    "title": "Neural networks",
+    "abstract": "Neural network type information processing devices have been proposed. In these devices, a matrix structure is utilized with impedance at the matrix intersection points. It has been found that excellent versatility in design is achieved by utilizing photoconductors at these intersection points and thus affording the possibility of controlling impedance by, in turn, controlling the level of incident light.",
+    "inventors": [
+        "John S. Denker",
+        "Richard E. Howard",
+        "Lawrence D. Jackel"
+    ],
+    "assignee": "AT&T Corp",
+    "classifications": [
+        "G06N3/0675",
+        "H01L27/14665"
+    ],
+    "claims": "\n1. A structure suitable for information processing comprising a matrix and active electronic devices interacting with said matrix wherein said matrix comprises a plurality of row electrodes and a plurality of column electrodes, said matrix having intersecting regions that connect row electrodes to column electrodes wherein means are provided such that said information in process during said processing is interacting simultaneously with all said matrix intersections characterized in that\nat least a portion of said intersecting regions comprise a photoconductive material.\n2. The structure of claim 1 wherein said photoconductive material comprises silicon.\n3. The structure of claim 2 wherein said photoconductive material comprises hydrogenated silicon.\n4. The structure of claim 2 wherein at least a portion of said electrodes comprises tungsten.\n5. The structure of claim 1 wherein at least a portion of said electrodes comprises tungsten.\n6. The structure of claim 1 wherein the input to said matrix comprises a photoconductive material.\n7. The structure of claim 1 wherein said means comprises an electrical connection introducing the output of said active elements back into said matrix.\n8. A procedure for processing information comprising the steps of introducing said information into a structure comprising a matrix and active electronic devices interacting with said matrix wherein said matrix comprises a plurality of row electrodes and a plurality of column electrodes, said matrix having intersecting regions that connect row electrodes to column electrodes wherein said information in process during said processing interacts simultaneously with all said matrix intersections characterized in that\nat least a portion of said intersecting regions comprise a photoconductive material and said processing is influenced by causing light to be incident on at least one of said photoconductive intersecting regions.\n9. The structure of claim 8 wherein said photoconductive material comprises silicon.\n10. The structure of claim 8 wherein said photoconductive material comprises hydrogenated silicon.\n11. The structure of claim 10 wherein at least a portion of said electrodes comprises tungsten.\n12. The structure of claim 8 wherein at least a portion of said electrodes comprises tungsten.\n13. The structure of claim 8 wherein the input to said matrix comprises a photoconductive material.\n14. The procedure of claim 8 wherein said simultaneous interaction is provided by feeding back the output of said active elements to said matrix.",
+    "status": "Expired - Lifetime",
+    "citations_own": [
+        "US4360821A",
+        "US4363963A",
+        "US4589003A"
+    ],
+    "citations_ftf": [],
+    "citedby_own": [
+        "US4866645A",
+        "US4903226A",
+        "US4904881A",
+        "US4906865A",
+        "US4950917A",
+        "US4956564A",
+        "US4969021A",
+        "EP0411761A2",
+        "US4999525A",
+        "US5010512A",
+        "EP0433644A2",
+        "US5028810A",
+        "WO1991011027A1",
+        "US5040134A",
+        "EP0466116A2",
+        "US5247606A",
+        "US5267347A",
+        "US5276771A",
+        "EP0466117A3",
+        "US5339818A",
+        "US5355438A",
+        "US5361328A",
+        "US5371835A",
+        "US5443688A",
+        "US5723794A",
+        "US5864836A",
+        "US5953082A",
+        "US6146541A"
+    ],
+    "citedby_ftf": []
+}
